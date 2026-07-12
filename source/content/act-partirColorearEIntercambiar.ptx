@@ -5,6 +5,12 @@
 <title>Partamos, coloreemos e intercambiemos</title>
 
 <statement>
+  <aside component="web">
+    <p>
+      Versión rayable para imprimir. 
+      <url href="external/act-pdf/act-partirColorearEIntercambiar.pdf"> Descargar.</url>
+    </p>
+  </aside>
   <ol>
     <li>   
       <p>Parte cada rectángulo en medios, tercios, cuartos, sextos y octavos. Después, marca cada parte con la fracción que le corresponde.</p>
@@ -60,6 +66,7 @@
         <p>
           Intercambia el rectángulo con un compañero. Si el rectángulo completo es 1, ¿qué número representa la parte coloreada? Explica tu razonamiento.
         </p>
+        <xi:include href="../whitespace/1cm.ptx" />
       </li>
     </ol>
   </li>

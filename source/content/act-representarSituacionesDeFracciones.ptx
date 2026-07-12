@@ -63,6 +63,7 @@
   <p>
     ¿Aproximadamente qué fracción de la longitud de la calle recorrió el estudiante para esconderlo? Prepárate para explicar cómo lo sabes.
   </p>
+  <xi:include href="../whitespace/3cm.ptx" />
 </statement>
 
 <solution>
