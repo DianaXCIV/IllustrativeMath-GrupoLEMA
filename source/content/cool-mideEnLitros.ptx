@@ -6,14 +6,46 @@
 ===============================================================  -->
 <project xml:id="cool-mideEnLitros" xmlns:xi="http://www.w3.org/2001/XInclude"> 
 
-<title>[@@@@@@@@@]</title>
+<title>Mide en litros</title>
 
 <statement>
-  <p>[@@@@@@@@@]</p>
+  <p>¿Cuál es el volumen del líquido que se muestra en cada imagen?</p>  
+  <sidebyside>
+    <stack>
+      <p>1</p>
+      <image source="svg-source/qnnvh98hvnyxu5dcz4dhey0ftd66_c6Gh">
+        <shortdescription>recipiente con 3 litros de líquido</shortdescription>
+      </image>
+      <p>
+        <fillin characters="20" />
+      </p>
+    </stack>
+    <stack>
+      <p>
+        2
+      </p>    
+      <image source="svg-source/a4yu17sbykhoyfzeq6q04tfnve7j_c6Gh">
+        <shortdescription>recipiente con 1 litro y medio de líquido.</shortdescription>
+      </image>
+      <p>
+        <fillin characters="20" />
+      </p>
+    </stack>
+  </sidebyside>
 </statement>
 
 <solution>
-  <p>[@@@@@@@@@]</p>
+  <p>[++++++++++++++++]</p>
+  <ol>
+    <li>
+      <p>3 liters</p>
+    </li>
+    <li>
+      <p>
+        <m>1\frac{1}{2}</m> liters
+      </p>
+    </li>
+  </ol>
 </solution>
 
 
@@ -25,21 +57,10 @@
   <paragraphs>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
-      <li>
+      <li> 
         <custom ref="ccss-addressing"/>
-        [@@@@@@@@@@]
-        <!-- <xref ref="ccss-3-OA-A-3" text="custom">3.OA.A.3</xref> -->
-      </li>
-      <li>
-        <custom ref="ccss-buildingOn"/>
-        [@@@@@@@@@@]
-        <!-- <xref ref="ccss-3-OA-A-3" text="custom">3.OA.A.3</xref> -->
-      </li>
-      <li>
-        <custom ref="ccss-buildingTowards"/>
-        [@@@@@@@@@]
-        <!-- <xref ref="ccss-2-MD" text="custom">2.MD</xref>,  -->
-        <!-- <xref ref="ccss-2-OA-C-4" text="custom">2.OA.C.4</xref> -->
+        <xref ref="ccss-3-MD-A-2" text="custom">3.MD.A.2</xref>,
+        <xref ref="ccss-3-OA-C-7" text="custom">3.OA.C.7</xref>
       </li>
     </ul>
   </paragraphs>
@@ -54,14 +75,16 @@
   <!-- Posibles errores -->
   <paragraphs>
     <title><custom ref="errores-cool-titulo"/></title>
-    <p>[@@@@@@@@@]</p>
+    <p>[++++++++++++++++]</p>
+    <p>Students say the volume is 2 liters or 4 liters in the first container and 1 liter or 2 liters in the second container.</p>
   </paragraphs>
 
 
   <!-- Estrategia de apoyo si muchos estudiantes respondieron incorrectamente -->
   <paragraphs>
     <title><custom ref="apoyo-cool-titulo"/></title>
-    <p>[@@@@@@@@@]</p>
+    <p>[++++++++++++++++]</p>
+    <p>Before the warm-up, invite students to work in small groups to discuss a correct response to this cool-down.</p>
   </paragraphs>
 
 </postlude>

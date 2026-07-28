@@ -2,14 +2,108 @@
 
 <activity xml:id="act-estimarVolumenesLiquidos" xmlns:xi="http://www.w3.org/2001/XInclude"> 
 
-<title>[@@@@@@@@@]</title>
+<title>Estimemos volúmenes líquidos</title>
 
 <statement>
-  <p>[@@@@@@@@@]</p>
+  <ol>
+    <li>
+      <sidebyside widths="60% 35%" margins="0% 0%">
+        <stack>
+          <p>Clare dice que a la bañera le caben aproximadamente 2 litros.</p>
+          <p>Jada dice que a la bañera le caben aproximadamente 20 litros.</p>
+          <p>Kiran dice que a la bañera le caben aproximadamente 200 litros.</p>
+        </stack>
+        <image source="jpg-source/hwdddatcgmo30w09yl0oqzlwkywa.jpg">
+          <shortdescription>bañera</shortdescription>
+        </image>
+      </sidebyside>
+      <p>¿Con quién estás de acuerdo? Explica o muestra cómo razonaste.</p>
+    </li>
+    <li>
+      <p>¿Al balde y a la botella les caben 2 litros, 20 litros o 200 litros? Explica cómo lo sabes.</p>
+      <sidebyside widths="45% 25%">
+        <image source="jpg-source/r24cxrpcngrw9t576rvxyk4er8bo.jpg">
+          <shortdescription>balde</shortdescription>
+        </image>
+        <image source="jpg-source/fk56xii39no3cdsmpdk168l5do0f.jpg">
+          <shortdescription>botella con agua</shortdescription>
+        </image>
+      </sidebyside>
+    </li>
+    <li>
+      <p>Empareja los recipientes con el número de litros que les pueden caber. Prepárate para explicar cómo razonaste.</p>
+        <sidebyside widths="40% 40%" margins="0% 0%">
+          <stack>
+            <p>recipiente</p>
+            <ol>
+              <li>
+                <p>lavabo</p>
+                <image source="jpg-source/uz6opquawdpyvgl5y2nhkh9fm2s5.jpg" component="web">
+                  <shortdescription>lavabo</shortdescription>
+                </image>
+              </li>
+              <li>
+                <p>piscina para niños</p>
+                <image source="jpg-source/bl2syliro097i0as2rq6ybinutom.jpg" component="web">
+                  <shortdescription>piscina para niños</shortdescription>
+                </image>
+              </li>
+              <li>
+                <p>olla</p>
+                <image source="jpg-source/ahx4oajy4on0m80a2wc47ksjt7ng.jpg" component="web">
+                  <shortdescription>olla</shortdescription>
+                </image>
+              </li>
+              <li>
+                <p>tanque del inodoro</p>
+                <image source="jpg-source/64nkjl3llknr432jnnyudzexb8l0.jpg" component="web">
+                  <shortdescription>tanque del inodoro</shortdescription>
+                </image>
+              </li>
+            </ol>
+          </stack>
+          <stack>
+            <p>número de litros</p>
+            <ul>
+              <li>
+                <p>4 litros</p>
+              </li>
+              <li><p>6 litros</p></li>
+              <li><p>500 litros</p></li>
+              <li><p>10 litros</p></li>
+            </ul>
+          </stack>
+        </sidebyside>
+    </li>
+  </ol>
 </statement>
 
 <solution>
-  <p>[@@@@@@@@@]</p>
+  <p>[++++++++++++++++]</p>
+  <ol>
+    <li>
+      <p>Sample response: I agree with Kiran that it would take 200 liters. Two liters is less than the amount we put in the jug yesterday and I don’t think 20 liters would fill the bathtub.</p>
+    </li>
+    <li>
+      <p>Sample response: I think the bottle would take 2 liters because it’s just a little bit larger than a liter. The bucket would take 20 liters because it is even larger than the container we filled yesterday.</p>
+    </li>
+    <li>
+      <ol>
+        <li>
+          <p>6 liters</p>
+        </li>
+        <li>
+          <p>500 liters</p>
+        </li>
+        <li>
+          <p>4 liters</p>
+        </li>
+        <li>
+          <p>10 liters</p>
+        </li>
+      </ol>
+    </li>
+  </ol>
 </solution>
 
 
@@ -24,21 +118,7 @@
     <ul>
       <li> 
         <custom ref="ccss-addressing"/>
-        [@@@@@@@@@]
-        <!-- <xref ref="ccss-2-MD" text="custom">2.MD</xref>,  -->
-        <!-- <xref ref="ccss-2-OA-C-4" text="custom">2.OA.C.4</xref> -->
-      </li>
-      <li>
-        <custom ref="ccss-buildingOn"/>
-        [@@@@@@@@@]
-        <!-- <xref ref="ccss-2-MD" text="custom">2.MD</xref>,  -->
-        <!-- <xref ref="ccss-2-OA-C-4" text="custom">2.OA.C.4</xref> -->
-      </li>
-      <li>
-        <custom ref="ccss-buildingTowards"/>
-        [@@@@@@@@@]
-        <!-- <xref ref="ccss-2-MD" text="custom">2.MD</xref>,  -->
-        <!-- <xref ref="ccss-2-OA-C-4" text="custom">2.OA.C.4</xref> -->
+        <xref ref="ccss-3-MD-A-2" text="custom">3.MD.A.2</xref>
       </li>
     </ul>
   </paragraphs>
@@ -46,36 +126,48 @@
   <!-- Tiempo recomendado -->
   <paragraphs>
     <title><custom ref="recommended-time-titulo"/></title>
-    <p>[@@@@@@@@@] minutos</p>
+    <p>15 minutos</p>
   </paragraphs>
 
   <!-- Introducción de la actividad -->
   <paragraphs>
     <title><custom ref="narrative-actividad-titulo"/></title>
-    <p>[@@@@@@@@@]</p>
-  </paragraphs>
-
-
-  <!-- Materiales requeridos de la actividad -->
-  <paragraphs>
-    <title><custom ref="materials-actividad-titulo"/></title>
-    <p>[mmmmmmmmmm]</p>
-    <!-- si hay materiales, crear los archivos -mat.ptx (para materiales de la actividad) y -matCentros.ptx (para mencionar los otros centros que se usan y para los que se necesitan materiales) y poner los materiales ahí usando los archivos de template. Después hacer xinclude  de estos archivos en la lista de materiales de la lección.-->
-    <!-- <xi:include href="./act-estimarVolumenesLiquidos-mat.ptx"/>  -->
-    <!-- <xi:include href="./act-estimarVolumenesLiquidos-matCentros.ptx"/>  -->
+    <p>[++++++++++++++++]</p>
+    <p>The purpose of this activity is for students to estimate liquid volumes in liters. First, students consider the number of liters it could take to fill a bathtub. Then, students match a variety of containers to the number of liters they could hold, using their experience from the previous lesson to support their reasoning.</p>
+    <p>In order to solve these problems, students rely on their experience as well as information provided by the photos of different objects. They also rely on their ability to make reasoned estimates (MP4). The activity provides students an opportunity to share their thinking and critique the reasoning of others (MP3).</p>
   </paragraphs>
 
   <!-- Launch -->
   <paragraphs>
     <title><custom ref="launch-titulo"/></title>
-    <p>[@@@@@@@@@]</p>
+    <p>[++++++++++++++++]</p>
+    <ul>
+      <li><p>Groups of 2</p></li>
+      <li><p><q>Hoy vamos a pensar en algunos recipientes que contienen líquidos. ¿Qué recipientes que contienen líquidos han visto?</q> (cups, bowls, buckets, sinks, milk cartons, a pool)</p></li>
+      <li><p>30 seconds: quiet think time</p></li>
+      <li><p>Share responses.</p></li>
+      <li><p>Display the image and Clare, Jada, and Kiran’s ideas about how much water the bathtub holds.</p></li>
+      <li><p><q>Tómense un momento para pensar en cuántos litros de agua le caben a la bañera y con cuál razonamiento están de acuerdo</q>  (I agree with Kiran because 2 liters is less than the amount we put in the jug yesterday and I don’t think 20 liters would fill the bathtub. I think it would take 200 liters.)</p></li>
+      <li><p>30 seconds: quiet think time</p></li>
+      <li><p>1 minute: partner discussion</p></li>
+      <li><p>Share responses.</p></li>
+      <li><p><q>¿A qué otros recipientes les caben aproximadamente 200 litros?</q> (a larger trash can, a kiddie pool)</p></li>
+      <li><p>Share responses.</p></li>
+    </ul>
   </paragraphs>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
   <paragraphs>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
-    <p>[@@@@@@@@@]</p>
+    <p>[++++++++++++++++]</p>
+    <ul>
+      <li>
+        <p><q>Ahora, con su compañero, estimen cuántos litros les caben a otros recipientes</q></p>
+      </li>
+      <li><p>5–7 minutes: partner work time</p></li>
+      <li><p>Monitor for students who refer back to the experiences in the previous lesson as they reason about the liquid volume each container can hold.</p></li>
+    </ul>
   </paragraphs>
 
 </prelude>
@@ -86,31 +178,28 @@
 ===================================================================  -->
 <postlude component="profesor">
 
-  <!-- Estrategias de apoyo para estudiantes con dificultades -->
-  <paragraphs>
-    <title><custom ref="support-actividad-titulo"/></title>
-    <p>[@@@@@@@@@]</p>
-  </paragraphs>
-
-
   <!-- Síntesis de la actividad -->
   <paragraphs>
     <title><custom ref="synthesis-actividad-titulo"/></title>
-    <p>[@@@@@@@@@]</p>
+    <p>[++++++++++++++++]</p>
+    <ul>
+      <li>
+        <p>Select previously identified students to share their responses and reasoning.</p>
+      </li>
+      <li>
+        <p><q>¿Qué estrategias les ayudaron a estimar el volumen líquido que le cabe a los diferentes recipientes?</q> (I thought about how much 1 liter was and how many times it could be poured into the container before it was full. I thought about the marks on the container we filled and whether the container would be more or less.)</p>
+      </li>
+    </ul>
   </paragraphs>
 
 
   <!-- Descripción del desarrollo de lenguaje matemático -->
   <paragraphs>
-    <title><custom ref="language-actividad-titulo"/></title>
-    <p>[@@@@@@@@@]</p>
-  </paragraphs>
-
-
-  <!-- Estrategias de acceso para estudiantes con discapacidades -->
-  <paragraphs>
-    <title><custom ref="accesibility-actividad-titulo"/></title>
-    <p>[@@@@@@@@@]</p>
+    <title><custom ref="language-actividad-titulo"/></title><p>[++++++++++++++++]</p>
+    <p><em>MLR8 Discussion Supports.</em> Synthesis: Provide students with the opportunity to rehearse what they will say with a partner before they share with the whole class.</p>
+    <p>
+      <em>Advances: Speaking</em>
+    </p>
   </paragraphs>
 
 </postlude>

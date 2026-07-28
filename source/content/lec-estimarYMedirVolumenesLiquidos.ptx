@@ -3,7 +3,7 @@
 
 <shorttitle>Lección 8 </shorttitle>
 <title>Lección 8 -<nbsp/></title>
-<title>[@@@@@@@@@]</title>
+<title>Estimemos y midamos volúmenes líquidos</title>
 
 
 <!-- ============================================ 
@@ -12,7 +12,7 @@
 
 <!-- Frase resumen para estudiante. Originalmente [Student Facing Goals] -->
 <introduction component="est-goal"> 
-  <p>[@@@@@@@@@]</p>
+  <p>Midamos y estimemos volúmenes líquidos.</p>
 </introduction>
 
 <!-- Objetivos para el estudiante. Originalmente [Student-Facing Targets] -->
@@ -25,7 +25,8 @@
 <!-- Objetivos que solo ve el profesor. Originalmente [Teacher Facing Goals] -->
 <objectives component="profesor">
   <ul>
-    <li>[@@@@@@@@@]</li>
+    <li><p>[++++++++++++++++]</p></li>
+    <li><p>Measure and estimate liquid volumes of objects using standard units of liters (L).</p></li>
   </ul>
 </objectives>
 
@@ -41,21 +42,8 @@
     <ul>
       <li> 
         <custom ref="ccss-addressing"/>
-        [^^^^^^^^^^^]
-        <!-- <xref ref="ccss-2-MD" text="custom">2.MD</xref>,  -->
-        <!-- <xref ref="ccss-2-OA-C-4" text="custom">2.OA.C.4</xref> -->
-      </li>
-      <li>
-        <custom ref="ccss-buildingOn"/>
-        [^^^^^^^^^^^]
-        <!-- <xref ref="ccss-2-MD" text="custom">2.MD</xref>,  -->
-        <!-- <xref ref="ccss-2-OA-C-4" text="custom">2.OA.C.4</xref> -->
-      </li>
-      <li>
-        <custom ref="ccss-buildingTowards"/>
-        [^^^^^^^^^^^]
-        <!-- <xref ref="ccss-2-MD" text="custom">2.MD</xref>,  -->
-        <!-- <xref ref="ccss-2-OA-C-4" text="custom">2.OA.C.4</xref> -->
+        <xref ref="ccss-3-MD-A-2" text="custom">3.MD.A.2</xref>,
+        <xref ref="ccss-3-OA-C-7" text="custom">3.OA.C.7</xref>
       </li>
     </ul>
     </paragraphs>
@@ -69,14 +57,14 @@
   <!-- Propósito de la lección -->
   <paragraphs>
     <title><custom ref="purpose-leccion-titulo"/></title>
-    <p>[@@@@@@@@@]</p>
+    <p>[++++++++++++++++]</p>
+    <p>The purpose of this lesson is for students to use liters to measure and estimate liquid volumes.</p>
   </paragraphs>
 
   <!-- Materiales requeridos -->
-  <paragraphs>
+  <!-- <paragraphs>
     <title><custom ref="materials-leccion-titulo"/></title>
-    <p>[mmmmmmmmmm]</p>
-    <!-- <ul>
+    <ul>
       <li>
         <p>Actividad 1</p>
         <xi:include href="./act-estimarVolumenesLiquidos-mat.ptx"/>
@@ -87,19 +75,21 @@
         <xi:include href="./act-medirVolumenesLiquidos-mat.ptx"/>
         <xi:include href="./act-medirVolumenesLiquidos-matCentros.ptx"/>
       </li>
-    </ul>  -->
-  </paragraphs>
+    </ul> 
+  </paragraphs> -->
   
   <!-- Introducción de la lección (narrative) -->
   <paragraphs>
     <title><custom ref="narrative-leccion-titulo"/></title>
-    <p>[@@@@@@@@@]</p>
+    <p>[++++++++++++++++]</p>
+    <p>In previous lessons, students learned that liquid volume is a measurable attribute and that liters can be used to measure liquid volume. Students use this experience to match containers with estimated liquid volumes they can hold. They compare the marks on a ruler to the marks on a container and learn to use a container with liter marks to measure liquid volume. </p>
   </paragraphs>
   
   <!-- Preguntas de reflexión profesor -->
   <paragraphs>
     <title><custom ref="reflection-quest-titulo"/></title>
-    <p>[@@@@@@@@@]</p>
+    <p>[++++++++++++++++]</p>
+    <p>What ideas do students have about liquid volume from their everyday lives? How did it influence their ideas in this lesson?</p>
   </paragraphs>
 </introduction>
 
@@ -111,7 +101,7 @@
   <shorttitle><custom ref="warm-up-leccion-titulo"/></shorttitle>
   <title><custom ref="warm-up-leccion-titulo"/></title>
   <!-- Tiempo en el título que solo ve el profesor -->
-  <title component="profesor"><nbsp/>([@@@@@@@@@] mins)</title>
+  <title component="profesor"><nbsp/>(10 mins)</title>
 
   <!-- Archivo con el contenido -->
   <xi:include href="./warm-converNum-dividamosEntre3.ptx"/> 
@@ -125,7 +115,7 @@
   <shorttitle>Actividad 1</shorttitle>
   <title>Actividad 1</title>
   <!-- Tiempo en el título que solo ve el profesor -->
-  <title component="profesor"><nbsp/>([@@@@@@@@@] mins)</title>
+  <title component="profesor"><nbsp/>(15 mins)</title>
 
   <!-- Archivo con el contenido -->
   <xi:include href="./act-estimarVolumenesLiquidos.ptx"/> 
@@ -138,11 +128,11 @@
 <!-- ============================================ 
   Actividad 2
 =================================================  -->
-<subsubsection xml:id="lec-estimarYMedirVolumenesLiquidos-act2" component="acts-no-rayable">
+<subsubsection xml:id="lec-estimarYMedirVolumenesLiquidos-act2" component="acts-rayable">
   <shorttitle>Actividad 2</shorttitle>
   <title>Actividad 2</title>
   <!-- Tiempo en el título que solo ve el profesor -->
-  <title component="profesor"><nbsp/>([@@@@@@@@@] mins)</title>
+  <title component="profesor"><nbsp/>(20 mins)</title>
 
   <!-- Archivo con el contenido -->
   <xi:include href="./act-medirVolumenesLiquidos.ptx"/> 
@@ -164,9 +154,12 @@
 <subsubsection xml:id="lec-estimarYMedirVolumenesLiquidos-sintesis" component="profesor">
   <shorttitle><custom ref="synthesis-leccion-titulo"/></shorttitle>
   <title><custom ref="synthesis-leccion-titulo"/></title>
-  <title component="profesor"><nbsp/>([@@@@@@@@@] mins)</title>
-
-  <p>[@@@@@@@@@]</p>
+  <title component="profesor"><nbsp/>(10 mins)</title>
+  <p>[++++++++++++++++]</p>
+  <p><q>Hoy medimos y estimamos volúmenes líquidos, en litros.</q></p>
+  <p>
+    <q>¿Qué consejos le darían a alguien que usa recipientes marcados en litros para medir el volumen líquido?</q> (You have to know that the zero mark is the bottom of the container. The amount of liters goes up as you fill the container. Each mark represents a liter. If the level of the liquid is in between numbers, you need to figure out what the marks in between the numbers represent.)
+  </p>
 
 </subsubsection>
 
