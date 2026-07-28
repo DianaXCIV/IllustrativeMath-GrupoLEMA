@@ -6,10 +6,10 @@
 ===============================================================  -->
 <project xml:id="cool-tiempoDeFutbol" xmlns:xi="http://www.w3.org/2001/XInclude"> 
 
-<title>[@@@@@@@@@]</title>
+<title>Tiempo de fútbol</title>
 
 <statement>
-  <p>[@@@@@@@@@]</p>
+  <p>Clare sale de la escuela a las 3:25 p.m. Su entrenamiento de fútbol empieza a las 4:15 p.m. ¿Cuánto tiempo tiene para llegar al campo de fútbol? Explica o muestra cómo razonaste.</p>
 </statement>
 
 <solution>
@@ -26,21 +26,9 @@
   <paragraphs>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
-      <li>
+      <li> 
         <custom ref="ccss-addressing"/>
-        [@@@@@@@@@@]
-        <!-- <xref ref="ccss-3-OA-A-3" text="custom">3.OA.A.3</xref> -->
-      </li>
-      <li>
-        <custom ref="ccss-buildingOn"/>
-        [@@@@@@@@@@]
-        <!-- <xref ref="ccss-3-OA-A-3" text="custom">3.OA.A.3</xref> -->
-      </li>
-      <li>
-        <custom ref="ccss-buildingTowards"/>
-        [@@@@@@@@@]
-        <!-- <xref ref="ccss-2-MD" text="custom">2.MD</xref>,  -->
-        <!-- <xref ref="ccss-2-OA-C-4" text="custom">2.OA.C.4</xref> -->
+        <xref ref="ccss-3-MD-A-1" text="custom">3.MD.A.1</xref>
       </li>
     </ul>
   </paragraphs>
@@ -55,14 +43,16 @@
   <!-- Posibles errores -->
   <paragraphs>
     <title><custom ref="errores-cool-titulo"/></title>
-    <p>[@@@@@@@@@]</p>
+    <p>[++++++++++++++++]</p>
+    <p>Students do not determine the elapsed time between the time Clare leaves school and the time her soccer practice begins.</p>
   </paragraphs>
 
 
   <!-- Estrategia de apoyo si muchos estudiantes respondieron incorrectamente -->
   <paragraphs>
     <title><custom ref="apoyo-cool-titulo"/></title>
-    <p>[@@@@@@@@@]</p>
+    <p>[++++++++++++++++]</p>
+    <p>During the launch of the next day’s activity, brainstorm ways to show your reasoning when solving time problems.</p>
   </paragraphs>
 
 </postlude>

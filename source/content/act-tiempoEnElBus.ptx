@@ -2,16 +2,20 @@
 
 <activity xml:id="act-tiempoEnElBus" xmlns:xi="http://www.w3.org/2001/XInclude"> 
 
-<title>[@@@@@@@@@]</title>
+<title>Tiempo en el bus</title>
 
 <statement>
-  <p>[@@@@@@@@@]</p>
+  <p>Este es otro problema sobre el tiempo:</p>
+  <sidebyside margins="10% 10%">
+    <p>A las 6:32 p.m., Elena subió al bus para ir a casa. Ella bajó del bus a las 7:10 p.m. ¿Cuánto duró su viaje en bus?</p>
+  </sidebyside>
+  <p>¿Qué estrategia o representación usarías al resolver un problema como este? Explica tu razonamiento.</p>
 </statement>
 
 <solution>
     <p>[+++++++++++++++]</p>
     <p>Sample responses:</p>
-<ul>
+    <ul>
       <li>I would add up from 6:32 until I reach 7:10. It’s 8 minutes from 6:32 to get to 6:40 and 3 groups of 10 minutes to 7:10, or <m>8 + 10 + 10+ 10</m>.</li>
       <li>I would show 6:32 on a clock, draw jumps to reach 7:10, and add the minutes for all the jumps. For example, it’s a jump of 3 minutes from 6:32 to 6:35, then 7 jumps of 5 minutes to 7:10. That’s <m>3 + (7 \times 5)</m> or <m>3 + 35</m>, which is 38.</li>
       <li>I would find the difference between 32 and 60 (which is 28) and between 0 and 10 (which is 10), and add the differences.</li>
@@ -31,21 +35,7 @@
     <ul>
       <li> 
         <custom ref="ccss-addressing"/>
-        [@@@@@@@@@]
-        <!-- <xref ref="ccss-2-MD" text="custom">2.MD</xref>,  -->
-        <!-- <xref ref="ccss-2-OA-C-4" text="custom">2.OA.C.4</xref> -->
-      </li>
-      <li>
-        <custom ref="ccss-buildingOn"/>
-        [@@@@@@@@@]
-        <!-- <xref ref="ccss-2-MD" text="custom">2.MD</xref>,  -->
-        <!-- <xref ref="ccss-2-OA-C-4" text="custom">2.OA.C.4</xref> -->
-      </li>
-      <li>
-        <custom ref="ccss-buildingTowards"/>
-        [@@@@@@@@@]
-        <!-- <xref ref="ccss-2-MD" text="custom">2.MD</xref>,  -->
-        <!-- <xref ref="ccss-2-OA-C-4" text="custom">2.OA.C.4</xref> -->
+        <xref ref="ccss-3-MD-A-1" text="custom">3.MD.A.1</xref>
       </li>
     </ul>
   </paragraphs>
@@ -63,16 +53,6 @@
     <p>In this activity, students encounter another type of elapsed-time problem in which the start and end times are given but the elapsed time is not. Students consider possible strategies they saw earlier that could be used to find elapsed time. Although they are not required to solve the problem, students may choose to do so as they think about ways to reason abstractly and quantitatively about the solution (MP2).</p>
   </paragraphs>
 
-
-  <!-- Materiales requeridos de la actividad -->
-  <paragraphs>
-    <title><custom ref="materials-actividad-titulo"/></title>
-    <p>[mmmmmmmmmm]</p>
-    <!-- si hay materiales, crear los archivos -mat.ptx (para materiales de la actividad) y -matCentros.ptx (para mencionar los otros centros que se usan y para los que se necesitan materiales) y poner los materiales ahí usando los archivos de template. Después hacer xinclude  de estos archivos en la lista de materiales de la lección.-->
-    <!-- <xi:include href="./act-tiempoEnElBus-mat.ptx"/>  -->
-    <!-- <xi:include href="./act-tiempoEnElBus-matCentros.ptx"/>  -->
-  </paragraphs>
-
   <!-- Launch -->
   <paragraphs>
     <title><custom ref="launch-titulo"/></title>
@@ -81,8 +61,7 @@
       <li>Groups of 2</li>
       <li>Read the problem as a class.</li>
       <li>
-        <q>¿En qué se parece este problema a los que vimos antes?</q>  (They are all about the passing of time and are related to riding the bus. The start time is given in all of them.) 
-        <q>¿En qué es diferente?</q>  (The arrival time is given here, and the amount of time that has passed is missing.)
+        <q>¿En qué se parece este problema a los que vimos antes?</q> (They are all about the passing of time and are related to riding the bus. The start time is given in all of them.) <q>¿En qué es diferente?</q> (The arrival time is given here, and the amount of time that has passed is missing.)
       </li>
       <li>1 minute: quiet think time</li>
       <li>Share responses.</li>
@@ -110,14 +89,6 @@
 ===================================================================  -->
 <postlude component="profesor">
 
-  <!-- Estrategias de apoyo para estudiantes con dificultades -->
-  <paragraphs>
-    <title><custom ref="support-actividad-titulo"/></title>
-    <p>[+++++++++++++++]</p>
-    <p>=== NOT PRESENT ===</p>
-  </paragraphs>
-
-
   <!-- Síntesis de la actividad -->
   <paragraphs>
     <title><custom ref="synthesis-actividad-titulo"/></title>
@@ -125,20 +96,6 @@
     <ul>
       <li>Invite students to share their reasoning and strategies. Display or record different representations for all to see.</li>
     </ul>
-  </paragraphs>
-
-
-  <!-- Descripción del desarrollo de lenguaje matemático -->
-  <paragraphs>
-    <title><custom ref="language-actividad-titulo"/></title>
-    <p>[@@@@@@@@@]</p>
-  </paragraphs>
-
-
-  <!-- Estrategias de acceso para estudiantes con discapacidades -->
-  <paragraphs>
-    <title><custom ref="accesibility-actividad-titulo"/></title>
-    <p>[@@@@@@@@@]</p>
   </paragraphs>
 
 </postlude>

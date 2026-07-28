@@ -7,16 +7,16 @@
 ===========================================================================  -->
 <exploration xml:id="warm-conteoGrupal-quinces" xmlns:xi="http://www.w3.org/2001/XInclude"> 
 
-<title>[@@@@@@@@@]</title>
+<title>Conteo grupal: Quinces</title>
 
 <statement>
-  <p>[@@@@@@@@@]</p>
+  <p>Contemos de 15 minutos en 15 minutos, empezando en las 12:00.</p>
 </statement>
 
 <solution>
     <p>[+++++++++++++++]</p>
     <p>Sample responses:</p>
-<ul>
+    <ul>
       <li>Every 4 counts you get to a new hour.</li>
       <li>Three hours pass during the count because you go from 12:00 to 3:00.</li>
       <li>The minutes have a pattern of 00, 15, 30, 45, then back to 00, which is the next hour.</li>
@@ -35,21 +35,7 @@
     <ul>
       <li> 
         <custom ref="ccss-addressing"/>
-        [@@@@@@@@@]
-        <!-- <xref ref="ccss-2-MD" text="custom">2.MD</xref>,  -->
-        <!-- <xref ref="ccss-2-OA-C-4" text="custom">2.OA.C.4</xref> -->
-      </li>
-      <li>
-        <custom ref="ccss-buildingOn"/>
-        [@@@@@@@@@]
-        <!-- <xref ref="ccss-2-MD" text="custom">2.MD</xref>,  -->
-        <!-- <xref ref="ccss-2-OA-C-4" text="custom">2.OA.C.4</xref> -->
-      </li>
-      <li>
-        <custom ref="ccss-buildingTowards"/>
-        [@@@@@@@@@]
-        <!-- <xref ref="ccss-2-MD" text="custom">2.MD</xref>,  -->
-        <!-- <xref ref="ccss-2-OA-C-4" text="custom">2.OA.C.4</xref> -->
+        <xref ref="ccss-3-MD-A-1" text="custom">3.MD.A.1</xref>
       </li>
     </ul>
   </paragraphs>
@@ -65,14 +51,7 @@
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this Choral Count is to invite students to practice counting times by 15 minutes and notice patterns in the count. This will be helpful later in this section when students will solve problems involving addition and subtraction of time intervals.</p>
-<p>Students have an opportunity to notice regularity through repeated reasoning (MP8) as they count by 15 minutes over a span of 3 hours.</p>
-  </paragraphs>
-
-  <!-- Materiales requeridos de la actividad -->
-  <paragraphs>
-    <title><custom ref="materials-actividad-titulo"/></title>
-    <p>[mmmmmmmmmm]</p>
-    <!-- <xi:include href="./warm-conteoGrupal-quinces-mat.ptx"/>  -->
+    <p>Students have an opportunity to notice regularity through repeated reasoning (MP8) as they count by 15 minutes over a span of 3 hours.</p>
   </paragraphs>
 
   <!-- Launch -->
@@ -109,13 +88,6 @@
 ===================================================================  -->
 <postlude component="profesor">
 
-  <!-- Estrategias de apoyo para estudiantes con dificultades -->
-  <paragraphs>
-    <title><custom ref="support-actividad-titulo"/></title>
-    <p>[+++++++++++++++]</p>
-    <p>=== NOT PRESENT ===</p>
-  </paragraphs>
-
   <!-- Síntesis de la actividad -->
   <paragraphs>
     <title><custom ref="synthesis-actividad-titulo"/></title>
@@ -125,29 +97,14 @@
         <q>¿Cuánto tiempo transcurrió entre la 1:15 y la 1:45?</q>  (30 minutes) 
         <q>¿Entre la 1:15 y las 2:30?</q>  (75 minutes)
       </li>
-      <li><p>Consider asking:</p><ul>
-<li>
-<q>¿Quién puede describir el patrón con otras palabras?</q></li>
-<li>
-<q>¿Alguien quiere compartir otra observación sobre por qué ocurre ese patrón aquí?</q></li>
-<li>
-<q>¿Están de acuerdo o en desacuerdo? ¿Por qué?</q></li>
-</ul>
+      <li><p>Consider asking:</p>
+        <ul>
+          <li><q>¿Quién puede describir el patrón con otras palabras?</q></li>
+          <li><q>¿Alguien quiere compartir otra observación sobre por qué ocurre ese patrón aquí?</q></li>
+          <li><q>¿Están de acuerdo o en desacuerdo? ¿Por qué?</q></li>
+        </ul>
       </li>
     </ul>
-  </paragraphs>
-
-
-  <!-- Descripción del desarrollo de lenguaje matemático -->
-  <paragraphs>
-    <title><custom ref="language-actividad-titulo"/></title>
-    <p>[@@@@@@@@@]</p>
-  </paragraphs>
-
-  <!-- Estrategias de acceso para estudiantes con discapacidades -->
-  <paragraphs>
-    <title><custom ref="accesibility-actividad-titulo"/></title>
-    <p>[@@@@@@@@@]</p>
   </paragraphs>
 
 </postlude>

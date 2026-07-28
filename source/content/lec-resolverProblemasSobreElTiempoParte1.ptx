@@ -3,7 +3,7 @@
 
 <shorttitle>Lección 10 </shorttitle>
 <title>Lección 10 -<nbsp/></title>
-<title>[@@@@@@@@@]</title>
+<title>Resolvamos problemas sobre el tiempo (parte 1)</title>
 
 
 <!-- ============================================ 
@@ -12,7 +12,7 @@
 
 <!-- Frase resumen para estudiante. Originalmente [Student Facing Goals] -->
 <introduction component="est-goal"> 
-  <p>[@@@@@@@@@]</p>
+  <p>Resolvamos problemas sobre el tiempo.</p>
 </introduction>
 
 <!-- Objetivos para el estudiante. Originalmente [Student-Facing Targets] -->
@@ -25,7 +25,10 @@
 <!-- Objetivos que solo ve el profesor. Originalmente [Teacher Facing Goals] -->
 <objectives component="profesor">
   <ul>
-    <li>[@@@@@@@@@]</li>
+    <li><p>[++++++++++++++++]</p></li>
+    <li>
+      <p>Solve problems involving addition and subtraction of time intervals in minutes in a way that makes sense to them.</p>
+    </li>
   </ul>
 </objectives>
 
@@ -41,22 +44,8 @@
     <ul>
       <li> 
         <custom ref="ccss-addressing"/>
-        [^^^^^^^^^^^]
-        <!-- <xref ref="ccss-2-MD" text="custom">2.MD</xref>,  -->
-        <!-- <xref ref="ccss-2-OA-C-4" text="custom">2.OA.C.4</xref> -->
-      </li>
-      <li>
-        <custom ref="ccss-buildingOn"/>
-        [^^^^^^^^^^^]
-        <!-- <xref ref="ccss-2-MD" text="custom">2.MD</xref>,  -->
-        <!-- <xref ref="ccss-2-OA-C-4" text="custom">2.OA.C.4</xref> -->
-      </li>
-      <li>
-        <custom ref="ccss-buildingTowards"/>
-        [^^^^^^^^^^^]
-        <!-- <xref ref="ccss-2-MD" text="custom">2.MD</xref>,  -->
-        <!-- <xref ref="ccss-2-OA-C-4" text="custom">2.OA.C.4</xref> -->
-      </li>
+        <xref ref="ccss-3-MD-A-1" text="custom">3.MD.A.1</xref>
+      </li>      
     </ul>
     </paragraphs>
 
@@ -74,10 +63,10 @@
   </paragraphs>
 
   <!-- Materiales requeridos -->
-  <paragraphs>
+  <!-- <paragraphs>
     <title><custom ref="materials-leccion-titulo"/></title>
     <p>[mmmmmmmmmm]</p>
-    <!-- <ul>
+    <ul>
       <li>
         <p>Actividad 1</p>
         <xi:include href="./act-laHoraEnLadaDeBus-mat.ptx"/>
@@ -88,8 +77,8 @@
         <xi:include href="./act-tiempoEnElBus-mat.ptx"/>
         <xi:include href="./act-tiempoEnElBus-matCentros.ptx"/>
       </li>
-    </ul>  -->
-  </paragraphs>
+    </ul>  
+  </paragraphs>-->
   
   <!-- Introducción de la lección (narrative) -->
   <paragraphs>
@@ -167,12 +156,12 @@
 <subsubsection xml:id="lec-resolverProblemasSobreElTiempoParte1-sintesis" component="profesor">
   <shorttitle><custom ref="synthesis-leccion-titulo"/></shorttitle>
   <title><custom ref="synthesis-leccion-titulo"/></title>
-  <title component="profesor"><nbsp/>([@@@@@@@@@] mins)</title>
+  <title component="profesor"><nbsp/>(10 mins)</title>
 
   <p>[+++++++++++++++]</p>
   <p><q>Hoy resolvimos problemas sobre el tiempo. Vimos que podemos pensar en las soluciones de muchas maneras y usar distintas representaciones para mostrar cómo pensamos</q></p>
-<p><q>¿Qué estrategias les gustaría tener en mente cuando resuelvan futuros problemas sobre el tiempo?</q> (Making a table to keep track of the minutes that have passed. Drawing jumps on a clock and writing down the minutes of each jump before adding them up or seeing where the last jump lands. Using the clock to help me see if the time that passes means going into a new hour. Writing addition or subtraction expressions.)</p>
-<p>Record students’ ideas and display them in the next lesson.</p>
+  <p><q>¿Qué estrategias les gustaría tener en mente cuando resuelvan futuros problemas sobre el tiempo?</q> (Making a table to keep track of the minutes that have passed. Drawing jumps on a clock and writing down the minutes of each jump before adding them up or seeing where the last jump lands. Using the clock to help me see if the time that passes means going into a new hour. Writing addition or subtraction expressions.)</p>
+  <p>Record students’ ideas and display them in the next lesson.</p>
 
 </subsubsection>
 
