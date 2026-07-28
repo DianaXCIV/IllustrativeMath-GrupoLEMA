@@ -111,7 +111,7 @@
 
 
   <!-- Materiales requeridos de la actividad -->
-  <!--<paragraphs>
+  <paragraphs>
     <title><custom ref="materials-actividad-titulo"/></title>
      <!--si hay materiales, crear los archivos -mat.ptx (para materiales de la actividad) y -matCentros.ptx (para mencionar los otros centros que se usan y para los que se necesitan materiales) y poner los materiales ahí usando los archivos de template. Después hacer xinclude  de estos archivos en la lista de materiales de la lección.-->
     <xi:include href="./act-exploracionDeEstimacion-volumenLiquido-mat.ptx"/> 

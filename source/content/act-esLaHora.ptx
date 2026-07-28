@@ -2,17 +2,91 @@
 
 <activity xml:id="act-esLaHora" xmlns:xi="http://www.w3.org/2001/XInclude"> 
 
-<title>[@@@@@@@@@]</title>
+<title>¡Es la hora!</title>
 
 <statement>
-  <p>[@@@@@@@@@]</p>
+  <ol>
+    <li>
+      <p>En cada reloj, muestra la hora dada.</p>
+      <sbsgroup widths="45% 45%">
+        <sidebyside>
+          <stack>
+            <p>A.  2:36 PM</p>
+            <image source="svg-source/tikz-file-150173">
+              <shortdescription>reloj en blanco</shortdescription>
+            </image>
+          </stack>
+          <stack>
+            <p>B.  3:18 PM</p>
+            <image source="svg-source/tikz-file-150174">
+              <shortdescription>reloj en blanco</shortdescription>
+            </image>
+          </stack>
+        </sidebyside>
+        <sidebyside>
+          <stack>
+            <p>C.  12:17 PM</p>
+            <image source="svg-source/tikz-file-150175">
+              <shortdescription>reloj en blanco</shortdescription>
+            </image>
+          </stack>
+          <stack>
+            <p>D.  9:02 PM</p>
+            <image source="svg-source/tikz-file-150176">
+              <shortdescription>reloj en blanco</shortdescription>
+            </image>
+          </stack>
+        </sidebyside>
+      </sbsgroup>
+    </li>
+    <li>
+      <p>Dibuja una hora en este reloj. Intercambia con un compañero y di qué hora es en su reloj.</p>
+    </li>
+    <sidebyside widths="45% 25%">
+      <image source="svg-source/tikz-file-134604">
+        <shortdescription>reloj en blanco</shortdescription>
+      </image>
+      <image source="png-source/CS 3.6 Lesson 9.png" component="web">
+        <shortdescription>relojes</shortdescription>
+      </image>
+    </sidebyside>
+  </ol>
 </statement>
 
 <solution>
     <p>[+++++++++++++++]</p>
     <ol>
-      <li><p>
-</p><p>[@@@@@@@@] WARNING: Fix Image.</p><img alt="" role="image" src="../../../../../../figures/tikz-file-150178.svg"/><p>[@@@@@@@@] WARNING: Fix Image.</p><img alt="Expand image" src="../../../../../assets/expand-9ef5655e2d1b5ba286de1390c97f4243f15e264c89106027f5d071073ab562bb.png" title="Expand image"/><p>[@@@@@@@@] WARNING: Fix Image.</p><img alt="" role="image" src="../../../../../../figures/tikz-file-150178.svg" width="80%"/><p>[@@@@@@@@] WARNING: Fix Image.</p><img alt="" role="image" src="../../../../../../figures/tikz-file-150179.svg"/><p>[@@@@@@@@] WARNING: Fix Image.</p><img alt="Expand image" src="../../../../../assets/expand-9ef5655e2d1b5ba286de1390c97f4243f15e264c89106027f5d071073ab562bb.png" title="Expand image"/><p>[@@@@@@@@] WARNING: Fix Image.</p><img alt="" role="image" src="../../../../../../figures/tikz-file-150179.svg" width="80%"/><p>[@@@@@@@@] WARNING: Fix Image.</p><img alt="" role="image" src="../../../../../../figures/tikz-file-150180.svg"/><p>[@@@@@@@@] WARNING: Fix Image.</p><img alt="Expand image" src="../../../../../assets/expand-9ef5655e2d1b5ba286de1390c97f4243f15e264c89106027f5d071073ab562bb.png" title="Expand image"/><p>[@@@@@@@@] WARNING: Fix Image.</p><img alt="" role="image" src="../../../../../../figures/tikz-file-150180.svg" width="80%"/><p>[@@@@@@@@] WARNING: Fix Image.</p><img alt="" role="image" src="../../../../../../figures/tikz-file-150181.svg"/><p>[@@@@@@@@] WARNING: Fix Image.</p><img alt="Expand image" src="../../../../../assets/expand-9ef5655e2d1b5ba286de1390c97f4243f15e264c89106027f5d071073ab562bb.png" title="Expand image"/><p>[@@@@@@@@] WARNING: Fix Image.</p><img alt="" role="image" src="../../../../../../figures/tikz-file-150181.svg" width="80%"/>
+      <li>
+        <sbsgroup widths="45% 45%">
+        <sidebyside>
+          <stack>
+            <p>A.</p>
+            <image source="svg-source/tikz-file-150178">
+              <shortdescription>reloj marcando 2:36</shortdescription>
+            </image>
+          </stack>
+          <stack>
+            <p>B.</p>
+            <image source="svg-source/tikz-file-150179">
+              <shortdescription>reloj marcando 3:18</shortdescription>
+            </image>
+          </stack>
+        </sidebyside>
+        <sidebyside>
+          <stack>
+            <p>C.</p>
+            <image source="svg-source/tikz-file-150180">
+              <shortdescription>reloj marcando 12:17</shortdescription>
+            </image>
+          </stack>
+          <stack>
+            <p>D.</p>
+            <image source="svg-source/tikz-file-150181">
+              <shortdescription>reloj marcando 9:02</shortdescription>
+            </image>
+          </stack>
+        </sidebyside>
+      </sbsgroup>
       </li>
       <li>Answers vary.</li>
     </ol>
@@ -30,21 +104,7 @@
     <ul>
       <li> 
         <custom ref="ccss-addressing"/>
-        [@@@@@@@@@]
-        <!-- <xref ref="ccss-2-MD" text="custom">2.MD</xref>,  -->
-        <!-- <xref ref="ccss-2-OA-C-4" text="custom">2.OA.C.4</xref> -->
-      </li>
-      <li>
-        <custom ref="ccss-buildingOn"/>
-        [@@@@@@@@@]
-        <!-- <xref ref="ccss-2-MD" text="custom">2.MD</xref>,  -->
-        <!-- <xref ref="ccss-2-OA-C-4" text="custom">2.OA.C.4</xref> -->
-      </li>
-      <li>
-        <custom ref="ccss-buildingTowards"/>
-        [@@@@@@@@@]
-        <!-- <xref ref="ccss-2-MD" text="custom">2.MD</xref>,  -->
-        <!-- <xref ref="ccss-2-OA-C-4" text="custom">2.OA.C.4</xref> -->
+        <xref ref="ccss-3-MD-A-1" text="custom">3.MD.A.1</xref>
       </li>
     </ul>
   </paragraphs>
@@ -62,16 +122,6 @@
     <p>The purpose of this activity is for students to tell and write time to the nearest minute as they draw times on blank clocks.</p>
   </paragraphs>
 
-
-  <!-- Materiales requeridos de la actividad -->
-  <paragraphs>
-    <title><custom ref="materials-actividad-titulo"/></title>
-    <p>[mmmmmmmmmm]</p>
-    <!-- si hay materiales, crear los archivos -mat.ptx (para materiales de la actividad) y -matCentros.ptx (para mencionar los otros centros que se usan y para los que se necesitan materiales) y poner los materiales ahí usando los archivos de template. Después hacer xinclude  de estos archivos en la lista de materiales de la lección.-->
-    <!-- <xi:include href="./act-esLaHora-mat.ptx"/>  -->
-    <!-- <xi:include href="./act-esLaHora-matCentros.ptx"/>  -->
-  </paragraphs>
-
   <!-- Launch -->
   <paragraphs>
     <title><custom ref="launch-titulo"/></title>
@@ -82,7 +132,7 @@
         <q>Usemos lo que saben sobre cómo leer la hora al minuto más cercano para practicar la escritura de la hora en relojes</q>
       </li>
       <li>
-        <q>¿Qué cosas importantes deben recordar cuando dibujan la hora en un reloj sin manecillas?</q>  (Show the difference between the minute and hour hand clearly. Be careful in drawing the location of each hand.)
+        <q>¿Qué cosas importantes deben recordar cuando dibujan la hora en un reloj sin manecillas?</q> (Show the difference between the minute and hour hand clearly. Be careful in drawing the location of each hand.)
       </li>
       <li>30 seconds: partner discussion</li>
       <li>Share responses.</li>
@@ -114,9 +164,8 @@
   <paragraphs>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
-    <p>If students do not draw hands that are clearly different lengths for the hour hand and minute hand, consider asking:
-</p>
-<ul>
+    <p>If students do not draw hands that are clearly different lengths for the hour hand and minute hand, consider asking:</p>
+    <ul>
       <li>
         <q>Cuéntame cómo decidiste en dónde dibujar cada manecilla</q>
       </li>
@@ -133,31 +182,16 @@
     <p>[+++++++++++++++]</p>
     <ul>
       <li>Invite students to share the times they drew on the clocks. Emphasize how they distinguish between the hour and minute hands for someone else to be clear on the time they are showing.</li>
-      <li><p>Consider asking:</p><ul>
-<li>
-<q>¿Hubo algunas horas que al principio los confundieron o que fueron más difíciles de mostrar?</q> (For 3:18 I had to draw the hands really close together.)</li>
-<li>
-<q>¿Alguien tiene sugerencias sobre qué hacer con algunas de las horas que pueden ser difíciles de mostrar?</q></li>
-</ul>
+      <li><p>Consider asking:</p>
+        <ul>
+          <li><q>¿Hubo algunas horas que al principio los confundieron o que fueron más difíciles de mostrar?</q> (For 3:18 I had to draw the hands really close together.)</li>
+          <li><q>¿Alguien tiene sugerencias sobre qué hacer con algunas de las horas que pueden ser difíciles de mostrar?</q></li>
+        </ul>
       </li>
       <li>
-        <q>Cuando le dibujaron una hora a su compañero, ¿qué tuvieron que tener en mente?</q>  (To make sure to show the difference between the minute and hour hands clearly, to be precise in what minute the hand was pointing to.)
+        <q>Cuando le dibujaron una hora a su compañero, ¿qué tuvieron que tener en mente?</q> (To make sure to show the difference between the minute and hour hands clearly, to be precise in what minute the hand was pointing to.)
       </li>
     </ul>
-  </paragraphs>
-
-
-  <!-- Descripción del desarrollo de lenguaje matemático -->
-  <paragraphs>
-    <title><custom ref="language-actividad-titulo"/></title>
-    <p>[@@@@@@@@@]</p>
-  </paragraphs>
-
-
-  <!-- Estrategias de acceso para estudiantes con discapacidades -->
-  <paragraphs>
-    <title><custom ref="accesibility-actividad-titulo"/></title>
-    <p>[@@@@@@@@@]</p>
   </paragraphs>
 
 </postlude>

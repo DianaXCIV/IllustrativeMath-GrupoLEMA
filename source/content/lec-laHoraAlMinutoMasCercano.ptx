@@ -3,7 +3,7 @@
 
 <shorttitle>Lección 9 </shorttitle>
 <title>Lección 9 -<nbsp/></title>
-<title>[@@@@@@@@@]</title>
+<title>La hora al minuto más cercano</title>
 
 
 <!-- ============================================ 
@@ -12,7 +12,7 @@
 
 <!-- Frase resumen para estudiante. Originalmente [Student Facing Goals] -->
 <introduction component="est-goal"> 
-  <p>[@@@@@@@@@]</p>
+  <p>Leamos y escribamos la hora al minuto más cercano.</p>
 </introduction>
 
 <!-- Objetivos para el estudiante. Originalmente [Student-Facing Targets] -->
@@ -25,7 +25,12 @@
 <!-- Objetivos que solo ve el profesor. Originalmente [Teacher Facing Goals] -->
 <objectives component="profesor">
   <ul>
-    <li>[@@@@@@@@@]</li>
+    <li><p>[++++++++++++++++]</p></li>
+    <li>
+      <p>
+        Tell and write time to the nearest minute.
+      </p>
+    </li>
   </ul>
 </objectives>
 
@@ -41,21 +46,7 @@
     <ul>
       <li> 
         <custom ref="ccss-addressing"/>
-        [^^^^^^^^^^^]
-        <!-- <xref ref="ccss-2-MD" text="custom">2.MD</xref>,  -->
-        <!-- <xref ref="ccss-2-OA-C-4" text="custom">2.OA.C.4</xref> -->
-      </li>
-      <li>
-        <custom ref="ccss-buildingOn"/>
-        [^^^^^^^^^^^]
-        <!-- <xref ref="ccss-2-MD" text="custom">2.MD</xref>,  -->
-        <!-- <xref ref="ccss-2-OA-C-4" text="custom">2.OA.C.4</xref> -->
-      </li>
-      <li>
-        <custom ref="ccss-buildingTowards"/>
-        [^^^^^^^^^^^]
-        <!-- <xref ref="ccss-2-MD" text="custom">2.MD</xref>,  -->
-        <!-- <xref ref="ccss-2-OA-C-4" text="custom">2.OA.C.4</xref> -->
+        <xref ref="ccss-3-MD-A-1" text="custom">3.MD.A.1</xref>
       </li>
     </ul>
     </paragraphs>
@@ -141,7 +132,7 @@
 <!-- ============================================ 
   Actividad 2
 =================================================  -->
-<subsubsection xml:id="lec-laHoraAlMinutoMasCercano-act2" component="acts-no-rayable">
+<subsubsection xml:id="lec-laHoraAlMinutoMasCercano-act2" component="acts-rayable">
   <shorttitle>Actividad 2</shorttitle>
   <title>Actividad 2</title>
   <!-- Tiempo en el título que solo ve el profesor -->
@@ -167,12 +158,12 @@
 <subsubsection xml:id="lec-laHoraAlMinutoMasCercano-sintesis" component="profesor">
   <shorttitle><custom ref="synthesis-leccion-titulo"/></shorttitle>
   <title><custom ref="synthesis-leccion-titulo"/></title>
-  <title component="profesor"><nbsp/>([@@@@@@@@@] mins)</title>
+  <title component="profesor"><nbsp/>(10 mins)</title>
 
   <p>[+++++++++++++++]</p>
   <p>Display a clock from the lesson.</p>
-<p><q>¿En qué se diferencia la forma como leyeron la hora hoy de la forma como lo habían hecho antes?</q> (In the past, we told time to the nearest 5 minutes. Today we told time to the nearest minute.)</p>
-<p><q>Si fueran a explicarle a un amigo cómo leer la hora al minuto más cercano, ¿cuáles serían las ideas más importantes que les gustaría compartir con él?</q> (Pay attention to which hand is the hour hand and which hand is the minute hand. Then, see what numbers the hour hand is between since it moves between two numbers during the hour. For the minute hand, we start at the nearest 5 minutes, like 35 minutes, and then count the minutes one-by-one, like 36, 37.)</p>
+  <p><q>¿En qué se diferencia la forma como leyeron la hora hoy de la forma como lo habían hecho antes?</q> (In the past, we told time to the nearest 5 minutes. Today we told time to the nearest minute.)</p>
+  <p><q>Si fueran a explicarle a un amigo cómo leer la hora al minuto más cercano, ¿cuáles serían las ideas más importantes que les gustaría compartir con él?</q> (Pay attention to which hand is the hour hand and which hand is the minute hand. Then, see what numbers the hour hand is between since it moves between two numbers during the hour. For the minute hand, we start at the nearest 5 minutes, like 35 minutes, and then count the minutes one-by-one, like 36, 37.)</p>
 
 </subsubsection>
 

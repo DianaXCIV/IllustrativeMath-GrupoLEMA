@@ -7,16 +7,36 @@
 ===========================================================================  -->
 <exploration xml:id="warm-exploracionDeEstimacion-meDasUnaManecilla" xmlns:xi="http://www.w3.org/2001/XInclude"> 
 
-<title>[@@@@@@@@@]</title>
+<title>Exploración de estimación: ¿Me das una manecilla?</title>
 
 <statement>
-  <p>[@@@@@@@@@]</p>
+  <sidebyside widths="60% 30%" margins="0% 5%">
+    <stack>
+      <p>Este reloj solo tiene la manecilla de las horas.</p>
+      <p>¿Qué hora puede ser?</p>
+    </stack>
+    <image source="svg-source/tikz-file-152786">
+        <shortdescription>reloj marcando la 1</shortdescription>
+      </image>
+  </sidebyside>
+  <p>Escribe una estimación que sea:</p>
+  <tabular top="medium" halign="center" valign="middle">
+    <row header="yes" left="medium" bottom="medium">
+      <cell right="medium">muy temprano</cell>
+      <cell right="medium">razonable</cell>
+      <cell right="medium">muy tarde</cell>
+    </row>
+    <row left="minor" bottom="minor">
+      <cell right="minor"><nbsp/></cell>
+      <cell right="minor"><nbsp/></cell>
+      <cell right="minor"><nbsp/></cell>    </row>    
+  </tabular>
 </statement>
 
 <solution>
     <p>[+++++++++++++++]</p>
     <p>Sample responses:</p>
-<ul>
+    <ul>
       <li>Too early: 1:00-1:20</li>
       <li>About right: 1:30-1:45</li>
       <li>Too late: 1:50-2:00</li>
@@ -35,21 +55,7 @@
     <ul>
       <li> 
         <custom ref="ccss-addressing"/>
-        [@@@@@@@@@]
-        <!-- <xref ref="ccss-2-MD" text="custom">2.MD</xref>,  -->
-        <!-- <xref ref="ccss-2-OA-C-4" text="custom">2.OA.C.4</xref> -->
-      </li>
-      <li>
-        <custom ref="ccss-buildingOn"/>
-        [@@@@@@@@@]
-        <!-- <xref ref="ccss-2-MD" text="custom">2.MD</xref>,  -->
-        <!-- <xref ref="ccss-2-OA-C-4" text="custom">2.OA.C.4</xref> -->
-      </li>
-      <li>
-        <custom ref="ccss-buildingTowards"/>
-        [@@@@@@@@@]
-        <!-- <xref ref="ccss-2-MD" text="custom">2.MD</xref>,  -->
-        <!-- <xref ref="ccss-2-OA-C-4" text="custom">2.OA.C.4</xref> -->
+        <xref ref="ccss-3-MD-A-1" text="custom">3.MD.A.1</xref>
       </li>
     </ul>
   </paragraphs>
@@ -64,14 +70,7 @@
   <paragraphs>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
-    <p>The purpose of this Estimation Exploration is for students to make sense of times that would be reasonable with only the hour hand as a reference on a clock. </p>
-  </paragraphs>
-
-  <!-- Materiales requeridos de la actividad -->
-  <paragraphs>
-    <title><custom ref="materials-actividad-titulo"/></title>
-    <p>[mmmmmmmmmm]</p>
-    <!-- <xi:include href="./warm-exploracionDeEstimacion-meDasUnaManecilla-mat.ptx"/>  -->
+    <p>The purpose of this Estimation Exploration is for students to make sense of times that would be reasonable with only the hour hand as a reference on a clock.</p>
   </paragraphs>
 
   <!-- Launch -->
@@ -82,9 +81,7 @@
       <li>Groups of 2</li>
       <li>Display image.</li>
       <li>
-        <q>¿Qué estimación sería muy tarde?, ¿muy temprano?, ¿razonable?</q> 
-        <q>Too early?</q> 
-        <q>About right?</q>
+        <q>¿Qué estimación sería muy tarde?, ¿muy temprano?, ¿razonable?</q>
       </li>
       <li>1 minute: quiet think time</li>
     </ul>
@@ -111,40 +108,20 @@
 ===================================================================  -->
 <postlude component="profesor">
 
-  <!-- Estrategias de apoyo para estudiantes con dificultades -->
-  <paragraphs>
-    <title><custom ref="support-actividad-titulo"/></title>
-    <p>[+++++++++++++++]</p>
-    <p>=== NOT PRESENT ===</p>
-  </paragraphs>
-
   <!-- Síntesis de la actividad -->
   <paragraphs>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
       <li>
-        <q>¿Cómo supieron que la hora era la 1?</q>  (The hour hand passes between 1 and 2 as the time goes from 1:00 to 2:00.)
+        <q>¿Cómo supieron que la hora era la 1?</q> (The hour hand passes between 1 and 2 as the time goes from 1:00 to 2:00.)
       </li>
-      <li><p>Consider asking:</p><ul>
-<li>
-<q>¿Cómo decidieron cuánto tiempo había pasado desde la 1:00?</q> (It has to be a little past 1:30 since the hour hand is a little more than halfway between the 1 and the 2.)</li>
-</ul>
+      <li><p>Consider asking:</p>
+        <ul>
+          <li><q>¿Cómo decidieron cuánto tiempo había pasado desde la 1:00?</q> (It has to be a little past 1:30 since the hour hand is a little more than halfway between the 1 and the 2.)</li>
+        </ul>
       </li>
     </ul>
-  </paragraphs>
-
-
-  <!-- Descripción del desarrollo de lenguaje matemático -->
-  <paragraphs>
-    <title><custom ref="language-actividad-titulo"/></title>
-    <p>[@@@@@@@@@]</p>
-  </paragraphs>
-
-  <!-- Estrategias de acceso para estudiantes con discapacidades -->
-  <paragraphs>
-    <title><custom ref="accesibility-actividad-titulo"/></title>
-    <p>[@@@@@@@@@]</p>
   </paragraphs>
 
 </postlude>
