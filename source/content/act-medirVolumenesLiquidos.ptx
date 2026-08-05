@@ -2,14 +2,170 @@
 
 <activity xml:id="act-medirVolumenesLiquidos" xmlns:xi="http://www.w3.org/2001/XInclude"> 
 
-<title>[@@@@@@@@@]</title>
+<title>Midamos volúmenes líquidos</title>
 
 <statement>
-  <p>[@@@@@@@@@]</p>
+  <p>¿Qué observas? ¿Qué te preguntas?</p>
+  <sidebyside widths="45% 45%">
+    <image source="jpg-source/5m0aok5yl5qfr9bfvqhblx4fo27b.jpg">
+        <shortdescription>contenedor vacío con varias marcas</shortdescription>
+      </image>
+      <image source="svg-source/2nbvfaho170kaoqtvqawxct41oa5">
+        <shortdescription>contenedor vacío con marcas en litros y en medios litros, hasta 4 litros y medio.</shortdescription>
+      </image>
+  </sidebyside>
+  <image source="svg-source/x2jxvwrk50onpq9ibpi9uh00m23u">
+        <shortdescription>regla con marcas en pulgadas y en medias pulgadas.</shortdescription>
+      </image>
+  <ol>
+    <li>
+      <p>El recipiente de cada imagen está marcado en litros. Encuentra el volumen del líquido.</p>
+      <sbsgroup widths="45% 45%">
+        <sidebyside>
+          <stack>
+            <p>
+              A
+            </p>
+            <image source="jpg-source/4rsulbrfpp2ozroswo6r0d4fci2f.jpg">
+              <shortdescription>contenedor con líquido hasta la tercera marca</shortdescription>
+            </image>
+          </stack>
+          <stack>
+            <p>
+              B
+            </p>
+            <image source="jpg-source/flzj7nojksbjs6jjh9ec5tw5wc3t.jpg">
+              <shortdescription>contenedor con líquido hasta la quinta marca</shortdescription>
+            </image>
+          </stack>
+        </sidebyside>
+        <sidebyside>
+          <stack>
+            <p>
+              C
+            </p>
+            <image source="svg-source/wnb5zjtxtcp9dh7bhbvlqpva0e3t">
+              <shortdescription>contenedor con líquido hasta la segunda marca</shortdescription>
+            </image>
+          </stack>
+          <stack>
+            <p>
+              D
+            </p>
+            <image source="svg-source/i8pwg5fxs8ye7vh4cjkxaodrqp19">
+              <shortdescription>contenedor con líquido hasta la marca entre 6 y 8 litros</shortdescription>
+            </image>
+          </stack>
+        </sidebyside>
+        <sidebyside>
+          <stack>
+            <p>
+              E
+            </p>
+            <image source="svg-source/62w3b1hclo44rkohsfj96qzoqbzs">
+              <shortdescription>contenedor con líquido hasta la marca entre 3 y 4 litros</shortdescription>
+            </image>
+          </stack>
+          <stack>
+            <p>
+              F
+            </p>
+            <image source="svg-source/4t8c0zsxzv8x92707oy17my883tg">
+              <shortdescription>contenedor con líquido hasta la décima marca</shortdescription>
+            </image>
+          </stack>
+        </sidebyside>
+        <sidebyside>
+          <stack>
+            <p>
+              G
+            </p>
+            <image source="svg-source/jnsm18lyv6hu72pyerpv603at55x">
+              <shortdescription>contenedor con líquido hasta la marca de 18 litros</shortdescription>
+            </image>
+          </stack>
+          <stack>
+            <p>
+              H
+            </p>
+            <image source="svg-source/b8tyt49k8ad8iv0yvf1xnj5olyxc">
+              <shortdescription>contenedor con líquido hasta la marca 1 y 3/4 de litro</shortdescription>
+            </image>
+          </stack>
+        </sidebyside>
+      </sbsgroup>
+    </li>
+    <li>
+      <p>Sombrea las imágenes de los recipientes vacíos para mostrar el volumen líquido.</p>
+      <sbsgroup widths="45% 45%">
+        <sidebyside>
+          <stack>
+            <p>P: 1 litro</p>
+            <image source="svg-source/fof5s5nqocpvxx1xiggobwxqadqu">
+              <shortdescription>contenedor vacío con marcas en litros que van de 2 en 2</shortdescription>
+            </image>
+          </stack>
+          <stack>
+            <p>Q: 8 litros</p>
+            <image source="svg-source/0dgiirv2f9ak4s6tdufaeerw1q3l">
+              <shortdescription>contenedor vacío con marcas en litros que van de 2 en 2</shortdescription>
+            </image>
+          </stack>
+        </sidebyside>
+        <sidebyside>
+          <stack>
+            <p>R: 7 litros</p>
+            <image source="svg-source/4cu2cgi4n0v6o0b3zwehvfaefgod">
+              <shortdescription>contenedor vacío con marcas en litros que van de 5 en 5</shortdescription>
+            </image>
+          </stack>
+          <stack>
+            <p>S: <m>2\frac{1}{2}</m> litros</p>
+            <image source="svg-source/dz1ln1sf5tp2ub3ss5om5awn61q0">
+              <shortdescription>contenedor vacío con marcas en litros y medios litros</shortdescription>
+            </image>
+          </stack>
+        </sidebyside>
+        <sidebyside margins="2.5% 50%">
+          <stack>
+            <p>T: 23 litros</p>
+            <image source="svg-source/c1kgbpp3awz4l1o86kzzv15igyy3">
+              <shortdescription>contenedor vacío con marcas en litros que van de 5 en 5</shortdescription>
+            </image>
+          </stack>          
+        </sidebyside>
+      </sbsgroup>
+    </li>
+    <li>
+      <p>Si te queda tiempo: Entre todos los recipientes de esta actividad, ¿cuáles dos tienen la mayor cantidad de líquido? ¿Cuántos litros obtendrías si combinaras el líquido que hay en ambos? Explica o muestra cómo razonaste.</p>
+    </li>
+  </ol>
 </statement>
 
 <solution>
-  <p>[@@@@@@@@@]</p>
+  <p>[++++++++++++++++]</p>
+  <ol>
+    <li>
+      <ol marker="A.">
+        <li>
+          <p>3 liters</p>
+        </li>
+        <li><p>5 liters</p></li>
+        <li><p>2 liters</p></li>
+        <li><p>7 liters</p></li>
+        <li><p><m>3\frac{1}{2}</m> liters</p></li>
+        <li><p>10 liters</p></li>
+        <li><p>18 liters</p></li>
+        <li><p><m>1\frac{3}{4}</m> liters</p></li>
+      </ol>
+    </li>
+    <li>
+      <p>Each container is shaded up to the specified mark (1 liter for P, 8 liters for Q, 7 liters for R, <m>2\frac{1}{2}</m> liters for S, and 23 liters for T).</p>
+    </li>
+    <li>
+      <p>If you have time: G and T have the most liquids: 18 liters and 23 liters. Combining them would give 41 liters, because <m>18+23=41</m>.</p>
+    </li>
+  </ol>
 </solution>
 
 
@@ -24,21 +180,7 @@
     <ul>
       <li> 
         <custom ref="ccss-addressing"/>
-        [@@@@@@@@@]
-        <!-- <xref ref="ccss-2-MD" text="custom">2.MD</xref>,  -->
-        <!-- <xref ref="ccss-2-OA-C-4" text="custom">2.OA.C.4</xref> -->
-      </li>
-      <li>
-        <custom ref="ccss-buildingOn"/>
-        [@@@@@@@@@]
-        <!-- <xref ref="ccss-2-MD" text="custom">2.MD</xref>,  -->
-        <!-- <xref ref="ccss-2-OA-C-4" text="custom">2.OA.C.4</xref> -->
-      </li>
-      <li>
-        <custom ref="ccss-buildingTowards"/>
-        [@@@@@@@@@]
-        <!-- <xref ref="ccss-2-MD" text="custom">2.MD</xref>,  -->
-        <!-- <xref ref="ccss-2-OA-C-4" text="custom">2.OA.C.4</xref> -->
+        <xref ref="ccss-3-MD-A-2" text="custom">3.MD.A.2</xref>
       </li>
     </ul>
   </paragraphs>
@@ -46,36 +188,53 @@
   <!-- Tiempo recomendado -->
   <paragraphs>
     <title><custom ref="recommended-time-titulo"/></title>
-    <p>[@@@@@@@@@] minutos</p>
+    <p>20 minutos</p>
   </paragraphs>
 
   <!-- Introducción de la actividad -->
   <paragraphs>
     <title><custom ref="narrative-actividad-titulo"/></title>
-    <p>[@@@@@@@@@]</p>
-  </paragraphs>
-
-
-  <!-- Materiales requeridos de la actividad -->
-  <paragraphs>
-    <title><custom ref="materials-actividad-titulo"/></title>
-    <p>[mmmmmmmmmm]</p>
-    <!-- si hay materiales, crear los archivos -mat.ptx (para materiales de la actividad) y -matCentros.ptx (para mencionar los otros centros que se usan y para los que se necesitan materiales) y poner los materiales ahí usando los archivos de template. Después hacer xinclude  de estos archivos en la lista de materiales de la lección.-->
-    <!-- <xi:include href="./act-medirVolumenesLiquidos-mat.ptx"/>  -->
-    <!-- <xi:include href="./act-medirVolumenesLiquidos-matCentros.ptx"/>  -->
+    <p>[++++++++++++++++]</p>
+    <p>The purpose of this activity is for students to measure liquid volume using liters. Students compare the liter marks on a container for measuring liquid volume to the marks on a ruler before they use images of containers marked in liters to determine or show the volume of liquid in each container.</p>
   </paragraphs>
 
   <!-- Launch -->
   <paragraphs>
     <title><custom ref="launch-titulo"/></title>
-    <p>[@@@@@@@@@]</p>
+    <p>[++++++++++++++++]</p>
+    <ul>
+      <li>
+        <p>Groups of 2</p>
+      </li>
+      <li><p>Display the images.</p></li>
+      <li><p><q>¿Qué observan? ¿Qué se preguntan?</q> (Students may notice: The ruler and the containers have marks for measuring. The marks on the ruler go side to side, but the marks on the container go up and down. They both show zero, but on the ruler there is a zero mark and for the container it’s just the bottom. Students may wonder: What is the diagram supposed to be? Could we use a ruler to measure liquid volume?)</p></li>
+      <li><p>1 minute: quiet think time</p></li>
+      <li><p>1 minute: partner discussion</p></li>
+      <li><p>Share and record responses.</p></li>
+      <li><p><q>¿En qué se parecen las marcas del recipiente y las marcas de la regla? ¿En qué son diferentes?</q> (They are all used to measure. The ruler measures length, but the containers measure volume. The scale on the containers is vertical, but the ruler is horizontal.)</p></li>
+      <li><p>1 minute: partner discussion</p></li>
+      <li><p>Share responses.</p></li>
+      <li><p>If no students mention the zero mark, ask <q>¿En qué parte de los recipientes está el cero?</q></p></li>
+    </ul>
   </paragraphs>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
   <paragraphs>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
-    <p>[@@@@@@@@@]</p>
+    <p>[++++++++++++++++]</p>
+    <ul>
+      <li><p><q>El recipiente de cada imagen está marcado en litros. Con su compañero, encuentren el volumen si se muestra el líquido y muestren el líquido si les dan el volumen.</q></p></li>
+      <li><p>7–10 minutes: partner work time</p></li>
+      <li><p>If students finish early, have them answer the following questions:</p>
+        <ul>
+          <li>
+            <p><q>¿Cuántos litros obtendrían si combinaran los dos recipientes que tienen la mayor cantidad de líquido? Muestren o expliquen cómo razonaron</q></p>
+          </li>
+          <li><p><q>Encuentren una combinación de volúmenes líquidos que pueda llenar el recipiente más grande hasta la marca superior</q></p></li>
+        </ul>
+      </li>
+    </ul>
   </paragraphs>
 
 </prelude>
@@ -89,28 +248,39 @@
   <!-- Estrategias de apoyo para estudiantes con dificultades -->
   <paragraphs>
     <title><custom ref="support-actividad-titulo"/></title>
-    <p>[@@@@@@@@@]</p>
+    <p>[++++++++++++++++]</p>
+    <p>If students interpret the shorter tick marks on the container as fractional amounts, consider asking:</p>
+    <ul>
+      <li>
+        <p><q>Mira las marcas del recipiente D. ¿Qué número está en la mitad entre 2 y 4 o en la mitad entre 4 y 6?</q></p>
+      </li>
+      <li>
+        <p><q>Mira las marcas del recipiente F. Hay 4 marcas entre 10 y 15 que están separadas por la misma distancia. ¿Qué números podrían representar?</q></p>
+      </li>
+    </ul>
   </paragraphs>
 
 
   <!-- Síntesis de la actividad -->
   <paragraphs>
     <title><custom ref="synthesis-actividad-titulo"/></title>
-    <p>[@@@@@@@@@]</p>
+    <p>[++++++++++++++++]</p>
+    <ul>
+      <li>
+        <p><q>Si el nivel del líquido estaba entre dos números, ¿cómo averiguaron lo que representaban las marcas?</q> (I thought about what was between the numbers. I knew that 7 was between 6 and 8, but <m>3\frac{1}{2}</m> is between 3 and 4. For the last one, I saw that the numbers went up by 5, so I thought each mark would be a liter.)</p>
+      </li>
+    </ul>
+    
   </paragraphs>
-
-
-  <!-- Descripción del desarrollo de lenguaje matemático -->
-  <paragraphs>
-    <title><custom ref="language-actividad-titulo"/></title>
-    <p>[@@@@@@@@@]</p>
-  </paragraphs>
-
 
   <!-- Estrategias de acceso para estudiantes con discapacidades -->
   <paragraphs>
     <title><custom ref="accesibility-actividad-titulo"/></title>
-    <p>[@@@@@@@@@]</p>
+    <p>[++++++++++++++++]</p>
+    <p><em>Engagement: Provide Access by Recruiting Interest.</em> Leverage choice around perceived challenge. Invite students to select 6 out of the 8 parts of problem 1 and 3 out of the 5 parts of problem 2 to complete.</p>
+    <p>
+      <em>Supports accessibility for: Organization, Attention, Social-emotional skills</em>
+    </p>
   </paragraphs>
 
 </postlude>

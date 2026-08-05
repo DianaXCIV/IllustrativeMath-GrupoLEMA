@@ -2,22 +2,70 @@
 
 <activity xml:id="act-soloUnRelojEnLaPared" xmlns:xi="http://www.w3.org/2001/XInclude"> 
 
-<title>[@@@@@@@@@]</title>
+<title>Solo un reloj en la pared</title>
 
 <statement>
-  <p>[@@@@@@@@@]</p>
+  <ol>
+    <li>
+      <sidebyside widths="55% 40%" margins="0% 3%">
+        <stack>
+          <p>Lin dice que la hora que muestra el reloj es la 1:37 p.m.</p>
+          <p>Diego dice que la hora es la 1:35 p.m.</p>
+          <p>¿Con quién estás de acuerdo? Explica o muestra tu razonamiento.</p>
+        </stack>
+        <image source="svg-source/tikz-file-152794">
+          <shortdescription>reloj mostrando la 1:37</shortdescription>
+        </image>
+      </sidebyside>
+    </li>
+    <li>
+      <p>¿Qué hora muestra cada reloj?</p>
+      <sbsgroup widths="45% 45%">
+        <sidebyside>
+          <stack>
+            <p>A</p>
+            <image source="svg-source/tikz-file-150169">
+              <shortdescription>reloj marcando la 1:09</shortdescription>
+            </image>
+          </stack>
+          <stack>
+            <p>B</p>
+            <image source="svg-source/tikz-file-150170">
+              <shortdescription>reloj marcando las 11:11</shortdescription>
+            </image>
+          </stack>
+        </sidebyside>
+        <sidebyside>
+          <stack>
+            <p>C</p>
+            <image source="svg-source/tikz-file-150171">
+              <shortdescription>reloj marcando las 8:37</shortdescription>
+            </image>
+          </stack>
+          <stack>
+            <p>D</p>
+            <image source="svg-source/tikz-file-150172">
+              <shortdescription>reloj marcando las 7:58</shortdescription>
+            </image>
+          </stack>
+        </sidebyside>
+      </sbsgroup>
+    </li>
+  </ol>
+  
 </statement>
 
 <solution>
     <p>[+++++++++++++++]</p>
     <ol>
       <li><p>Sample response: I agree with Lin. The hour hand is between 1 and 2, so the hour is 1. The minute hand is not at the 7. It is 2 of the little tick marks past the 7. The minute hand would be at the 7 if it were 1:35, so it's 2 more minutes to where the minute hand is.</p></li>
-      <li><ol>
-<li>1:09</li>
-<li>11:11</li>
-<li>8:37</li>
-<li>7:58</li>
-</ol>
+      <li>
+        <ol>
+          <li>1:09</li>
+          <li>11:11</li>
+          <li>8:37</li>
+          <li>7:58</li>
+        </ol>
       </li>
     </ol>
   </solution>
@@ -34,21 +82,7 @@
     <ul>
       <li> 
         <custom ref="ccss-addressing"/>
-        [@@@@@@@@@]
-        <!-- <xref ref="ccss-2-MD" text="custom">2.MD</xref>,  -->
-        <!-- <xref ref="ccss-2-OA-C-4" text="custom">2.OA.C.4</xref> -->
-      </li>
-      <li>
-        <custom ref="ccss-buildingOn"/>
-        [@@@@@@@@@]
-        <!-- <xref ref="ccss-2-MD" text="custom">2.MD</xref>,  -->
-        <!-- <xref ref="ccss-2-OA-C-4" text="custom">2.OA.C.4</xref> -->
-      </li>
-      <li>
-        <custom ref="ccss-buildingTowards"/>
-        [@@@@@@@@@]
-        <!-- <xref ref="ccss-2-MD" text="custom">2.MD</xref>,  -->
-        <!-- <xref ref="ccss-2-OA-C-4" text="custom">2.OA.C.4</xref> -->
+        <xref ref="ccss-3-MD-A-1" text="custom">3.MD.A.1</xref>
       </li>
     </ul>
   </paragraphs>
@@ -64,16 +98,6 @@
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this activity is for students to tell and write time to the nearest minute. They learn that there are 60 small tick marks around the clock to show each of the 60 minutes in 1 hour. The work here gives students a reason to attend to the features of the clock and use them to tell time more precisely (MP6). The synthesis provides an opportunity to discuss how the clock does not indicate whether the time is a.m. or p.m.</p>
-  </paragraphs>
-
-
-  <!-- Materiales requeridos de la actividad -->
-  <paragraphs>
-    <title><custom ref="materials-actividad-titulo"/></title>
-    <p>[mmmmmmmmmm]</p>
-    <!-- si hay materiales, crear los archivos -mat.ptx (para materiales de la actividad) y -matCentros.ptx (para mencionar los otros centros que se usan y para los que se necesitan materiales) y poner los materiales ahí usando los archivos de template. Después hacer xinclude  de estos archivos en la lista de materiales de la lección.-->
-    <!-- <xi:include href="./act-soloUnRelojEnLaPared-mat.ptx"/>  -->
-    <!-- <xi:include href="./act-soloUnRelojEnLaPared-matCentros.ptx"/>  -->
   </paragraphs>
 
   <!-- Launch -->
@@ -108,10 +132,11 @@
         <q>Con su compañero, decidan qué hora muestra cada uno de estos relojes</q>
       </li>
       <li>2-3 minutes: partner work time</li>
-      <li><p>Monitor for different ways that students determine the minutes, such as:</p><ul>
-<li>Counting by 5 and then by 1</li>
-<li>Starting at a time they know and counting on or back</li>
-</ul>
+      <li><p>Monitor for different ways that students determine the minutes, such as:</p>
+        <ul>
+          <li>Counting by 5 and then by 1</li>
+          <li>Starting at a time they know and counting on or back</li>
+        </ul>
       </li>
     </ul>
   </paragraphs>
@@ -129,7 +154,7 @@
     <title><custom ref="support-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>If students tell the time to the nearest 5 minutes, consider asking:</p>
-<ul>
+    <ul>
       <li>
         <q>Cuéntame cómo encontraste la hora</q>
       </li>
@@ -146,12 +171,11 @@
     <p>[+++++++++++++++]</p>
     <ul>
       <li>Invite students to share how they knew the time on each clock. Emphasize strategies for telling time to the nearest minute.</li>
-      <li><p>Consider asking:</p><ul>
-<li>
-<q>¿Hubo algunas horas que al principio los confundieron o que fueron más difíciles de leer?</q> (On the fourth clock, I thought the hour might be 8.)</li>
-<li>
-<q>¿Alguien tiene sugerencias sobre cómo leer algunas de las horas que pueden crear confusión?</q></li>
-</ul>
+      <li><p>Consider asking:</p>
+        <ul>
+          <li><q>¿Hubo algunas horas que al principio los confundieron o que fueron más difíciles de leer?</q> (On the fourth clock, I thought the hour might be 8.)</li>
+          <li><q>¿Alguien tiene sugerencias sobre cómo leer algunas de las horas que pueden crear confusión?</q></li>
+        </ul>
       </li>
       <li>If not mentioned by students, ask: 
         <q>¿Pudieron saber si la hora en el reloj era a.m. o p.m.?</q>  (No, the clock doesn’t tell us whether it is a.m. or p.m., we’d need more information to know that.)
@@ -163,14 +187,22 @@
   <!-- Descripción del desarrollo de lenguaje matemático -->
   <paragraphs>
     <title><custom ref="language-actividad-titulo"/></title>
-    <p>[@@@@@@@@@]</p>
+    <p>[++++++++++++++++]</p>
+    <p><em>MLR8 Discussion Supports.</em> Synthesis: Create a visual display of a clock. As students share their strategies, annotate the display to illustrate connections. For example, next to each number or tick mark, write the minutes the student indicates.</p>
+    <p>
+      <em>Advances: Speaking, Representing</em>
+    </p>
   </paragraphs>
 
 
   <!-- Estrategias de acceso para estudiantes con discapacidades -->
   <paragraphs>
     <title><custom ref="accesibility-actividad-titulo"/></title>
-    <p>[@@@@@@@@@]</p>
+    <p>[++++++++++++++++]</p>
+    <p><em>Engagement: Provide Access by Recruiting Interest.</em> Provide choice and autonomy. Provide access to colored pencils for students to color the minute hand one color and the hour hand a different color so they can determine the time on each clock.</p>
+    <p>
+      <em>Supports accessibility for: Attention</em>
+    </p>
   </paragraphs>
 
 </postlude>

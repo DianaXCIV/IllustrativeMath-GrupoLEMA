@@ -7,14 +7,35 @@
 ===========================================================================  -->
 <exploration xml:id="warm-converNum-dividamosEntre3" xmlns:xi="http://www.w3.org/2001/XInclude"> 
 
-<title>[@@@@@@@@@]</title>
+<title>Conversación numérica: Dividamos entre 3</title>
 
 <statement>
-  <p>[@@@@@@@@@]</p>
+  <p>Encuentra mentalmente el valor de cada expresión.</p>
+  <ul>
+    <li>
+      <p><m>30\div 3</m></p>
+    </li>
+    <li><p><m>60\div 3</m></p></li>
+    <li><p><m>63\div 3</m></p></li>
+    <li><p><m>54\div 3</m></p></li>
+  </ul>
 </statement>
 
 <solution>
-  <p>[@@@@@@@@@]</p>
+  <ul>
+    <li>
+      <p>10: I counted by 10. I knew that <m>3\times 10</m> is 30.</p>
+    </li>
+    <li>
+      <p>20: I knew that 10 groups of 3 makes 30 so you would need 10 more groups of 3 to make 60, so the quotient is 20.</p>
+    </li>
+    <li>
+      <p>21: I knew that 20 groups of 3 is 60. One more group of 3 would make 63, so it would be 21 groups.</p>
+    </li>
+    <li>
+      <p>18: I knew that 20 groups of 3 is 60. So, 19 groups of 3 would be 57 and 18 groups of 3 would be 54.</p>
+    </li>
+  </ul>
 </solution>
 
 
@@ -29,21 +50,7 @@
     <ul>
       <li> 
         <custom ref="ccss-addressing"/>
-        [@@@@@@@@@]
-        <!-- <xref ref="ccss-2-MD" text="custom">2.MD</xref>,  -->
-        <!-- <xref ref="ccss-2-OA-C-4" text="custom">2.OA.C.4</xref> -->
-      </li>
-      <li>
-        <custom ref="ccss-buildingOn"/>
-        [@@@@@@@@@]
-        <!-- <xref ref="ccss-2-MD" text="custom">2.MD</xref>,  -->
-        <!-- <xref ref="ccss-2-OA-C-4" text="custom">2.OA.C.4</xref> -->
-      </li>
-      <li>
-        <custom ref="ccss-buildingTowards"/>
-        [@@@@@@@@@]
-        <!-- <xref ref="ccss-2-MD" text="custom">2.MD</xref>,  -->
-        <!-- <xref ref="ccss-2-OA-C-4" text="custom">2.OA.C.4</xref> -->
+        <xref ref="ccss-3-OA-C-7" text="custom">3.OA.C.7</xref>
       </li>
     </ul>
   </paragraphs>
@@ -51,32 +58,41 @@
   <!-- Tiempo recomendado -->
   <paragraphs>
     <title><custom ref="recommended-time-titulo"/></title>
-    <p>[@@@@@@@@@] minutos</p>
+    <p>10 minutos</p>
   </paragraphs>
 
   <!-- Introducción de la actividad -->  
   <paragraphs>
     <title><custom ref="narrative-actividad-titulo"/></title>
-    <p>[@@@@@@@@@]</p>
-  </paragraphs>
-
-  <!-- Materiales requeridos de la actividad -->
-  <paragraphs>
-    <title><custom ref="materials-actividad-titulo"/></title>
-    <p>[mmmmmmmmmm]</p>
-    <!-- <xi:include href="./warm-converNum-dividamosEntre3-mat.ptx"/>  -->
+    <p>[++++++++++++++++]</p>
+    <p>The purpose of this Number Talk is to elicit strategies and understandings students have for dividing within 100 and to help students develop fluency.</p>
+    <p>When students use known multiplication and division facts to divide larger numbers, they look for and make use of structure (MP7).</p>
   </paragraphs>
 
   <!-- Launch -->
   <paragraphs>
     <title><custom ref="launch-titulo"/></title>
-    <p>[@@@@@@@@@]</p>
+    <p>[++++++++++++++++]</p>
+    <ul>
+      <li>
+        <p>Display one expression.</p>
+      </li>
+      <li><p><q>Hagan una señal cuando tengan una respuesta y puedan explicar cómo la obtuvieron</q></p></li>
+      <li><p>1 minute: quiet think time</p></li>
+    </ul>
   </paragraphs>
 
   <!-- Instrucciones para el desarrollo de la actividad -->
   <paragraphs>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
-    <p>[@@@@@@@@@]</p>
+    <p>[++++++++++++++++]</p>
+    <ul>
+      <li>
+        <p>Record answers and strategy.</p>
+      </li>
+      <li><p>Keep expressions and work displayed.</p></li>
+      <li><p>Repeat with each expression.</p></li>
+    </ul>
   </paragraphs>
 
 </prelude>
@@ -87,29 +103,11 @@
 ===================================================================  -->
 <postlude component="profesor">
 
-  <!-- Estrategias de apoyo para estudiantes con dificultades -->
-  <paragraphs>
-    <title><custom ref="support-actividad-titulo"/></title>
-    <p>[@@@@@@@@@]</p>
-  </paragraphs>
-
   <!-- Síntesis de la actividad -->
   <paragraphs>
     <title><custom ref="synthesis-actividad-titulo"/></title>
-    <p>[@@@@@@@@@]</p>
-  </paragraphs>
-
-
-  <!-- Descripción del desarrollo de lenguaje matemático -->
-  <paragraphs>
-    <title><custom ref="language-actividad-titulo"/></title>
-    <p>[@@@@@@@@@]</p>
-  </paragraphs>
-
-  <!-- Estrategias de acceso para estudiantes con discapacidades -->
-  <paragraphs>
-    <title><custom ref="accesibility-actividad-titulo"/></title>
-    <p>[@@@@@@@@@]</p>
+    <p>[++++++++++++++++]</p>
+    <p><q>¿Cómo usaron los hechos de división que ya conocen para encontrar algunos de los otros cocientes?</q> (I knew that <m>60\div 3</m> would be double the answer of <m>30\div 3</m>. Once I knew <m>60\div 3</m>, I was able to find <m>63\div 3</m> by adding another group of 3 and <m>54\div 3</m> by taking groups of 3 away.)</p>
   </paragraphs>
 
 </postlude>

@@ -6,17 +6,42 @@
 ===============================================================  -->
 <project xml:id="cool-tiemposAquellos" xmlns:xi="http://www.w3.org/2001/XInclude"> 
 
-<title>[@@@@@@@@@]</title>
+<title>Tiempos aquellos</title>
 
 <statement>
-  <p>[@@@@@@@@@]</p>
+  <ol cols="2">
+    <li>
+      <p>¿Qué hora se muestra? <fillin characters="15" /></p>
+      <image source="svg-source/tikz-file-151235">
+        <shortdescription>reloj marcando las 6:22</shortdescription>
+      </image>
+    </li>
+    <li>
+      <p>Muestra las 10:13 a.m. en el reloj.</p>
+      <image source="svg-source/tikz-file-151236">
+        <shortdescription>reloj en blanco</shortdescription>
+      </image>
+    </li>
+  </ol>
 </statement>
 
 <solution>
     <p>[+++++++++++++++]</p>
-    <p>[@@@@@@@@] WARNING: Fix Image.</p>
-<p>[@@@@@@@@] WARNING: Fix Image.</p>
-<p>[@@@@@@@@] WARNING: Fix Image.</p>
+    <ol>
+      <li>
+        <p>6:22</p>
+      </li>
+      <li>
+        <p>
+          <line></line>
+          <line>
+            <image source="svg-source/tikz-file-134593">
+              <shortdescription>reloj marcando las 10:13</shortdescription>
+            </image>
+          </line>
+        </p>
+      </li>
+    </ol>
   </solution>
 
 
@@ -28,21 +53,9 @@
   <paragraphs>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
-      <li>
+      <li> 
         <custom ref="ccss-addressing"/>
-        [@@@@@@@@@@]
-        <!-- <xref ref="ccss-3-OA-A-3" text="custom">3.OA.A.3</xref> -->
-      </li>
-      <li>
-        <custom ref="ccss-buildingOn"/>
-        [@@@@@@@@@@]
-        <!-- <xref ref="ccss-3-OA-A-3" text="custom">3.OA.A.3</xref> -->
-      </li>
-      <li>
-        <custom ref="ccss-buildingTowards"/>
-        [@@@@@@@@@]
-        <!-- <xref ref="ccss-2-MD" text="custom">2.MD</xref>,  -->
-        <!-- <xref ref="ccss-2-OA-C-4" text="custom">2.OA.C.4</xref> -->
+        <xref ref="ccss-3-MD-A-1" text="custom">3.MD.A.1</xref>
       </li>
     </ul>
   </paragraphs>
@@ -57,14 +70,16 @@
   <!-- Posibles errores -->
   <paragraphs>
     <title><custom ref="errores-cool-titulo"/></title>
-    <p>[@@@@@@@@@]</p>
+    <p>[++++++++++++++++]</p>
+    <p>Students do not tell or write time to the nearest minute, only the nearest 5 minutes.</p>
   </paragraphs>
 
 
   <!-- Estrategia de apoyo si muchos estudiantes respondieron incorrectamente -->
   <paragraphs>
     <title><custom ref="apoyo-cool-titulo"/></title>
-    <p>[@@@@@@@@@]</p>
+    <p>[++++++++++++++++]</p>
+    <p>Before the warm-up, invite students to work in small groups to discuss a correct response to this cool-down.</p>
   </paragraphs>
 
 </postlude>
