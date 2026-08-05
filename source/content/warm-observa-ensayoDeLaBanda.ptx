@@ -7,22 +7,32 @@
 ===========================================================================  -->
 <exploration xml:id="warm-observa-ensayoDeLaBanda" xmlns:xi="http://www.w3.org/2001/XInclude"> 
 
-<title>[@@@@@@@@@]</title>
+<title>Observa y pregúntate: Ensayo de la banda</title>
 
 <statement>
-  <p>[@@@@@@@@@]</p>
+  <p>¿Qué observas? ¿Qué te preguntas?</p>
+  <sidebyside margins="10% 10%">
+    <p><line>Han cenó antes de tomar el bus.</line>
+      <line>Cuando bajó del bus, tuvo que apurarse para llegar a tiempo al ensayo de la banda.</line>      
+    </p>
+  </sidebyside>
+  <sidebyside margins="70% 0%">
+    <image source="png-source/CS 3.6 Lesson 11.png" component="web">
+      <shortdescription>bus</shortdescription>
+    </image>
+  </sidebyside>
 </statement>
 
 <solution>
     <p>[+++++++++++++++]</p>
     <p>Students may notice:</p>
-<ul>
+    <ul>
       <li>Han was on the bus for some amount of time.</li>
       <li>Han had band practice after dinner.</li>
       <li>Han was almost late to band practice.</li>
     </ul>
-<p>Students may wonder:</p>
-<ul>
+    <p>Students may wonder:</p>
+    <ul>
       <li>How long was Han on the bus?</li>
       <li>What time did Han eat dinner?</li>
       <li>What time does band practice start?</li>
@@ -41,21 +51,7 @@
     <ul>
       <li> 
         <custom ref="ccss-addressing"/>
-        [@@@@@@@@@]
-        <!-- <xref ref="ccss-2-MD" text="custom">2.MD</xref>,  -->
-        <!-- <xref ref="ccss-2-OA-C-4" text="custom">2.OA.C.4</xref> -->
-      </li>
-      <li>
-        <custom ref="ccss-buildingOn"/>
-        [@@@@@@@@@]
-        <!-- <xref ref="ccss-2-MD" text="custom">2.MD</xref>,  -->
-        <!-- <xref ref="ccss-2-OA-C-4" text="custom">2.OA.C.4</xref> -->
-      </li>
-      <li>
-        <custom ref="ccss-buildingTowards"/>
-        [@@@@@@@@@]
-        <!-- <xref ref="ccss-2-MD" text="custom">2.MD</xref>,  -->
-        <!-- <xref ref="ccss-2-OA-C-4" text="custom">2.OA.C.4</xref> -->
+        <xref ref="ccss-3-MD-A-1" text="custom">3.MD.A.1</xref>
       </li>
     </ul>
   </paragraphs>
@@ -70,14 +66,7 @@
   <paragraphs>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
-    <p>The purpose of this warm-up is to elicit the idea that many different questions could be asked about this situation involving time, which will be useful when students solve problems in a later activity. </p>
-  </paragraphs>
-
-  <!-- Materiales requeridos de la actividad -->
-  <paragraphs>
-    <title><custom ref="materials-actividad-titulo"/></title>
-    <p>[mmmmmmmmmm]</p>
-    <!-- <xi:include href="./warm-observa-ensayoDeLaBanda-mat.ptx"/>  -->
+    <p>The purpose of this warm-up is to elicit the idea that many different questions could be asked about this situation involving time, which will be useful when students solve problems in a later activity.</p>
   </paragraphs>
 
   <!-- Launch -->
@@ -115,38 +104,18 @@
 ===================================================================  -->
 <postlude component="profesor">
 
-  <!-- Estrategias de apoyo para estudiantes con dificultades -->
-  <paragraphs>
-    <title><custom ref="support-actividad-titulo"/></title>
-    <p>[+++++++++++++++]</p>
-    <p>=== NOT PRESENT ===</p>
-  </paragraphs>
-
   <!-- Síntesis de la actividad -->
   <paragraphs>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
       <li>
-        <q>Agreguémosle tiempos a la situación de Han. ¿Qué tiempos podríamos agregar?</q>  (The time he started or finished dinner. The amount of time he was on the bus. How long he waited for the bus. The time his band practice started.)
+        <q>Agreguémosle tiempos a la situación de Han. ¿Qué tiempos podríamos agregar?</q> (The time he started or finished dinner. The amount of time he was on the bus. How long he waited for the bus. The time his band practice started.)
       </li>
       <li>
         <q>¿Qué tipo de preguntas podríamos hacer sobre esta situación?</q>
       </li>
     </ul>
-  </paragraphs>
-
-
-  <!-- Descripción del desarrollo de lenguaje matemático -->
-  <paragraphs>
-    <title><custom ref="language-actividad-titulo"/></title>
-    <p>[@@@@@@@@@]</p>
-  </paragraphs>
-
-  <!-- Estrategias de acceso para estudiantes con discapacidades -->
-  <paragraphs>
-    <title><custom ref="accesibility-actividad-titulo"/></title>
-    <p>[@@@@@@@@@]</p>
   </paragraphs>
 
 </postlude>

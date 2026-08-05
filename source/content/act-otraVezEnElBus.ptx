@@ -2,19 +2,55 @@
 
 <activity xml:id="act-otraVezEnElBus" xmlns:xi="http://www.w3.org/2001/XInclude"> 
 
-<title>[@@@@@@@@@]</title>
+<title>Otra vez en el bus</title>
 
 <statement>
-  <p>[@@@@@@@@@]</p>
+  <ol>
+    <li>
+      <p>¿Durante cuántos minutos estuvo Han en el bus? Explica o muestra tu razonamiento.</p>
+      <sidebyside widths="45% 45%">
+        <stack>
+          <p>la hora a la que Han subió al bus:</p>
+          <image source="svg-source/tikz-file-134610">
+            <shortdescription>reloj marcando las 5:42</shortdescription>
+          </image>
+        </stack>
+        <stack>
+          <p>la hora a la que Han bajó del bus:</p>
+          <image source="svg-source/tikz-file-134611">
+            <shortdescription>reloj marcando las 6:37</shortdescription>
+          </image>
+        </stack>
+      </sidebyside>
+    </li>
+    <li>
+      <p>Dibuja la manecilla de los minutos para mostrar que Elena esperó el bus durante 32 minutos.</p>
+      <sidebyside widths="45% 45%">
+        <stack>
+          <p>la hora a la que Elena empezó a esperar:</p>
+          <image source="svg-source/tikz-file-134612">
+            <shortdescription>reloj con la manecilla de hora en el 6, sin manecilla de minutos.</shortdescription>
+          </image>
+        </stack>
+        <stack>
+          <p>la hora a la que Elena subió al bus:</p>
+          <image source="svg-source/tikz-file-134613">
+            <shortdescription>reloj marcando las 6:36</shortdescription>
+          </image>
+        </stack>
+      </sidebyside>
+    </li>
+  </ol>
 </statement>
 
 <solution>
     <p>[+++++++++++++++]</p>
     <ol>
-      <li><p>55 minutes. Sample responses:</p><ul>
-<li>I counted up 3 minutes from 5:42 to 5:45 and then I did 15 minutes to 6:00, 30 minutes to 6:30, and then 7 minutes to 6:37. <m>15 + 30 = 45</m> and then <m>3 + 7</m> is 10 more.</li>
-<li>I knew that going to 6:42 would be 60 minutes, and then I counted back 5 minutes to 6:37.</li>
-</ul>
+      <li><p>55 minutes. Sample responses:</p>
+        <ul>
+          <li>I counted up 3 minutes from 5:42 to 5:45 and then I did 15 minutes to 6:00, 30 minutes to 6:30, and then 7 minutes to 6:37. <m>15 + 30 = 45</m> and then <m>3 + 7</m> is 10 more.</li>
+          <li>I knew that going to 6:42 would be 60 minutes, and then I counted back 5 minutes to 6:37.</li>
+        </ul>
       </li>
       <li>Draw a minute hand on the clock to show 6:04.</li>
     </ol>
@@ -32,21 +68,7 @@
     <ul>
       <li> 
         <custom ref="ccss-addressing"/>
-        [@@@@@@@@@]
-        <!-- <xref ref="ccss-2-MD" text="custom">2.MD</xref>,  -->
-        <!-- <xref ref="ccss-2-OA-C-4" text="custom">2.OA.C.4</xref> -->
-      </li>
-      <li>
-        <custom ref="ccss-buildingOn"/>
-        [@@@@@@@@@]
-        <!-- <xref ref="ccss-2-MD" text="custom">2.MD</xref>,  -->
-        <!-- <xref ref="ccss-2-OA-C-4" text="custom">2.OA.C.4</xref> -->
-      </li>
-      <li>
-        <custom ref="ccss-buildingTowards"/>
-        [@@@@@@@@@]
-        <!-- <xref ref="ccss-2-MD" text="custom">2.MD</xref>,  -->
-        <!-- <xref ref="ccss-2-OA-C-4" text="custom">2.OA.C.4</xref> -->
+        <xref ref="ccss-3-MD-A-1" text="custom">3.MD.A.1</xref>
       </li>
     </ul>
   </paragraphs>
@@ -68,9 +90,8 @@
   <!-- Materiales requeridos de la actividad -->
   <paragraphs>
     <title><custom ref="materials-actividad-titulo"/></title>
-    <p>[mmmmmmmmmm]</p>
     <!-- si hay materiales, crear los archivos -mat.ptx (para materiales de la actividad) y -matCentros.ptx (para mencionar los otros centros que se usan y para los que se necesitan materiales) y poner los materiales ahí usando los archivos de template. Después hacer xinclude  de estos archivos en la lista de materiales de la lección.-->
-    <!-- <xi:include href="./act-otraVezEnElBus-mat.ptx"/>  -->
+    <xi:include href="./act-otraVezEnElBus-mat.ptx"/>
     <!-- <xi:include href="./act-otraVezEnElBus-matCentros.ptx"/>  -->
   </paragraphs>
 
@@ -85,7 +106,7 @@
         <q>Ahora tenemos más información sobre el viaje de Han en bus al ensayo de la banda</q>
       </li>
       <li>
-        <q>¿A qué hora pudo haber cenando Han? ¿A qué hora piensas que empieza el ensayo de la banda?</q>  (Han could have eaten dinner at 5:00. Band practice might start at 6:45 since we know he had to hurry to get there.)
+        <q>¿A qué hora pudo haber cenando Han? ¿A qué hora piensas que empieza el ensayo de la banda?</q> (Han could have eaten dinner at 5:00. Band practice might start at 6:45 since we know he had to hurry to get there.)
       </li>
       <li>1 minute: partner discussion</li>
       <li>Share responses.</li>
@@ -102,12 +123,11 @@
         <q>Ahora tómense un momento para resolver estos dos problemas</q>
       </li>
       <li>5 minutes: partner work time</li>
-      <li><p>Consider asking:</p><ul>
-<li>
-<q>¿A qué hora <fillin/> sube al bus? o ¿A qué hora <fillin/> baja del bus?</q></li>
-<li>
-<q>¿Cómo podrían mostrar sus ideas en el reloj?</q></li>
-</ul>
+      <li><p>Consider asking:</p>
+        <ul>
+          <li><q>¿A qué hora <fillin/> sube al bus? o ¿A qué hora <fillin/> baja del bus?</q></li>
+          <li><q>¿Cómo podrían mostrar sus ideas en el reloj?</q></li>
+        </ul>
       </li>
       <li>Monitor for students who used different strategies to solve the two problems, or those who noticed that the time crossed the hour mark in the first problem but not in the second.</li>
     </ul>
@@ -121,14 +141,6 @@
 ===================================================================  -->
 <postlude component="profesor">
 
-  <!-- Estrategias de apoyo para estudiantes con dificultades -->
-  <paragraphs>
-    <title><custom ref="support-actividad-titulo"/></title>
-    <p>[+++++++++++++++]</p>
-    <p>=== NOT PRESENT ===</p>
-  </paragraphs>
-
-
   <!-- Síntesis de la actividad -->
   <paragraphs>
     <title><custom ref="synthesis-actividad-titulo"/></title>
@@ -136,7 +148,7 @@
     <ul>
       <li>Select previously identified students to share their responses and reasoning.</li>
       <li>
-        <q>Observamos que cuando el tiempo no se pasa de la hora en la que estamos, podemos simplemente sumar o restar el número de minutos, como hicimos aquí con <m>36 - 32=4</m>. Cuando en un problema el tiempo se pasa de la hora, necesitamos asegurarnos de saber en qué hora estamos</q>
+        <q>Observamos que cuando el tiempo no se pasa de la hora en la que estamos, podemos simplemente sumar o restar el número de minutos, como hicimos aquí con <m>36-32=4</m>. Cuando en un problema el tiempo se pasa de la hora, necesitamos asegurarnos de saber en qué hora estamos</q>
       </li>
     </ul>
   </paragraphs>
@@ -145,14 +157,22 @@
   <!-- Descripción del desarrollo de lenguaje matemático -->
   <paragraphs>
     <title><custom ref="language-actividad-titulo"/></title>
-    <p>[@@@@@@@@@]</p>
+    <p>[++++++++++++++++]</p>
+    <p><em>MLR8 Discussion Supports.</em> Synthesis. Display sentence frames to support whole-class discussion: <q>¿Pueden decir algo más sobre...?</q> // <q>Can you say more about...?</q> <q>¿Por qué ustedes...?</q> // <q>Why did you...?</q></p>
+    <p>
+      <em>Advances: Speaking, Representing</em>
+    </p>
   </paragraphs>
 
 
   <!-- Estrategias de acceso para estudiantes con discapacidades -->
   <paragraphs>
     <title><custom ref="accesibility-actividad-titulo"/></title>
-    <p>[@@@@@@@@@]</p>
+    <p>[++++++++++++++++]</p>
+    <p><em>Representation: Develop Language and Symbols.</em> Synthesis: Make connections between representations visible.</p>
+    <p>
+      <em>Supports accessibility for: Conceptual Processing, Memory</em>
+    </p>
   </paragraphs>
 
 </postlude>

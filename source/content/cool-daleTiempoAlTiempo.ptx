@@ -6,10 +6,18 @@
 ===============================================================  -->
 <project xml:id="cool-daleTiempoAlTiempo" xmlns:xi="http://www.w3.org/2001/XInclude"> 
 
-<title>[@@@@@@@@@]</title>
+<title>Dale tiempo al tiempo</title>
 
 <statement>
-  <p>[@@@@@@@@@]</p>
+  <p>Resuelve cada problema. Explica o muestra cómo razonaste.</p>
+  <ol>
+    <li>
+      <p>Jada tuvo una clase de baile el sábado. La clase empezó a las 10:30 a.m. y terminó a las 11:48 a.m. ¿Cuánto duró su clase de baile?</p>
+    </li>
+    <li>
+      <p>Otro día, Jada terminó su clase de baile a las 11:55 a.m. La clase duró 40 minutos. ¿A qué hora empezó su clase?</p>
+    </li>
+  </ol>
 </statement>
 
 <solution>
@@ -29,21 +37,9 @@
   <paragraphs>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
-      <li>
+      <li> 
         <custom ref="ccss-addressing"/>
-        [@@@@@@@@@@]
-        <!-- <xref ref="ccss-3-OA-A-3" text="custom">3.OA.A.3</xref> -->
-      </li>
-      <li>
-        <custom ref="ccss-buildingOn"/>
-        [@@@@@@@@@@]
-        <!-- <xref ref="ccss-3-OA-A-3" text="custom">3.OA.A.3</xref> -->
-      </li>
-      <li>
-        <custom ref="ccss-buildingTowards"/>
-        [@@@@@@@@@]
-        <!-- <xref ref="ccss-2-MD" text="custom">2.MD</xref>,  -->
-        <!-- <xref ref="ccss-2-OA-C-4" text="custom">2.OA.C.4</xref> -->
+        <xref ref="ccss-3-MD-A-1" text="custom">3.MD.A.1</xref>
       </li>
     </ul>
   </paragraphs>
@@ -58,14 +54,16 @@
   <!-- Posibles errores -->
   <paragraphs>
     <title><custom ref="errores-cool-titulo"/></title>
-    <p>[@@@@@@@@@]</p>
+    <p>[++++++++++++++++]</p>
+    <p>Students do not find a solution to problems in which the time crosses the hour.</p>
   </paragraphs>
 
 
   <!-- Estrategia de apoyo si muchos estudiantes respondieron incorrectamente -->
   <paragraphs>
     <title><custom ref="apoyo-cool-titulo"/></title>
-    <p>[@@@@@@@@@]</p>
+    <p>[++++++++++++++++]</p>
+    <p>Before the next day’s warm-up, pass back the cool-down and have students discuss ways to keep track of the time when it crosses the hour.</p>
   </paragraphs>
 
 </postlude>

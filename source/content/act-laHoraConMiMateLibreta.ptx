@@ -2,10 +2,32 @@
 
 <activity xml:id="act-laHoraConMiMateLibreta" xmlns:xi="http://www.w3.org/2001/XInclude"> 
 
-<title>[@@@@@@@@@]</title>
+<title>La hora con mi mate-libreta</title>
 
 <statement>
-  <p>[@@@@@@@@@]</p>
+  <p>En cada problema, llena los espacios con un nombre y una actividad, y luego resuelve el problema. Muestra cómo pensaste. Organiza tus ideas para que los demás puedan entenderlas.</p>
+  <ol>
+    <li>
+      <p>
+        <fillin characters="10" /> empezó <fillin characters="30" /> a las 8:25 a.m. y terminó a las 8:50 a.m. ¿Cuánto tiempo duró esta actividad?
+      </p>
+    </li>
+    <li>
+      <p>
+        <fillin characters="10" /> terminó <fillin characters="30" /> a las 5:38 p.m, después de haber pasado 20 minutos en ello. ¿A qué hora empezó?
+      </p>
+    </li>
+    <li>
+      <p>
+        <fillin characters="10" /> empezó <fillin characters="30" /> a las 10:45 a.m. y terminó a las 11:18 a.m. ¿Cuánto tiempo pasó en la actividad?
+      </p>
+    </li>
+    <li>
+      <p>
+        <fillin characters="10" /> empezó <fillin characters="30" /> a las 3:30 p.m. y se tardó 45 minutos en completar esa actividad. ¿A qué hora terminó?
+      </p>
+    </li>
+  </ol>
 </statement>
 
 <solution>
@@ -30,21 +52,7 @@
     <ul>
       <li> 
         <custom ref="ccss-addressing"/>
-        [@@@@@@@@@]
-        <!-- <xref ref="ccss-2-MD" text="custom">2.MD</xref>,  -->
-        <!-- <xref ref="ccss-2-OA-C-4" text="custom">2.OA.C.4</xref> -->
-      </li>
-      <li>
-        <custom ref="ccss-buildingOn"/>
-        [@@@@@@@@@]
-        <!-- <xref ref="ccss-2-MD" text="custom">2.MD</xref>,  -->
-        <!-- <xref ref="ccss-2-OA-C-4" text="custom">2.OA.C.4</xref> -->
-      </li>
-      <li>
-        <custom ref="ccss-buildingTowards"/>
-        [@@@@@@@@@]
-        <!-- <xref ref="ccss-2-MD" text="custom">2.MD</xref>,  -->
-        <!-- <xref ref="ccss-2-OA-C-4" text="custom">2.OA.C.4</xref> -->
+        <xref ref="ccss-3-MD-A-1" text="custom">3.MD.A.1</xref>
       </li>
     </ul>
   </paragraphs>
@@ -62,16 +70,6 @@
     <p>The purpose of this activity is for students to solve problems involving addition and subtraction of time intervals in minutes. Students fill a name and activity into each problem before they solve it using any representation that makes sense to them. The synthesis draws attention to the different types of problems that have been solved. Students need to read and think carefully about the given information and the unknown, which differ in most of the situations, in order to decide which calculations to perform (MP2).</p>
   </paragraphs>
 
-
-  <!-- Materiales requeridos de la actividad -->
-  <paragraphs>
-    <title><custom ref="materials-actividad-titulo"/></title>
-    <p>[mmmmmmmmmm]</p>
-    <!-- si hay materiales, crear los archivos -mat.ptx (para materiales de la actividad) y -matCentros.ptx (para mencionar los otros centros que se usan y para los que se necesitan materiales) y poner los materiales ahí usando los archivos de template. Después hacer xinclude  de estos archivos en la lista de materiales de la lección.-->
-    <!-- <xi:include href="./act-laHoraConMiMateLibreta-mat.ptx"/>  -->
-    <!-- <xi:include href="./act-laHoraConMiMateLibreta-matCentros.ptx"/>  -->
-  </paragraphs>
-
   <!-- Launch -->
   <paragraphs>
     <title><custom ref="launch-titulo"/></title>
@@ -79,7 +77,7 @@
     <ul>
       <li>Groups of 2</li>
       <li>
-        <q>Hemos resuelto problemas sobre tomar el bus. ¿En qué otras actividades harían seguimiento de la hora al minuto más cercano?</q>  (recess, TV time, baking or cooking time, class time)
+        <q>Hemos resuelto problemas sobre tomar el bus. ¿En qué otras actividades harían seguimiento de la hora al minuto más cercano?</q> (recess, TV time, baking or cooking time, class time)
       </li>
       <li>1 minute: partner discussion</li>
       <li>Share and record responses. Keep displayed for ideas to use in the activity.</li>
@@ -107,14 +105,6 @@
 ===================================================================  -->
 <postlude component="profesor">
 
-  <!-- Estrategias de apoyo para estudiantes con dificultades -->
-  <paragraphs>
-    <title><custom ref="support-actividad-titulo"/></title>
-    <p>[+++++++++++++++]</p>
-    <p>=== NOT PRESENT ===</p>
-  </paragraphs>
-
-
   <!-- Síntesis de la actividad -->
   <paragraphs>
     <title><custom ref="synthesis-actividad-titulo"/></title>
@@ -131,21 +121,6 @@
       <li>Highlight ideas about how the problems had different unknowns (start, end, and time that passed).</li>
     </ul>
   </paragraphs>
-
-
-  <!-- Descripción del desarrollo de lenguaje matemático -->
-  <paragraphs>
-    <title><custom ref="language-actividad-titulo"/></title>
-    <p>[@@@@@@@@@]</p>
-  </paragraphs>
-
-
-  <!-- Estrategias de acceso para estudiantes con discapacidades -->
-  <paragraphs>
-    <title><custom ref="accesibility-actividad-titulo"/></title>
-    <p>[@@@@@@@@@]</p>
-  </paragraphs>
-
 </postlude>
 
 </activity>

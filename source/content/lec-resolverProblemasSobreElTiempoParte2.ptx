@@ -3,7 +3,7 @@
 
 <shorttitle>Lección 11 </shorttitle>
 <title>Lección 11 -<nbsp/></title>
-<title>[@@@@@@@@@]</title>
+<title>Resolvamos problemas sobre el tiempo (parte 2)</title>
 
 
 <!-- ============================================ 
@@ -12,7 +12,7 @@
 
 <!-- Frase resumen para estudiante. Originalmente [Student Facing Goals] -->
 <introduction component="est-goal"> 
-  <p>[@@@@@@@@@]</p>
+  <p>Resolvamos más problemas sobre el tiempo.</p>
 </introduction>
 
 <!-- Objetivos para el estudiante. Originalmente [Student-Facing Targets] -->
@@ -25,7 +25,8 @@
 <!-- Objetivos que solo ve el profesor. Originalmente [Teacher Facing Goals] -->
 <objectives component="profesor">
   <ul>
-    <li>[@@@@@@@@@]</li>
+    <li><p>[++++++++++++++++]</p></li>
+    <li><p>Solve problems involving addition and subtraction of time intervals in minutes.</p></li>
   </ul>
 </objectives>
 
@@ -41,21 +42,7 @@
     <ul>
       <li> 
         <custom ref="ccss-addressing"/>
-        [^^^^^^^^^^^]
-        <!-- <xref ref="ccss-2-MD" text="custom">2.MD</xref>,  -->
-        <!-- <xref ref="ccss-2-OA-C-4" text="custom">2.OA.C.4</xref> -->
-      </li>
-      <li>
-        <custom ref="ccss-buildingOn"/>
-        [^^^^^^^^^^^]
-        <!-- <xref ref="ccss-2-MD" text="custom">2.MD</xref>,  -->
-        <!-- <xref ref="ccss-2-OA-C-4" text="custom">2.OA.C.4</xref> -->
-      </li>
-      <li>
-        <custom ref="ccss-buildingTowards"/>
-        [^^^^^^^^^^^]
-        <!-- <xref ref="ccss-2-MD" text="custom">2.MD</xref>,  -->
-        <!-- <xref ref="ccss-2-OA-C-4" text="custom">2.OA.C.4</xref> -->
+        <xref ref="ccss-3-MD-A-1" text="custom">3.MD.A.1</xref>
       </li>
     </ul>
     </paragraphs>
@@ -76,19 +63,18 @@
   <!-- Materiales requeridos -->
   <paragraphs>
     <title><custom ref="materials-leccion-titulo"/></title>
-    <p>[mmmmmmmmmm]</p>
-    <!-- <ul>
+    <ul>
       <li>
         <p>Actividad 1</p>
         <xi:include href="./act-otraVezEnElBus-mat.ptx"/>
-        <xi:include href="./act-otraVezEnElBus-matCentros.ptx"/>
+        <!--<xi:include href="./act-otraVezEnElBus-matCentros.ptx"/>-->
       </li>
-      <li>
+      <!--<li>
         <p>Actividad 2</p>
         <xi:include href="./act-laHoraConMiMateLibreta-mat.ptx"/>
         <xi:include href="./act-laHoraConMiMateLibreta-matCentros.ptx"/>
-      </li>
-    </ul>  -->
+      </li>-->
+    </ul>  
   </paragraphs>
   
   <!-- Introducción de la lección (narrative) -->
@@ -167,7 +153,7 @@
 <subsubsection xml:id="lec-resolverProblemasSobreElTiempoParte2-sintesis" component="profesor">
   <shorttitle><custom ref="synthesis-leccion-titulo"/></shorttitle>
   <title><custom ref="synthesis-leccion-titulo"/></title>
-  <title component="profesor"><nbsp/>([@@@@@@@@@] mins)</title>
+  <title component="profesor"><nbsp/>(10 mins)</title>
 
   <p>[+++++++++++++++]</p>
   <p><q>Hoy resolvimos varios problemas sobre el tiempo. En algunos debíamos encontrar cuánto tiempo había pasado y en otros cuándo había empezado algo o cuándo había terminado</q></p>
