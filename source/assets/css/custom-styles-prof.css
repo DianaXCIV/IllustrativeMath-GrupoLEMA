@@ -15,10 +15,13 @@ article.activity.project-like {
   margin-top: 2.5rem;
   position: relative; /* needed for the absolute h4 */
 }
-/* h4 label on top border for all three */
-article.exploration.project-like h4,
-article.project.project-like h4,
-article.activity.project-like h4 {
+/* Heading label on top border for all three.
+   Target the heading by class, not by level: PreTeXt emitted <h4> up to
+   ~2.32 and emits <h3> as of 2.47, but the "heading" class is stable.
+   The child combinator keeps this off any nested headings inside. */
+article.exploration.project-like > .heading,
+article.project.project-like > .heading,
+article.activity.project-like > .heading {
   position: absolute;
   top: 0;
   left: 1.5rem;
