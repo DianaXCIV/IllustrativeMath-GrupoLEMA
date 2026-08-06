@@ -16,9 +16,9 @@ article.activity.project-like {
   position: relative; /* needed for the absolute h4 */
 }
 /* Heading label on top border for all three.
-   Target the heading by class, not by level: PreTeXt emitted <h4> up to
-   ~2.32 and emits <h3> as of 2.47, but the "heading" class is stable.
-   The child combinator keeps this off any nested headings inside. */
+   PreTeXt varies the heading level (h2, h3 or h4) with the version and with
+   how deeply the article sits in the page, so match the stable "heading"
+   class. The child combinator keeps this off headings nested deeper in. */
 article.exploration.project-like > .heading,
 article.project.project-like > .heading,
 article.activity.project-like > .heading {
