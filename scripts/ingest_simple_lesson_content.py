@@ -355,12 +355,57 @@ def create_replacement_xml(subsection):
         inner = '<p>[@@@@@@@@@]</p>'
     
     return (
-        f'<paragraphs>\n'
+        f'<li>\n'
         f'    <title><custom ref="{ref}"/></title>\n'
         f'    <p>[+++++++++++++++]</p>\n'
         f'    {inner}\n'
-        f'  </paragraphs>'
+        f'  </li>'
     )
+
+LI_OPEN_RE = re.compile(r'<li\b[^>]*>')
+
+
+def find_matching_li_end(text, start):
+    """
+    Index just past the </li> that closes the <li> beginning at ``start``.
+
+    Walks the text tracking <li> depth and skipping over comments, so nested
+    lists and commented-out items inside a note do not end the span early.
+    Returns None if the tag is never closed.
+    """
+    depth = 0
+    i = start
+    while i < len(text):
+        if text.startswith('<!--', i):
+            close = text.find('-->', i)
+            i = len(text) if close == -1 else close + 3
+        elif text.startswith('</li>', i):
+            depth -= 1
+            i += len('</li>')
+            if depth == 0:
+                return i
+        elif (m := LI_OPEN_RE.match(text, i)):
+            depth += 1
+            i = m.end()
+        else:
+            i += 1
+    return None
+
+
+def find_note_span(content, ref):
+    """
+    (start, end) of the teacher-note <li> whose title carries the given ref,
+    or None when the note is absent.
+    """
+    opener = re.compile(
+        r'<li\b[^>]*>\s*<title><custom ref="' + re.escape(ref) + r'"\s*/></title>'
+    )
+    m = opener.search(content)
+    if not m:
+        return None
+    end = find_matching_li_end(content, m.start())
+    return None if end is None else (m.start(), end)
+
 
 def update_xml_content(content, subsection):
     """
@@ -382,16 +427,14 @@ def update_xml_content(content, subsection):
         )
         return new_content, count
     
-    # Regular paragraphs handling
-    pattern = r'<paragraphs>\s*<title><custom ref="' + re.escape(ref) + r'"/></title>.*?</paragraphs>'
-    replacement = create_replacement_xml(subsection)
-    new_content, count = re.subn(
-        pattern,
-        lambda match, repl=replacement: repl,
-        content,
-        flags=re.DOTALL
-    )
-    return new_content, count
+    # Regular teacher-note handling.  A note is an <li> of the <dl>; its extent
+    # is found by tag depth, since a note may hold a <ul> whose items are
+    # interleaved with comments.
+    span = find_note_span(content, ref)
+    if span is None:
+        return content, 0
+    start, end = span
+    return content[:start] + create_replacement_xml(subsection) + content[end:], 1
 
 # -------------------------------
 # XML Update Functions
@@ -404,12 +447,12 @@ def update_recommended_time(xml_file, time_value):
     if not os.path.exists(xml_file):
         return False
     content = read_file(xml_file)
-    pattern = r'<paragraphs>\s*<title><custom ref="recommended-time-titulo"/></title>\s*<p>\[@{9,}\] minutos</p>\s*</paragraphs>'
+    pattern = r'<li>\s*<title><custom ref="recommended-time-titulo"/></title>\s*<p>\[@{9,}\] minutos</p>\s*</li>'
     replacement = (
-        f'<paragraphs>\n'
+        f'<li>\n'
         f'    <title><custom ref="recommended-time-titulo"/></title>\n'
         f'    <p>{time_value} minutos</p>\n'
-        f'  </paragraphs>'
+        f'  </li>'
     )
     new_content, count = re.subn(
         pattern,

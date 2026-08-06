@@ -17,9 +17,9 @@ slides, PDF (Beamer), or PowerPoint.
 │ 4. Builds slides in this order (unless flags change it):                       │
 │       • Statement  (title “Enunciado”)                                         │
 │       • Solution   (title “Solución”)                                          │
-│       • All <paragraphs> in <prelude>                                          │
-│       • All <paragraphs> in <postlude>                                         │
-│ 5. Each `<paragraphs>` block becomes one ## markdown section.                  │
+│       • All teacher-note <dl> items in <prelude>                               │
+│       • All teacher-note <dl> items in <postlude>                              │
+│ 5. Each teacher-note `<li>` becomes one ## markdown section.                   │
 │ 6. Supported inline conversions:                                               │
 │       <m> … </m>        →  $…$   (inline LaTeX)                                │
 │       <me> … </me>      →  $$ … $$ (display math)                              │
@@ -40,7 +40,7 @@ Command-line flags
 ──────────────────
 --prelude-first      Place all <prelude> slides **before** the statement slide
 --no-solution        Do not include the <solution> slide
---minimal            Within every <paragraphs> slide:
+--minimal            Within every teacher-note slide:
                        · keep **only** <p> or <li> elements that contain a <q>
                        · drop the entire slide if nothing remains after pruning
 --keep-percentage-widths  Keep image widths as percentages (e.g., 45%) instead of
@@ -211,9 +211,14 @@ class PtxToMarkdownConverter:
         return "\n".join(md)
 
     def _process_section(self, section_name: str) -> list[list[str]]:
-        """Processes all <paragraphs> within a given section (e.g., prelude)."""
+        """Processes all teacher-note items within a section (e.g., prelude).
+
+        Each note is an <li> of the section's <dl>.  The "dl/li" step keeps the
+        items of a <ul> nested inside a note from counting as notes themselves.
+        """
         slides = []
-        for para in self.root.findall(f".//{section_name}//paragraphs"):
+        sections = self.root.findall(f".//{section_name}")
+        for para in [li for sec in sections for li in sec.findall(".//dl/li")]:
             work_para = para
             if self.args.minimal:
                 if not (work_para := self._prune_for_minimal(para)):

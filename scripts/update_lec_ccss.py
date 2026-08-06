@@ -28,10 +28,43 @@ from typing import Iterable, Sequence
 # Regular-expression helpers
 # --------------------------------------------------------------------------- #
 
-# The CCSS block we will replace inside the lesson.
-CCSS_BLOCK_PATTERN = re.compile(
-    r"<!-- Estándares CCSS asociados -->.*?</paragraphs>", re.S
-)
+# The CCSS block we will replace inside the lesson.  Teacher notes are a <dl>,
+# so the block is the comment plus the <li> that follows it.  Only the opening
+# is matched here; the closing tag is located by tag depth, since the codes may
+# sit in a <ul> whose items are interleaved with comments.
+CCSS_BLOCK_OPEN = re.compile(r"<!-- Estándares CCSS asociados -->\s*<li\b[^>]*>")
+LI_OPEN_RE = re.compile(r"<li\b[^>]*>")
+
+
+def find_matching_li_end(text: str, start: int) -> int | None:
+    """Index just past the </li> closing the <li> that begins at ``start``."""
+    depth = 0
+    i = start
+    while i < len(text):
+        if text.startswith("<!--", i):
+            close = text.find("-->", i)
+            i = len(text) if close == -1 else close + 3
+        elif text.startswith("</li>", i):
+            depth -= 1
+            i += len("</li>")
+            if depth == 0:
+                return i
+        elif m := LI_OPEN_RE.match(text, i):
+            depth += 1
+            i = m.end()
+        else:
+            i += 1
+    return None
+
+
+def find_ccss_block(text: str) -> tuple[int, int] | None:
+    """(start, end) of the CCSS comment plus its <li>, or None if absent."""
+    m = CCSS_BLOCK_OPEN.search(text)
+    if not m:
+        return None
+    li_at = text.index("<li", m.start())
+    end = find_matching_li_end(text, li_at)
+    return None if end is None else (m.start(), end)
 
 # ``<xi:include href="./filename.ptx"/>`` tags inside the lesson.
 INCLUDE_PATTERN = re.compile(r'<xi:include href="\./([^"]+)"')
@@ -158,7 +191,7 @@ def build_ccss_block(
     """
     lines = [
         "<!-- Estándares CCSS asociados -->",
-        "  <paragraphs>",
+        "  <li>",
         '    <title><custom ref="ccss-leccion-titulo"/></title> ',
         "    <ul>",
     ]
@@ -205,7 +238,7 @@ def build_ccss_block(
             ]
         )
 
-    lines.extend(["    </ul>", "  </paragraphs>"])
+    lines.extend(["    </ul>", "  </li>"])
     return "\n".join(lines)
 
 
@@ -228,16 +261,31 @@ def update_lesson_ccss(lesson_path: Path) -> None:
 
     new_block = build_ccss_block(addressing, building_on, building_towards)
 
-    updated_text, count = CCSS_BLOCK_PATTERN.subn(new_block, lesson_text)
-    if count == 0:
-        # The lesson did not previously have a CCSS block; insert a new one
-        # immediately after the introduction tag.
+    span = find_ccss_block(lesson_text)
+    if span is not None:
+        start, end = span
+        updated_text = lesson_text[:start] + new_block + lesson_text[end:]
+    else:
+        # The lesson has no CCSS block yet.  Anchor on the <dl> that follows the
+        # introduction, so the new item lands inside the teacher-notes list.
         intro_tag = '<introduction component="profesor">'
-        if intro_tag not in lesson_text:
+        intro_at = lesson_text.find(intro_tag)
+        if intro_at == -1:
             raise ValueError(
                 "Could not find existing CCSS block or introduction tag to insert into."
             )
-        updated_text = lesson_text.replace(f"{intro_tag}", f"{intro_tag}\n{new_block}", 1)
+        dl_match = re.compile(r"<dl>\n").search(lesson_text, intro_at)
+        if dl_match:
+            at = dl_match.end()
+            updated_text = lesson_text[:at] + new_block + "\n" + lesson_text[at:]
+        else:
+            # No teacher-notes list yet: create the wrapper around the block.
+            at = intro_at + len(intro_tag)
+            updated_text = (
+                lesson_text[:at]
+                + f"\n<p>\n<dl>\n{new_block}\n</dl>\n</p>"
+                + lesson_text[at:]
+            )
 
     lesson_path.write_text(updated_text, encoding="utf-8")
 
