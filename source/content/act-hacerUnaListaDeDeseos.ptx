@@ -169,10 +169,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li> 
@@ -181,23 +183,23 @@
         <xref ref="ccss-3-NBT-A-2" text="custom">3.NBT.A.2</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>25 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this activity is for students to make a wish list of items for the classroom with a $1,000 budget. As they make their selections, they keep an estimate of the total by rounding, and use estimation and addition strategies to remain within the budget. To make their wish list, students use a supply list that is longer than shown in the warm-up.</p>
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -209,11 +211,11 @@
         <q>Hoy van a decidir cómo gastar $1,000. Mientras hacen elecciones, estimen o redondeen los números para llevar la cuenta de su total hasta que esté cerca de $1,000</q>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -228,8 +230,9 @@
         </ul>
       </li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -237,9 +240,10 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -255,18 +259,19 @@
         <q>¿Redondear influyó en que sus costos exactos fueran mayores que 1,000 o menores que 1,000? Si es así, ¿cómo?</q>  (My rounding made my actual cost stay under because I rounded up a lot when I estimated the cost. My actual cost went over because I rounded down a lot.)
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Estrategias de acceso para estudiantes con discapacidades -->
-  <paragraphs>
+  <li>
     <title><custom ref="accesibility-actividad-titulo"/></title>
     <p>[++++++++++++++++]</p>
     <p><em>Representation: Internalize Comprehension.</em> Chunk this task into more manageable parts. Some students may benefit from adding a third column to the supply lists that they can use to record rounded costs before they begin selecting items.</p>
     <p>
       <em>Supports accessibility for: Organization, Conceptual Processing</em>
     </p>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </activity>

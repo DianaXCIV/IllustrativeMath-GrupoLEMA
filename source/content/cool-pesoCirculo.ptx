@@ -45,22 +45,24 @@
 </solution>
 
 
-<postlude component="profesor"> <!-- Notas para el profesor -->
+<postlude component="profesor">
+<p>
+<dl>
+ <!-- Notas para el profesor -->
 
   <!-- Posibles errores -->
-  <!-- <paragraphs>
+  <!-- <li>
     <title><custom ref="errores-cool-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> -->
-
-
+  </li> -->
   <!-- Estrategia de apoyo si muchos estudiantes respondieron incorrectamente -->
-  <paragraphs>
+  <li>
     <title><custom ref="apoyo-cool-titulo"/></title>
     <p>[@@@@@@@]</p>
     <p>Students will have more opportunities to understand the mathematical ideas in this cool-down, so there is no need to slow down or add additional work to the next lessons. Instead, use the results of this cool-down to provide guidance for what to look for and emphasize over the next several lessons to support students in advancing their current understanding.</p>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </project>

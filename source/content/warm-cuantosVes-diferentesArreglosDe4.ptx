@@ -41,11 +41,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
-  
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li>
@@ -53,28 +54,28 @@
         <xref ref="ccss-K-CC" text="custom">K.CC</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>10 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->  
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this How Many Do You See is for students to recognize and name groups of images and describe how they see the images. Each image has 4 dots, but they are arranged differently. The number 4 is displayed during the synthesis to give students opportunities to recognize numbers and connect numbers and quantities.</p>
-  </paragraphs>
+  </li>
 
   <!-- Materiales requeridos de la actividad -->
-  <!-- <paragraphs> -->
+  <!-- <li> -->
     <!-- <title><custom ref="materials-actividad-titulo"/></title> -->
     <!-- <xi:include href="./warm-RRRRRR-SSSSSS-mat.ptx"/>  -->
-  <!-- </paragraphs> -->
+  <!-- </li> -->
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -85,10 +86,10 @@
       <li>Flash the image.</li>
       <li>30 seconds: quiet think time</li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -100,8 +101,9 @@
       <li>Record responses.</li>
       <li>Repeat for each image.</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -109,16 +111,16 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Estrategias de apoyo para estudiantes con dificultades 
-  <paragraphs>
+  <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>=== NOT PRESENT ===</p>
-  </paragraphs>-->
-
+  </li>-->
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -133,21 +135,22 @@
         <q>Un tablero de 5 es una herramienta que hemos estado usando para ubicar y organizar objetos o imágenes. ¿Qué saben sobre este tablero de 5?</q> (There are 5 squares. In this picture, there are 4 dots in the squares. One square is empty.)
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Descripción del desarrollo de lenguaje matemático 
-  <paragraphs>
+  <li>
     <title><custom ref="language-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs>-->
+  </li>-->
 
   <!-- Estrategias de acceso para estudiantes con discapacidades 
-  <paragraphs>
+  <li>
     <title><custom ref="accesibility-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs>-->
-
+  </li>-->
+</dl>
+</p>
 </postlude>
 
 </exploration>

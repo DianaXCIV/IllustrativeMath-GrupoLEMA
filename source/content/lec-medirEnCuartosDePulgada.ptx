@@ -37,9 +37,10 @@
   Introducción para el profesor                        
 =================================================  -->
 <introduction component="profesor">
-
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-leccion-titulo"/></title> 
     <ul>
       <li> 
@@ -47,23 +48,23 @@
         <xref ref="ccss-3-MD-B-4" text="custom">3.MD.B.4</xref>
       </li>
     </ul>
-    </paragraphs>
+    </li>
 
   <!-- índice de la lección (automático) -->
-  <paragraphs>
+  <li>
     <title><custom ref="timeline-leccion-titulo"/></title>
     <list-of elements="subsubsection reading-questions" scope="subsection"/>
-  </paragraphs>
+  </li>
 
   <!-- Propósito de la lección -->
-  <paragraphs>
+  <li>
     <title><custom ref="purpose-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this lesson is for students to measure length using a ruler marked with fourths of an inch.</p>
-  </paragraphs>
+  </li>
 
   <!-- Materiales requeridos -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-leccion-titulo"/></title>
     <ul>
       <li>
@@ -77,22 +78,24 @@
         <!--<xi:include href="./act-encontrarAlgunasLongitudes-matCentros.ptx"/>-->
       </li>
     </ul>  
-  </paragraphs>
+  </li>
   
   <!-- Introducción de la lección (narrative) -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>In the previous lesson, students applied what they knew about fractions to partition inches into halves and measure lengths to the nearest half inch. In this lesson, students partition inches into fourths and measure lengths to both the nearest fourth and half of an inch.</p>
     <p>Students are likely to see that they can use the ruler partitioned into fourths to measure lengths in whole numbers of inches, halves of an inch, and fourths of an inch, rather than to use separate rulers for different fractions. Some students may use fraction equivalence to describe the same length in half of an inch and fourth of an inch, which is helpful but not essential at this point. Focus the conversation on choosing the nearest quarter inch to describe the length of the object being measured. Students will consider the equivalence of <m>\frac{1}{2}</m> inch and <m>\frac{2}{4}</m> inch in the next lesson.</p>
-  </paragraphs>
+  </li>
   
   <!-- Preguntas de reflexión profesor -->
-  <paragraphs>
+  <li>
     <title><custom ref="reflection-quest-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>How effective were your questions in supporting students’ thinking today? What did students say or do that showed they were effective?</p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </introduction>
 
 

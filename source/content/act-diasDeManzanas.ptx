@@ -69,8 +69,10 @@
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
 <prelude component="profesor">
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li>
@@ -78,16 +80,16 @@
         <xref ref="ccss-3-OA-D-8" text="custom">3.OA.D.8</xref>
       </li>
     </ul>
-  </paragraphs> 
+  </li> 
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>15 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>El propósito de esta actividad es que los estudiantes resuelvan un problema que representaron con una ecuación, usando una letra para la cantidad desconocida. Se debe motivar a los estudiantes a usar cualquier estrategia o representación que tenga sentido para ellos.</p>
     
@@ -99,19 +101,19 @@
     </ul>
       
     <p>Si los estudiantes tienen dificultades para comenzar algún problema, anímelos a crear un dibujo o diagrama. Los estudiantes también pueden representar la situación o resolver el problema antes de escribir una ecuación si eso tiene más sentido para ellos. Aunque esta actividad se centra en la práctica independiente, los estudiantes pueden discutir con un compañero si es necesario.</p>
-  </paragraphs>
+  </li>
 
 
   <!-- Materiales requeridos de la actividad -->
-  <!-- <paragraphs>
+  <!-- <li>
     <title><custom ref="materials-actividad-titulo"/></title>
     @@@@@ -->
     <!-- si hay materiales, crear el siguiente archivo -mat.ptx y ponerlos ahí (y agregar también el archivo en la lista de materiales de la lección)-->
     <!-- <xi:include href="../v00/graVV-uniXX-secYY-lecZZ-actRR-mat.ptx"/>  -->
-  <!-- </paragraphs> -->
+  <!-- </li> -->
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <ul>
       <li><q>Ahora vamos a resolver algunos problemas sobre un evento en la huerta de manzanas</q>.</li>
@@ -121,11 +123,11 @@
       <li>1 a 2 minutos: discusión en pareja.</li>
       <li>Comparta las respuestas.</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <ul>
       <li>8 a 10 minutos: Tiempo de trabajo individual.</li>
@@ -144,8 +146,9 @@
         </ul>
       </li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -153,35 +156,35 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Estrategias de apoyo para estudiantes con dificultades -->
-  <!-- <paragraphs>
+  <!-- <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> -->
-
-
+  </li> -->
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <p>Elija estudiantes que hayan usado distintas estrategias para que expliquen sus respuestas y razonamientos en cada problema.</p>
-  </paragraphs>
+  </li>
 
 
   <!-- Descripción del desarrollo de lenguaje matemático -->
-  <paragraphs>
+  <li>
     <title><custom ref="language-actividad-titulo"/></title>
     <p>MLR8 Apoyo a la discusión: Antes de resolver los problemas, invite a los estudiantes a comprender las situaciones. Monitoree y aclare cualquier pregunta sobre el contexto.</p>
     <p>Avances: Leer, Representar.</p>
-  </paragraphs>
+  </li>
 
 
   <!-- Estrategias de acceso para estudiantes con discapacidades -->
-  <!-- <paragraphs>
+  <!-- <li>
     <title><custom ref="accesibility-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> -->
-
+  </li> -->
+</dl>
+</p>
 </postlude>
 
 </activity>

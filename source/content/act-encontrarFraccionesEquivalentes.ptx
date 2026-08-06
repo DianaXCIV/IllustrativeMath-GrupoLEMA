@@ -36,10 +36,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li> 
@@ -48,43 +50,43 @@
         <xref ref="ccss-3-NF-A-3-b" text="custom">3.NF.A.3.b</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>20 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this activity is for students to use fraction strips to identify equivalent fractions and explain why they are equivalent. Highlight explanations that make clear that the parts that represent the fractions are the same size and the parts of the fractions refer to the same whole.</p>
-  </paragraphs>
+  </li>
 
 
   <!-- Materiales requeridos de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-actividad-titulo"/></title>
     <!-- si hay materiales, crear los archivos -mat.ptx (para materiales de la actividad) y -matCentros.ptx (para mencionar los otros centros que se usan y para los que se necesitan materiales) y poner los materiales ahí usando los archivos de template. Después hacer xinclude  de estos archivos en la lista de materiales de la lección.-->
     <xi:include href="./act-encontrarFraccionesEquivalentes-mat.ptx"/>
     <!-- <xi:include href="./act-encontrarFraccionesEquivalentes-matCentros.ptx"/>  -->
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
       <li>Groups of 2</li>
       <li>Ask students to refer to the fraction strips they made in an earlier lesson.</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -99,8 +101,9 @@
       <li>3–5 minutes: partner discussion</li>
       <li>Monitor for students who explain equivalence by saying that the fractions are the same size.</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -108,9 +111,10 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Estrategias de apoyo para estudiantes con dificultades -->
-  <paragraphs>
+  <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>If students don’t generate an equivalent fraction for one of the given fractions, consider asking:</p>
@@ -122,11 +126,11 @@
         <q>¿Cómo puedes usar las tiras de fracciones para hacer una fracción equivalente?</q>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -134,8 +138,9 @@
       <li>Display a set of fraction strip diagram for all to see.</li>
       <li>As students share, mark up the fraction strip diagram to illustrate the equal size of the parts (for example, by drawing lines or circling the parts). Then, record pairs of equivalent fractions using the equal sign like: <m>\frac{1}{2} = \frac{3}{6}</m>.</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </activity>

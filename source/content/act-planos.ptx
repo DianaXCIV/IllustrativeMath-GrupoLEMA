@@ -27,10 +27,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li> 
@@ -42,34 +44,34 @@
         <xref ref="ccss-3-MD-C-7-b" text="custom">3.MD.C.7.b</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>10 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this activity is for students to make sense of floor plans. In the launch, students make sense of how different features of the floor plan such as windows, doors, and furniture are visually represented. Students analyze the plan and consider what is usable floor space and where it makes sense to put the furniture. Students may give both aesthetic and practical reasons for furniture placement. This short activity prepares students to make similar considerations in the next activity.</p>
 <p>In the synthesis, students work to explain their reasoning and construct viable arguments (MP3).</p>
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
       <li>Groups of 2</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -84,8 +86,9 @@
 </ul>
       </li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -93,9 +96,10 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -108,22 +112,22 @@
 </ul>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Descripción del desarrollo de lenguaje matemático -->
-  <paragraphs>
+  <li>
     <title><custom ref="language-actividad-titulo"/></title>
     <p>
       [+++++++++++++++++++++++++]
     </p>
     <p><em>MLR5 Co-Craft Questions.</em> Display the image of the floor plan, and invite students to write a list of possible mathematical questions they could ask about the situation. Invite students to compare their questions, <q><em>¿Qué tienen en común estas preguntas? ¿En qué son diferentes?</em></q> Amplify questions related to comparison and areas of rectangles.</p>
     <p><em>Advances: Reading, Writing</em></p>    
-  </paragraphs>
+  </li>
 
 
   <!-- Estrategias de acceso para estudiantes con discapacidades -->
-  <paragraphs>
+  <li>
     <title><custom ref="accesibility-actividad-titulo"/></title>
     <p>
       [+++++++++++++++++++++++]
@@ -134,8 +138,9 @@
     <p>
       Supports accessibility for: Fine Motor Skills, Organization, Visual-Spatial Processing
     </p>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </activity>

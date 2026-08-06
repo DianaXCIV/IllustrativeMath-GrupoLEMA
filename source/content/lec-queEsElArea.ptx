@@ -35,9 +35,10 @@
   Introducción para el profesor                        
 =================================================  -->
 <introduction component="profesor">
-
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-leccion-titulo"/></title> 
     <ul>
       <li>
@@ -49,23 +50,23 @@
         <xref ref="ccss-3-MD-C-5" text="custom">3.MD.C.5</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- índice de la lección (automático) -->
-  <paragraphs>
+  <li>
     <title><custom ref="timeline-leccion-titulo"/></title>
     <list-of elements="subsubsection reading-questions" scope="subsection"/>
-  </paragraphs>
+  </li>
 
   <!-- Propósito de la lección -->
-  <paragraphs>
+  <li>
     <title><custom ref="purpose-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this lesson is for students to recognize that different shapes cover different amounts of space.</p>
-  </paragraphs>
+  </li>
 
   <!-- Materiales requeridos -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-leccion-titulo"/></title>
     <ul>
       <li>
@@ -79,23 +80,25 @@
         <!--<xi:include href="./act-fichasGeomCompararFig-matCentros.ptx"/-->
       </li>
     </ul>  
-  </paragraphs>
+  </li>
   
   <!-- Introducción de la lección (narrative) -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>In grade 2, students estimated, measured, and compared lengths using standard units. They learned how the length of the unit affects measurements.</p>
     <p>This lesson introduces the concept of area as students compare the size of different shapes. Students consider what it means for two-dimensional shapes to be larger or cover more space. They measure and describe relative area with increasing precision as they participate in the activities in this lesson.</p>
     <p>Give students access to pattern blocks and scissors during the cool-down.</p>
-  </paragraphs>
+  </li>
   
   <!-- Preguntas de reflexión profesor -->
-  <paragraphs>
+  <li>
     <title><custom ref="reflection-quest-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>What part of the lesson went really well today in terms of students learning? What did you do that made that part go well?</p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </introduction>
 
 

@@ -86,10 +86,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li> 
@@ -97,16 +99,16 @@
         <xref ref="ccss-3-NF-A-3-c" text="custom">3.NF.A.3.c</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>15 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this activity is for students to place fractions greater than 1 on the number line and notice how fractions can be written as whole numbers. For example, students will see that for halves, every second half is located at a whole number because it takes 2 halves to make a whole.</p>
@@ -115,21 +117,21 @@
       <li>It takes 2 halves, 3 thirds, or 4 fourths to make a whole.</li>
       <li>Whole numbers appear regularly (every 2 halves, every 3 thirds).</li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
       <li>Groups of 3</li>
       <li>Assign one set of fractions to each student in the group.</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -148,8 +150,9 @@
         </ul>
       </li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -157,9 +160,10 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -173,8 +177,9 @@
       </li>
       <li>Label the number line as students share, particularly the whole numbers, like: <m>1 = \frac{2}{2}</m>, <m>2= \frac{4}{2}</m>, <m>3=\frac{6}{2}</m> to highlight the idea that the number of equal parts (2, 3, or 4) in the fractions affects when you end up at a whole number.</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </activity>

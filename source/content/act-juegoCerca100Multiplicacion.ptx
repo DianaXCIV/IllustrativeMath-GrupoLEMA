@@ -137,8 +137,10 @@
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
 <prelude component="profesor">
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li>
@@ -150,33 +152,33 @@
         <xref ref="ccss-3-OA-C-7" text="custom">3.OA.C.7</xref>
       </li>
     </ul>
-  </paragraphs> 
+  </li> 
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>10 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>En esta actividad, los estudiantes jugarán un juego para practicar multiplicar con números del 11 al 19 o mayores de 20. Deben usar factores de un solo dígito para crear una expresión de multiplicación que se acerque lo más posible a 100. Hay dos partidas: una con números del 11 al 19 y otra con números mayores de 20.</p>
     <!-- <p>El propósito de esta actividad es que los estudiantes jueguen un juego en el que puedan aplicar las estrategias que han aprendido para multiplicar con números del 11 al 19 o números mayores de 20. Los estudiantes usan factores de un solo dígito para crear una expresión de multiplicación que tenga un valor lo más cercano posible a 100. El primer juego involucra números del 11 al 19 y el segundo juego involucra números mayores de 20.</p> -->
       
     <p>Esta actividad es opcional porque proporciona práctica adicional para multiplicar con factores que son números del 11 al 19 o factores mayores de 20. Dependiendo del tiempo disponible, los estudiantes pueden jugar 1 o 2 rondas.</p>
       
-  </paragraphs>
+  </li>
 
 
   <!-- Materiales requeridos de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-actividad-titulo"/></title>
     <xi:include href="./act-juegoCerca100Multiplicacion-mat.ptx"/> 
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <ul>
       <li>Grupos de 2</li>
@@ -184,11 +186,11 @@
       <li><q>Vamos a jugar un juego llamado 'Cerca de 100'. Leamos las instrucciones y juguemos 1 ronda juntos</q>.</li>
       <li>Juegue una ronda contra la clase, mostrando los números de las tarjetas y pensando en voz alta.</li>
     </ul>  
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <ul>
       <li>
@@ -197,8 +199,9 @@
       <li>5-7 minutos: tiempo de juego en parejas</li>
       <li>Si queda tiempo, haga que los estudiantes jueguen la segunda partida de 'Cerca de 100'. Informe a los estudiantes que los números son diferentes en la segunda partida.</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -206,43 +209,43 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Estrategias de apoyo para estudiantes con dificultades -->
   <!--   
-  <paragraphs>
+  <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> 
+  </li> 
   -->
-
-
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <ul>
       <li>
         <q>¿Qué estrategias les ayudaron cuando jugaron ‘Cerca de 100’?</q>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Descripción del desarrollo de lenguaje matemático -->
   <!--   
-  <paragraphs>
+  <li>
     <title><custom ref="language-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> 
+  </li> 
   -->
 
 
   <!-- Estrategias de acceso para estudiantes con discapacidades -->
-  <paragraphs>
+  <li>
     <title><custom ref="accesibility-actividad-titulo"/></title>
     <p>Participación: Desarrollar esfuerzo y persistencia. Verifique y proporcione a cada grupo retroalimentación que fomente la colaboración y la unión de la comunidad.</p>
     <p>Apoya la accesibilidad para: Funcionamiento social-emocional</p>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </activity>

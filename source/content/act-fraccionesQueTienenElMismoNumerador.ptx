@@ -78,10 +78,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li> 
@@ -89,23 +91,23 @@
         <xref ref="ccss-3-NF-A-3-d" text="custom">3.NF.A.3.d</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>15 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this activity is for students to compare two fractions with the same numerator. Students use any representation to reason about the number and size of the parts of each fraction. In the last problem, students may notice that more than one denominator can sometimes work, but do not need to generalize about all the denominators that make each statement true. There is an opportunity for that kind of generalization in a future lesson.</p>
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -114,11 +116,11 @@
         <q>Acabamos de ver varias formas en las que podemos representar comparaciones de fracciones que tienen el mismo numerador. Cuando comparen fracciones que tienen el mismo numerador en esta actividad, pueden usar diagramas o rectas numéricas o pueden escribir para explicar su razonamiento</q>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -129,8 +131,9 @@
       <li>3–5 minutes: partner discussion</li>
       <li>Monitor for students who choose different denominators in the last problem.</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -138,42 +141,44 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Estrategias de apoyo para estudiantes con dificultades -->
-  <paragraphs>
+  <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>If students don’t determine which fraction is greater, consider asking: <q>¿Qué sabemos sobre estas fracciones?</q> and <q>¿Cómo podemos representar estas fracciones?</q></p>
-  </paragraphs>
+  </li>
 
 
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
       <li>Select 3–4 students to share the denominators they chose for one part in the last problem. Ask them to explain why their chosen denominator makes the statement true.</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Descripción del desarrollo de lenguaje matemático -->
-  <paragraphs>
+  <li>
     <title><custom ref="language-actividad-titulo"/></title><p>[++++++++++++++++]</p>
     <p><em>MLR1 Stronger and Clearer Each Time.</em> Synthesis: Before the whole-class discussion, give students time to meet with 2–3 partners to share and get feedback on their response to <q>¿Qué denominadores escogieron y por qué ellos hacen que las afirmaciones sean verdaderas?</q> // <q>Which denominators did you choose and why do they make the statements true?</q> Invite listeners to ask questions, to press for details, and to suggest mathematical language. Give students 2–3 minutes to revise their written explanation based on the feedback they receive.</p>
     <p>Advances: Writing, Speaking, Listening</p>
-  </paragraphs>
+  </li>
 
 
   <!-- Estrategias de acceso para estudiantes con discapacidades -->
-  <paragraphs>
+  <li>
     <title><custom ref="accesibility-actividad-titulo"/></title><p>[++++++++++++++++]</p>
     <p><em>Engagement: Develop Effort and Persistence.</em> Chunk this task into more manageable parts. Check in with students to provide feedback and encouragement after each chunk.</p>
     <p>
       <em>Supports accessibility for: Attention, Social-Emotional Functioning</em>
     </p>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </activity>

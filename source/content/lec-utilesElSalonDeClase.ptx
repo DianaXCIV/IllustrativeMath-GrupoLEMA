@@ -36,9 +36,10 @@
   Introducción para el profesor                        
 =================================================  -->
 <introduction component="profesor">
-
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-leccion-titulo"/></title> 
     <ul>
       <li> 
@@ -52,23 +53,23 @@
         <xref ref="ccss-3-NBT-A-2" text="custom">3.NBT.A.2</xref>
       </li>
     </ul>
-    </paragraphs>
+    </li>
 
   <!-- índice de la lección (automático) -->
-  <paragraphs>
+  <li>
     <title><custom ref="timeline-leccion-titulo"/></title>
     <list-of elements="subsubsection reading-questions" scope="subsection"/>
-  </paragraphs>
+  </li>
 
   <!-- Propósito de la lección -->
-  <paragraphs>
+  <li>
     <title><custom ref="purpose-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this lesson is for students to use their understanding of estimation, rounding, and addition within 1,000 to solve a problem about a class wish list.</p>
-  </paragraphs>
+  </li>
 
   <!-- Materiales requeridos -->
-  <!-- <paragraphs>
+  <!-- <li>
     <title><custom ref="materials-leccion-titulo"/></title>
     <ul>
       <li>
@@ -82,23 +83,25 @@
         <xi:include href="./act-queHayEnTuLista-matCentros.ptx"/>
       </li>
     </ul>  
-  </paragraphs>-->
+  </li>-->
   
   <!-- Introducción de la lección (narrative) -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>This lesson is optional because it does not address any new mathematical content standards. It does provide students with an opportunity to apply precursor skills of mathematical modeling.</p>
     <p>In this lesson, students put together a wish list of supplies they would like to get for their classroom given a large collection of choices and their costs. They are given a budget and freedom to decide how to spend the money. As they make choices, students round the costs before they check the total amount they are spending. Students then compare their wish list with a partner group. Groups compare their wish lists and how much they spent in each category.</p>
     <p>When students make decisions and choices, adhere to mathematical constraints, interpret a mathematical answer in context, organize data, make revisions, and report results, they model with mathematics (MP4).</p>
-  </paragraphs>
+  </li>
   
   <!-- Preguntas de reflexión profesor -->
-  <paragraphs>
+  <li>
     <title><custom ref="reflection-quest-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>Reflect on times you observed students listening to one another’s ideas today in class. What norms would help each student better attend to their classmates' ideas in future lessons?</p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </introduction>
 
 

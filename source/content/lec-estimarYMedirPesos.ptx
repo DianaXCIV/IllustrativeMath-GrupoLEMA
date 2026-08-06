@@ -37,9 +37,10 @@
   Introducción para el profesor                        
 =================================================  -->
 <introduction component="profesor">
-
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-leccion-titulo"/></title> 
     <ul>
       <li> 
@@ -51,23 +52,23 @@
         <xref ref="ccss-3-MD-A-2" text="custom">3.MD.A.2</xref>
       </li>
     </ul>
-    </paragraphs>
+    </li>
 
   <!-- índice de la lección (automático) -->
-  <paragraphs>
+  <li>
     <title><custom ref="timeline-leccion-titulo"/></title>
     <list-of elements="subsubsection reading-questions" scope="subsection"/>
-  </paragraphs>
+  </li>
 
   <!-- Propósito de la lección -->
-  <paragraphs>
+  <li>
     <title><custom ref="purpose-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this lesson is for students to learn to measure and estimate the weight of objects in grams or kilograms.</p>
-  </paragraphs>
+  </li>
 
   <!-- Materiales requeridos -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-leccion-titulo"/></title>
     <ul>
       <li>
@@ -81,22 +82,24 @@
         <xi:include href="./act-elPesoDeLasMascotas-matCentros.ptx"/>
       </li>-->
     </ul>  
-  </paragraphs>
+  </li>
   
   <!-- Introducción de la lección (narrative) -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>In previous grades, students learned that weight is a measurable attribute and directly compared the weights of two objects. In this lesson, students learn that <term>weight</term> is a measure of how heavy something is. They are introduced to <term>grams</term> and <term>kilograms</term> as metric units for measuring weight. Students hold objects of different numbers of grams and kilograms to familiarize themselves with the units before estimating the weight of objects in those units. Since the distinction between mass and weight is beyond what students need to learn, the term <q>weight</q> is used throughout the unit.</p>
     <p>To build a sense of weight measurements and an intuition for comparison, it is extremely helpful for students to have firsthand experience of holding different weights. To make that possible, some new materials and preparation are required for this lesson.</p>
-  </paragraphs>
+  </li>
   
   <!-- Preguntas de reflexión profesor -->
-  <paragraphs>
+  <li>
     <title><custom ref="reflection-quest-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>What ideas about liquid volume do students have from their everyday lives? How did these ideas influence their work in this lesson?</p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </introduction>
 
 

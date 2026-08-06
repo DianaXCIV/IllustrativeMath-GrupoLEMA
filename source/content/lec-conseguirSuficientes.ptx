@@ -34,9 +34,10 @@
   Introducción para el profesor                        
 =================================================  -->
 <introduction component="profesor">
-
+<p>
+<dl>
     <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-leccion-titulo"/></title> 
     <ul>
       <li>
@@ -46,23 +47,23 @@
         <xref ref="ccss-K-CC-C-6" text="custom">K.CC.C.6</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- índice de la lección (automático) -->
-  <paragraphs>
+  <li>
     <title><custom ref="timeline-leccion-titulo"/></title>
     <list-of elements="subsubsection reading-questions" scope="subsection"/>
-  </paragraphs>
+  </li>
 
   <!-- Propósito de la lección -->
-  <paragraphs>
+  <li>
     <title><custom ref="purpose-leccion-titulo"/></title>
     <p>[+++++++++++++++++]</p>
     <p>The purpose of this lesson is for students to develop and practice one-to-one correspondence as they make groups with enough objects.</p>
-  </paragraphs>
+  </li>
 
   <!-- Materiales requeridos -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-leccion-titulo"/></title>
     <ul>
       <li>
@@ -74,22 +75,24 @@
         <xi:include href="./act-centros-escoger7-matCentros.ptx"/>
       </li>
     </ul> 
-  </paragraphs>
+  </li>
   
   <!-- Introducción de la lección (narrative) -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-leccion-titulo"/></title>
     <p>[+++++++++++++++++]</p>
     <p>In a previous lesson, students answered “are there enough” questions, which encouraged them to carefully match one object to one person. In this lesson, students continue to develop one-to-one correspondence as they work together to get enough pencils for each student. As students notice that when you get enough of an object for each student to have one, the number of students and the number of objects are the same, they look for and express regularity in repeated reasoning (MP8).</p>
     <p>In the lesson synthesis, students practice saying the verbal count sequence to 10 in preparation for counting objects in an upcoming section. Add variety to the counting by adding movement. For example, students can count as they clap, stomp their feet, or jump.</p> 
-  </paragraphs>
+  </li>
   
   <!-- Preguntas de reflexión profesor -->
-  <paragraphs>
+  <li>
     <title><custom ref="reflection-quest-titulo"/></title>
     <p>[+++++++++++++++++]</p>
     <p>In a future unit, students will compare groups of objects and images. What do you notice in their work from today's lesson that you might leverage in that future lesson?</p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </introduction>
 
 

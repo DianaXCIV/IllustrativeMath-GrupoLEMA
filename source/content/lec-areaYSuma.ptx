@@ -43,9 +43,10 @@
   Introducción para el profesor                        
 =================================================  -->
 <introduction component="profesor">
-
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-leccion-titulo"/></title> 
     <ul>
       <li>
@@ -61,23 +62,23 @@
         <xref ref="ccss-3-NBT-A-2" text="custom">3.NBT.A.2</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- índice de la lección (automático) -->
-  <paragraphs>
+  <li>
     <title><custom ref="timeline-leccion-titulo"/></title>
     <list-of elements="subsubsection reading-questions" scope="subsection"/>
-  </paragraphs>
+  </li>
 
   <!-- Propósito de la lección -->
-  <paragraphs>
+  <li>
     <title><custom ref="purpose-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this lesson is for students to use gridded rectangles to learn that area is additive.</p>
-  </paragraphs>
+  </li>
 
   <!-- Materiales requeridos -->
-  <!--<paragraphs>
+  <!--<li>
     <title><custom ref="materials-leccion-titulo"/></title>
     <p>[@@@@@@@@@@@@@@]</p>
      <ul>
@@ -92,21 +93,23 @@
         <xi:include href="./act-encontrarLosRectangulos-matCentros.ptx"/>
       </li>
     </ul>  
-  </paragraphs>-->
+  </li>-->
   
   <!-- Introducción de la lección (narrative) -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>Students first decompose a rectangle into parts to see that area is additive. Then, students decompose a figure composed of rectangles into rectangles in any way that makes sense to them, find the area of those rectangles, and add them together to find the area. Students learn that <term>parentheses</term> are grouping symbols that can be used in expressions or equations, and use them to represent how they decomposed the figure into rectangles. The work of this lesson connects to previous work because students find the area of rectangles within the figure before adding to find the total area of the figure.</p>
-  </paragraphs>
+  </li>
   
   <!-- Preguntas de reflexión profesor -->
-  <paragraphs>
+  <li>
     <title><custom ref="reflection-quest-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>Which students came up with an unexpected strategy in today’s lesson? What are some ways you can be more open to the ideas of each and every student?</p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </introduction>
 
 

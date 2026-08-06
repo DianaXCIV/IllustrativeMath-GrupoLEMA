@@ -17,11 +17,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
-  
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li>
@@ -29,31 +30,31 @@
         <xref ref="ccss-K-CC" text="custom">K.CC</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>10 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this activity is for students to recognize and name quantities 1–10 represented on fingers. Students may count to determine how many fingers are held up in this activity. With repeated experience, students begin to recognize quantities represented with fingers without counting (MP7, MP8).</p>
-  </paragraphs>
+  </li>
 
 
   <!-- Materiales requeridos de la actividad -->
-  <!-- <paragraphs> -->
+  <!-- <li> -->
     <!-- <title><custom ref="materials-actividad-titulo"/></title> -->
     <!-- <p>[@@@@@@@@@]</p> -->
     <!-- si hay materiales, crear el siguiente archivo -mat.ptx y ponerlos ahí (y agregar también el archivo en la lista de materiales de la lección)-->
     <!-- <xi:include href="./act-cuantosDedos-mat.ptx"/>  -->
-  <!-- </paragraphs> -->
+  <!-- </li> -->
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -69,18 +70,19 @@
         <q>Por turnos, jueguen con su compañero. Uno levanta algunos dedos. El otro dice cuántos dedos tiene levantados</q>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
       <li>5 minutes: partner work time</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -88,17 +90,16 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Estrategias de apoyo para estudiantes con dificultades 
-  <paragraphs>
+  <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>=== NOT PRESENT ===</p>
-  </paragraphs>-->
-
-
+  </li>-->
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -114,22 +115,23 @@
         <q>En la siguiente actividad, vamos a practicar mostrar con nuestros dedos un número dado</q>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Descripción del desarrollo de lenguaje matemático 
-  <paragraphs>
+  <li>
     <title><custom ref="language-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs>-->
+  </li>-->
 
 
   <!-- Estrategias de acceso para estudiantes con discapacidades 
-  <paragraphs>
+  <li>
     <title><custom ref="accesibility-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs>-->
-
+  </li>-->
+</dl>
+</p>
 </postlude>
 
 </activity>

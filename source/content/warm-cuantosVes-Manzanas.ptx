@@ -34,8 +34,10 @@
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
 <prelude component="profesor">
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li>
@@ -43,21 +45,21 @@
         <xref ref="ccss-3-OA-A-3" text="custom">3.OA.A.3</xref>
       </li>
     </ul>
-  </paragraphs> 
+  </li> 
 
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>10 minutos.</p>
-  </paragraphs>
-  <paragraphs>
+  </li>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>El propósito de este "¿Cuántos ves?" es que los estudiantes subiticen (es decir, reconozcan una cantidad de objetos sin contarlos) o utilicen estrategias de agrupamiento para describir las imágenes que ven.</p>
-  </paragraphs>
-  <!-- <paragraphs>
+  </li>
+  <!-- <li>
     <title><custom ref="materials-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> -->
-  <paragraphs>
+  </li> -->
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <ul>
       <li>Grupos de 2</li>
@@ -65,8 +67,8 @@
       <li>Muestre rápidamente la imagen (3 segundos).</li>
       <li>30 segundos: tiempo de reflexión en silencio</li>
     </ul>
-  </paragraphs>
-  <paragraphs>
+  </li>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <ul>
       <li>Muestre nuevamente la imagen.</li>
@@ -74,8 +76,9 @@
       <li>1 minuto: discusión con el compañero</li>
       <li>Registre las respuestas.</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -83,12 +86,13 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
-  <!-- <paragraphs> -->
+<p>
+<dl>
+  <!-- <li> -->
     <!-- <title><custom ref="support-actividad-titulo"/></title> -->
     <!-- <p>[@@@@@@@@@]</p> -->
-  <!-- </paragraphs> -->
-  <paragraphs>
+  <!-- </li> -->
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <ul>
       <li><q>¿Cómo los ayudó la forma en la que estaban organizadas las manzanas a ver cuántas había?</q> (Vi 2 filas de 4 y supe que eran 8 manzanas, luego dupliqué eso para encontrar cuántas manzanas había en la caja. Vi grupos de 4, así que multipliqué <m>4\times 4</m> y luego sumé las otras manzanas.)</li>
@@ -103,15 +107,17 @@
         </p>
       </li>
     </ul>
-  </paragraphs>
-  <!-- <paragraphs> -->
+  </li>
+  <!-- <li> -->
     <!-- <title><custom ref="language-actividad-titulo"/></title> -->
     <!-- <p>[@@@@@@@@@]</p> -->
-  <!-- </paragraphs> -->
-  <!-- <paragraphs> -->
+  <!-- </li> -->
+  <!-- <li> -->
     <!-- <title><custom ref="accesibility-actividad-titulo"/></title> -->
     <!-- <p>[@@@@@@@@@]</p> -->
-  <!-- </paragraphs> -->
+  <!-- </li> -->
+</dl>
+</p>
 </postlude>
 
 

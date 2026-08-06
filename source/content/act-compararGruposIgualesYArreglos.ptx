@@ -20,10 +20,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li> 
@@ -45,34 +47,34 @@
         <!-- <xref ref="ccss-2-OA-C-4" text="custom">2.OA.C.4</xref> -->
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>15 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this activity is for students to describe an array as an arrangement of objects into rows with an equal number of objects in each row and into columns with an equal number in each column. This will be helpful in the next activity when students arrange objects into arrays and describe arrays in terms of multiplication.</p>
 <p>When students decide whether or not they agree with Noah about seeing equal groups in the array and explain their reasoning, they construct a viable argument and critique the reasoning of others (MP3).</p>
-  </paragraphs>
+  </li>
 
 
   <!-- Materiales requeridos de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-actividad-titulo"/></title>
     <p>[@@@@@@@@@@@@@@]</p>
     <!-- si hay materiales, crear los archivos -mat.ptx (para materiales de la actividad) y -matCentros.ptx (para mencionar los otros centros que se usan y para los que se necesitan materiales) y poner los materiales ahí usando los archivos de template. Después hacer xinclude  de estos archivos en la lista de materiales de la lección.-->
     <!-- <xi:include href="./act-compararGruposIgualesYArreglos-mat.ptx"/>  -->
     <!-- <xi:include href="./act-compararGruposIgualesYArreglos-matCentros.ptx"/>  -->
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -84,11 +86,11 @@
       <li>1–2 minutes: quiet think time</li>
       <li>Share and record responses.</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -104,8 +106,9 @@
       <li> Ahora, discutan con su compañero si están de acuerdo o en desacuerdo con Noah </li>
       <li>2–3 minutes: partner discussion</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -113,17 +116,18 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Estrategias de apoyo para estudiantes con dificultades -->
-  <paragraphs>
+  <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>=== NOT PRESENT ===</p>
-  </paragraphs>
+  </li>
 
 
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -131,22 +135,23 @@
         <q>¿Cómo se relacionan los arreglos con los grupos iguales? </q>  (There are the same number of dots in each row, so the rows are equal groups. There are the same number of dots in each column, so the columns are equal groups.)
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Descripción del desarrollo de lenguaje matemático -->
-  <paragraphs>
+  <li>
     <title><custom ref="language-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs>
+  </li>
 
 
   <!-- Estrategias de acceso para estudiantes con discapacidades -->
-  <paragraphs>
+  <li>
     <title><custom ref="accesibility-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </activity>

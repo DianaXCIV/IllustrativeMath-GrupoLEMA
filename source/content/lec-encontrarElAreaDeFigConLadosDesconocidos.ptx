@@ -38,9 +38,10 @@
   Introducción para el profesor                        
 =================================================  -->
 <introduction component="profesor">
-
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-leccion-titulo"/></title> 
     <ul>
       <li>
@@ -48,23 +49,23 @@
         <xref ref="ccss-3-MD-C-7-d" text="custom">3.MD.C.7.d</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- índice de la lección (automático) -->
-  <paragraphs>
+  <li>
     <title><custom ref="timeline-leccion-titulo"/></title>
     <list-of elements="subsubsection reading-questions" scope="subsection"/>
-  </paragraphs>
+  </li>
 
   <!-- Propósito de la lección -->
-  <paragraphs>
+  <li>
     <title><custom ref="purpose-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this lesson is for students to calculate the area of ungridded figures made of rectangles, including figures with missing side lengths.</p>
-  </paragraphs>
+  </li>
 
   <!-- Materiales requeridos -->
-  <!-- <paragraphs>
+  <!-- <li>
     <title><custom ref="materials-leccion-titulo"/></title>
     <ul>
       <li>
@@ -78,21 +79,23 @@
         <xi:include href="./act-practicarConLadosDesconocidos-matCentros.ptx"/>
       </li>
     </ul>  
-  </paragraphs>-->
+  </li>-->
   
   <!-- Introducción de la lección (narrative) -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>In previous lessons, students found the area of figures that were fully gridded with squares and moved toward figures without a grid but had all their side lengths labeled. In this lesson, students use the strategies they have learned to decompose the figures into non-overlapping rectangles. They realize that not all measurements need to be given, and that some lengths can be determined given the rectangular structure of these figures.</p>
-  </paragraphs>
+  </li>
   
   <!-- Preguntas de reflexión profesor -->
-  <paragraphs>
+  <li>
     <title><custom ref="reflection-quest-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>Reflect on which students have not shared their strategies in class lately. How can their insight or ways of thinking be highlighted in or tied to upcoming lessons?</p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </introduction>
 
 

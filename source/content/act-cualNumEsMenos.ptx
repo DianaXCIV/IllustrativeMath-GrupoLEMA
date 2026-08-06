@@ -100,11 +100,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
-  
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li>
@@ -113,29 +114,29 @@
         <xref ref="ccss-K-CC-C-7" text="custom">K.CC.C.7</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>15 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this activity is for students to write and compare numbers 1–10. Students compare numbers in any way that makes sense to them.</p>
-  </paragraphs>
+  </li>
 
 
   <!-- Materiales requeridos de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-actividad-titulo"/></title>
     <xi:include href="./act-cualNumEsMenos-mat.ptx"/> 
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -166,18 +167,19 @@
         <q>Es su turno de jugar con su pareja. Cada uno lanza un cubo. Después, escriben los números y descifran cuál número es menos</q>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
       <li>5 minutes: partner work time</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -185,17 +187,16 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Estrategias de apoyo para estudiantes con dificultades 
-  <paragraphs>
+  <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>=== NOT PRESENT ===</p>
-  </paragraphs>-->
-
-
+  </li>-->
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -204,24 +205,25 @@
         <q>¿Cuál número es menos? ¿Cómo lo saben?</q> (2. I know that 2 is small. 9 is a lot more. When you count you come to 2 first which means it is less.)
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Descripción del desarrollo de lenguaje matemático -->
-  <paragraphs>
+  <li>
     <title><custom ref="language-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>MLR8 Discussion Supports. Make sure that students can explain how they know which number is less. This invites groups to rehearse what they will say when they share with the whole class.</p>
     <p>Advances: Speaking, Conversing, Representation</p>
-  </paragraphs>
+  </li>
 
 
   <!-- Estrategias de acceso para estudiantes con discapacidades 
-  <paragraphs>
+  <li>
     <title><custom ref="accesibility-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs>-->
-
+  </li>-->
+</dl>
+</p>
 </postlude>
 
 </activity>

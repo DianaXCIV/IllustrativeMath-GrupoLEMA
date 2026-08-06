@@ -25,21 +25,23 @@
 </solution>
 
 
-<postlude component="profesor"> <!-- Notas para el profesor -->
+<postlude component="profesor">
+<p>
+<dl>
+ <!-- Notas para el profesor -->
 
   <!-- Posibles errores -->
-  <!-- <paragraphs>
+  <!-- <li>
     <title><custom ref="errores-cool-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> -->
-
-
+  </li> -->
   <!-- Estrategia de apoyo si muchos estudiantes respondieron incorrectamente -->
-  <paragraphs>
+  <li>
     <title><custom ref="apoyo-cool-titulo"/></title>
     <p>Más oportunidades. Los estudiantes tendrán más oportunidades para comprender las ideas matemáticas de esta actividad de cierre, por lo que no es necesario ralentizar ni añadir trabajo adicional a las próximas lecciones. En su lugar, use los resultados de esta actividad para orientar sobre lo que se debe observar y enfatizar en las siguientes lecciones, para ayudar a los estudiantes a avanzar en su comprensión actual.</p>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </project>

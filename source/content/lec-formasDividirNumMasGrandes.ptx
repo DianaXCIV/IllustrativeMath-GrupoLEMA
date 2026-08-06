@@ -35,9 +35,10 @@
   Introducción para el profesor                        
 =================================================  -->
 <introduction component="profesor">
-
+<p>
+<dl>
     <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-leccion-titulo"/></title> 
     <ul>
       <li>
@@ -45,22 +46,22 @@
         <xref ref="ccss-3-NBT-A-3" text="custom">3.NBT.A.3</xref>, <xref ref="ccss-3-OA-B-5" text="custom">3.OA.B.5</xref>, <xref ref="ccss-3-OA-C-7" text="custom">3.OA.C.7</xref>, <xref ref="ccss-3-OA-A-2" text="custom">3.OA.A.2</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- índice de la lección (automático) -->
-  <paragraphs>
+  <li>
     <title><custom ref="timeline-leccion-titulo"/></title>
     <list-of elements="subsubsection reading-questions" scope="subsection"/>
-  </paragraphs>
+  </li>
 
   <!-- Propósito de la lección -->
-  <paragraphs>
+  <li>
     <title><custom ref="purpose-leccion-titulo"/></title>
     <p>El propósito de esta lección es que los estudiantes reconozcan que las dos interpretaciones de la división siguen siendo válidas al dividir números más grandes y que utilicen diagramas en base diez para interpretar y representar la división hasta <m>100</m>.</p>
-  </paragraphs>
+  </li>
 
   <!-- Materiales requeridos -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-leccion-titulo"/></title>
     <ul>
       <li>
@@ -72,23 +73,25 @@
         <xi:include href="./act-formasMostrarDivision-mat.ptx"/>
       </li>
     </ul>
-  </paragraphs>
+  </li>
   
   <!-- Introducción de la lección (narrative) -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-leccion-titulo"/></title>
     <p>Antes de esta lección, los estudiantes han interpretado y representado la división en términos de hacer grupos de igual tamaño. En esta lección, repasan las dos interpretaciones de la división y recuerdan que el divisor se puede ver como el número de grupos o el tamaño de cada grupo.</p>
 
     <p>Los estudiantes utilizan bloques en base diez y diagramas para analizar y representar expresiones de división como <m>55 \div 5</m> y <m>84 \div 7</m>. Ellos ven que una interpretación de la división puede ser más útil que la otra, dependiendo de los números involucrados.</p>
 
     <p>Los estudiantes también reconocen que es útil usar decenas y unidades para hacer los grupos iguales (por ejemplo, pensar en <m>84</m> como <m>8</m> decenas y <m>4</m> unidades, en lugar de <m>84</m> unidades), y descomponer las decenas en unidades según sea necesario.</p>
-  </paragraphs>
+  </li>
   
   <!-- Preguntas de reflexión profesor -->
-  <paragraphs>
+  <li>
     <title><custom ref="reflection-quest-titulo"/></title>
     <p>¿Cómo el conocimiento de los estudiantes sobre el valor posicional y las propiedades de las operaciones les está ayudando a comprender las estrategias de división?</p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </introduction>
 
 

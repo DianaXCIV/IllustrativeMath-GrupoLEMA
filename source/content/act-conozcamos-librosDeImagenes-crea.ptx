@@ -48,10 +48,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li>
@@ -59,31 +61,31 @@
         <xref ref="ccss-K-CC-B-4" text="custom">K.CC.B.4</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>10 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>El propósito de esta actividad es que los estudiantes conozcan la <xref ref="centro-librosDeImagenes-etapa2" text="title"/> del <xref ref="centro-librosDeImagenes" text="title"/>. En esta actividad, los estudiantes identifican grupos de dos objetos en su salón de clases y los registran. Al ver los grupos de dos objetos registrados por otros estudiantes, se invita a los estudiantes a observar que muchos grupos diferentes de objetos pueden tener el mismo número.</p>
 
     <p>Los estudiantes crean una página de un libro de imágenes, que se incluye en su libro de trabajo. En el trabajo en los centros, los estudiantes tienen la oportunidad de completar más páginas en su libro de imágenes. Se incluye una hoja reproducible como ejemplo. Cada página del libro de imágenes tiene un número escrito y puntos para relacionar números y cantidades.</p>
-  </paragraphs>
+  </li>
 
 
   <!-- Materiales requeridos de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-actividad-titulo"/></title>
     <xi:include href="act-conozcamos-librosDeImagenes-crea-mat.ptx"/> 
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <ul>
       <li>Muestre el libro del estudiante.</li>
@@ -94,11 +96,11 @@
       <li><q>Encontramos grupos de cosas en nuestro salón. También emparejamos grupos que tienen el mismo número de cosas. ¿Pueden encontrar alguna cosa de la que haya dos en nuestro salón y que quieran incluir en sus libros de imágenes?</q></li>
       <li>30 segundos: tiempo para pensar en silencio</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <ul>
       <li><q>Van a hacer una página para el libro de imágenes como las que vimos antes. Hay dos puntos arriba en la página, así que en esta página deben dibujar cosas de nuestro salón de las que haya dos.</q></li>
@@ -109,17 +111,19 @@
       <li><q>Encuentren otros grupos de 2 cosas en el salón y pónganlas en esta página de su libro de imágenes.</q></li>
       <li>3 minutos: tiempo para trabajar de forma independiente</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 <!-- ============================================================== 
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Estrategias de apoyo para estudiantes con dificultades -->
-  <paragraphs>
+  <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>Si los estudiantes dibujan grupos con más o menos de 2 objetos, considere preguntar:</p>
 
@@ -128,11 +132,11 @@
       <li><q>¿Qué cosas ves que están en un grupo de 2?</q></li>
       <li>De ser necesario, identifica algunos objetos en la habitación y pregunta <q>¿Hay 2 <fillin/>?</q></li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <ul>
       <li>Invite a los estudiantes a compartir los grupos de 2 que dibujaron.</li>
@@ -140,24 +144,25 @@
       <li><q>¿En qué se parecen todos estos grupos de cosas?</q> (Los encontramos todos en el salón de clases. Todos tienen 2.)</li>
       <li><q>Podrán hacer más páginas para sus libros de imágenes cuando trabajemos en los centros.</q></li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Descripción del desarrollo de lenguaje matemático -->
-  <paragraphs>
+  <li>
     <title><custom ref="language-actividad-titulo"/></title>
     <p>Apoyos para la discusión de MLR8. Antes de comenzar el tiempo de trabajo independiente, invite a un estudiante a compartir un ejemplo de dos cosas en el salón de clases. Escuche y aclare cualquier pregunta.</p>
     <p>Avances: Hablar, Representar.</p>
-  </paragraphs>
+  </li>
 
 
   <!-- Estrategias de acceso para estudiantes con discapacidades -->
-  <paragraphs>
+  <li>
     <title><custom ref="accesibility-actividad-titulo"/></title>
     <p>Acción y Expresión: Proporcionar Acceso para la Acción Física. Para ayudar a generar ideas, invite a los estudiantes a decirle a su compañero lo que planean dibujar antes de comenzar.</p>
     <p>Apoya la accesibilidad para: Lenguaje, Procesamiento Visual-Espacial.</p>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </activity>

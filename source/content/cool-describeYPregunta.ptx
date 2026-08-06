@@ -39,8 +39,10 @@
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
 <prelude component="profesor">
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li>
@@ -52,28 +54,33 @@
         <xref ref="ccss-3-MD-B-3" text="custom">3.MD.B.3</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </prelude>
 
 
 <!-- ============================================================== 
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
-<postlude component="profesor"> 
-
+<postlude component="profesor">
+<p>
+<dl>
+ 
   <!-- Posibles errores -->
-  <paragraphs>
+  <li>
     <title><custom ref="errores-cool-titulo"/></title><p>[++++++++++++++++++++++++++++]</p>
     <p>Students do not read and interpret the bar graph accurately, or students write questions that can’t be answered with the graph.</p>
-  </paragraphs>
+  </li>
 
 
   <!-- Estrategia de apoyo si muchos estudiantes respondieron incorrectamente -->
-  <paragraphs>
+  <li>
     <title><custom ref="apoyo-cool-titulo"/></title><p>[++++++++++++++++++++++++++++]</p>
     <p>Use the launch of the next day's activity to have students interpret the picture graph and generate questions that could be answered with the picture graph.</p>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </project>

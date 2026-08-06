@@ -34,9 +34,10 @@
   Introducción para el profesor                        
 =================================================  -->
 <introduction component="profesor">
-
+<p>
+<dl>
     <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-leccion-titulo"/></title> 
     <ul>
       <li>
@@ -48,22 +49,22 @@
         <xref ref="ccss-3-OA-C-7" text="custom">3.OA.C.7</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- índice de la lección (automático) -->
-  <paragraphs>
+  <li>
     <title><custom ref="timeline-leccion-titulo"/></title>
     <list-of elements="subsubsection reading-questions" scope="subsection"/>
-  </paragraphs>
+  </li>
 
   <!-- Propósito de la lección -->
-  <paragraphs>
+  <li>
     <title><custom ref="purpose-leccion-titulo"/></title>
     <p>El propósito de esta lección es que los estudiantes comprendan diferentes representaciones de la multiplicación de números entre 11 y 19.</p>
-  </paragraphs>
+  </li>
 
   <!-- Materiales requeridos -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-leccion-titulo"/></title>
     <ul>
       <li>
@@ -71,20 +72,22 @@
         <xi:include href="./act-factorMayorQue10-mat.ptx"/>
       </li>
     </ul> 
-  </paragraphs>
+  </li>
   
   <!-- Introducción de la lección (narrative) -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-leccion-titulo"/></title>
     <p>Esta lección se relaciona con las anteriores porque los estudiantes han resuelto problemas en los que multiplicaron números del 11 al 19 usando estrategias que tienen sentido para ellos, como por ejemplo la propiedad distributiva. En esta lección, se exploran diferentes representaciones de estrategias para multiplicar números del 11 al 19, que serán útiles en la siguiente lección.</p>
     <!-- <p>El trabajo de esta lección se conecta con el trabajo anterior porque los estudiantes han resuelto problemas que involucran la multiplicación de números del 11 al 19 de maneras que tienen sentido para ellos. En la sección anterior también utilizaron la propiedad distributiva para encontrar productos de factores de un solo dígito utilizando hechos que conocen. En esta lección, los estudiantes consideran y conectan diferentes representaciones de una estrategia utilizada en la sección anterior que también se puede utilizar para multiplicar un número del 11 al 19. Esto será útil en la próxima lección cuando los estudiantes resuelvan este tipo de problemas y elijan cómo representar el problema.</p> -->
-  </paragraphs>
+  </li>
   
   <!-- Preguntas de reflexión profesor -->
-  <paragraphs>
+  <li>
     <title><custom ref="reflection-quest-titulo"/></title>
     <p>¿Cómo le ayuda a los estudiantes a multiplicar números del 11 al 19 el trabajo previo con diagramas de área?</p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </introduction>
 
 

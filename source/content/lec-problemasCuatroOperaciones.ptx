@@ -39,9 +39,10 @@
   Introducción para el profesor                        
 =================================================  -->
 <introduction component="profesor">
-
+<p>
+<dl>
     <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-leccion-titulo"/></title> 
     <ul>
       <li>
@@ -49,22 +50,22 @@
         <xref ref="ccss-3-NBT-A-3" text="custom">3.NBT.A.3</xref>, <xref ref="ccss-3-OA-B-5" text="custom">3.OA.B.5</xref>, <xref ref="ccss-3-OA-D-8" text="custom">3.OA.D.8</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- índice de la lección (automático) -->
-  <paragraphs>
+  <li>
     <title><custom ref="timeline-leccion-titulo"/></title>
     <list-of elements="subsubsection reading-questions" scope="subsection"/>
-  </paragraphs>
+  </li>
 
   <!-- Propósito de la lección -->
-  <paragraphs>
+  <li>
     <title><custom ref="purpose-leccion-titulo"/></title>
     <p>El propósito de esta lección es que los estudiantes resuelvan problemas de dos pasos utilizando las cuatro operaciones.</p>
-  </paragraphs>
+  </li>
 
   <!-- Materiales requeridos -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-leccion-titulo"/></title>
     <ul>
       <li>
@@ -72,20 +73,22 @@
         <xi:include href="./act-problemasMultiplicativosFiesta-mat.ptx"/>
       </li>
     </ul> 
-  </paragraphs>
+  </li>
   
   <!-- Introducción de la lección (narrative) -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-leccion-titulo"/></title>
     <p>Anteriormente, los estudiantes resolvieron problemas de dos pasos con suma, resta y multiplicación. En esta lección, ellos plantean preguntas matemáticas sobre una situación y luego resuelven problemas de dos pasos con división, utilizando números de un solo dígito. También se revisa el uso de paréntesis como herramienta para especificar el orden de las operaciones en una ecuación.</p>
     <!-- <p>Anteriormente, los estudiantes han resuelto problemas de dos pasos que involucran suma, resta y multiplicación. Aquí consideran qué preguntas matemáticas podrían hacerse sobre una situación y luego resuelven problemas de dos pasos que incluyen división donde los factores están limitados a números de un solo dígito. Se vuelve a visitar los paréntesis como una herramienta que los estudiantes pueden usar para especificar qué operación ocurre primero en la ecuación para que coincida con la situación que están representando.</p> -->
-  </paragraphs>
+  </li>
   
   <!-- Preguntas de reflexión profesor -->
-  <paragraphs>
+  <li>
     <title><custom ref="reflection-quest-titulo"/></title>
     <p>¿Cómo ha evolucionado la comprensión de mis estudiantes de problemas de dos pasos en las últimas lecciones? ¿Cómo han influido sus experiencias con la multiplicación y la división en esta unidad en sus estrategias de resolución de problemas?</p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </introduction>
 
 

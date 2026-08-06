@@ -19,25 +19,28 @@
   <introduction>
     <p>Los estudiantes reciben una escena de mate-libreta. Lanzan un cubo sobre un tablero de números, escriben el número junto a un objeto en la escena y dibujan esa cantidad de objetos en la escena. Repiten hasta completar todos los objetos.</p>
   </introduction>
-
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-centro-etapa-titulo"/></title> 
     <p>K.CC.A.3, K.CC.B.5</p>
-  </paragraphs>
+  </li>
 
 
   <!-- materiales requeridos -->
-  <paragraphs>
+  <li>
     <title>Materiales</title>
     <xi:include href="../content/act-conozcamos-mateLibreta-dibujaDel1Al10-mat.ptx"/> 
-  </paragraphs>
+  </li>
   
   <!-- referencia a la actividad en la que se presenta el centro por primera vez -->
-  <paragraphs>
+  <li>
     <title><custom ref="centros-ubicacion-act-intro-titlulo"/></title>
     <p> <xref ref="act-conozcamos-mateLibreta-dibujaDel1Al10" text="title"/> </p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 
   <!-- Archivo con el contenido -->
   <!-- <xi:include href="../graVV-uniXX/act-conozcamos-mateLibreta-SSSSSS.ptx"/>    -->

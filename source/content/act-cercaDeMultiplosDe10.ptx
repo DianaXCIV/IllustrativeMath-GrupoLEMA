@@ -149,10 +149,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li> 
@@ -160,23 +162,23 @@
         <xref ref="ccss-3-NBT-A-1" text="custom">3.NBT.A.1</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>20 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>Previously, students identified two multiples of 100 that border a given number, reasoned about their relative distance from the number, and then named the nearest multiple of 100. The purpose of this activity is for students to practice naming the nearest multiple of 100 and apply the same reasoning to identify the nearest multiple of 10. They determine two multiples of 10 that are closest to a given number (two intermediate tick marks on the number line) and then identify the multiple of 10 that is closer.</p>
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -187,11 +189,11 @@
       <li>3–5 minutes: partner work time</li>
       <li>Share responses.</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -208,8 +210,9 @@
       </li>
       <li>3–5 minutes: independent work time</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -217,9 +220,10 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -227,18 +231,19 @@
         <q>¿Cómo saben qué múltiplo de 10 es el más cercano a cada número?</q>  (If we label and locate the number on the number line, we can see which tick mark the point is closer to. We can see how many numbers to count up or down to get to a multiple of 10. For example, we only count up once to get from 89 to 90, but we count down 9 times to get down to 80.)
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Estrategias de acceso para estudiantes con discapacidades -->
-  <paragraphs>
+  <li>
     <title><custom ref="accesibility-actividad-titulo"/></title>
     <p>[++++++++++++++++]</p>
     <p><em>Engagement: Provide Access by Recruiting Interest.</em> Leverage choice around perceived challenge. Invite students to select at least 3 of the 5 problems to complete.</p>
     <p>
       <em>Supports accessibility for: Organization, Attention, Social-emotional skills</em>
     </p>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </activity>

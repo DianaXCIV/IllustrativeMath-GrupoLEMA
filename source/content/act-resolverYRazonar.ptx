@@ -34,10 +34,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li> 
@@ -45,24 +47,24 @@
         <xref ref="ccss-3-OA-D-8" text="custom">3.OA.D.8</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>20 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this activity is for students to solve two-step word problems involving addition and subtraction. After students solve the problems, they trade answers with a partner to decide if their answer makes sense.</p>    
     <p>When students assess the reasonableness of each other’s answers and communicate their assessment, they construct logical arguments and critique the reasoning of others (MP3).</p>
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -71,11 +73,11 @@
         <q>Ahora van a encontrar la respuesta exacta de algunos problemas. Mientras lo hacen, piensen cómo les puede ayudar hacer una estimación a decidir si una respuesta tiene sentido</q>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -95,8 +97,9 @@
       </li>
       <li>5 minutes: partner work time</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -104,9 +107,10 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Estrategias de apoyo para estudiantes con dificultades -->
-  <paragraphs>
+  <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>If students don't find a solution to the problems, consider asking:</p>
@@ -118,11 +122,11 @@
         <q>¿Cómo podrías representar el problema?</q>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -133,30 +137,31 @@
         <q>¿En qué les ayudó examinar el trabajo de otra persona en cada problema?</q>  (I was able to see a different strategy that they used for the problem. I was able to help them catch a mistake they made.)
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Descripción del desarrollo de lenguaje matemático -->
-  <paragraphs>
+  <li>
     <title><custom ref="language-actividad-titulo"/></title>
     <p>[++++++++++++++++]</p>
     <p><em>MLR8 Discussion Supports:</em> Prior to solving the problems, invite students to make sense of the situations and take turns sharing their understanding with their partner. Listen for and clarify any questions about the context.</p>
     <p>
       <em>Advances: Reading, Representing</em>
     </p>
-  </paragraphs>
+  </li>
 
 
   <!-- Estrategias de acceso para estudiantes con discapacidades -->
-  <paragraphs>
+  <li>
     <title><custom ref="accesibility-actividad-titulo"/></title>
     <p>[++++++++++++++++]</p>
     <p><em>Engagement: Develop Effort and Persistence.</em> Differentiate the degree of difficulty or complexity. Some students may benefit from starting with a familiar example or one with more accessible values.</p>
     <p>
       <em>Supports accessibility for: Conceptual Processing, Social-Emotional Functioning</em>
     </p>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </activity>

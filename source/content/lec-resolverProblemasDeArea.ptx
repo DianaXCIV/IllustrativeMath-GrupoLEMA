@@ -41,9 +41,10 @@
   Introducción para el profesor                        
 =================================================  -->
 <introduction component="profesor">
-
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-leccion-titulo"/></title> 
     <ul>
       <li>
@@ -51,23 +52,23 @@
         <xref ref="ccss-3-OA-B-5" text="custom">3.OA.B.5</xref>, <xref ref="ccss-3-MD-C-7-b" text="custom">3.MD.C.7.b</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- índice de la lección (automático) -->
-  <paragraphs>
+  <li>
     <title><custom ref="timeline-leccion-titulo"/></title>
     <list-of elements="subsubsection reading-questions" scope="subsection"/>
-  </paragraphs>
+  </li>
 
   <!-- Propósito de la lección -->
-  <paragraphs>
+  <li>
     <title><custom ref="purpose-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this lesson is for students to solve problems involving area.</p>
-  </paragraphs>
+  </li>
 
   <!-- Materiales requeridos -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-leccion-titulo"/></title>
     <ul>
       <!--<li>
@@ -81,22 +82,24 @@
         <!--<xi:include href="./act-hacerUnaHuerta-matCentros.ptx"/>-->
       </li>
     </ul> 
-  </paragraphs>
+  </li>
   
   <!-- Introducción de la lección (narrative) -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>In previous lessons, students found the area of rectangles with tiles, grids, partial grids, or linear measurements marked along the sides of the rectangle. Students also used rulers to find the area of rectangles.</p>
 <p>The problems in this lesson are about a community garden. Consider launching the lesson with a read-aloud of <em>City Green</em> by DyAnne DiSalvo-Ryan to get students thinking about different aspects of a community garden. Students might draw squares within rectangles, draw tick marks on side lengths, count groups, or multiply to find area in this lesson. Any reasoning that makes sense to them is acceptable.</p>
-  </paragraphs>
+  </li>
   
   <!-- Preguntas de reflexión profesor -->
-  <paragraphs>
+  <li>
     <title><custom ref="reflection-quest-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>Which question did you ask today that best supported students’ understanding of area within a context? What did students say or do that showed the question was effective?</p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </introduction>
 
 

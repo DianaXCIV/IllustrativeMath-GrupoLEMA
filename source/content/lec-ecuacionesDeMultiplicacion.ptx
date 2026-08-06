@@ -36,9 +36,10 @@
   Introducción para el profesor                        
 =================================================  -->
 <introduction component="profesor">
-
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-leccion-titulo"/></title> 
     <ul>
       <li> 
@@ -47,23 +48,23 @@
         <xref ref="ccss-3-OA-A-3" text="custom">3.OA.A.3</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- índice de la lección (automático) -->
-  <paragraphs>
+  <li>
     <title><custom ref="timeline-leccion-titulo"/></title>
     <list-of elements="subsubsection reading-questions" scope="subsection"/>
-  </paragraphs>
+  </li>
 
   <!-- Propósito de la lección -->
-  <paragraphs>
+  <li>
     <title><custom ref="purpose-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this lesson is for students to relate multiplication equations to situations and diagrams and write equations.</p>
-  </paragraphs>
+  </li>
 
   <!-- Materiales requeridos -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-leccion-titulo"/></title>
     <p>[@@@@@@@@@@@@@@]</p>
     <!-- <ul>
@@ -78,22 +79,24 @@
         <xi:include href="./act-escribirEcuacionesDeMultiplicacion-matCentros.ptx"/>
       </li>
     </ul>  -->
-  </paragraphs>
+  </li>
   
   <!-- Introducción de la lección (narrative) -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>In previous lessons students represented situations and diagrams with multiplication expressions. In this lesson, students learn the meaning of <term>factor</term>and <term>product</term>. Students do not have to use the vocabulary in this lesson as they will continue to have opportunities to do so throughout the year. In future lessons, students will represent situations and diagrams with equations that use a symbol for the unknown number, which may be either a factor or the product.</p>
 <p>Consider continuing to use the convention of groups as the first factor and the size of the groups as the second factor when writing equations. However, it is not necessary for students to write the factors in this order. It is important that students connect their equations to the corresponding situations and representations (MP2). They should be able to correctly explain what each factor represents in their equations. If students ask questions about the idea of commutativity, consider recording the questions publicly for future investigation.</p>
-  </paragraphs>
+  </li>
   
   <!-- Preguntas de reflexión profesor -->
-  <paragraphs>
+  <li>
     <title><custom ref="reflection-quest-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>How were the terms factor and product helpful as students began working with multiplication equations?</p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </introduction>
 
 

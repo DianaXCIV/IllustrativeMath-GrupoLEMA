@@ -34,9 +34,10 @@
   Introducción para el profesor                        
 =================================================  -->
 <introduction component="profesor">
-
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-leccion-titulo"/></title> 
     <ul>
       <li> 
@@ -58,23 +59,23 @@
         <!-- <xref ref="ccss-2-OA-C-4" text="custom">2.OA.C.4</xref> -->
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- índice de la lección (automático) -->
-  <paragraphs>
+  <li>
     <title><custom ref="timeline-leccion-titulo"/></title>
     <list-of elements="subsubsection reading-questions" scope="subsection"/>
-  </paragraphs>
+  </li>
 
   <!-- Propósito de la lección -->
-  <paragraphs>
+  <li>
     <title><custom ref="purpose-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this lesson is for students to describe arrays and arrange objects into arrays.</p>
-  </paragraphs>
+  </li>
 
   <!-- Materiales requeridos -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-leccion-titulo"/></title>
     <p>[@@@@@@@@@@@@@@]</p>
     <!-- <ul>
@@ -89,22 +90,24 @@
         <xi:include href="./act-organizarEnArreglos-matCentros.ptx"/>
       </li>
     </ul>  -->
-  </paragraphs>
+  </li>
   
   <!-- Introducción de la lección (narrative) -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>In grade 2, students were introduced to arrays and related them to addition expressions and equations. In this lesson, students deepen their understanding of arrays as they arrange physical objects and relate arrays to multiplication and equal groups. Students use connecting cubes to represent arrays in Activity 2 and in the cool-down.</p>
 <p>When working with array situations, students may see the equal groups in an array in either the rows or the columns. For example, when representing 3 rows of 5 chairs, they may create a 3 by 5 array or a 5 by 3 array. This is fine as long as students can correctly describe where the <q>3 rows of 5 chairs</q> are in their array. Students will learn about commutativity in the last lesson in this section, so if questions about commutativity arise, record them publicly for discussion in that lesson.</p>
-  </paragraphs>
+  </li>
   
   <!-- Preguntas de reflexión profesor -->
-  <paragraphs>
+  <li>
     <title><custom ref="reflection-quest-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>In previous grades, students saw examples of arrays, such as 10-frames, and counted objects arranged in arrays. How does that previous experience support their work with equal groups in arrays in this lesson?</p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </introduction>
 
 

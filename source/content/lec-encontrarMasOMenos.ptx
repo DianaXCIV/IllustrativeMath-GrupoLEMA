@@ -36,9 +36,10 @@
   Introducción para el profesor                        
 =================================================  -->
 <introduction component="profesor">
-
+<p>
+<dl>
     <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-leccion-titulo"/></title> 
     <ul>
       <li>
@@ -48,23 +49,23 @@
         <xref ref="ccss-K-CC-B-5" text="custom">K.CC.B.5</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- índice de la lección (automático) -->
-  <paragraphs>
+  <li>
     <title><custom ref="timeline-leccion-titulo"/></title>
     <list-of elements="subsubsection reading-questions" scope="subsection"/>
-  </paragraphs>
+  </li>
 
   <!-- Propósito de la lección -->
-  <paragraphs>
+  <li>
     <title><custom ref="purpose-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this lesson is for students to compare the number of images in groups and use <q>fewer</q>, <q>more</q>, and <q>the same number</q> to describe their relative size.</p>
-  </paragraphs>
+  </li>
 
   <!-- Materiales requeridos -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-leccion-titulo"/></title>
     <ul>
       <li>
@@ -83,21 +84,23 @@
         <xi:include href="./act-centros-escoger16-matCentros.ptx"/>
       </li>
     </ul> 
-  </paragraphs>
+  </li>
   
   <!-- Introducción de la lección (narrative) -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>Students compare groups of images in a way that makes sense to them. Because the images are presented in different arrangements, it is more difficult to match or use the arrangement to compare, and students may need to count to compare. Students may compare groups of 5 and 8 images by counting the group of 5 images and then counting 5 images within the group of 8 and noticing that there are still more images that are left to count, so 8 is more than 5. Students may also count 5 images and 8 images and use their knowledge of the count sequence to compare (<q>8 dots is more than 5 dots because 8 comes after 5 when we count</q>). These methods of comparing are discussed in the syntheses. In the lesson synthesis, students look at an image of 4 circled dots within a group of 7 dots. They may notice that since there are 4 and some more inside of 7, 7 is more than 4. Students will continue to have opportunities to think about this idea in the following lessons as well as in later units.</p>
-  </paragraphs>
+  </li>
   
   <!-- Preguntas de reflexión profesor -->
-  <paragraphs>
+  <li>
     <title><custom ref="reflection-quest-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>What question do you wish you had asked today? When and why should you have asked it?</p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </introduction>
 
 

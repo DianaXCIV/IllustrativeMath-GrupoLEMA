@@ -100,10 +100,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li> 
@@ -111,23 +113,23 @@
         <xref ref="ccss-3-NF-A-2" text="custom">3.NF.A.2</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>20 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this activity is for students to use the location of a unit fraction to locate 1 and 2 on a number line. It is likely students will reason about repeating the size of the unit fraction to locate 1. To locate 2 on the number lines, they may continue to count unit fraction size parts or use the location of 1 to locate 2.</p>
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -143,11 +145,11 @@
       <li>1 minute: partner discussion</li>
       <li>Share and record responses.</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -167,8 +169,9 @@
         </ul>
       </li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -176,9 +179,10 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Estrategias de apoyo para estudiantes con dificultades -->
-  <paragraphs>
+  <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>If students don’t locate 1, consider asking:</p>
@@ -190,11 +194,11 @@
         <q>¿Cuántos medios (tercios, cuartos u octavos) hay en 1? ¿Cómo podemos usar eso para ubicar el 1?</q>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -212,28 +216,29 @@
         <q>¿Qué estrategias usaron para ubicar el 2 después haber ubicado el 1?</q>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Descripción del desarrollo de lenguaje matemático -->
-  <paragraphs>
+  <li>
     <title><custom ref="language-actividad-titulo"/></title><p>[++++++++++++++++]</p>
     <p><em>MLR1 Stronger and Clearer Each Time.</em> Synthesis: Before the whole-class discussion, give students time to meet with 2–3 partners to share and get feedback on their response to “¿Cómo ubicaron 1 cuando les daban la ubicación de una fracción unitaria?” // “How did you locate 1 when given the location of a unit fraction?” Invite listeners to ask questions, to press for details and to suggest mathematical language. Give students 2–3 minutes to revise their written explanation or representation based on the feedback they receive.</p>
     <p>
       <em>Advances: Writing, Representing, Speaking, Listening</em>
     </p>
-  </paragraphs>
+  </li>
 
 
   <!-- Estrategias de acceso para estudiantes con discapacidades -->
-  <paragraphs>
+  <li>
     <title><custom ref="accesibility-actividad-titulo"/></title><p>[++++++++++++++++]</p>
     <p><em>Representation: Internalize Comprehension.</em> Synthesis: Invite students to identify which details were needed or most useful to solve the problem. Display the sentence frame, “La próxima vez que ubique el 1 en una recta numérica, buscaré / prestaré atención a . . .” // “The next time I locate 1 on a number line, I will look for/pay attention to . . . ”</p>
     <p>
       <em>Supports accessibility for: Conceptual Processing</em>
     </p>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </activity>

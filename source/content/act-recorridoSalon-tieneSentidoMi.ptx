@@ -32,10 +32,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li> 
@@ -43,32 +45,32 @@
         <xref ref="ccss-3-OA-D-8" text="custom">3.OA.D.8</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>20 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this activity is for students to solve one of the problems from the card sort in the previous activity and examine their classmates' solutions to other problems. Students work in groups to create a poster of their solution. As students visit the posters, they leave comments about how they know the solution on the poster makes sense. As students make comments on the work of others, they critique the reasoning of others (MP3).</p>
-  </paragraphs>
+  </li>
 
 
   <!-- Materiales requeridos de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-actividad-titulo"/></title>
     <!-- si hay materiales, crear los archivos -mat.ptx (para materiales de la actividad) y -matCentros.ptx (para mencionar los otros centros que se usan y para los que se necesitan materiales) y poner los materiales ahí usando los archivos de template. Después hacer xinclude  de estos archivos en la lista de materiales de la lección.-->
     <xi:include href="./act-recorridoSalon-tieneSentidoMi-mat.ptx"/>  
     <!-- <xi:include href="./act-recorridoSalon-tieneSentidoMi-matCentros.ptx"/>  -->
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -77,11 +79,11 @@
       </li>
       <li>Give each group tools for creating a visual display and sticky notes.</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -93,8 +95,9 @@
       </li>
       <li>8–10 minutes: small-group work time</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -102,9 +105,10 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Estrategias de apoyo para estudiantes con dificultades -->
-  <paragraphs>
+  <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>If students try to find exact answers to determine if their peers’ solutions make sense, consider asking:</p>
@@ -116,11 +120,11 @@
         <q>¿Cómo podríamos usar una estimación para saber si la solución tiene sentido? ¿Cómo podríamos usar redondeo?</q>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -130,8 +134,9 @@
         <q>Cuando vayan a ver los pósteres, escojan un póster y dejen allí un comentario que explique cómo saben que la respuesta tiene sentido</q>
       </li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </activity>

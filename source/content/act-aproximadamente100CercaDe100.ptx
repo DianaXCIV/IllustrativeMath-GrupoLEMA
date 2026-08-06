@@ -85,10 +85,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li> 
@@ -96,23 +98,23 @@
         <xref ref="ccss-3-NBT-A-1" text="custom">3.NBT.A.1</xref>        
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>10 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this activity is for students to think about what it means for numbers to be close to multiples of 100. There is no definition given about what <q>close to</q> means during the activity, so students may interpret the term in different ways.</p>
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -124,11 +126,11 @@
       <li>1 minute: quiet think time</li>
       <li>Share and record responses.</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -143,8 +145,9 @@
       <li>2–3 minutes: partner work time</li>
       <li>Monitor for students who provide reasoning for where they would place 36, 52, and 163. Ask them to share during the synthesis.</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -152,9 +155,10 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -168,18 +172,19 @@
         <q>¿Qué pasaría si la tabla dijera ‘más cerca de 0’, ‘más cerca de 100’ y ‘más cerca de 200’? ¿Cambiaría el lugar donde va cada número? ¿Podrían poner todos los números en la tabla?</q>  (Yes, because I would just be choosing the number that’s closer than the other numbers, not saying it’s really close to the number.)
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Estrategias de acceso para estudiantes con discapacidades -->
-  <paragraphs>
+  <li>
     <title><custom ref="accesibility-actividad-titulo"/></title>
     <p>[++++++++++++++++]</p>
     <p><em>Action and Expression: Develop Expression and Communication.</em> Synthesis: Identify connections between strategies that result in the same outcomes but use differing approaches.</p>
     <p>
       <em>Supports accessibility for: Memory</em>
     </p>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </activity>

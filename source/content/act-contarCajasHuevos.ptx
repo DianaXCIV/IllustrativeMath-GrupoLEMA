@@ -31,10 +31,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li>
@@ -42,33 +44,33 @@
         <xref ref="ccss-K-CC-B-4-a" text="custom">K.CC.B.4.a</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>10 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>[++++++++++++++]</p>
     <p>The purpose of this optional activity is for students to use an egg carton as a tool to help them match one object with one number. Based on formative assessment data from previous sections and observation during the first activity, this activity will be helpful for students who are not yet matching each object with one and only one number. If egg cartons are not available, the blackline master can be provided to students. Other items with clear sections such as muffin tins can be used. This activity also serves as further formative assessment on students’ counting concepts, including one-to-one correspondence, keeping track of objects that have been counted, and understanding that the last number tells us “how many.” The egg-carton helps students see the importance of counting each object exactly once in order to get an accurate count (MP6).</p>
 
     <p>This activity can be used with a small-group or the whole class. Students who do not need this optional activity may benefit from additional time working in centers.</p>
-  </paragraphs>
+  </li>
 
 
   <!-- Materiales requeridos de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-actividad-titulo"/></title>
     <!-- si hay materiales, crear el siguiente archivo -mat.ptx y ponerlos ahí (y agregar también el archivo en la lista de materiales de la lección)-->
     <xi:include href="./act-contarCajasHuevos-mat.ptx"/> 
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <p>[++++++++++++++]</p>
     <ul>
@@ -79,11 +81,11 @@
       <li>30 seconds: quiet think time</li>
       <li>Share responses.</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <p>[++++++++++++++]</p>
     <ul>
@@ -94,8 +96,9 @@
       <li>2 minutes: independent work time</li>
       <li>As students count, monitor for students who say one number as they put each object into a section of the egg carton.</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -103,17 +106,18 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Estrategias de apoyo para estudiantes con dificultades -->
-  <paragraphs>
+  <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>[++++++++++++++]</p>
     <p>If students say more than one number for each object, give them larger objects to count. Demonstrate counting slowly and using an exaggerated gesture while counting each object.</p>
-  </paragraphs>
+  </li>
 
 
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <p>[++++++++++++++]</p>
     <ul>
@@ -124,24 +128,25 @@
       <li>2 minutes: partner work time</li>
       <li>If needed, <q>Al contar, decimos 1 número por cada objeto</q></li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Descripción del desarrollo de lenguaje matemático -->
-  <!-- <paragraphs>
+  <!-- <li>
     <title><custom ref="language-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> -->
+  </li> -->
 
 
   <!-- Estrategias de acceso para estudiantes con discapacidades -->
-  <paragraphs>
+  <li>
     <title><custom ref="accesibility-actividad-titulo"/></title>
     <p>[++++++++++++++]</p>
     <p>Representation: Internalize Comprehension. Invite students to count together in unison and demonstrate moving objects one by one into the egg carton. Emphasize the correspondence of one object for each count.</p>
     <p>Supports accessibility for: Organization, Conceptual Processing, Language</p>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </activity>

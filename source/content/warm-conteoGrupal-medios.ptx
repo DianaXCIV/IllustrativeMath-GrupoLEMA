@@ -27,10 +27,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li> 
@@ -42,23 +44,23 @@
         <xref ref="ccss-3-NF-A-2" text="custom">3.NF.A.2</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>10 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->  
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this Choral Count is to invite students to practice counting by <m>\frac{1}{2}</m> and notice patterns in the count. These understandings help students develop fluency and will be helpful later in this lesson when students recognize and generate equivalent fractions. In the synthesis, students have the opportunity to notice that <m>\frac{2}{2}</m> and <m>\frac{4}{4}</m> are both equal to 1 whole.</p>
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -68,10 +70,10 @@
       <li>Record as students count. Record 2 fractions in each row, then start a new row. There will be 4 rows.</li>
       <li>Stop counting and recording at <m>\frac{8}{2}</m>.</li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -81,8 +83,9 @@
       <li>1–2 minutes: quiet think time</li>
       <li>Record responses.</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -90,9 +93,10 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -108,8 +112,9 @@
         </ul>
       </li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </exploration>

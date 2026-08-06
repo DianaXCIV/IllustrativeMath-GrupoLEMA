@@ -14,20 +14,22 @@
 <title>
   Hojas reproducibles: tabla para <xref ref="act-unaAventuraConManzanas" text="title"/>
 </title>
-
-<paragraphs>
+<p>
+<dl>
+<li>
   <title>Pdf para imprimir</title>
   <p>
     <url component="web" href="external/blm/tikz-source/3-4-21-act1-BLM.pdf">descargar</url>
   </p>
-</paragraphs>
+</li>
 
 
-<paragraphs component="web">
+<li component="web">
   <title>Muestra de páginas</title>  
   <image source="blm/tikz-source/3-4-21-act1-BLM.png">
     <shortdescription></shortdescription>
   </image>
-</paragraphs>
-
+</li>
+</dl>
+</p>
 </subsection>

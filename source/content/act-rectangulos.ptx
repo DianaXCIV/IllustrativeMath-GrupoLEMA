@@ -92,10 +92,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li> 
@@ -103,34 +105,34 @@
         <xref ref="ccss-3-MD-C-6" text="custom">3.MD.C.6</xref>        
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>20 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this activity is for students to recognize that different shapes can have the same area. Students first sort the cards in any way that makes sense to them and then by area. After the cards are sorted by area, students create another rectangle that would fit into one of the categories (by having a particular area). A sorting task prompts students to look for structure and make connections across the representations and statements being analyzed (MP7).</p>
     <p>Students may start to notice that the organization of the squares in rectangles makes it efficient to count: The squares can be grouped by row, column, or in other ways. As students sort and create rectangles with certain areas, monitor for students who leverage the structure of a rectangle to find area. Invite them to share in the synthesis.</p>
     <p>In this activity, the squares on the gridded rectangles are not the same size as the square tiles, but students could still use tiles as a support. Provide students access to square tiles if they would like to use them, but encourage them to draw what they create on the grid provided.</p>
-  </paragraphs>
+  </li>
 
 
   <!-- Materiales requeridos de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-actividad-titulo"/></title>
     <!-- si hay materiales, crear los archivos -mat.ptx (para materiales de la actividad) y -matCentros.ptx (para mencionar los otros centros que se usan y para los que se necesitan materiales) y poner los materiales ahí usando los archivos de template. Después hacer xinclude  de estos archivos en la lista de materiales de la lección.-->
     <xi:include href="./act-rectangulos-mat.ptx"/>  
     <!-- <xi:include href="./act-rectangulos-matCentros.ptx"/>  -->
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -153,11 +155,11 @@
       <li>Distribute one set of pre-cut cards to each group of students.</li>
       <li>Give students access to inch tiles.</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -177,8 +179,9 @@
       <li>5 minutes: partner work time</li>
       <li>Monitor for the strategies students use to find the area of rectangles.</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -186,9 +189,10 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
    <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -201,27 +205,28 @@
       </li>
       <li>Discuss some of the efficient ways that students counted to find the area of rectangles.</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Descripción del desarrollo de lenguaje matemático -->
-  <paragraphs>
+  <li>
     <title><custom ref="language-actividad-titulo"/></title><p>[+++++++++++++++]</p>
     <p>MLR8 Discussion Supports. Students should take turns finding a match and explaining their reasoning to their partner. 
       Display the following sentence frames for all to see: “Observé que _____, así que agrupé . . . ” // “I noticed _____ , so I matched . . . .” 
       Encourage students to challenge each other when they disagree.</p>
     <p>Advances: Conversing</p>
-  </paragraphs>
+  </li>
 
 
   <!-- Estrategias de acceso para estudiantes con discapacidades -->
-  <paragraphs>
+  <li>
     <title><custom ref="accesibility-actividad-titulo"/></title><p>[+++++++++++++++]</p>
     <p>Representation: Internalize Comprehension. Synthesis: On chart paper, record students’ rectangles with justifications in each category. 
       Record students’ efficient ways for counting to find the area of rectangles.</p>
     <p>Supports accessibility for: Memory</p>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </activity>

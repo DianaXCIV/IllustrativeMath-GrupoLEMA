@@ -39,10 +39,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li>
@@ -50,30 +52,30 @@
         <xref ref="ccss-K-CC-C-6" text="custom">K.CC.C.6</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>10 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>[++++++++++++++++]</p>
     <p>The purpose of this activity is for students to recognize, name, and match groups with the same number of images. They see that the same number of images can be organized in different arrangements. When students say that two cards match because they have the same number of objects, they attend to precision in their language (MP6). While students may count the groups of images on each card, the number of images in each group stays within 4 so that students can subitize and match the quantities without counting.</p>
-  </paragraphs>
+  </li>
 
 
   <!-- Materiales requeridos de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-actividad-titulo"/></title>
     <xi:include href="./act-gruposDiferentesMismaCantidad-mat.ptx"/>
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <p>[++++++++++++]</p>
     <ul>
@@ -92,11 +94,11 @@
       <li>Display or write “3”.</li>
       <li><q>Hay 3 patos y 3 perros. Los dos grupos tienen el mismo número de cosas</q></li>
   </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <p>[+++++++++++++++++++++]</p>
     <ul>
@@ -104,17 +106,19 @@
       <li><q>Trabajen con su compañero para emparejar las tarjetas que tienen el mismo número de cosas. Explíquenle a su compañero cómo lo saben</q></li>
       <li>4 minutes: partner work time</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 <!-- ============================================================== 
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Estrategias de apoyo para estudiantes con dificultades -->
-  <paragraphs>
+  <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>[++++++++++]</p>
     <p>If students match cards that have different numbers of images, consider asking:</p> 
@@ -123,11 +127,11 @@
       <li>Display a card with 3 images and ask: <q>¿Cuántas cosas hay en esta tarjeta?</q></li>
       <li>If students answer <q>3</q>, ask: <q>¿Puedes encontrar otra tarjeta que también tenga 3 cosas?</q></li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <p>[++++++++++++]</p>
     <ul>
@@ -144,26 +148,27 @@
       <li>Display or write <q>4</q>.</li>
       <li><q>Estas dos tarjetas tienen el mismo número de cosas. Las dos tienen 4</q></li>
   </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Descripción del desarrollo de lenguaje matemático -->
-  <paragraphs>
+  <li>
     <title><custom ref="language-actividad-titulo"/></title>
     <p>[++++++++++++]</p>
     <p>MLR8 Discussion Supports. Use multimodal examples to show the meaning of "the same." Use verbal descriptions along with gestures or drawings to show what it means to have the same number of things.</p>
     <p>Advances: Listening, Representing</p>
-  </paragraphs>
+  </li>
 
 
   <!-- Estrategias de acceso para estudiantes con discapacidades -->
-  <paragraphs>
+  <li>
     <title><custom ref="accesibility-actividad-titulo"/></title>
     <p>[++++++++++++]</p>
     <p>Engagement: Develop Effort and Persistence. Chunk this task into more manageable parts. Some students may benefit from looking at fewer cards to start with. Introduce the remaining cards once students have completed their initial set of matches.</p>
     <p>Supports accessibility for: Visual-Spatial Processing, Organization</p>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </activity>

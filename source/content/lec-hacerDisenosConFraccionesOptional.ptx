@@ -39,9 +39,10 @@
   Introducción para el profesor                        
 =================================================  -->
 <introduction component="profesor">
-
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-leccion-titulo"/></title> 
     <ul>
       <li> 
@@ -54,23 +55,23 @@
         <xref ref="ccss-3-NF-A-2-a" text="custom">3.NF.A.2.a</xref>
       </li>
     </ul>
-    </paragraphs>
+    </li>
 
   <!-- índice de la lección (automático) -->
-  <paragraphs>
+  <li>
     <title><custom ref="timeline-leccion-titulo"/></title>
     <list-of elements="subsubsection reading-questions" scope="subsection"/>
-  </paragraphs>
+  </li>
 
   <!-- Propósito de la lección -->
-  <paragraphs>
+  <li>
     <title><custom ref="purpose-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this lesson is for students to apply their understanding of fractions to create geometric designs.</p>
-  </paragraphs>
+  </li>
 
   <!-- Materiales requeridos -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-leccion-titulo"/></title>
      <ul>
       <li>
@@ -84,23 +85,25 @@
         <!--<xi:include href="./act-hacerDisenosConFrac14-matCentros.ptx"/>-->
       </li>
     </ul>  
-  </paragraphs>
+  </li>
   
   <!-- Introducción de la lección (narrative) -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>This lesson is optional because it does not address any new mathematical content standards. It does provide students with an opportunity to apply precursor skills of mathematical modeling.</p>
     <p>In this lesson, students apply their understanding of fractions to create geometric designs, starting with a given square. They are tasked with marking a fractional length (<m>\frac{1}{2}</m> or <m>\frac{1}{4}</m>) of each side of the square with a point. They then connect the points, which creates a new shape within the square. Students iterate this process of marking a fractional length and connecting points to generate their designs.</p>
     <p>To mark a given length, students apply their experience with partitioning a segment into equal parts. To mark a fractional length, they decide which endpoint of each side to use as a starting point, whether to always mark the points in the same direction (clockwise or counterclockwise), how many iterations are practical, and so on (MP4).</p>
-  </paragraphs>
+  </li>
   
   <!-- Preguntas de reflexión profesor -->
-  <paragraphs>
+  <li>
     <title><custom ref="reflection-quest-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>How did the student work that you selected impact the direction of the discussion? What student work might you pick next time if you taught the lesson again?</p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </introduction>
 
 

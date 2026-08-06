@@ -40,11 +40,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
-  
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li>
@@ -53,15 +54,15 @@
         <xref ref="ccss-K-CC-C-6" text="custom">K.CC.C.6</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>20 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this activity is for students to learn <xref ref="centro-bingo-etapa2" text="title"/> del <xref ref="centro-bingo" text="title"/>. Students recognize numbers and identify groups that have the given number of images. The images are presented in a variety of arrangements, such as on fingers, in 5-frames, in lines, or in dot cube arrangements. Students may recognize the number of images or may count the images. </p>
@@ -71,18 +72,18 @@
       <li>Geoblocks</li>
       <li>Math Fingers</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Materiales requeridos de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-actividad-titulo"/></title>
     <xi:include href="./act-conozcamos-bingo-imagenesNum-mat.ptx"/> 
     <xi:include href="./act-conozcamos-bingo-imagenesNum-matCentros.ptx"/> 
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -92,11 +93,11 @@
         <q>Vamos a aprender una nueva forma de jugar ‘Bingo’. Hay tarjetas nuevas que tienen números. ¿Qué hacen en cada turno cuando juegan ‘Bingo’ con su grupo?</q>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -112,8 +113,9 @@
       <li>8 minutes: center work time</li>
       <li>If time, invite students to choose another center.</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -121,38 +123,38 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Estrategias de apoyo para estudiantes con dificultades 
-  <paragraphs>
+  <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs>-->
-
-
+  </li>-->
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
       <li>Display the Bingo gameboards with counters on all of the groups of 5.</li>
       <li><q>¿Cuál tarjeta piensan que este grupo volteó? ¿Cómo lo saben?</q> (They flipped over the card with the number 5. They covered up the groups with 5 things.)</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Descripción del desarrollo de lenguaje matemático 
-  <paragraphs>
+  <li>
     <title><custom ref="language-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs>-->
+  </li>-->
 
 
   <!-- Estrategias de acceso para estudiantes con discapacidades 
-  <paragraphs>
+  <li>
     <title><custom ref="accesibility-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs>-->
-
+  </li>-->
+</dl>
+</p>
 </postlude>
 
 </activity>

@@ -49,8 +49,10 @@
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
 <prelude component="profesor">
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li>
@@ -59,41 +61,41 @@
         <xref ref="ccss-3-OA-C-7" text="custom">3.OA.C.7</xref>
       </li>
     </ul>
-  </paragraphs> 
+  </li> 
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>15 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>El propósito de esta actividad es que los estudiantes practiquen cómo encontrar el valor de expresiones de división usando cualquier estrategia que les parezca lógica. Pueden dividir el dividendo en grupos iguales o usar el divisor para multiplicar hasta llegar al dividendo dado. Pueden optar por representar la división o la multiplicación con bloques en base diez o dibujando diagramas.</p>
 
     <p>Durante la síntesis, destaque las estrategias que se basan en el valor posicional, las propiedades de las operaciones y la relación entre la multiplicación y la división (MP7).</p>
-  </paragraphs>
+  </li>
 
 
   <!-- Materiales requeridos de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-actividad-titulo"/></title>
     <xi:include href="./act-ComoDividirias-mat.ptx"/>
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
           <ul>
         <li>Grupos de 2.</li>
         <li>Dé a los estudiantes acceso a bloques en base diez y papel cuadriculado.</li>
       </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <ul>
       <li>
@@ -104,8 +106,9 @@
     <q>Compartan con su compañero cuál es su forma favorita de dividir</q>.</li>
       <li>2–3 minutos: discusión en pareja.</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -113,40 +116,40 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Estrategias de apoyo para estudiantes con dificultades
    NO HAY
-  <paragraphs>
+  <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> -->
-
-
+  </li> -->
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <ul>
       <li>Haga que los estudiantes previamente seleccionados compartan sus respuestas. Muestre o registre las estrategias y representaciones que los estudiantes usaron.</li>
       <li>En cada problema, considere hacer un sondeo a los estudiantes sobre la estrategia que usaron.</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Descripción del desarrollo de lenguaje matemático
    NO HAY
-  <paragraphs>
+  <li>
     <title><custom ref="language-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> -->
+  </li> -->
 
 
   <!-- Estrategias de acceso para estudiantes con discapacidades -->
-  <paragraphs>
+  <li>
     <title><custom ref="accesibility-actividad-titulo"/></title>
     <p>Representación: Desarrollar Lenguaje y Símbolos. En la síntesis haga visibles las conexiones entre las representaciones. Pida a los estudiantes que indiquen las conexiones entre las diferentes estrategias y representaciones que se compartieron.</p>
       <p>Apoya la accesibilidad para: Procesamiento Visual-Espacial, Procesamiento Conceptual</p>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </activity>

@@ -91,10 +91,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li> 
@@ -102,35 +104,35 @@
         <xref ref="ccss-3-NF-A-2" text="custom">3.NF.A.2</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>20 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this activity is for students to locate 1 on a number line given the location of a non-unit fraction less than 1 or greater than 1. In either case, it is likely students will reason about unit fractions to locate 1.</p>
     <p>In the first problem, students may use the size of thirds to locate 1. In the second problem, they reinforce their knowledge that the denominator of a fraction tells us the number of equal parts in a whole and the size of a unit fraction, and that the numerator gives the number of those parts (MP6). Students typically use the denominator to partition a number line, but here they need to use the numerator.</p>
     <p>This activity uses <em>MLR1 Stronger and Clearer Each Time. Advances: reading, writing</em></p>
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
       <li>Groups of 2</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -139,8 +141,9 @@
       </li>
       <li>5–7 minutes: independent work time</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -148,9 +151,10 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Estrategias de apoyo para estudiantes con dificultades -->
-  <paragraphs>
+  <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>If students say they aren’t sure how to get started, consider asking:</p>
@@ -160,11 +164,11 @@
         <q>¿Cómo nos puede ayudar eso a encontrar el 1?</q>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p><alert>MLR1 Stronger and Clearer Each Time </alert></p>
@@ -180,17 +184,18 @@
       <li>2–3 minutes: independent work time</li>
       <li>Invite students to share their revised explanations of how they located 1 on the number lines.</li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Estrategias de acceso para estudiantes con discapacidades -->
-  <paragraphs>
+  <li>
     <title><custom ref="accesibility-actividad-titulo"/></title><p>[++++++++++++++++]</p>
     <p><em>Action and Expression: Develop Expression and Communication.</em> Synthesis. Identify connections between strategies that result in the same outcomes but use differing approaches.</p>
     <p>
       <em>Supports accessibility for: Conceptual Processing, Memory</em>
     </p>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </activity>

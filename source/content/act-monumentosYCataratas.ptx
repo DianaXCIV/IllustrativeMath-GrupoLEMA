@@ -58,10 +58,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li> 
@@ -69,16 +71,16 @@
         <xref ref="ccss-3-NBT-A-2" text="custom">3.NBT.A.2</xref>
       </li> 
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>25 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this activity is for students to solve word problems that involve adding or subtracting numbers within 1,000, using strategies they are familiar with from earlier grades. The goal is to elicit and highlight strategies that rely on place value understanding, in preparation for upcoming work on addition and subtraction algorithms, which also rely on place value.</p>
@@ -89,19 +91,19 @@
       <li>Subtracting 328 from 674 using base-ten blocks, subtracting hundreds from hundreds, tens from tens, and ones from ones, trading a ten for more ones as needed.</li>
     </ul>
     <p>As students interpret quantities in context, reason about ways to represent them, and consider the solutions in terms of the situation, they practice reasoning quantitatively and abstractly (MP2).</p>
-  </paragraphs>
+  </li>
 
 
   <!-- Materiales requeridos de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-actividad-titulo"/></title>
     <!-- si hay materiales, crear los archivos -mat.ptx (para materiales de la actividad) y -matCentros.ptx (para mencionar los otros centros que se usan y para los que se necesitan materiales) y poner los materiales ahí usando los archivos de template. Después hacer xinclude  de estos archivos en la lista de materiales de la lección.-->
     <xi:include href="./act-monumentosYCataratas-mat.ptx"/> 
     <!-- <xi:include href="./act-monumentosYCataratas-matCentros.ptx"/>  -->
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -116,11 +118,11 @@
       <li>Share responses.</li>
       <li>Give students access to base-ten blocks.</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -136,8 +138,9 @@
         </ul>
       </li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -145,9 +148,10 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Estrategias de apoyo para estudiantes con dificultades -->
-  <paragraphs>
+  <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>If students don't find a solution to the problems, consider asking:</p>
@@ -159,11 +163,11 @@
         <q>¿Cómo puedes representar el problema con bloques en base diez?</q>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -175,8 +179,9 @@
       </li>
       <li>If no students mention using place value to find sums or differences, ask them about it.</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </activity>

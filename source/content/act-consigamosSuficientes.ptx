@@ -20,10 +20,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li>
@@ -31,41 +33,41 @@
         <xref ref="ccss-K-CC-C-6" text="custom">K.CC.C.6</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>10 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>[+++++++++++++++++]</p>
     <p>The purpose of this activity is for students to get enough pencils for each group of students. Students might get enough pencils for the groups by giving one pencil to each person in the group. Students may also notice that the number of students and pencils are the same when they make a group of pencils with one pencil for every student.</p>
-  </paragraphs>
+  </li>
 
 
   <!-- Materiales requeridos de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-actividad-titulo"/></title>
     <xi:include href="act-consigamosSuficientes-mat.ptx"/>
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <p>[+++++++++++++++++]</p>
     <ul>
       <li>Groups of 4</li>
       <li>Give each group access to at least 8 pencils.</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <p>[+++++++++++++++++]</p>
     <ul>
@@ -78,46 +80,47 @@
       <li><q>Consigan suficientes lápices para que cada estudiante que está dibujado en su cuaderno de trabajo tenga un lápiz</q></li>
       <li>2 minutes: small-group work time</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 <!-- ============================================================== 
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Estrategias de apoyo para estudiantes con dificultades -->
-  <!-- <paragraphs>
+  <!-- <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> -->
-
-
+  </li> -->
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <p>[+++++++++++++++++]</p>
     <p>
       <q>Necesito conseguir suficientes lápices para que cada estudiante tenga uno. ¿Qué debo hacer?</q>
       (You should give each student a pencil. You should count the students and see how many there are. Then you can get that many pencils.)
     </p>
-  </paragraphs>
+  </li>
 
 
   <!-- Descripción del desarrollo de lenguaje matemático -->
-  <!-- <paragraphs>
+  <!-- <li>
     <title><custom ref="language-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> -->
+  </li> -->
 
 
   <!-- Estrategias de acceso para estudiantes con discapacidades -->
-  <!-- <paragraphs>
+  <!-- <li>
     <title><custom ref="accesibility-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> -->
-
+  </li> -->
+</dl>
+</p>
 </postlude>
 
 </activity>

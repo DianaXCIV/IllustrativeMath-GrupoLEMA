@@ -35,10 +35,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li>
@@ -47,16 +49,16 @@
         <xref ref="ccss-3-OA-C-7" text="custom">3.OA.C.7</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>15 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>
       El propósito de esta actividad es que los estudiantes identifiquen hechos de división relacionados con hechos de multiplicación que ya conocen. Los estudiantes completan afirmaciones de <q>Si sé ___, entonces sé ___</q> utilizando sus tarjetas de hechos de multiplicación de la actividad anterior. Si es necesario, dé tiempo a los estudiantes para determinar el producto antes de escribir la ecuación de división relacionada. Algunos estudiantes pueden proponer 4 ecuaciones de división relacionadas para cada producto (pues también escriben el cociente al lado izquierdo del signo igual). Si esto sucede, reconozca que es correcto, pero mantenga el énfasis en que hay dos hechos de división relacionados, uno para cada uno de los factores como número desconocido.
@@ -64,17 +66,17 @@
     <p>
       Cuando los estudiantes utilizan la relación entre la multiplicación y la división para identificar dos hechos de división a partir de un hecho de multiplicación, buscan y hacen uso de estructuras (MP7).
     </p>
-  </paragraphs>
+  </li>
 
 
   <!-- Materiales requeridos de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-actividad-titulo"/></title>
     <xi:include href="./act-siSeQueEntoncesSeQue-mat.ptx"/> 
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <ul>
       <li>Grupos de 2</li>
@@ -82,19 +84,20 @@
       <li>1 minuto: discusión en pareja</li>
       <li>Compartan respuestas.</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <ul>
       <li>
         <q>Ahora, por turnos, van a tomar una tarjeta y van a usar el hecho de multiplicación que sacaron para completar una frase como esta: 'Si sé que..., entonces sé que...'. La van a completar con el hecho de multiplicación de la tarjeta que tomaron y los hechos de división relacionados. Si aún no se saben el hecho de multiplicación, pueden preguntárselo a su compañero. En cada turno, escriban en la tabla la ecuación de multiplicación y las ecuaciones de división relacionadas</q></li>
       <li>7–10 minutos: tiempo de trabajo en pareja</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -102,45 +105,44 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Estrategias de apoyo para estudiantes con dificultades -->
   <!-- 
-  <paragraphs>
+  <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs>
+  </li>
   -->
-
-
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <ul>
       <li>
         <q>¿Cuántas ecuaciones de división se les ocurrieron para cada ecuación de multiplicación? Expliquen su razonamiento</q> (2, porque pude encontrar una ecuación en la que el cociente era un factor y una ecuación donde era el otro factor. 4, porque pude encontrar una para cada uno de los factores como cociente, y puedo tener el cociente a la derecha o a la izquierda del signo igual).
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Descripción del desarrollo de lenguaje matemático -->
   <!-- 
-  <paragraphs>
+  <li>
     <title><custom ref="language-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs>
+  </li>
   -->
 
 
   <!-- Estrategias de acceso para estudiantes con discapacidades -->
   <!-- 
-  <paragraphs>
+  <li>
     <title><custom ref="accesibility-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs>
+  </li>
   -->
-
-
+</dl>
+</p>
 </postlude>
 
 </activity>

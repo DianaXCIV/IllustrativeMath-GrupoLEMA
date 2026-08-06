@@ -34,9 +34,10 @@
   Introducción para el profesor                        
 =================================================  -->
 <introduction component="profesor">
-
+<p>
+<dl>
     <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-leccion-titulo"/></title> 
     <ul>
       <li>
@@ -45,22 +46,22 @@
         <xref ref="ccss-K-CC-B-4" text="custom">K.CC.B.4</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- índice de la lección (automático) -->
-  <paragraphs>
+  <li>
     <title><custom ref="timeline-leccion-titulo"/></title>
     <list-of elements="subsubsection reading-questions" scope="subsection"/>
-  </paragraphs>
+  </li>
 
   <!-- Propósito de la lección -->
-  <paragraphs>
+  <li>
     <title><custom ref="purpose-leccion-titulo"/></title>
     <p>El propósito de esta lección es que los estudiantes reconozcan y nombren pequeños grupos de objetos e imágenes sin contar.</p>
-  </paragraphs>
+  </li>
 
   <!-- Materiales requeridos -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-leccion-titulo"/></title>
     <ul>
       <li>
@@ -72,10 +73,10 @@
         <xi:include href="./act-centros-escoger2-matCentros.ptx"/>
       </li>
     </ul> 
-  </paragraphs>
+  </li>
   
   <!-- Introducción de la lección (narrative) -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-leccion-titulo"/></title>
     <p>Esta habilidad (subitización) es esencial para el trabajo numérico de los estudiantes. Los estudiantes comunican cuántos hay mostrando cantidades con sus dedos y diciendo palabras numéricas (MP6). Aunque algunos estudiantes pueden contar para determinar cuántos hay, el enfoque de esta lección está en reconocer grupos de objetos sin contar.</p>
 
@@ -84,14 +85,16 @@
     <p>A lo largo de la sección, observe a los estudiantes para identificar los aspectos a observar en el Punto de chequeo de la Unidad 1, Secciones A-D.</p>
 
     <p>En la síntesis de la lección, los estudiantes practican diciendo la secuencia de conteo verbal hasta 10 en preparación para contar objetos en una sección próxima. Añada variedad al conteo incorporando movimiento. Por ejemplo, los estudiantes pueden contar mientras aplauden, pisan fuerte o saltan.</p>
-  </paragraphs>
+  </li>
   
   <!-- Preguntas de reflexión profesor -->
-  <paragraphs>
+  <li>
     <title><custom ref="reflection-quest-titulo"/></title>
     <p>Piense en los voluntarios que compartieron su pensamiento con la clase hoy. ¿Son siempre los mismos estudiantes? ¿Hay otros que nunca se ofrecen a compartir? ¿Qué puede hacer para ayudar a la clase a comprender el valor de escuchar las ideas de cada matemático?</p>
 
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </introduction>
 
 

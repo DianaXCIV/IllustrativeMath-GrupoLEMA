@@ -36,10 +36,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li> 
@@ -61,31 +63,31 @@
         <!-- <xref ref="ccss-2-OA-C-4" text="custom">2.OA.C.4</xref> -->
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>10 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->  
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>This warm-up serves two goals: to elicit observations about equal groups in seating arrangements, and to identify variables that might be important when solving a real-world problem in which limited information is given. These conversations prepare students to design seating arrangements given some constraints later in the lesson. </p>
 <p>During the synthesis, highlight observations about equal groups and reveal that the image shows a seating chart. Ask students to identify the information they may need if they were to be in charge of planning the seating arrangement for a game night. As students brainstorm questions to help them gather necessary information and clarify the problem, they engage in aspects of mathematical modeling (MP4). </p>
-  </paragraphs>
+  </li>
 
   <!-- Materiales requeridos de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-actividad-titulo"/></title>
     <p>[@@@@@@@@@@@@@@]</p>
     <!-- <xi:include href="./warm-observa-cuadradosYCirculos-mat.ptx"/>  -->
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -96,10 +98,10 @@
       </li>
       <li>1 minute: quiet think time</li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -109,8 +111,9 @@
       <li>1 minute: partner discussion</li>
       <li>Share and record responses. </li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -118,16 +121,17 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Estrategias de apoyo para estudiantes con dificultades -->
-  <paragraphs>
+  <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>=== NOT PRESENT ===</p>
-  </paragraphs>
+  </li>
 
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -145,21 +149,22 @@
         <q>En la siguiente actividad harán una gráfica de los asientos para una noche de juegos. Obtendrán las respuestas de algunas de estas preguntas. Para otras preguntas, tendrán que tomar algunas decisiones</q>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Descripción del desarrollo de lenguaje matemático -->
-  <paragraphs>
+  <li>
     <title><custom ref="language-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs>
+  </li>
 
   <!-- Estrategias de acceso para estudiantes con discapacidades -->
-  <paragraphs>
+  <li>
     <title><custom ref="accesibility-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </exploration>

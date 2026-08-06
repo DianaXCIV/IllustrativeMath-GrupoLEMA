@@ -18,11 +18,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
-  
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li>
@@ -31,29 +32,29 @@
         <xref ref="ccss-K-CC-B-5" text="custom">K.CC.B.5</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>10 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this activity is for students to revisit <xref ref="centro-historiasMate-etapa1" text="title"/> del <xref ref="centro-historiasMate" text="title"/>. In an earlier variation, students asked and answered <q>how many</q> questions about groups of images in different arrangements. In the activity, students represent how many images there are using drawings, numbers, or words. Using written numbers to represent how many images there are is highlighted in the activity synthesis.</p>
-  </paragraphs>
+  </li>
 
 
   <!-- Materiales requeridos de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-actividad-titulo"/></title>
     <xi:include href="./act-retomemos-historiasMate-cuantos-mat.ptx"/> 
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -72,19 +73,20 @@
         <q>Por turnos, hagan preguntas tipo ‘¿Cuántos?’ sobre la imagen. Cuando su pareja les haga una pregunta tipo ‘¿Cuántos?’, muestren en la hoja de registro cuántas cosas hay. Muestren cómo pensaron. Usen dibujos, números o palabras</q>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
       <li>5 minutes: partner work time</li>
       <li>Monitor for students who write a number in their representation.</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -92,9 +94,10 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Estrategias de apoyo para estudiantes con dificultades -->
-  <paragraphs>
+  <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>If students count the images in the blackline master and do not create a written representation:</p>
@@ -106,11 +109,11 @@
         <q>¿Cómo puedes mostrar que hay __ cosas? ¿Puedes usar dibujos o números para mostrar que hay <fillin/> cosas?</q>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -125,22 +128,23 @@
         <q>Cuando jueguen ‘Historias matemáticas’ en el momento de los centros, asegúrense de escribir un número para mostrar cuántas cosas contaron. También pueden usar dibujos o palabras</q>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Descripción del desarrollo de lenguaje matemático 
-  <paragraphs>
+  <li>
     <title><custom ref="language-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs>-->
+  </li>-->
 
 
   <!-- Estrategias de acceso para estudiantes con discapacidades 
-  <paragraphs>
+  <li>
     <title><custom ref="accesibility-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs>-->
-
+  </li>-->
+</dl>
+</p>
 </postlude>
 
 </activity>

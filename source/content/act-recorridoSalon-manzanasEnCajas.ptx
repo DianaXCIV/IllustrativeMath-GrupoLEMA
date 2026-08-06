@@ -33,8 +33,10 @@
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
 <prelude component="profesor">
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li>
@@ -43,33 +45,36 @@
         <xref ref="ccss-3-OA-A-3" text="custom">3.OA.A.3</xref>
       </li>
     </ul>
-  </paragraphs> 
+  </li> 
 
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>15 minutos.</p>
-  </paragraphs>
-  <paragraphs>
+  </li>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>El propósito de esta actividad es que los estudiantes consideren en qué se parecen y en qué se diferencian las formas en las que resolvieron un problema de "¿cuántos grupos?" en la actividad anterior.</p>
     <p>A medida que los estudiantes visiten los pósteres, identifique de 2 a 3 estudiantes que demuestren especialmente bien que este problema se trata de encontrar cuántos grupos se forman. Selecciónelos para compartir sus explicaciones en la próxima lección.</p>
-  </paragraphs>
-  <!-- <paragraphs> -->
+  </li>
+  <!-- <li> -->
     <!-- <title><custom ref="materials-actividad-titulo"/></title> -->
     <!-- <p>[@@@@@@@@@]</p> -->
-  <!-- </paragraphs> -->
-  <paragraphs>
+  <!-- </li> -->
+  <li>
     <title><custom ref="launch-titulo"/></title>
-    <li>Estudiantes en parejas.</li>
-  </paragraphs>
-  <paragraphs>
+    <ul>
+      <li>Estudiantes en parejas.</li>
+    </ul>
+  </li>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <ul>
       <li><q>Cuando vayan a ver los pósteres con su compañero, discutan en qué se parecen y en qué se diferencian las ideas que se muestran en los pósteres</q></li>
       <li>8–10 minutos: Recorrido por el salón.</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -77,28 +82,31 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
-  <!-- <paragraphs> -->
+<p>
+<dl>
+  <!-- <li> -->
     <!-- <title><custom ref="support-actividad-titulo"/></title> -->
     <!-- <p>[@@@@@@@@@]</p> -->
-  <!-- </paragraphs> -->
-  <paragraphs>
+  <!-- </li> -->
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <ul>
       <li>Brinde a los estudiantes la oportunidad de hacer preguntas sobre cualquier póster.</li>
       <li><q>¿En qué se parecen las ideas que se muestran en los pósteres?</q></li>
       <li><q>¿En qué se diferencian las ideas que se muestran en los pósteres?</q></li>
       </ul>
-  </paragraphs>
-  <paragraphs>
+  </li>
+  <li>
     <title><custom ref="language-actividad-titulo"/></title>
       <p>Apoyos para la discusión de MLR8:</p> 
       <p>Muestre esquema de oraciones para apoyar la escritura de los estudiantes: <q>Una cosa que observé que es parecida es...</q>, <q>Una cosa que observé que es diferente es...</q>, <q>Una cosa en la que se parecen es...</q>, <q>Una diferencia es...</q>.</p>
       <p>Avances: Escritura, Habla</p>
-  </paragraphs>
-  <!-- <paragraphs> -->
+  </li>
+  <!-- <li> -->
     <!-- <title><custom ref="accesibility-actividad-titulo"/></title> -->
     <!-- <p>[@@@@@@@@@]</p> -->
-  <!-- </paragraphs> -->
+  <!-- </li> -->
+</dl>
+</p>
 </postlude>
 </activity>

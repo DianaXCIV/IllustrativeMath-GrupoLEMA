@@ -21,10 +21,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li>
@@ -32,29 +34,29 @@
         <xref ref="ccss-K-CC-B-4" text="custom">K.CC.B.4</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>10 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>El propósito de esta actividad es que los estudiantes reconozcan pequeños grupos de objetos en su entorno del salón de clase. Los estudiantes reconocen y nombran grupos de objetos, así como imágenes de objetos que ven en el salón de clase. Pequeños grupos de objetos, como 2 lápices o 3 libros, pueden ser colocados estratégicamente alrededor del salón antes de que comience la actividad. Aunque los estudiantes pueden encontrar o contar grupos más grandes de objetos, identifique a los estudiantes que identifican pequeños grupos de objetos sin contarlos. Cuando los estudiantes usan nombres de números para describir grupos de objetos en el salón de clase, están relacionando la cantidad con objetos físicos (MP2).</p>
-  </paragraphs>
+  </li>
 
 
   <!-- Materiales requeridos de la actividad -->
-  <!-- <paragraphs>
+  <!-- <li>
     <title><custom ref="materials-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> -->
+  </li> -->
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <ul>
       <li>Grupos de 2</li>
@@ -65,11 +67,11 @@
       <li>30 segundos: tiempo para pensar en silencio</li>
       <li>Compartir respuestas.</li>
     </ul>
-</paragraphs>
+</li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <ul>
 	    <li>
@@ -78,17 +80,19 @@
       <li>5 minutos: tiempo de trabajo en pareja</li>
       <li>Identifique a los estudiantes que encuentran grupos de 2, 3 o 4 objetos sin contarlos.</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 <!-- ============================================================== 
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Estrategias de apoyo para estudiantes con dificultades -->
-  <paragraphs>
+  <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>Si los estudiantes encuentran grupos de objetos demasiado grandes para subitizar, considere identificar un grupo de 1–4 objetos y preguntar:</p>
     <ul>
@@ -96,11 +100,11 @@
         <q>¿Cuántos <fillin/> hay? ¿Cómo lo sabes?</q>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <ul>
       <li>
@@ -111,23 +115,24 @@
         (Simplemente lo vi. Conté. Vi 2 y 1 más y sé que son 3.)
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Descripción del desarrollo de lenguaje matemático -->
-  <!-- <paragraphs>
+  <!-- <li>
     <title><custom ref="language-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> -->
+  </li> -->
 
 
   <!-- Estrategias de acceso para estudiantes con discapacidades -->
-  <paragraphs>
+  <li>
     <title><custom ref="accesibility-actividad-titulo"/></title>
     <p>Participación: Proporcione acceso mediante el reclutamiento de interés. Utilice temporizadores visibles o alertas audibles para ayudar a los estudiantes a anticipar y prepararse para la transición de regreso a sus asientos.</p>
     <p>Apoya la accesibilidad para: Funcionamiento socioemocional, Atención</p>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </activity>

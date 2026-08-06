@@ -63,11 +63,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
-  
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li>
@@ -76,31 +77,31 @@
         <xref ref="ccss-K-CC-C-6" text="custom">K.CC.C.6</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>10 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this activity is for students to compare groups of images. The images are organized in lines, but the objects are not directly matched, which requires students to match or count the images to compare. Students are asked <q>Are there enough?</q> before they compare to encourage them to think about matching the images. In the activity synthesis, drawing lines to match the images is highlighted. Matching the images helps students relate the comparisons to the situation they just worked with where the images were already matched (MP7).</p>
-  </paragraphs>
+  </li>
 
 
   <!-- Materiales requeridos de la actividad -->
-  <!-- <paragraphs> -->
+  <!-- <li> -->
     <!-- <title><custom ref="materials-actividad-titulo"/></title> -->
     <!-- <p>[@@@@@@@@@@@@@@]</p> -->
     <!-- si hay materiales, crear el siguiente archivo -mat.ptx y ponerlos ahí (y agregar también el archivo en la lista de materiales de la lección)-->
     <!-- <xi:include href="./act-compararImagenesNoEmparejadas-mat.ptx"/>  -->
-  <!-- </paragraphs> -->
+  <!-- </li> -->
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -110,11 +111,11 @@
         <q>¿En qué son diferentes estas imágenes a las que vimos en la primera actividad?</q> (There are different pictures. The pictures aren’t matched up.)
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -144,8 +145,9 @@
       </li>
       <li>Monitor for students who draw lines to match each image.</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -153,40 +155,40 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Estrategias de apoyo para estudiantes con dificultades 
-  <paragraphs>
+  <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>=== NOT PRESENT ===</p>
-  </paragraphs>-->
-
-
+  </li>-->
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
       <li>Invite a previously identified student to share how they drew lines to match.</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Descripción del desarrollo de lenguaje matemático 
-  <paragraphs>
+  <li>
     <title><custom ref="language-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs>-->
+  </li>-->
 
 
   <!-- Estrategias de acceso para estudiantes con discapacidades -->
-  <paragraphs>
+  <li>
     <title><custom ref="accesibility-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>Representation: Internalize Comprehension. Students might need support understanding the difference between the activity they did prior to this one. Begin by telling students that this activity looks similar to the activity they previously did; however, they might notice that the images line up differently here. If time permits, invite students to plan a strategy for how they will determine if there are enough of each item.</p>
     <p>Supports accessibility for: Conceptual Processing, Organization</p>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </activity>

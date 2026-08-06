@@ -34,9 +34,10 @@
   Introducción para el profesor                        
 =================================================  -->
 <introduction component="profesor">
-
+<p>
+<dl>
     <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-leccion-titulo"/></title> 
     <ul>
       <li>
@@ -52,26 +53,26 @@
         <xref ref="ccss-K-MD-B-3" text="custom">K.MD.B.3</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Índice de la lección (automático) -->
-  <paragraphs>
+  <li>
     <title><custom ref="timeline-leccion-titulo"/></title>
     <list-of elements="subsubsection reading-questions" scope="subsection"/>
-  </paragraphs>
+  </li>
 
   <!-- Propósito de la lección -->
-  <paragraphs>
+  <li>
     <title><custom ref="purpose-leccion-titulo"/></title>
 
     <p>
       El propósito de esta lección es que los estudiantes exploren herramientas matemáticas.
       <!-- The purpose of this lesson is for students to explore math tools. -->
     </p>
-  </paragraphs>
+  </li>
 
   <!-- Materiales requeridos -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-leccion-titulo"/></title>
     <ul>
       <li>
@@ -87,10 +88,10 @@
         <xi:include href="./act-centros-escoger1-matCentros.ptx"/>
       </li>
     </ul> 
-  </paragraphs>
+  </li>
   
   <!-- Introducción de la lección (narrative) -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-leccion-titulo"/></title>
 
     <p>
@@ -107,10 +108,10 @@
       Los estudiantes reflexionan sobre el póster de  comunidad matemática que han estado construyendo durante toda la semana y trabajan en la creación de normas para el salón de clase.
       <!-- Students reflect on the math community poster they have been adding to all week and work to create norms for the classroom. -->
     </p>
-  </paragraphs>
+  </li>
   
   <!-- Preguntas de reflexión para el profesor -->
-  <paragraphs>
+  <li>
     <title><custom ref="reflection-quest-titulo"/></title>
 
     <p>
@@ -119,7 +120,9 @@
       <!-- Reflect on how comfortable your students are asking questions of you and of each other. -->
       <!-- What can you do to encourage students to ask questions? -->
     </p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </introduction>
 
 <!-- ============================================ 
@@ -186,8 +189,9 @@
   <p><q>Practiquemos contar hasta 10</q></p>
 
   <p>Demuestre contar hasta 10. Cuente 1-2 veces con toda la clase hasta 10.</p>
-
-  <paragraphs>
+<p>
+<dl>
+  <li>
     <title>Comunidad Matemática</title>
     <p>Muestre el póster de la Comunidad Matemática.</p>
     <p>Explique que las normas ayudan a todos a sentirse seguros, cómodos y productivos al hacer matemáticas juntos.</p>
@@ -223,8 +227,9 @@
       </row>
     </tabular>
 
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </subsubsection>
 
 <!-- ============================================

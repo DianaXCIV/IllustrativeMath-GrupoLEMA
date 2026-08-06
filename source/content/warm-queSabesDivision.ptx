@@ -27,8 +27,10 @@
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
 <prelude component="profesor">
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li>
@@ -36,28 +38,28 @@
         <xref ref="ccss-3-OA-A-2" text="custom">3.OA.A.2</xref>
       </li>
     </ul>
-  </paragraphs> 
+  </li> 
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>10 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->  
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>El propósito de esta actividad es invitar a los estudiantes a compartir lo que saben sobre la división y sobre cómo pueden representarla.</p>
-  </paragraphs>
+  </li>
 
   <!-- Materiales requeridos de la actividad 
-  <paragraphs>
+  <li>
     <title><custom ref="materials-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs>-->
+  </li>-->
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
       <ul>
         <li>Muestre la palabra división.</li>
@@ -65,18 +67,19 @@
          <q>¿Qué saben sobre la división?</q>.</li>
         <li>1 minuto: tiempo para pensar en silencio.</li>
       </ul>
-  </paragraphs>
+  </li>
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
       <ul>
         <li>Registre las respuestas.</li>
         <li>
       <q>¿Cómo podríamos representar la división?</q>. (Con un dibujo, con cubos encajables, con una ecuación, con una expresión).</li>
       </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -84,36 +87,37 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Estrategias de apoyo para estudiantes con dificultades 
-  <paragraphs>
+  <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs>-->
-
+  </li>-->
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
       <ul>
         <li>
       <q>Ya hemos aprendido bastante sobre la división. Vamos a seguir aprendiendo sobre la división al trabajar con números más grandes que los que hemos usado antes</q>.</li>
         <li>Considere preguntar: <q>¿Qué conexiones ven entre las diferentes respuestas?</q>.</li>
       </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Descripción del desarrollo de lenguaje matemático 
-  <paragraphs>
+  <li>
     <title><custom ref="language-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs>-->
+  </li>-->
 
   <!-- Estrategias de acceso para estudiantes con discapacidades 
-  <paragraphs>
+  <li>
     <title><custom ref="accesibility-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs>-->
-
+  </li>-->
+</dl>
+</p>
 </postlude>
 
 </exploration>

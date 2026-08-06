@@ -35,9 +35,10 @@
   Introducción para el profesor                        
 =================================================  -->
 <introduction component="profesor">
-
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-leccion-titulo"/></title> 
     <ul>
       <li> 
@@ -53,23 +54,23 @@
         <xref ref="ccss-3-NBT-A-2" text="custom">3.NBT.A.2</xref>
       </li>
     </ul>
-    </paragraphs>
+    </li>
 
   <!-- índice de la lección (automático) -->
-  <paragraphs>
+  <li>
     <title><custom ref="timeline-leccion-titulo"/></title>
     <list-of elements="subsubsection reading-questions" scope="subsection"/>
-  </paragraphs>
+  </li>
 
   <!-- Propósito de la lección -->
-  <paragraphs>
+  <li>
     <title><custom ref="purpose-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this lesson is for students to subtract within 1,000 using a subtraction algorithm that records numbers in expanded form.</p>
-  </paragraphs>
+  </li>
 
   <!-- Materiales requeridos -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-leccion-titulo"/></title>
     <ul>
       <li>
@@ -83,21 +84,23 @@
         <!--<xi:include href="./act-pruebaElAlgoritmo-matCentros.ptx"/>-->
       </li>
     </ul>  
-  </paragraphs>
+  </li>
   
   <!-- Introducción de la lección (narrative) -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>Previously, students learned to record subtraction using an algorithm in which the numbers are written in expanded form. They made connections between the structure and steps of the algorithm to those of base-ten diagrams that represent the same subtraction. In this lesson, students take a closer look at the algorithm and use it to find differences. They also examine a common error in subtracting numbers when decomposition of a place value unit is required. When students discuss shown work, they construct viable arguments and critique the reasoning of others (MP3).</p>
-  </paragraphs>
+  </li>
   
   <!-- Preguntas de reflexión profesor -->
-  <paragraphs>
+  <li>
     <title><custom ref="reflection-quest-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>Today students were able to analyze a common error when subtracting within 1,000 before they used an algorithm to subtract. How did the analysis of the error affect their work with subtracting within 1,000?</p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </introduction>
 
 

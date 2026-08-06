@@ -25,10 +25,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li> 
@@ -36,24 +38,24 @@
         <xref ref="ccss-3-NF-A-3-d" text="custom">3.NF.A.3.d</xref>
       </li>      
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>10 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this activity is for students to recognize that fraction comparisons are only valid when they refer to the same whole. Previously, students analyzed pairs of fractions to determine if they were equivalent. In doing so, they were likely to have used comparison language, such as <q>larger or smaller than</q> or <q>greater or less than.</q> In this activity, students encounter a pair of fractions they saw earlier (<m>\frac{4}{6}</m> and <m>\frac{5}{6}</m>) and compare them more explicitly. The student work in this activity uses the number line, but this might also come up with student-drawn diagrams.</p>
     <p>In order to interpret Lin’s argument that <m>\frac{4}{6}</m> is greater than <m>\frac{5}{6}</m> students will need to articulate the meaning of fractions and highlight the fact that the two wholes Lin is comparing are not equal (MP6).</p>
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -63,11 +65,11 @@
       </li>
       <li>1 minute: quiet think time</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -77,8 +79,9 @@
       <li>2–3 minutes: partner discussion</li>
       <li>Monitor for students who notice that the whole is different in Lin’s number lines, which makes her think that <m>\frac{4}{6}</m> is greater.</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -86,9 +89,10 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -106,18 +110,19 @@
         <q>¿Qué entendieron Lin y Han sobre representar fracciones en una recta numérica?</q> (The number lines need to be partitioned into equal parts. The denominator tells us then number of parts. The numerator tells us how many parts to count to locate a point. Points farther to the right are greater than those to the left.)
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Descripción del desarrollo de lenguaje matemático -->
-  <paragraphs>
+  <li>
     <title><custom ref="language-actividad-titulo"/></title><p>[++++++++++++++++]</p>
     <p><em>MLR8 Discussion Supports.</em> Synthesis: Revoice student ideas to demonstrate and amplify mathematical language use. For example, revoice the student statement “the number lines are different” as “the size of the whole from 0 to 1 is different.”</p>
     <p>
       <em>Advances: Speaking, Representing</em>
     </p>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </activity>

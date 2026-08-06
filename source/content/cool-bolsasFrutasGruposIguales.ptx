@@ -19,8 +19,10 @@
 </solution>
 
 <prelude component="profesor">
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li>
@@ -28,25 +30,30 @@
         <xref ref="ccss-3-OA-A-3" text="custom">3.OA.A.3</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </prelude>
 
 
-<postlude component="profesor"> <!-- Notas para el profesor -->
-
+<postlude component="profesor">
+<p>
+<dl>
+ <!-- Notas para el profesor -->
   <!-- Posibles errores -->
-  <paragraphs>
+  <li>
     <title><custom ref="errores-cool-titulo"/></title>
     <p>Los estudiantes no encuentran la solución al problema.</p>
-  </paragraphs>
+  </li>
 
 
   <!-- Estrategia de apoyo si muchos estudiantes respondieron incorrectamente -->
-  <paragraphs>
+  <li>
     <title><custom ref="apoyo-cool-titulo"/></title>
     <p>Durante el calentamiento, pida a los estudiantes que discutan sobre cómo pueden usar diagramas para representar las cantidades del problema.</p>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </project>

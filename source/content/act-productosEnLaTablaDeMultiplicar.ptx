@@ -46,10 +46,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li> 
@@ -61,23 +63,23 @@
         <xref ref="ccss-3-OA-B-5" text="custom">3.OA.B.5</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>20 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this activity is for students to find products in the multiplication table. Students are encouraged to find familiar products before working on less-familiar ones. They do not need to fill in all of the products in the table. The synthesis focuses on patterns students find in the table and how they can show the patterns with equations.</p>
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -89,11 +91,11 @@
       <li>1 minute: quiet think time</li>
       <li>Share responses.</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -115,8 +117,9 @@
       </li>
       <li>5–7 minutes: partner work</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -124,9 +127,10 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
     <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <ul>
       <li>
@@ -136,18 +140,19 @@
         <q>¿Qué otros patrones vemos en la tabla? ¿Cómo podríamos mostrar los patrones con ecuaciones?</q>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Descripción del desarrollo de lenguaje matemático -->
-  <paragraphs>
+  <li>
+    <title><custom ref="language-actividad-titulo"/></title>
     <p>
       [++++++++++++++++++++++]
     </p>
-    <title><custom ref="language-actividad-titulo"/></title>
     <p><em>MLR8 Discussion Supports.</em> Synthesis: Some students may benefit from the opportunity to rehearse what they will say with a partner before they share with the whole class.</p>
     <p><em>Advances: Speaking</em></p>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </activity>

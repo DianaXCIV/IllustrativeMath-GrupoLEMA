@@ -38,10 +38,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li> 
@@ -49,24 +51,24 @@
         <xref ref="ccss-3-NF-A-3-c" text="custom">3.NF.A.3.c</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>10 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->  
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>This warm-up elicits observations about the different ways whole numbers can be expressed as fractions. Students have previously seen number lines where 1, 2, and 3 were labeled with fractions in halves, thirds, fourths, sixths, and eighths. They understand that a denominator of 2 corresponds to 2 equal parts in the length representing 1 whole. The number line marked with <m>\frac{1}{1}</m>, <m>\frac{2}{1}</m>, and <m>\frac{3}{1}</m> is shown together with those marked with halves, thirds, and fourths to highlight that a denominator of 1 means each whole has 1 part.</p>
     <p>In the synthesis, students learn that fractions with 1 as a denominator can be used to represent whole numbers (<m>\frac{2}{1} = 2</m>).</p>
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -77,10 +79,10 @@
       </li>
       <li>1 minute: quiet think time</li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -90,8 +92,9 @@
       <li>1 minute: partner discussion</li>
       <li>Share and record responses.</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -99,9 +102,10 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -120,8 +124,9 @@
         <q>¿Qué otras fracciones en estas rectas numéricas podrían ser equivalentes a 1?</q> (<m>\frac{2}{2}</m>, <m>\frac{3}{3}</m>, <m>\frac{4}{4}</m>)
       </li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </exploration>

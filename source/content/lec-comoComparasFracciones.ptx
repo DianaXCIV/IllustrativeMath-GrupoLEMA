@@ -35,9 +35,10 @@
   Introducción para el profesor                        
 =================================================  -->
 <introduction component="profesor">
-
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-leccion-titulo"/></title> 
     <ul>
       <li> 
@@ -47,23 +48,23 @@
         <xref ref="ccss-3-NF-A-3-d" text="custom">3.NF.A.3.d</xref>
       </li>
     </ul>
-    </paragraphs>
+    </li>
 
   <!-- índice de la lección (automático) -->
-  <paragraphs>
+  <li>
     <title><custom ref="timeline-leccion-titulo"/></title>
     <list-of elements="subsubsection reading-questions" scope="subsection"/>
-  </paragraphs>
+  </li>
 
   <!-- Propósito de la lección -->
-  <paragraphs>
+  <li>
     <title><custom ref="purpose-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this lesson is for students to represent and compare fractions in a way that makes sense to them.</p>
-  </paragraphs>
+  </li>
 
   <!-- Materiales requeridos -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-leccion-titulo"/></title>
     <ul>
       <li>
@@ -77,21 +78,23 @@
         <xi:include href="./act-mismasFraccionesDiferenteResultado-matCentros.ptx"/>
       </li>-->
     </ul> 
-  </paragraphs>
+  </li>
   
   <!-- Introducción de la lección (narrative) -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>Previously, students used various representations to make sense of fractions and their size. In this lesson, students consider representations that will be helpful for comparisons, such as diagrams, fraction strips, and number lines. They also learn that comparisons are valid only when the fractions being compared refer to the same size whole. This lesson does not discuss specific strategies for comparing different types of fractions as the intent is to elicit different ways to reason about comparison.</p>
-  </paragraphs>
+  </li>
   
   <!-- Preguntas de reflexión profesor -->
-  <paragraphs>
+  <li>
     <title><custom ref="reflection-quest-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>Reflect on a time recently when your thinking about what students understand changed. How will you alter your teaching practice to incorporate your new understanding?</p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </introduction>
 
 

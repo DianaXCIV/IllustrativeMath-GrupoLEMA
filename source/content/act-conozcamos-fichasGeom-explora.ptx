@@ -24,10 +24,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li>
@@ -37,29 +39,29 @@
         <xref ref="ccss-K-MD-B-3" text="custom">K.MD.B.3</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>15 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>El propósito de esta actividad es que los estudiantes exploren y utilicen fichas geométricas. Los estudiantes tienen la oportunidad de explorar las fichas geométricas antes de que se les pida que las utilicen para representar situaciones matemáticas en lecciones posteriores. Mientras los estudiantes trabajan, observe si los estudiantes clasifican las fichas geométricas, las cuentan o utilizan lenguaje geométrico para describirlas (MP6). Los estudiantes tendrán oportunidades de seguir explorando las fichas geométricas en los centros en futuras lecciones. Esta es la etapa 1 del centro <xref ref="centro-fichasGeom" text="title"/>.</p>
-  </paragraphs>
+  </li>
 
 
   <!-- Materiales requeridos de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-actividad-titulo"/></title>
     <xi:include href="./act-conozcamos-fichasGeom-explora-mat.ptx"/> 
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <ul>
       <li>Grupos de 2</li>
@@ -68,19 +70,20 @@
       <li>30 segundos: tiempo de reflexión en silencio</li>
       <li>Compartan y registren las respuestas.</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <ul>
       <li>10 minutos: tiempo de trabajo en parejas</li>
       <li><q>Compartan con su compañero una de las cosas que hicieron o construyeron con las fichas geométricas</q></li>
       <li>2 minutos: discusión en pareja</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>  
 
 
@@ -88,41 +91,42 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Estrategias de apoyo para estudiantes con dificultades -->
   <!-- 
-  <paragraphs>
+  <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs>
+  </li>
  -->
-
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <ul>
       <li>Invite a 3-4 estudiantes a compartir lo que hicieron o crearon con las fichas geométricas.</li>
       <li><q>Algunos de nosotros usamos las fichas geométricas para hacer diseños e imágenes. ¿Qué tipos de herramientas pueden usar en casa para hacer diseños e imágenes?</q></li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Descripción del desarrollo de lenguaje matemático -->
   <!-- 
-  <paragraphs>
+  <li>
     <title><custom ref="language-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs>
+  </li>
  -->
 
   <!-- Estrategias de acceso para estudiantes con discapacidades -->
-  <paragraphs>
+  <li>
     <title><custom ref="accesibility-actividad-titulo"/></title>
     <p>Acción y Expresión: Internalizar las Funciones Ejecutivas.</p>
     <p>Invite a los estudiantes a planificar una estrategia antes de comenzar. Si el tiempo lo permite, invite a los estudiantes a compartir su plan con un compañero.</p>
     <p>Apoya la accesibilidad para: Organización, Procesamiento Conceptual.</p>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </activity>

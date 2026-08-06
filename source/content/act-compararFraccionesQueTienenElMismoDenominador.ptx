@@ -71,10 +71,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li> 
@@ -82,23 +84,23 @@
         <xref ref="ccss-3-NF-A-3-d" text="custom">3.NF.A.3.d</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>20 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this activity is for students to compare two fractions with the same denominator. Students may use any representation to reason about how the size or length of the parts in the two fractions are the same because the denominator is the same, but that there are different numbers of those parts because the numerator is different (MP2). Students are also reminded about the meaning of the symbols <m>\gt</m> and <m>\lt</m>.</p>
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -128,11 +130,11 @@
       </li>
       <li><p>Share and display responses. Ask students to read aloud each statement that is shared.</p></li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -149,8 +151,9 @@
         </ul>
       </li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -158,9 +161,10 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -169,18 +173,19 @@
         <q>¿En qué se parecen estas representaciones? ¿En qué son diferentes?</q>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Descripción del desarrollo de lenguaje matemático -->
-  <paragraphs>
+  <li>
     <title><custom ref="language-actividad-titulo"/></title><p>[++++++++++++++++]</p>
     <p><em>MLR7 Compare and Connect.</em> Synthesis: Invite groups to prepare a visual display that shows the strategy they used to compare the fractions. Encourage students to include details that will help others interpret their thinking. For example, specific language, using different colors, shading, arrows, labels, notes, diagrams, or drawings. Give students time to investigate each other’s work. During the whole-class discussion, ask students, <q>¿Qué tienen en común estas representaciones? ¿En qué son diferentes</q> // <q>What do these representations have in common?</q> <q>How are they different?</q> and <q>¿Qué tipo de detalles adicionales o de lenguaje les ayudó a entender las presentaciones?</q> // <q>What kinds of additional details or language helped you understand the displays?</q></p>
     <p>
       <em>Advances: Representing, Conversing</em>
     </p>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </activity>

@@ -38,10 +38,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li> 
@@ -51,16 +53,16 @@
           <xref ref="ccss-3-MD-C-5-b" text="custom">3.MD.C.5.b</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>15 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this activity is for students to use square tiles to measure area. Students are given square tiles and a variety of figures. Students learn that they can use the term <q>figure</q> to describe a shape that doesn’t have a specific name. Students cover the figures completely with square tiles and use the number of tiles to describe the area of the figure. In the synthesis, students share ideas about how to tile shapes in any way that makes sense to them. They also consider why it’s important to make sure they don’t leave gaps when they use square tiles to measure area (MP6).</p>
@@ -97,19 +99,19 @@
     <p>There is an opportunity to ask students about the figures whose area is the easiest to find. 
       There is no right or wrong answer, but the question may elicit the idea that the structure of rectangles is helpful. 
       This idea will be explored fully in future lessons.</p>
-  </paragraphs>
+  </li>
 
 
   <!-- Materiales requeridos de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-actividad-titulo"/></title>
     <!-- si hay materiales, crear los archivos -mat.ptx (para materiales de la actividad) y -matCentros.ptx (para mencionar los otros centros que se usan y para los que se necesitan materiales) y poner los materiales ahí usando los archivos de template. Después hacer xinclude  de estos archivos en la lista de materiales de la lección.-->
     <xi:include href="./act-usarFichasCuadradasMedirElArea-mat.ptx"/>
     <!-- <xi:include href="./act-usarFichasCuadradasMedirElArea-matCentros.ptx"/>  -->
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -122,11 +124,11 @@
         <q>Para algunas de estas no tenemos nombres, como un cuadrado o un triángulo. Por esta razón, podemos llamarlas ‘figuras’ mientras trabajamos con ellas en esta actividad. Esta palabra será útil para describir otras figuras para las que no tenemos nombres</q>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -137,8 +139,9 @@
         </ul>
       </li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -146,9 +149,10 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -166,16 +170,17 @@
         <q>¿Por qué fue importante no dejar ningún espacio al recubrir sus figuras?</q>  (Because the whole figure needs to be completely covered. If there are gaps between tiles or around the edge, then the whole figure isn’t covered.)
       </li>
     </ul>
-  </paragraphs>
+  </li>
  
   <!-- Estrategias de acceso para estudiantes con discapacidades -->
-  <paragraphs>
+  <li>
     <title><custom ref="accesibility-actividad-titulo"/></title><p>[+++++++++++++++]</p>
     <p>Engagement: Provide Access by Recruiting Interest. Leverage choice around perceived challenge. 
       Invite students to complete questions that will be discussed during the synthesis.</p>
     <p>Supports accessibility for: Organization, Attention, Social-emotional skills</p>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </activity>

@@ -90,10 +90,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li> 
@@ -101,23 +103,23 @@
         <xref ref="ccss-3-NBT-A-1" text="custom">3.NBT.A.1</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>20 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this activity is for students to round given numbers to the nearest ten and hundred and see that the result can be the same for some numbers. Students think about what it means to round a number that is exactly halfway between two tens or two hundreds and are introduced in the synthesis to the convention that these numbers are rounded up (MP3).</p>
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -126,11 +128,11 @@
         <q>Redondeemos algunos números a la decena más cercana y a la centena más cercana. Recuerden que ‘redondeen a la decena (o centena) más cercana’ es otra forma de decir que encuentren el múltiplo de 10 (o de 100) más cercano</q>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -158,8 +160,9 @@
         </ul>
       </li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -167,9 +170,10 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -187,30 +191,31 @@
         <q>En ambos casos podríamos decidir hacerlo de la otra forma, pero es útil que todos hagamos lo mismo en estas situaciones</q>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Descripción del desarrollo de lenguaje matemático -->
-  <paragraphs>
+  <li>
     <title><custom ref="language-actividad-titulo"/></title>
     <p>[++++++++++++++++]</p>
     <p><em>MLR1 Stronger and Clearer Each Time:</em> Before the whole-class discussion, give students time to meet with 2–3 partners to share and get feedback on their response to <q>¿A qué número se redondea 97 cuando lo redondeamos a la decena más cercana?, ¿y a la centena más cercana? ¿Por qué ocurre eso?</q> // <q>What does 97 round to when we are rounding to the nearest 10? To the nearest hundred? Why does that happen?</q> Invite listeners to ask questions, to press for details and to suggest mathematical language. Give students 2–3 minutes to revise their written explanation based on the feedback they receive.</p>
     <p>
       <em>Advances: Writing, Speaking, Listening</em>
     </p>
-  </paragraphs>
+  </li>
 
 
   <!-- Estrategias de acceso para estudiantes con discapacidades -->
-  <paragraphs>
+  <li>
     <title><custom ref="accesibility-actividad-titulo"/></title>
     <p>[++++++++++++++++]</p>
     <p><em>Representation: Internalize Comprehension.</em> Synthesis: Invite students to identify which details were most useful to solve the problems. Display the sentence frame, <q>La próxima vez que redondee números a la decena más cercana y a la centena más cercana, prestaré atención a...</q> // <q>The next time I round numbers to the nearest ten and nearest hundred, I will pay attention to...</q></p>
     <p>
       <em>Supports accessibility for: Conceptual Processing</em>
     </p>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </activity>

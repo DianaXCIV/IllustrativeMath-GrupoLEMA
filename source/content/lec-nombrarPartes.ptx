@@ -44,9 +44,10 @@
   Introducción para el profesor                        
 =================================================  -->
 <introduction component="profesor">
-
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-leccion-titulo"/></title> 
     <ul>
       <li> 
@@ -63,23 +64,23 @@
         <xref ref="ccss-3-G-A-2" text="custom">3.G.A.2</xref>
       </li>
     </ul>
-    </paragraphs>
+    </li>
 
   <!-- índice de la lección (automático) -->
-  <paragraphs>
+  <li>
     <title><custom ref="timeline-leccion-titulo"/></title>
     <list-of elements="subsubsection reading-questions" scope="subsection"/>
-  </paragraphs>
+  </li>
 
   <!-- Propósito de la lección -->
-  <paragraphs>
+  <li>
     <title><custom ref="purpose-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this lesson is for students to be introduced to <term>fractions</term> as numbers we write to describe the parts of a whole that has been partitioned into equal parts.</p>
-  </paragraphs>
+  </li>
 
   <!-- Materiales requeridos -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-leccion-titulo"/></title>
     <ul>
       <li>
@@ -93,23 +94,25 @@
         <!--<xi:include href="./act-doblemosYNombremos-matCentros.ptx"/>-->
       </li>
     </ul>  
-  </paragraphs>
+  </li>
   
   <!-- Introducción de la lección (narrative) -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>In previous grades, students partitioned circles and rectangles into two, three, or four equal pieces and described the pieces as <q>halves,</q> <q>thirds,</q> and <q>fourths.</q> They used the more concrete term <q>pieces.</q></p>
     <p>In this lesson, students extend this understanding to partition rectangles into six or eight equal parts and describe the parts as sixths or eighths. The term <q>parts</q> is used in these materials moving forward, but students recognize that <q>pieces</q> and <q>parts</q> are interchangeable and can use either one.</p>
     <p>In the lesson synthesis, students learn the fractions <m>\frac{1}{2}</m>, <m>\frac{1}{3}</m>, <m>\frac{1}{4}</m>, <m>\frac{1}{6}</m>, and <m>\frac{1}{8}</m> as the numbers used to represent the parts described as one half, one third, one fourth, one sixth, and one eighth.</p>
-  </paragraphs>
+  </li>
   
   <!-- Preguntas de reflexión profesor -->
-  <paragraphs>
+  <li>
     <title><custom ref="reflection-quest-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>In grade 2, students learned to partition rectangles and were introduced to halves, thirds, and fourths. How did they leverage their prior experiences as they were introduced to fractions in this lesson?</p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </introduction>
 
 

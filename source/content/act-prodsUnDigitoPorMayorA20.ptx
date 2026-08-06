@@ -65,35 +65,35 @@
 ===================================================================  -->
 
 <prelude component="profesor">
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <!-- <paragraphs>
+  <!-- <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
     </ul>
-  </paragraphs> -->
-
-
+  </li> -->
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>15 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>El propósito de esta actividad es que los estudiantes continúen multiplicando números enteros de un solo dígito con números mayores que 20. El problema inicial anima a los estudiantes a usar lo que saben sobre el valor posicional (descomponer números de dos dígitos en decenas y unidades) y las propiedades de las operaciones para que piensen los productos numéricamente. Sin embargo, como uno de los factores es pequeño, los estudiantes pueden usar la suma repetida (como <m>43 + 43</m>) para encontrar los productos. En la síntesis, enfatice las estrategias basadas en el valor posicional, conectando las expresiones numéricas con diagramas según sea necesario.</p>
-  </paragraphs>
+  </li>
 
 
   <!-- Materiales requeridos de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-actividad-titulo"/></title>
     <xi:include href="./act-prodsUnDigitoPorMayorA20-mat.ptx"/> 
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <ul>
       <li>Grupos de 2</li>
@@ -102,11 +102,11 @@
       <li>Comparta las respuestas.</li>
       <li>Proporcione a los estudiantes papel cuadriculado y bloques en base diez.</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <ul>
       <li>
@@ -115,8 +115,9 @@
       <li>5 minutos: tiempo de trabajo individual</li>
       <li>5 minutos: tiempo de trabajo en pareja</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -124,9 +125,10 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Estrategias de apoyo para estudiantes con dificultades -->
-  <paragraphs>
+  <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>Si un estudiante dice que no sabe cómo empezar el problema, considere preguntar:</p>
     <ul>
@@ -137,37 +139,38 @@
         <q>¿Cómo podrías usar bloques en base diez o diagramas para ayudarte a encontrar estos productos?</q>.
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <ul>
       <li>Invite 1 o 2 estudiantes a que compartan sus respuestas y su razonamiento. Muestre o registre su trabajo para que sea visible para todos.</li>
       <li>Discuta las respuestas en las que se muestre el uso del valor posicional y las propiedades de las operaciones. <m>4 \times 22</m>, por ejemplo, se puede encontrar usando la propiedad asociativa (<m>2 \times (2 \times 22)</m>) o la propiedad distributiva (<m>4 \times 20 + 4 \times 2</m>).</li>
       <li>Considere usar diagramas o bloques en base diez para reforzar el significado de las expresiones según sea necesario.</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Descripción del desarrollo de lenguaje matemático -->
   <!--   
-  <paragraphs>
+  <li>
     <title><custom ref="language-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> 
+  </li> 
   -->
 
 
   <!-- Estrategias de acceso para estudiantes con discapacidades -->
   <!--   
-  <paragraphs>
+  <li>
     <title><custom ref="accesibility-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> 
+  </li> 
   -->
-
+</dl>
+</p>
 </postlude>
 
 </activity>

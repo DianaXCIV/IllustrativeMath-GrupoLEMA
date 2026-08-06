@@ -19,24 +19,27 @@
   <introduction>
     <p>Por turnos, los estudiantes lanzan un cubo encajable sobre el tablero de números (del 1 al 10) y escriben el número en el que cae en la hoja de escribir números. Puede que los estudiantes quieran usar lápices de colores para escribir los números.</p>
   </introduction>
-
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-centro-etapa-titulo"/></title> 
     <p>K.CC.A.3</p>
-  </paragraphs>
+  </li>
 
   <!-- materiales requeridos -->
-  <paragraphs>
+  <li>
     <title>Materiales</title>
     <xi:include href="../content/act-conozcamos-carreraConNum-numDel1Al10-mat.ptx"/> 
-  </paragraphs>
+  </li>
   
   <!-- referencia a la actividad en la que se presenta el centro por primera vez -->
-  <paragraphs>
+  <li>
     <title><custom ref="centros-ubicacion-act-intro-titlulo"/></title>
     <p> <xref ref="act-conozcamos-carreraConNum-numDel1Al10" text="title"/> </p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 
   <!-- Archivo con el contenido -->
   <!-- <xi:include href="../graVV-uniXX/act-conozcamos-carreraConNum-numDel1Al10.ptx"/>    -->

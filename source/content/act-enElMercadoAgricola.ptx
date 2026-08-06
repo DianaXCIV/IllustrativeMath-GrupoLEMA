@@ -33,8 +33,10 @@
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
 <prelude component="profesor">
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li>
@@ -43,31 +45,31 @@
         <xref ref="ccss-3-OA-B-6" text="custom">3.OA.B.6</xref>
       </li>
     </ul>
-  </paragraphs> 
+  </li> 
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>20 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>El propósito de esta actividad es que los estudiantes comprendan cómo las ecuaciones de multiplicación corresponden a diagramas y ecuaciones que han utilizado para representar situaciones de división. El enfoque debe estar en relacionar el factor desconocido con el número desconocido de grupos o el número desconocido de objetos en cada grupo. En sus explicaciones, los estudiantes deben hacer conexiones directas entre las situaciones, representaciones y ecuaciones (MP2).</p>
-  </paragraphs>
+  </li>
 
 
   <!-- Materiales requeridos de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-actividad-titulo"/></title>
     <xi:include href="./act-enElMercadoAgricola-mat.ptx"/> 
-  </paragraphs>
+  </li>
  
 
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <ul>
       <li>Grupos de 2</li>
@@ -77,11 +79,11 @@
       <li>1 minuto: tiempo para pensar en silencio</li>
       <li>Aclare cualquier pregunta que tengan los estudiantes sobre las situaciones que aparecen en la tabla.     </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <ul>
       <li><q>Completen cada fila. Prepárense para explicar su razonamiento</q></li>
@@ -91,8 +93,9 @@
       <li>Escuche las distintas maneras en las que los estudiantes explican sus respuestas. Identifique estrategias que establezcan conexiones claras entre las cantidades que aparecen en cada situación y sus representaciones.</li>
       <li>Si los estudiantes terminan antes de lo planeado, o si considera apropiado agregar movimiento a la actividad, considere hacer grupos de 4 y pedirles que creen un póster que muestre su propia situación, el dibujo correspondiente, la ecuación de multiplicación y la ecuación de división. Luego pueden hacer un recorrido por el salón.</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -100,50 +103,50 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Estrategias de apoyo para estudiantes con dificultades -->
-  <paragraphs>
+  <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>Si en una cierta fila los estudiantes no registran la ecuación de multiplicación o la ecuación de división, considere preguntar:</p>
     <ul>
       <li><q>¿Cómo decidirías qué tipo de ecuación escribir?</q></li>
       <li><q>¿Cómo podríamos representar este diagrama (o situación) con una ecuación de multiplicación (o división)? ¿En dónde vemos cada parte de la ecuación en el diagrama (o situación)?</q></li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <ul>
       <li>Comparta las respuestas de los estudiantes para cada fila.</li>
       <li>Considere preguntar <q>¿Cómo muestra la ecuación (o el dibujo) los números o las cantidades de la situación?</q></li>
       <li><q>¿Qué relación vieron entre las ecuaciones de multiplicación y las ecuaciones de división?</q> (Las ecuaciones usan los mismos números para representar la situación. La respuesta de la ecuación de división siempre es uno de los factores desconocidos de la ecuación de multiplicación.)</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Descripción del desarrollo de lenguaje matemático -->
   <!-- 
-  <paragraphs>
+  <li>
     <title><custom ref="language-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs>
+  </li>
   -->
 
 
   <!-- Estrategias de acceso para estudiantes con discapacidades -->
   
-  <paragraphs>
+  <li>
     <title><custom ref="accesibility-actividad-titulo"/></title>
     <p>
       Involucramiento: Desarrollar el esfuerzo y la persistencia. Algunos estudiantes pueden beneficiarse de retroalimentación que enfatice el esfuerzo y el tiempo dedicado a la tarea. Por ejemplo, dar retroalimentación después de cada fila o motivar a los estudiantes a trabajar en la siguiente fila si tienen dificultades con una fila específica.
     </p>
     <p>Apoya la accesibilidad para: Atención, Funcionamiento Social-Emocional.</p>
-  </paragraphs>
- 
-
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </activity>

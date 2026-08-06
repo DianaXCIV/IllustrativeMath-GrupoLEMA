@@ -37,16 +37,18 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>15 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
 
     <p>
@@ -70,16 +72,16 @@
       <!-- The center choices will remain the same in the upcoming lessons. Keep the materials from each center organized to use each day. -->
     </p>
 
-  </paragraphs>
+  </li>
 
   <!-- Materiales requeridos de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-actividad-titulo"/></title>
     <xi:include href="./act-centros-escoger1-matCentros.ptx" /> 
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
 
     <ul>
@@ -92,10 +94,10 @@
       </li>
       <li>30 segundos: tiempo para pensar en silencio</li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
 
     <ul>
@@ -103,23 +105,24 @@
       <li>10 minutos: tiempo de trabajo en el centro</li>
       <li>Identifique a los estudiantes que creen objetos, patrones o construcciones para compartir durante la síntesis.</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 <!-- ============================================================== 
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Estrategias de apoyo para estudiantes con dificultades -->
-  <!-- <paragraphs>
+  <!-- <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> -->
-
+  </li> -->
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
 
     <ul>
@@ -128,20 +131,21 @@
         <q>Cuéntenle a su compañero cómo <fillin/> describió su trabajo</q>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Descripción del desarrollo de lenguaje matemático -->
-  <!-- <paragraphs>
+  <!-- <li>
     <title><custom ref="language-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> -->
+  </li> -->
 
   <!-- Estrategias de acceso para estudiantes con discapacidades -->
-  <!-- <paragraphs>
+  <!-- <li>
     <title><custom ref="accesibility-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> -->
-
+  </li> -->
+</dl>
+</p>
 </postlude>
 
 </activity>

@@ -23,8 +23,10 @@
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
 <prelude component="profesor">
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li>
@@ -33,32 +35,33 @@
         <xref ref="ccss-3-OA-A-3" text="custom">3.OA.A.3</xref>
       </li>
     </ul>
-  </paragraphs> 
+  </li> 
 
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>10 minutos</p>
-  </paragraphs>
-  <paragraphs>
+  </li>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>El propósito de esta actividad es que los estudiantes consideren en qué se parecen y en qué se diferencian las formas en las que resolvieron un problema de "¿cuántos en cada grupo?" en la actividad anterior. A medida que los estudiantes observan los pósteres, identifique de 2 a 3 estudiantes que demuestren de manera especialmente clara que este problema se trata de encontrar cuántos hay en cada grupo. Selecciónelos para que compartan su trabajo en la próxima actividad.</p>
-  </paragraphs>
-  <!-- <paragraphs> -->
+  </li>
+  <!-- <li> -->
     <!-- <title><custom ref="materials-actividad-titulo"/></title> -->
     <!-- <p>[@@@@@@@@@]</p> -->
-  <!-- </paragraphs> -->
-  <paragraphs>
+  <!-- </li> -->
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <p>Grupos de 2</p>
-  </paragraphs>
-  <paragraphs>
+  </li>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <ul>
       <li><q>Cuando estén viendo los pósteres con su compañero, discutan en qué se parecen y en qué se diferencian las ideas que se muestran en los pósteres</q></li>
       <li>5-7 minutos: Recorrido por el salón</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -66,26 +69,29 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
-  <!-- <paragraphs> -->
+<p>
+<dl>
+  <!-- <li> -->
     <!-- <title><custom ref="support-actividad-titulo"/></title> -->
     <!-- <p>[@@@@@@@@@]</p> -->
-  <!-- </paragraphs> -->
-  <paragraphs>
+  <!-- </li> -->
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <ul>
       <li>Brinde a los estudiantes la oportunidad de hacer preguntas sobre cualquier póster.</li>
       <li><q>¿En qué se parecen las ideas que se muestran en los pósteres?</q></li>
       <li><q>¿En qué se diferencian las ideas que se muestran en los pósteres?</q></li>
     </ul>
-  </paragraphs>
-  <!-- <paragraphs> -->
+  </li>
+  <!-- <li> -->
     <!-- <title><custom ref="language-actividad-titulo"/></title> -->
     <!-- <p>[@@@@@@@@@]</p> -->
-  <!-- </paragraphs> -->
-  <!-- <paragraphs> -->
+  <!-- </li> -->
+  <!-- <li> -->
     <!-- <title><custom ref="accesibility-actividad-titulo"/></title> -->
     <!-- <p>[@@@@@@@@@]</p> -->
-  <!-- </paragraphs> -->
+  <!-- </li> -->
+</dl>
+</p>
 </postlude>
 </activity>

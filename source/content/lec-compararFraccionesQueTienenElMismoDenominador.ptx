@@ -39,9 +39,10 @@
   Introducción para el profesor                        
 =================================================  -->
 <introduction component="profesor">
-
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-leccion-titulo"/></title> 
     <ul>
       <li> 
@@ -50,23 +51,23 @@
         <xref ref="ccss-3-NF-A-3-d" text="custom">3.NF.A.3.d</xref>
       </li>
     </ul>
-    </paragraphs>
+    </li>
 
   <!-- índice de la lección (automático) -->
-  <paragraphs>
+  <li>
     <title><custom ref="timeline-leccion-titulo"/></title>
     <list-of elements="subsubsection reading-questions" scope="subsection"/>
-  </paragraphs>
+  </li>
 
   <!-- Propósito de la lección -->
-  <paragraphs>
+  <li>
     <title><custom ref="purpose-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this lesson is for students to compare two fractions with the same denominator.</p>
-  </paragraphs>
+  </li>
 
   <!-- Materiales requeridos -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-leccion-titulo"/></title>
     <ul>
       <!--<li>
@@ -80,22 +81,24 @@
         <!--<xi:include href="./act-mismoDenominador-matCentros.ptx"/>-->
       </li>
     </ul>  
-  </paragraphs>
+  </li>
   
   <!-- Introducción de la lección (narrative) -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>In previous lessons, students learned that fractions are built from unit fractions. Here, they reason that fractions with the same denominator are composed of parts that are the same size or length, so the numerator, which describes the number of parts, determines which fraction is greater. It is important that students have the opportunity to develop this understanding rather than learning a rule about comparing fractions with the same denominator.</p>
     <p>Students are reminded that they can use the symbols <m>\gt</m>, <m>=</m>, or <m>\lt</m> to record the results of comparison of fractions, just as they did with whole numbers in earlier grades (MP6). This lesson (including the cool-down) enables the teacher to gauge students' familiarity with the symbols, but students are not yet expected to rely on the symbols to express comparison.</p>
-  </paragraphs>
+  </li>
   
   <!-- Preguntas de reflexión profesor -->
-  <paragraphs>
+  <li>
     <title><custom ref="reflection-quest-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>What prior knowledge about unit and non-unit fractions did you see students use to help them compare fractions?</p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </introduction>
 
 

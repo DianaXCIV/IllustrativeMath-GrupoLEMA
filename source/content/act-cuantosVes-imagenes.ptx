@@ -30,10 +30,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li>
@@ -41,29 +43,29 @@
         <xref ref="ccss-K-CC" text="custom">K.CC</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>10 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>El propósito de esta actividad es que los estudiantes reconozcan cantidades sin contar y describan cómo saben cuántos puntos se muestran.</p>
-  </paragraphs>
+  </li>
 
 
   <!-- Materiales requeridos de la actividad -->
-  <!-- <paragraphs>
+  <!-- <li>
     <title><custom ref="materials-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> -->
+  </li> -->
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <ul>
 	    <li>Grupos de 2</li>
@@ -71,11 +73,11 @@
       <li><q>¿Cuántos ven? ¿Cómo lo saben?, ¿qué ven?</q></li>
       <li>30 segundos: tiempo para pensar en silencio</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <ul>
       <li><q>Usen sus dedos para mostrarle a su pareja cuántos puntos ven</q></li>
@@ -85,48 +87,49 @@
       <li>Registre las respuestas.</li>
       <li>Repita con la segunda imagen.</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 <!-- ============================================================== 
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Estrategias de apoyo para estudiantes con dificultades -->
-  <!-- <paragraphs>
+  <!-- <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> -->
-
-
+  </li> -->
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <ul>
       <li><q>Usamos nuestros dedos para mostrar cuántos puntos hay. Usen sus dedos para mostrar cuántos profesores hay en nuestro salón</q></li>
       <li><q>Díganle a su pareja cuántos profesores hay en nuestro salón</q></li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Descripción del desarrollo de lenguaje matemático -->
-  <paragraphs>
+  <li>
     <title><custom ref="language-actividad-titulo"/></title>
     
     <p>MLR8 Apoyos para la discusión. Invite a los estudiantes a comenzar las interacciones con sus compañeros reformulando las preguntas, <q>¿Cuántos puntos ven? ¿Cómo lo saben?, ¿qué ven?</q> Esto da a ambos estudiantes múltiples oportunidades para producir lenguaje.</p>
 
     <p>Avances: Conversación</p>
-  </paragraphs>
+  </li>
 
 
   <!-- Estrategias de acceso para estudiantes con discapacidades -->
-  <!-- <paragraphs>
+  <!-- <li>
     <title><custom ref="accesibility-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> -->
-
+  </li> -->
+</dl>
+</p>
 </postlude>
 
 </activity>

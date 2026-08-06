@@ -10,8 +10,9 @@
     <line><xref ref="centro-bloquesSolidosGeom-etapa2" text="title"/></line>
   </p>
 </introduction>
-
-<paragraphs component="web">
+<p>
+<dl>
+<li component="web">
   <title>Muestra de páginas</title>  
   <sidebyside>
   <image source="blm/pdf-source/bloques-solidos-geometricos-tarjetas1">
@@ -24,15 +25,14 @@
     <shortdescription></shortdescription>
   </image>
   </sidebyside>
-</paragraphs>
+</li>
 
-<paragraphs>
+<li>
   <title>Pdf para imprimir</title>
   <p>
     <url component="web" href="external/blm/pdf-source/bloques-solidos-geometricos-tarjetas.pdf">Pdf para imprimir</url>
   </p>
-</paragraphs>
-
-
-
+</li>
+</dl>
+</p>
 </subsection>

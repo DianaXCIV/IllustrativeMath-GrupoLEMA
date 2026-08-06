@@ -38,27 +38,28 @@
   Introducción para el profesor                        
 =================================================  -->
 <introduction component="profesor">
-
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-leccion-titulo"/></title> 
     <p>6.EE.B, 6.EE.B.5, 6.EE.B.6, 6.EE.B.7, 6.NS.B.3</p>
-  </paragraphs>
+  </li>
 
   <!-- índice de la lección (automático) -->
-  <paragraphs>
+  <li>
     <title><custom ref="timeline-leccion-titulo"/></title>
     <list-of elements="subsubsection reading-questions" scope="subsection"/>
-  </paragraphs>
+  </li>
 
   <!-- Propósito de la lección -->
-  <!-- <paragraphs>
+  <!-- <li>
     <title><custom ref="purpose-leccion-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> -->
+  </li> -->
 
   <!-- Materiales requeridos -->
-  <!-- <paragraphs>
+  <!-- <li>
     <title><custom ref="materials-leccion-titulo"/></title>
     [@@@@@@@@] -->
     <!-- <ul>
@@ -71,19 +72,21 @@
         <xi:include href="./act-SSSSSSSS-mat.ptx"/>
       </li>
     </ul>  -->
-  <!-- </paragraphs> -->
+  <!-- </li> -->
   
   <!-- Introducción de la lección (narrative) -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-leccion-titulo"/></title>
     <p>[@@@@@@] In this lesson, students consolidate their equation writing and solving skills. In the first activity they solve a variety of equations with different structures, and in the second they work to match equations to situations and solve them. Students may choose any strategy to solve equations, including drawing diagrams to reason about unknown quantities, looking at the structure of the equation, or doing the same thing to each side of the equation. They choose efficient tools and strategies for specific problems. This will help students develop flexibility and fluency in writing and solving equations.</p>
-  </paragraphs>
+  </li>
   
   <!-- Preguntas de reflexión profesor -->
-  <!-- <paragraphs>
+  <!-- <li>
     <title><custom ref="reflection-quest-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> -->
+  </li> -->
+</dl>
+</p>
 </introduction>
 
 

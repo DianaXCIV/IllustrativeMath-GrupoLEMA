@@ -17,8 +17,10 @@
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
 <prelude component="profesor">
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li>
@@ -30,30 +32,30 @@
         <xref ref="ccss-3-OA-C-7" text="custom">3.OA.C.7</xref>
       </li>
     </ul>
-  </paragraphs> 
+  </li> 
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>15 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>En esta actividad, los estudiantes ven cómo otros resolvieron uno de los problemas. Mientras observan los pósteres, dejan notas adhesivas explicando por qué creen que la respuesta tiene sentido o no. En la síntesis se resaltan ejemplos de cómo usaron diagramas de área para representar el problema.</p>
     <!-- <p>El propósito de esta actividad es que los estudiantes vean cómo otros estudiantes resolvieron uno de los problemas que involucra un factor de un número del 11 al 19. Mientras los estudiantes observan el trabajo de los demás, dejarán notas adhesivas describiendo por qué creen que la respuesta tiene sentido o no (MP3). La síntesis se centrará específicamente en ejemplos de cómo los estudiantes utilizaron el diagrama de área para representar el problema.</p> -->
-  </paragraphs>
+  </li>
 
 
   <!-- Materiales requeridos de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-actividad-titulo"/></title>
     <xi:include href="./act-recorridoSalon-problemasMultNums11a19MasGrandes-mat.ptx"/> 
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <ul>
       <li>Grupos de 2</li>
@@ -61,11 +63,11 @@
       <li>Comparta las respuestas.</li>
       <li>Entregue notas adhesivas a los estudiantes.</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <ul>
       <li>
@@ -81,8 +83,9 @@
         </ul>
       </li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -90,18 +93,17 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Estrategias de apoyo para estudiantes con dificultades -->
   <!--   
-  <paragraphs>
+  <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> 
+  </li> 
   -->
-
-
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <ul>
       <li>Seleccione 2 o 3 pósteres que usen un diagrama para representar el problema. Socialícelos en el orden que se menciono anteriormente.</li>
@@ -118,25 +120,26 @@
     <image source="svg-source/tikz-file-141828">
       <shortdescription>Diagrama de área.</shortdescription>
     </image>
-  </paragraphs>
+  </li>
 
 
   <!-- Descripción del desarrollo de lenguaje matemático -->
-  <paragraphs>
+  <li>
     <title><custom ref="language-actividad-titulo"/></title>
     <p>Apoyos para la discusión de MLR8. Síntesis: A medida que los estudiantes comparten sus observaciones sobre los pósteres seleccionados, haga anotaciones en el póster para ilustrar conexiones. Por ejemplo, marque los factores y el producto y escriba <term>factores</term> y <term>producto</term> respectivamente.</p>
     <p>Avances: Escuchar, Representar</p>
-  </paragraphs>
+  </li>
 
 
   <!-- Estrategias de acceso para estudiantes con discapacidades -->
   <!--   
-  <paragraphs>
+  <li>
     <title><custom ref="accesibility-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> 
+  </li> 
   -->
-
+</dl>
+</p>
 </postlude>
 
 </activity>

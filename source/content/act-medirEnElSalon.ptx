@@ -74,10 +74,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li> 
@@ -85,45 +87,45 @@
         <xref ref="ccss-3-MD-B-4" text="custom">3.MD.B.4</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>15 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>In grade 2, students only measured the length of objects that were whole units and sometimes described lengths as <q>about 4 inches.</q> The purpose of this activity is for students to learn that fractions of an inch can be useful for measuring the length of an object that is not exactly a whole number of inches.</p>
     <p>Given a ruler marked with inches, students measure objects around the room. They may record measurements in whole inches even for objects whose length is not exactly a whole number inches. In the synthesis, discuss the need for fractions of an inch to describe lengths more precisely (MP6). </p>
     <p>The rulers from this activity are used in the next activity.</p>
-  </paragraphs>
+  </li>
 
 
   <!-- Materiales requeridos de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-actividad-titulo"/></title>
     <!-- si hay materiales, crear los archivos -mat.ptx (para materiales de la actividad) y -matCentros.ptx (para mencionar los otros centros que se usan y para los que se necesitan materiales) y poner los materiales ahí usando los archivos de template. Después hacer xinclude  de estos archivos en la lista de materiales de la lección.-->
     <xi:include href="./act-medirEnElSalon-mat.ptx"/>
     <!-- <xi:include href="./act-medirEnElSalon-matCentros.ptx"/>  -->
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
       <li>Groups of 2</li>
       <li>Give each student a ruler.</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -133,8 +135,9 @@
       <li>5–7 minutes: partner work time</li>
       <li>Monitor for students who find objects that are not exactly whole numbers of inches. Highlight the objects and their measurement in the synthesis.</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -142,9 +145,10 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -159,17 +163,18 @@
         <q>Necesitamos una forma de hacer que nuestras medidas sean más precisas. Vamos a pensar más acerca de esto en la siguiente actividad</q>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Estrategias de acceso para estudiantes con discapacidades -->
-  <paragraphs>
+  <li>
     <title><custom ref="accesibility-actividad-titulo"/></title><p>[++++++++++++++++]</p>
     <p><em>Engagement: Develop Effort and Persistence.</em> Chunk this task into more manageable parts. Check in with students to provide feedback and encouragement after each chunk.</p>
     <p>
       <em>Supports accessibility for: Attention, Organization</em>
     </p>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </activity>

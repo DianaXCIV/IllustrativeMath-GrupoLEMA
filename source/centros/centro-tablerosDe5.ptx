@@ -18,19 +18,22 @@
   <introduction>
     <p>Los estudiantes comienzan con 5 fichas en un tablero de 5 y lanzan para ver cuántas fichas agregar. Luego encuentran el número total de fichas.</p>
   </introduction>
-  
-  <paragraphs>
+<p>
+<dl>
+  <li>
     <title><custom ref="centros-ubicacion-act-intro-titlulo"/></title>
     <!-- gra@@uni@@-sec@@-lec@@-act@@ -->
     <p> [@@@@@@@@@@@@@@@] </p>
-  </paragraphs>
+  </li>
 
   <!-- materiales requeridos -->
-  <paragraphs>
+  <li>
     <title>Materiales</title>
     <p>[@@@@@@@@@@@@]</p>
     <!-- <xi:include href="../graVV-uniXX/act-conozcamos-RRRRR-SSSSSS-mat.ptx"/>  -->
-  </paragraphs>
+  </li>
+</dl>
+</p>
 
   <!-- Archivo con el contenido -->
   <xi:include href="../gra0-uni4/gra0-uni4-secA-lec4-act2.ptx"/> 
@@ -47,19 +50,22 @@
   <introduction>
     <p>Los estudiantes comienzan con un tablero de 5 completo y lanzan para ver cuántas fichas quitar.</p>
   </introduction>
-
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-centro-etapa-titulo"/></title> 
     <p>K.CC.B.5, K.OA.A.1</p>
-  </paragraphs>
+  </li>
 
   <!-- materiales requeridos -->
-  <paragraphs>
+  <li>
     <title>Materiales</title>
     <p>[@@@@@@@@@@@@]</p>
     <!-- <xi:include href="../graVV-uniXX/act-conozcamos-RRRRR-SSSSSS-mat.ptx"/>  -->
-  </paragraphs>
+  </li>
+</dl>
+</p>
 
   <!-- Archivo con el contenido -->
   <xi:include href="../gra0-uni4/gra0-uni4-secA-lec5-act2.ptx"/> 

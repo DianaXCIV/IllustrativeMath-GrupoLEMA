@@ -34,10 +34,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li>
@@ -45,28 +47,28 @@
         <xref ref="ccss-K-CC" text="custom">K.CC</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>10 minutos</p>
-  </paragraphs>
+  </li>
 
   
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>[+++++++++++++++++]</p>
     <p>The purpose of this How Many Do You See is for students to recognize and name small groups of dots and describe how they see them. This is the first time the images are quickly flashed instead of being displayed for students to look at for as long as necessary. This encourages students to determine the number of dots without counting. From this point on, images in the How Many Do You See routine will be flashed rather than displayed.</p>
-  </paragraphs>
+  </li>
 
 
-  <!-- <paragraphs>
+  <!-- <li>
     <title><custom ref="materials-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> -->
+  </li> -->
 
 
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <p>[+++++++++++++++++]</p>
     <ul>
@@ -75,10 +77,10 @@
       <li>Flash the first image.</li>
       <li><q>¿Cuántos puntos vieron? ¿Cómo lo saben?, ¿qué vieron?</q></li>
     </ul>
-  </paragraphs>
+  </li>
 
 
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <p>[+++++++++++++++++]</p>
     <ul>
@@ -89,43 +91,46 @@
       <li>1 minute: partner discussion</li>
       <li>Repeat with the second image.</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 <!-- ============================================================== 
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
-  <!-- <paragraphs>
+<p>
+<dl>
+  <!-- <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> -->
+  </li> -->
 
 
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <p>[+++++++++++++++++]</p>
     <q>¿Cómo pudieron saber cuántos puntos había si se los mostré tan rápidamente?</q>
-  </paragraphs>
+  </li>
 
 
-  <paragraphs>
+  <li>
     <title><custom ref="language-actividad-titulo"/></title>
     <p>[+++++++++++++++++]</p>
     <p>MLR8 Discussion Supports. Use gestures to emphasize a countdown to when the image is flashed. This will help students learn the cues that require their attention.</p>
     <p>Advances: Listening, Representing</p>
-  </paragraphs>
+  </li>
 
 
-  <paragraphs>
+  <li>
     <title><custom ref="accesibility-actividad-titulo"/></title>
     <p>[+++++++++++++++++]</p>
     <p>Engagement: Provide Access by Recruiting Interest. Use a countdown such as “¡Preparados, listos, miren!” // “Ready, set, show!” to support student focus and attention. Reassure students who miss the first flash that the image will be shown a second time.</p>
     <p>Supports accessibility for: Attention, Social-Emotional Functioning</p>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </exploration>

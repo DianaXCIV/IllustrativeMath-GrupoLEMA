@@ -15,27 +15,27 @@
   <introduction>
     <p>Los estudiantes exploran con libertad los bloques sólidos geométricos.</p>
   </introduction>
-
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-centro-etapa-titulo"/></title> 
     <p>K.G</p>
-  </paragraphs>
+  </li>
 
   <!-- materiales requeridos -->
-  <paragraphs>
+  <li>
     <title>Materiales</title>
     <xi:include href="../content/act-conozcamos-bloquesSolidosGeom-explora-mat.ptx"/> 
-  </paragraphs>
+  </li>
 
-  <paragraphs>
+  <li>
     <title><custom ref="centros-ubicacion-act-intro-titlulo"/></title>
     <!-- gra0-uni1-secA-lec4-act2 -->
     <p> <xref ref="act-conozcamos-bloquesSolidosGeom-explora" text="title"/> </p>
-  </paragraphs>
-
+  </li>
   <!-- 
-  <paragraphs>
+  <li>
     <title>Hojas reproducibles</title>
     <p>
       <ul>
@@ -44,8 +44,10 @@
         <li>Hoja de registro <url component="web" href="external/blm/pdf-source/tableros-de-5-hoja-registro.pdf">(ver pdf)</url></li>
       </ul>
     </p>
-  </paragraphs> 
+  </li> 
   -->
+</dl>
+</p>
 
 
   <!-- Archivo con el contenido -->
@@ -59,32 +61,33 @@
   <introduction>
     <p>Los estudiantes utilizan figuras sólidas para construir objetos que se muestran en  tarjetas.</p>
   </introduction>
-
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-centro-etapa-titulo"/></title> 
     <p>K.G</p>
-  </paragraphs>
+  </li>
 
   <!-- materiales requeridos -->
-  <paragraphs>
+  <li>
     <title>Materiales</title>
     <xi:include href="../content/act-conozcamos-bloquesSolidosGeom-construyeVes-mat.ptx"/> 
-  </paragraphs>
+  </li>
 
-  <paragraphs>
+  <li>
     <title><custom ref="centros-ubicacion-act-intro-titlulo"/></title>
     <!-- gra0-uni1-secA-lec4-act2 -->
     <xref ref="act-conozcamos-bloquesSolidosGeom-construyeVes" text="title"/>
-  </paragraphs>
-
-
-  <!-- <paragraphs>
+  </li>
+  <!-- <li>
     <title>Hojas reproducibles</title>
     <ul>
         <li><xref ref="blm-centro-bloquesSolidosGeom-tarjetasBloques" text="title" /></li>
     </ul>
-  </paragraphs>  -->
+  </li>  -->
+</dl>
+</p>
 
 
   <!-- Archivo con el contenido -->
@@ -99,23 +102,23 @@
   <introduction>
     <p>Los estudiantes describen formas sólidas para que su compañero pueda identificar la forma de un conjunto de de 4 a 6 formas sólidas.</p>
   </introduction>
-
-  
-
-  <paragraphs>
+<p>
+<dl>
+  <li>
     <title><custom ref="centros-ubicacion-act-intro-titlulo"/></title>
     <!-- gra0-uni1-secA-lec4-act2 -->
     <p> [@@@@@@@@@@@@@@@] </p>
-  </paragraphs>
-
+  </li>
   <!-- 
-  <paragraphs>
+  <li>
     <title>Hojas reproducibles</title>
     <ul>
         <li><xref ref="blm-centro-bloquesSolidosGeom-etapa2" text="title" /></li>
     </ul>
-  </paragraphs> 
+  </li> 
   -->
+</dl>
+</p>
 
   <!-- Archivo con el contenido -->
   <xi:include href="../gra1-uni7/gra1-uni7-secA-lec2-act3.ptx"/> 
@@ -128,21 +131,24 @@
   <introduction>
     <p>[@@@@@@@@@@@@@@@@@@@]</p>
   </introduction>
-
+<p>
+<dl>
   <!-- 
-  <paragraphs>
+  <li>
     <title>Hojas reproducibles</title>
     <ul>
         <li><xref ref="blm-centro-bloquesSolidosGeom-etapa4" text="title" /></li>
     </ul>
-  </paragraphs>  
+  </li>  
   -->
   
-  <paragraphs>
+  <li>
     <title><custom ref="centros-ubicacion-act-intro-titlulo"/></title>
     <!-- gra@@uni@@-sec@@-lec@@-act@@ -->
     <p> [@@@@@@@@@@@@@@@] </p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 
   <!-- Archivo con el contenido -->
   <xi:include href="../gra1-uni7/gra1-uni7-secB-lec11-act3.ptx"/>   

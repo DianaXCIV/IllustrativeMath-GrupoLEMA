@@ -40,10 +40,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li> 
@@ -51,24 +53,24 @@
         <xref ref="ccss-3-OA-B-5" text="custom">3.OA.B.5</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>10 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->  
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>In this warm-up, students observe two dot images that show the same number of dots in groups of 3 but arranged in different ways. The purpose is to elicit observations about the similarities in their structure (5 groups of 3 dots, plus 1 more group of 3 dots) and to prepare students to make sense of expressions with a similar structure in an upcoming lesson.</p>
 <p>When students notice that there is an additional group of 3 in the equal groups diagram and the array, they are looking for and making use of structure (MP7).</p>
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -79,10 +81,10 @@
       </li>
       <li>1 minute: quiet think time</li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -92,8 +94,9 @@
       <li>1 minute: partner discussion</li>
       <li>Share and record responses.</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -101,10 +104,10 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
-
+<p>
+<dl>
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -112,8 +115,9 @@
         <q>¿Cómo supieron cuál era el grupo de 3 adicional de cada diagrama?</q>  (In the equal groups diagram it’s an extra group that is separate from the 5 groups of 3. In the array the extra group of 3 is the column of dots that is a different color.)
       </li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </exploration>

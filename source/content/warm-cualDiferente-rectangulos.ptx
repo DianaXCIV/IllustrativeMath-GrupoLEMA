@@ -56,8 +56,10 @@
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
 <prelude component="profesor">
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li>
@@ -65,29 +67,29 @@
         <xref ref="ccss-3-MD-C-7-c" text="custom">3.MD.C.7.c</xref>
       </li>
     </ul>
-  </paragraphs> 
+  </li> 
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>10 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->  
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>En esta actividad de calentamiento, los estudiantes comparan cuatro diagramas de área con descomposiciones en dos áreas, las cuales representan productos diferentes. Esto les ayuda a usar el lenguaje de manera precisa y además le permite escuchar cómo comparan las características de los diagramas usando terminología. Durante la síntesis, pida a los estudiantes que expliquen el significado de los términos que utilizan, como <term>longitud de los lados</term>, <term>área</term>, <term>partes</term> y <term>descomposición</term>.</p>
     <!-- <p>Esta actividad de calentamiento les pide a los estudiantes que comparen cuatro diagramas de área que han sido descompuestos en dos áreas, cada una representando un producto. Les da a los estudiantes una razón para usar el lenguaje de manera precisa. Le da al profesor la oportunidad de escuchar cómo los estudiantes utilizan la terminología y hablan sobre las características de los elementos en comparación entre sí. Durante la síntesis, pida a los estudiantes que expliquen el significado de cualquier terminología que utilicen, como longitudes de los lados, área, partes y descomposición.</p> -->
-  </paragraphs>
+  </li>
 
   <!-- Materiales requeridos de la actividad -->
-  <!-- <paragraphs> -->
+  <!-- <li> -->
     <!-- <title><custom ref="materials-actividad-titulo"/></title> -->
     <!-- <xi:include href="../v00/graVV-uniXX-secYY-lecZZ-actRR-mat.ptx"/>  -->
-  <!-- </paragraphs> -->
+  <!-- </li> -->
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <ul>
       <li>Grupos de 2</li>
@@ -95,10 +97,10 @@
       <li><q>Escojan uno que sea diferente. Prepárense para compartir por qué es diferente</q></li>
       <li>1 minuto: tiempo para pensar en silencio</li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <ul>
       <li>
@@ -107,8 +109,9 @@
       <li>2–3 minutos: discusión en pareja</li>
       <li>Comparta y registre las respuestas.</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -116,17 +119,17 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Estrategias de apoyo para estudiantes con dificultades -->
   <!--   
-  <paragraphs>
+  <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> 
+  </li> 
   -->
-
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <ul>
       <li>
@@ -136,25 +139,26 @@
         Considere preguntar: <q>Encontremos al menos una razón por la que cada uno es diferente</q>.
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Descripción del desarrollo de lenguaje matemático -->
   <!--   
-  <paragraphs>
+  <li>
     <title><custom ref="language-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> 
+  </li> 
     -->
 
   <!-- Estrategias de acceso para estudiantes con discapacidades -->
   <!--   
-  <paragraphs>
+  <li>
     <title><custom ref="accesibility-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> 
+  </li> 
   -->
-
+</dl>
+</p>
 </postlude>
 
 </exploration>

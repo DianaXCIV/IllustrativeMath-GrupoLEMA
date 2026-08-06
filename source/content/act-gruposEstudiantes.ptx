@@ -40,8 +40,10 @@
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
 <prelude component="profesor">
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li>
@@ -49,25 +51,25 @@
         <xref ref="ccss-3-OA-A-2" text="custom">3.OA.A.2</xref>
       </li>
     </ul>
-  </paragraphs> 
+  </li> 
 
-  <paragraphs><title><custom ref="recommended-time-titulo"/></title>
+  <li><title><custom ref="recommended-time-titulo"/></title>
     <p>10 minutos</p>
-  </paragraphs>
-  <paragraphs><title><custom ref="narrative-actividad-titulo"/></title>
+  </li>
+  <li><title><custom ref="narrative-actividad-titulo"/></title>
     <p>El propósito de esta actividad es que los estudiantes representen físicamente la diferencia entre hacer 2 grupos y hacer grupos de 2. Diez estudiantes se ubicarán en 2 grupos y luego en grupos de 2. El resto de los estudiantes observará cómo se formaron los grupos y aclarará la diferencia entre los problemas de "¿cuántos grupos?" y los problemas de "¿cuántos en cada grupo?".</p>
-  </paragraphs>
-  <!-- <paragraphs><title><custom ref="materials-actividad-titulo"/></title>
+  </li>
+  <!-- <li><title><custom ref="materials-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> -->
-  <paragraphs><title><custom ref="launch-titulo"/></title>
+  </li> -->
+  <li><title><custom ref="launch-titulo"/></title>
     <ul>
       <li>Grupos de 2</li>
       <li>Invite a 10 estudiantes a venir al frente de la clase.</li>
       <li><q>Estos estudiantes se van a organizar en grupos y lo harán de diferentes maneras. Si están observando, anoten sus observaciones acerca de cómo forman los grupos.</q></li>
     </ul>
-  </paragraphs>
-  <paragraphs><title><custom ref="instructions-teacher-actividad-titulo"/></title>
+  </li>
+  <li><title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <ul>
       <li>Pida a los 10 estudiantes que se pongan en grupos de 2.</li>
       <li>Dé a los observadores la oportunidad de tomar notas.</li>
@@ -77,8 +79,9 @@
       <li><q>Hablen con un compañero sobre lo que notaron acerca de cómo los estudiantes se organizan en grupos de 2 y en 2 grupos.</q></li>
       <li>2-3 minutos: discusión en pareja</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -87,21 +90,24 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
-  <!-- <paragraphs><title>Para los estudiantes con dificultades</title>
+<p>
+<dl>
+  <!-- <li><title>Para los estudiantes con dificultades</title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> -->
-  <paragraphs><title><custom ref="synthesis-actividad-titulo"/></title>
+  </li> -->
+  <li><title><custom ref="synthesis-actividad-titulo"/></title>
     <ul>
       <li>Pida a los estudiantes que observaron que compartan lo que notaron.</li>
       <li>Destaque las ideas que ayuden a aclarar las diferencias entre "¿cuántos grupos?" y "¿cuántos en cada grupo?"</li>
     </ul>
-  </paragraphs>
-  <!-- <paragraphs><title>Desarrollo de lenguaje matemático</title>
+  </li>
+  <!-- <li><title>Desarrollo de lenguaje matemático</title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> -->
-  <!-- <paragraphs><title>Acceso a estudiantes con discapacidades</title>
+  </li> -->
+  <!-- <li><title>Acceso a estudiantes con discapacidades</title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> -->
+  </li> -->
+</dl>
+</p>
 </postlude>
 </activity>

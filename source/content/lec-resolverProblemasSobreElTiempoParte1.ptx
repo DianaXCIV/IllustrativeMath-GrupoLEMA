@@ -37,9 +37,10 @@
   Introducción para el profesor                        
 =================================================  -->
 <introduction component="profesor">
-
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-leccion-titulo"/></title> 
     <ul>
       <li> 
@@ -47,23 +48,23 @@
         <xref ref="ccss-3-MD-A-1" text="custom">3.MD.A.1</xref>
       </li>      
     </ul>
-    </paragraphs>
+    </li>
 
   <!-- índice de la lección (automático) -->
-  <paragraphs>
+  <li>
     <title><custom ref="timeline-leccion-titulo"/></title>
     <list-of elements="subsubsection reading-questions" scope="subsection"/>
-  </paragraphs>
+  </li>
 
   <!-- Propósito de la lección -->
-  <paragraphs>
+  <li>
     <title><custom ref="purpose-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this lesson is for students to solve problems involving addition and subtraction of time intervals in minutes in a way that makes sense to them.</p>
-  </paragraphs>
+  </li>
 
   <!-- Materiales requeridos -->
-  <!-- <paragraphs>
+  <!-- <li>
     <title><custom ref="materials-leccion-titulo"/></title>
     <p>[mmmmmmmmmm]</p>
     <ul>
@@ -78,21 +79,23 @@
         <xi:include href="./act-tiempoEnElBus-matCentros.ptx"/>
       </li>
     </ul>  
-  </paragraphs>-->
+  </li>-->
   
   <!-- Introducción de la lección (narrative) -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>In a previous lesson, students learned to tell and write time to the nearest minute. In this lesson, students reason about elapsed time using any representation that makes sense to them, such as the number line, tables, equations, and words. Students consider a variety of representations so that they can make connections and possibly use them in the next lesson (MP2).</p>
-  </paragraphs>
+  </li>
   
   <!-- Preguntas de reflexión profesor -->
-  <paragraphs>
+  <li>
     <title><custom ref="reflection-quest-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>How did you see students applying familiar representations to new situations in this lesson? How will you make use of their ideas as they solve problems involving time intervals in a future lesson?</p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </introduction>
 
 

@@ -29,8 +29,10 @@
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
 <prelude component="profesor">
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li> 
@@ -46,30 +48,35 @@
         [@@@@@@@@@]
       </li>-->
     </ul>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </prelude>
 
 
 <!-- ============================================================== 
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
-<postlude component="profesor"> 
-
+<postlude component="profesor">
+<p>
+<dl>
+ 
   <!-- Posibles errores -->
-  <paragraphs>
+  <li>
     <title><custom ref="errores-cool-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>Students select areas that would result in part of a square foot.</p>
-  </paragraphs>
+  </li>
 
 
   <!-- Estrategia de apoyo si muchos estudiantes respondieron incorrectamente -->
-  <paragraphs>
+  <li>
     <title><custom ref="apoyo-cool-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>During the launch of the next day's activity, have students discuss what would happen if you used square feet to measure the area of a notecard or the cover of a book.</p>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </project>

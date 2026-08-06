@@ -26,10 +26,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li> 
@@ -37,25 +39,25 @@
         <xref ref="ccss-3-NF-A-2" text="custom">3.NF.A.2</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>15 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this activity is for students to use the location of a unit fraction to locate another fraction with a different denominator on the number line. Students can use their knowledge from the previous activity to place 1 on the number line and then use that to partition the interval from 0 to 1 to find other numbers. Because students have only located fractions with the same denominator on a single number line, they may want to use more than one number line in this activity. They may or may not label the points they find along the way to <m>\frac{3}{4}</m>. Encourage them to use whatever strategy makes sense to them.</p>
     <p>Monitor for students who use a single number line to show both thirds and fourths and those who use separate number lines. Select them to share during activity synthesis.</p>
     <p>This activity is optional because it goes beyond the depth of understanding required to address grade 3 standards.</p>
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -64,11 +66,11 @@
         <q>Ahora vamos a tratar de hacer algo un poco diferente. Usemos la ubicación de una fracción unitaria para encontrar una fracción que tiene un denominador diferente</q>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -88,8 +90,9 @@
       </li>
       <li>2–3 minutes: partner discussion</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -97,9 +100,10 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -111,18 +115,19 @@
         <q>¿Qué preguntas tienen sobre estas representaciones?</q>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Descripción del desarrollo de lenguaje matemático -->
-  <paragraphs>
+  <li>
     <title><custom ref="language-actividad-titulo"/></title><p>[++++++++++++++++]</p>
     <p><em>MLR8 Discussion Supports.</em> Synthesis: As students share the similarities and differences between the strategies, use gestures to emphasize what is being described. For example, point to each fraction and show with your fingers the partitions such as thirds and fourths, that are being discussed.</p>
     <p>
       <em>Advances: Listening, Representing</em>
     </p>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </activity>

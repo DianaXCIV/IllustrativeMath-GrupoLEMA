@@ -44,10 +44,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li> 
@@ -55,34 +57,34 @@
         <xref ref="ccss-3-MD-C-7-d" text="custom">3.MD.C.7.d</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>25 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this activity is for students to find the area of a figure composed of rectangles with missing sides by decomposing it into two non-overlapping rectangles. There are several ways to approach these problems and students are given freedom to choose their own strategy to find the area. They share their reasoning with a student who has used a different method and prepare to share this new method during the class discussion (MP3). The synthesis should focus on ways to find missing side lengths and emphasize different ways to find the area of the figure.</p>
 <p>At this point, students should be comfortable multiplying side lengths of rectangles to find the area. Discussion should focus on how students decompose the figures and how they find the missing side lengths.</p>
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
       <li>Groups of 2</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -108,8 +110,9 @@
       </li>
       <li>Monitor for a variety of ways that students use to find the area of the second figure, including different decompositions, different strategies for finding missing sides lengths, and different expressions they write.</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -117,9 +120,10 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Estrategias de apoyo para estudiantes con dificultades -->
-  <paragraphs>
+  <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>If students determine incorrect lengths for the missing sides, consider asking:</p>
@@ -131,11 +135,11 @@
         <q>¿Cuáles estrategias de la actividad anterior podrías usar para encontrar la longitud del lado desconocido?</q>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -152,25 +156,26 @@
 </ul>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Descripción del desarrollo de lenguaje matemático -->
-  <paragraphs>
+  <li>
     <title><custom ref="language-actividad-titulo"/></title>
     [+++++++++++++++++]
     <p><em>MLR8 Discussion Supports:</em> Before students explain their strategies to each other, remind them to restate what they hear using precise mathematical language and their own words. Display the sentence frame: <q>Te escuché decir . . .</q> // <q>I heard you say . . . </q>Original speakers can agree or clarify for their partner.</p>
     <p><em>Advances: Listening, Speaking</em></p>
-  </paragraphs>
+  </li>
 
 
   <!-- Estrategias de acceso para estudiantes con discapacidades -->
-  <paragraphs>
+  <li>
     <title><custom ref="accesibility-actividad-titulo"/></title> [+++++++++++++++++]
     <p><em>Engagement: Provide Access by Recruiting Interest:</em> Use timers, alerts, or previews to help learners anticipate and prepare to transition between activities.</p>
     <p><em>Supports accessibility for: Attention, Organization</em></p>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </activity>

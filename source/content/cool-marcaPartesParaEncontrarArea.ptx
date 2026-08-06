@@ -43,8 +43,10 @@
 </solution>
 
 <prelude component="profesor">
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li>
@@ -52,25 +54,30 @@
         <xref ref="ccss-3-MD-C-7-c" text="custom">3.MD.C.7.c</xref>, <xref ref="ccss-3-OA-C-7" text="custom">3.OA.C.7</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </prelude>
 
 
-<postlude component="profesor"> <!-- Notas para el profesor -->
-
+<postlude component="profesor">
+<p>
+<dl>
+ <!-- Notas para el profesor -->
   <!-- Posibles errores -->
-  <paragraphs>
+  <li>
     <title><custom ref="errores-cool-titulo"/></title>
     <p>Los estudiantes encuentran el número total de cuadrados en los rectángulos, pero no marcan ni sombrean el rectángulo para representar una de las expresiones dadas.</p>
-  </paragraphs>
+  </li>
 
 
   <!-- Estrategia de apoyo si muchos estudiantes respondieron incorrectamente -->
-  <paragraphs>
+  <li>
     <title><custom ref="apoyo-cool-titulo"/></title>
     <p>Antes de la actividad de calentamiento, reparta esta actividad de cierre y pida a los estudiantes que discutan cómo podrían representar cada una de las expresiones dadas marcando o sombreando partes del área rectangular.</p>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </project>

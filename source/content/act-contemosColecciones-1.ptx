@@ -25,10 +25,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li>
@@ -36,33 +38,33 @@
         <xref ref="ccss-K-CC-B-4-a" text="custom">K.CC.B.4.a</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>15 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>[+++++++++++++++++]</p>
     <p>The purpose of this activity is for students to count their collection in a way that makes sense to them. The focus is on saying one number for each object. Most students should be given collections with 6–10 objects. Based on formative assessment data collected in previous sections, adjust the number of objects in collections for individual students. Students are provided with counting mats and 5-frames to help them accurately count or organize their collections. Students use appropriate tools strategically as they choose which tools help them count their collections (MP5).</p>
     <p>Collections can be created from classroom objects such as connecting cubes, two-color counters, pattern blocks, or buttons. Students can also bring in collections of objects to count from home. Collections of 6-10 objects will be used throughout this section.</p>
     <p>A counting mat is provided as a blackline master. Students will continue to use this mat throughout the year. Consider copying the mat on cardstock or laminating it and keeping it organized to be used repeatedly.</p>
-  </paragraphs>
+  </li>
 
 
   <!-- Materiales requeridos de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-actividad-titulo"/></title>
     <!-- si hay materiales, crear el siguiente archivo -mat.ptx y ponerlos ahí (y agregar también el archivo en la lista de materiales de la lección)-->
     <xi:include href="./act-contemosColecciones-1-mat.ptx"/> 
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <p>[+++++++++++++++++]</p>
     <ul>
@@ -71,11 +73,11 @@
       <li>30 seconds: quiet think time</li>
       <li>Share responses.</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <p>[+++++++++++++++++]</p>
     <ul>
@@ -87,8 +89,9 @@
       <li>2 minutes: independent work time</li>
       <li>Monitor for students who say one number for each object.</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -96,9 +99,10 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Estrategias de apoyo para estudiantes con dificultades -->
-  <paragraphs>
+  <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>[+++++++++++++++++]</p>
     <p>If students say more than one number for each object, consider asking:</p>
@@ -107,11 +111,11 @@
       <li>If needed, prompt students to count as you move each object slowly from one side of the counting mat to the other.</li>
     </ul>
     <p>Students may also benefit from the optional activities in the next two lessons.</p>
-  </paragraphs>
+  </li>
 
 
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <p>[+++++++++++++++++]</p>
     <ul>
@@ -120,26 +124,27 @@
       <li>If needed, <q>Ellos decían un número al tocar cada objeto</q></li>
       <li>After each student shares, write or display the number and say, <q>Hay <fillin/> objetos en su colección</q></li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Descripción del desarrollo de lenguaje matemático -->
-  <paragraphs>
+  <li>
     <title><custom ref="language-actividad-titulo"/></title>
     <p>[+++++++++++++++++]</p>
     <p>MLR8 Discussion Supports. Students who are working toward verbal output will benefit from additional opportunities to count aloud. Invite students to chorally repeat each count, in unison 1–2 times.</p>
     <p>Advances: Listening, Speaking</p>
-  </paragraphs>
+  </li>
 
 
   <!-- Estrategias de acceso para estudiantes con discapacidades -->
-  <paragraphs>
+  <li>
     <title><custom ref="accesibility-actividad-titulo"/></title>
     <p>[+++++++++++++++++]</p>
     <p>Action and Expression: Internalize Executive Functions. Invite students to verbalize their strategy for counting the objects in their collection before they begin. Students can speak quietly to themselves, or share with a partner.</p>
     <p>Supports accessibility for: Organization, Conceptual Processing, Language</p>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </activity>

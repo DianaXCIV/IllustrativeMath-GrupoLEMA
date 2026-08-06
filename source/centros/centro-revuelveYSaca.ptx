@@ -19,24 +19,27 @@
   <introduction>
     <p>Los estudiantes deciden juntos cuántas fichas usar (hasta 10). Se turnan para revolver y dejar caer las fichas y las cuentan cada vez (sin cambiar la cantidad). Ambos cuentan las fichas. Luego, eligen una cantidad diferente de fichas y repiten.</p>
   </introduction>
-
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-leccion-titulo"/></title> 
     <p>K.CC.B.4.b, K.CC.B.5</p>
-  </paragraphs>
+  </li>
 
   <!-- materiales requeridos -->
-  <paragraphs>
+  <li>
     <title>Materiales</title>
     <xi:include href="../content/act-conozcamos-revuelveYSaca-cuenta-mat.ptx"/> 
-  </paragraphs>
+  </li>
   
   <!-- referencia a la actividad en la que se presenta el centro por primera vez -->
-  <paragraphs>
+  <li>
     <title><custom ref="centros-ubicacion-act-intro-titlulo"/></title>
     <p> <xref ref="act-conozcamos-revuelveYSaca-cuenta" text="title"/> </p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 
   <!-- Archivo con el contenido -->
   <!-- <xi:include href="../content/act-conozcamos-revuelveYSaca-cuenta.ptx"/>    -->
@@ -52,25 +55,28 @@
   <introduction>
     <p>Los estudiantes deciden juntos cuántas fichas usar (hasta 10). Se turnan para revolver y dejar caer las fichas y las cuentan cada vez (sin cambiar la cantidad). Comparan la cantidad de fichas rojas y amarillas y describen sus comparaciones usando el lenguaje “más que”, “menos que” y “igual que”.</p>
   </introduction>
-
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-leccion-titulo"/></title> 
     <p>K.CC.C.6</p>
-  </paragraphs>
+  </li>
 
 
   <!-- materiales requeridos -->
-  <paragraphs>
+  <li>
     <title>Materiales</title>
     <xi:include href="../content/act-conozcamos-revuelveYSaca-cualEsMas-mat.ptx"/> 
-  </paragraphs>
+  </li>
   
   <!-- referencia a la actividad en la que se presenta el centro por primera vez -->
-  <paragraphs>
+  <li>
     <title><custom ref="centros-ubicacion-act-intro-titlulo"/></title>
     <p> <xref ref="act-conozcamos-revuelveYSaca-cualEsMas" text="title"/> </p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 
   <!-- Archivo con el contenido -->
   <!-- <xi:include href="../content/act-conozcamos-revuelveYSaca-cualEsMas.ptx"/>    -->

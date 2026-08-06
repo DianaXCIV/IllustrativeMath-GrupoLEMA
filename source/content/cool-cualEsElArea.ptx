@@ -27,8 +27,10 @@
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
 <prelude component="profesor">
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li> 
@@ -44,30 +46,35 @@
         [@@@@@@@@@]
       </li>-->
     </ul>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </prelude>
 
 
 <!-- ============================================================== 
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
-<postlude component="profesor"> 
-
+<postlude component="profesor">
+<p>
+<dl>
+ 
   <!-- Posibles errores -->
-  <paragraphs>
+  <li>
     <title><custom ref="errores-cool-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>Students count the squares one by one to find the area.</p>
-  </paragraphs>
+  </li>
 
 
   <!-- Estrategia de apoyo si muchos estudiantes respondieron incorrectamente -->
-  <paragraphs>
+  <li>
     <title><custom ref="apoyo-cool-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>During the launch of the first activity, have students practice skip-counting to find the total number of squares in a rectangle.</p>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </project>

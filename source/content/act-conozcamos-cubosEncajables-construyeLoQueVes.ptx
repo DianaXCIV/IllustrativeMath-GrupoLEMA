@@ -27,10 +27,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li> 
@@ -46,16 +48,16 @@
         <!-- <xref ref="ccss-K-MD-B-3" text="custom">K.MD.B.3</xref> -->
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>10 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
 
     <p>
@@ -66,16 +68,16 @@
       <!-- Students use connecting cubes to make objects pictured on cards. -->
       <!-- As they work, observe whether students match the connecting cubes to the image or count the number of connecting cubes in the image to create their own object (MP6). -->
     </p>
-  </paragraphs>
+  </li>
 
   <!-- Materiales requeridos de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-actividad-titulo"/></title>
     <xi:include href="./act-conozcamos-cubosEncajables-construyeLoQueVes-mat.ptx" /> 
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <ul>
       <li>Grupos de 2</li>
@@ -90,10 +92,10 @@
       <li>1 minuto: discusión en pareja</li>
       <li>Comparta respuestas.</li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
 
     <ul>
@@ -108,23 +110,24 @@
       </li>
       <li>3 minutos: tiempo de trabajo individual</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 <!-- ============================================================== 
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Estrategias de apoyo para estudiantes con dificultades -->
-  <!-- <paragraphs>
+  <!-- <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> -->
-
+  </li> -->
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
 
     <ul>
@@ -137,20 +140,21 @@
         <!-- Invite several students to share what they heard their partner say. -->
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Descripción del desarrollo de lenguaje matemático -->
-  <!-- <paragraphs>
+  <!-- <li>
     <title><custom ref="language-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> -->
+  </li> -->
 
   <!-- Estrategias de acceso para estudiantes con discapacidades -->
-  <!-- <paragraphs>
+  <!-- <li>
     <title><custom ref="accesibility-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> -->
-
+  </li> -->
+</dl>
+</p>
 </postlude>
 
 </activity>

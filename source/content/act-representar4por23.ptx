@@ -116,10 +116,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li>
@@ -131,30 +133,30 @@
         <xref ref="ccss-3-OA-C-7" text="custom">3.OA.C.7</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>15 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>El propósito de esta actividad es que los estudiantes comprendan la multiplicación de un número de un solo dígito y un número de dos dígitos mayor que 20. Los estudiantes analizan representaciones para encontrar <m>4 \times 23</m> y explican por qué son útiles las estrategias basadas en la propiedad distributiva y el valor posicional para calcular productos. Así descubren que descomponer los factores en decenas y unidades facilita la multiplicación. También refuerzan sus conocimientos sobre las conexiones entre diagramas de área y expresiones de multiplicación.</p>
     <!-- <p>Anteriormente, los estudiantes multiplicaron dos factores donde uno era un número entero y el otro un número del 11 al 19. El propósito de esta actividad es que los estudiantes comprendan la multiplicación de un número de un solo dígito y un número de dos dígitos mayor que 20. Los estudiantes analizan representaciones utilizadas para encontrar <m>4 \times 23</m> y articulan razones para usar estrategias basadas en la propiedad distributiva y el valor posicional para encontrar productos (MP7). En el camino, ven que descomponer los factores de dos dígitos en decenas y unidades es particularmente útil para la multiplicación. También refuerzan lo que saben sobre las conexiones entre diagramas de área y expresiones de multiplicación.</p> -->
-  </paragraphs>
+  </li>
 
 
   <!-- Materiales requeridos de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-actividad-titulo"/></title>
     <xi:include href="./act-representar4por23-mat.ptx"/> 
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <ul>
       <li>Grupos de 2</li>
@@ -164,11 +166,11 @@
       <li>1 minuto: tiempo para pensar en silencio</li>
       <li>Dé a los estudiantes acceso a papel cuadriculado y bloques en base diez.</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <ul>
       <li>
@@ -196,8 +198,9 @@
         2–3 minutos: tiempo de trabajo individual
       </li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -205,9 +208,10 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Estrategias de apoyo para estudiantes con dificultades -->
-  <paragraphs>
+  <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>Si los estudiantes eligen un diagrama en el segundo problema que no les facilita encontrar el producto de <m>4\times23</m>, considere preguntar:</p>
     
@@ -219,12 +223,12 @@
         <q>¿Hay algún otro diagrama que haga más fácil encontrar el valor de <m>4\times23</m>? ¿De qué manera lo hace más fácil?</q>.
       </li>
     </ul>
-  </paragraphs> 
+  </li> 
   
 
 
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>    
     <ul>
       <li>
@@ -232,24 +236,25 @@
         (Los bloques en base diez me ayudaron a descomponer el 28 en decenas y unidades. Un diagrama con cuadrícula me ayudó a descomponer 28 en números más pequeños. Un diagrama sin cuadrícula me ayudó a pensar en los números mientras lo marcaba, sin preocuparme por todos los cuadrados pequeños).
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Descripción del desarrollo de lenguaje matemático -->
   <!--   
-  <paragraphs>
+  <li>
     <title><custom ref="language-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> 
+  </li> 
   -->
 
 
   <!-- Estrategias de acceso para estudiantes con discapacidades -->
-  <paragraphs>
+  <li>
     <title><custom ref="accesibility-actividad-titulo"/></title>
     <p>MLR8 Soportes para la Discusión. Antes del trabajo en parejas, recuerde a los estudiantes usar palabras como descomponer, decenas y unidades.</p>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </activity>

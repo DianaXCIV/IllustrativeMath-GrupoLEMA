@@ -36,9 +36,10 @@
   Introducción para el profesor                        
 =================================================  -->
 <introduction component="profesor">
-
+<p>
+<dl>
     <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-leccion-titulo"/></title> 
     <ul>
       <li>
@@ -48,23 +49,23 @@
         <xref ref="ccss-K-CC-C-6" text="custom">K.CC.C.6</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- índice de la lección (automático) -->
-  <paragraphs>
+  <li>
     <title><custom ref="timeline-leccion-titulo"/></title>
     <list-of elements="subsubsection reading-questions" scope="subsection"/>
-  </paragraphs>
+  </li>
 
   <!-- Propósito de la lección -->
-  <paragraphs>
+  <li>
     <title><custom ref="purpose-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this lesson is for students to compare groups of up to 10 images.</p>
-  </paragraphs>
+  </li>
 
   <!-- Materiales requeridos -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-leccion-titulo"/></title>
     <ul>
       <li>
@@ -76,21 +77,23 @@
         <xi:include href="./act-centros-escoger15-matCentros.ptx"/>
       </li>
     </ul> 
-  </paragraphs>
+  </li>
   
   <!-- Introducción de la lección (narrative) -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>In the previous lesson, students counted images lines, arrays, dot cube arrangements, on 5-frames, and on fingers. While counting is not required to determine which group has more images in this lesson, students continue to practice counting and keeping track of images in organized arrangements. In the first activity, the images are arranged in lines and matched, so the comparison is visually obvious. In the second activity, students need to match or count the images to compare. <q>Are there enough</q> questions are asked to prompt students to consider matching the images that go together.</p>
-  </paragraphs>
+  </li>
   
   <!-- Preguntas de reflexión profesor -->
-  <paragraphs>
+  <li>
     <title><custom ref="reflection-quest-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>Revisit the norms you established as a class about doing mathematics. Which norms are working and which might need revision? Are there any norms you or your students might want to add?</p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </introduction>
 
 

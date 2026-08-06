@@ -34,10 +34,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li> 
@@ -45,33 +47,33 @@
         <xref ref="ccss-3-NF-A-3" text="custom">3.NF.A.3</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>25 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this activity is for students to analyze pairs of fractions to determine if they are equivalent. Students may use any representation that makes sense to them. Students will create a visual display and have a gallery walk to consider the different ways of looking for equivalence. Highlight representations such as diagrams and number lines, which will support students as they learn to compare fractions with the same numerator or denominator in this section.</p>
     <p>This activity uses <em>MLR7 Compare and Connect. Advances: representing, conversing</em></p>
-  </paragraphs>
+  </li>
 
 
   <!-- Materiales requeridos de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-actividad-titulo"/></title>
     <!-- si hay materiales, crear los archivos -mat.ptx (para materiales de la actividad) y -matCentros.ptx (para mencionar los otros centros que se usan y para los que se necesitan materiales) y poner los materiales ahí usando los archivos de template. Después hacer xinclude  de estos archivos en la lista de materiales de la lección.-->
     <xi:include href="./act-sonEquivalentesONo-mat.ptx"/>
     <!-- <xi:include href="./act-sonEquivalentesONo-matCentros.ptx"/>  -->
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -80,11 +82,11 @@
         <q>Decidan si las fracciones de cada pareja son equivalentes y muestren cómo pensaron en cada caso. Pueden usar cualquier representación que tenga sentido para ustedes</q>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -105,8 +107,9 @@
       <li>2–5 minutes: partner work time</li>
       <li>5–7 minutes: gallery walk</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -114,9 +117,10 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Estrategias de apoyo para estudiantes con dificultades -->
-  <paragraphs>
+  <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>If students don’t determine whether or not fractions are equivalent, consider asking:</p>
@@ -128,11 +132,11 @@
         <q>¿Cómo puedes usar diagramas o tus tiras de fracciones para decidir si son equivalentes?</q>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -143,17 +147,18 @@
         <q>¿Cómo mostró cada representación que <m>\frac{4}{6}</m> y <m>\frac{5}{6}</m> no son equivalentes?</q> (In the diagram, you can see that <m>\frac{5}{6}</m> has more space shaded. On the number line, they are not at the same location.)
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Estrategias de acceso para estudiantes con discapacidades -->
-  <paragraphs>
+  <li>
     <title><custom ref="accesibility-actividad-titulo"/></title><p>[++++++++++++++++]</p>
     <p><em>Engagement: Develop Effort and Persistence.</em> Invite students to generate a list of shared expectations for group work. Record responses on a display and keep visible during the activity.</p>
     <p>
       <em>Supports accessibility for: Social-Emotional Functioning</em>
     </p>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </activity>

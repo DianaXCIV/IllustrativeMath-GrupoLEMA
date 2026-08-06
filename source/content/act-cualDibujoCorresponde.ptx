@@ -57,8 +57,10 @@
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
 <prelude component="profesor">
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li>
@@ -66,18 +68,18 @@
         <xref ref="ccss-3-OA-A-2" text="custom">3.OA.A.2</xref>
       </li>
     </ul>
-  </paragraphs> 
+  </li> 
 
-  <paragraphs><title><custom ref="recommended-time-titulo"/></title>
+  <li><title><custom ref="recommended-time-titulo"/></title>
     <p>15 minutos.</p>
-  </paragraphs>
-  <paragraphs><title><custom ref="narrative-actividad-titulo"/></title>
+  </li>
+  <li><title><custom ref="narrative-actividad-titulo"/></title>
     <p>El propósito de esta actividad es que los estudiantes relacionen situaciones de división y diagramas de grupos iguales (MP2). Cada diagrama dado corresponde a dos situaciones diferentes. Los estudiantes aprenden que el mismo diagrama puede representar tanto un problema de "¿cuántos grupos?" como un problema de "¿cuántos en cada grupo?" porque el diagrama muestra el resultado final, no cómo se formaron los grupos. Cuando los estudiantes interpretan un diagrama como representación de dos tipos de historias diferentes, indican claramente cómo cada parte del diagrama corresponde a la historia, incluyendo lo que corresponde a lo desconocido en la historia (MP6).</p>
-  </paragraphs>
-  <!-- <paragraphs><title><custom ref="materials-actividad-titulo"/></title>
+  </li>
+  <!-- <li><title><custom ref="materials-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> -->
-  <paragraphs><title><custom ref="launch-titulo"/></title>
+  </li> -->
+  <li><title><custom ref="launch-titulo"/></title>
     <ul>
       <li>Grupos de 2</li>
       <li>
@@ -86,16 +88,17 @@
       <li>30 segundos: tiempo de reflexión en silencio</li>
       <li>Compartir y registrar las respuestas.</li>
     </ul>
-  </paragraphs>
-  <paragraphs><title><custom ref="instructions-teacher-actividad-titulo"/></title>
+  </li>
+  <li><title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <ul>
       <li><q>Van a asociar seis situaciones con dibujos que podrían representarlas. Tómense unos minutos para decidir cuál dibujo corresponde a cada situación.</q></li>
       <li>3-5 minutos: tiempo de trabajo individual</li>
       <li><q>Compartan sus ideas con su compañero.</q></li>
       <li>2-3 minutos: discusión en pareja</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -104,16 +107,17 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
-  <paragraphs><title><custom ref="support-actividad-titulo"/></title>
+<p>
+<dl>
+  <li><title><custom ref="support-actividad-titulo"/></title>
     <p>Si los estudiantes dicen que el dibujo no puede representar ambas situaciones, considere preguntar:
     </p>
     <ul>
       <li><q>¿Cómo podríamos hacer un dibujo para cada situación?</q></li>
       <li><q>¿Qué podríamos dibujar primero para representar la primera situación en la que hay 8 objetos? ¿Y para la segunda situación en la que hay 8 objetos?</q></li>
     </ul>
-  </paragraphs>
-  <paragraphs><title><custom ref="synthesis-actividad-titulo"/></title>
+  </li>
+  <li><title><custom ref="synthesis-actividad-titulo"/></title>
     <ul>
       <li>Invite a los estudiantes a compartir qué dibujo corresponde a cada situación.</li>
       <li>
@@ -132,15 +136,17 @@
       </li>
       <li><q>¿Cómo puede el mismo dibujo representar ambas situaciones?</q> (No vimos cómo se formaron los grupos, pero al final se formaron la misma cantidad de grupos y grupos del mismo tamaño en ambas situaciones. El dibujo puede representar la situación de poner 8 marcadores en cajas con 4 marcadores en cada caja y encontrar que se necesitan 2 cajas. También puede representar la situación de poner 8 lápices en 2 bolsas con la misma cantidad de lápices en cada bolsa y encontrar que se pueden poner 4 lápices en cada bolsa.)</li>
     </ul>
-  </paragraphs>
-  <paragraphs><title><custom ref="language-actividad-titulo"/></title>
+  </li>
+  <li><title><custom ref="language-actividad-titulo"/></title>
     <p>Apoyos para la discusión (MLR8). Los estudiantes deben turnarse para encontrar una correspondencia y explicar su razonamiento a su compañero.</p>
     <p>Muestre el siguiente esquema de oración para que todos lo vean: "Observé ___, entonces asocié . . ." </p>
     <p>Motívelos a desafiarse mutuamente cuando no estén de acuerdo.</p>
-  </paragraphs>
-  <paragraphs><title><custom ref="accesibility-actividad-titulo"/></title>
+  </li>
+  <li><title><custom ref="accesibility-actividad-titulo"/></title>
     <p>Proporcione acceso al generar interés. Aproveche la elección en torno al desafío percibido. Invite a los estudiantes a seleccionar al menos 3 de los 6 problemas para completar.</p>
     <p>Apoya la accesibilidad para: Organización, Atención, Habilidades socioemocionales.</p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </postlude>
 </activity>

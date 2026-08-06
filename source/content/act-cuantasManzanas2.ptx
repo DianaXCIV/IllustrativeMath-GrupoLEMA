@@ -38,8 +38,10 @@
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
 <prelude component="profesor">
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li>
@@ -48,13 +50,13 @@
         <xref ref="ccss-3-OA-A-3" text="custom">3.OA.A.3</xref>
       </li>
     </ul>
-  </paragraphs> 
+  </li> 
 
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>15 minutos</p>
-  </paragraphs>
-  <paragraphs>
+  </li>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>El propósito de esta actividad es que los estudiantes representen y resuelvan problemas de "¿cuántos en cada grupo?" utilizando la estrategia y representación visual que les parezca más lógica. Los estudiantes crean un póster de su solución al primer problema con un compañero. En la siguiente actividad, participan en un recorrido por el salón para observar los pósteres.</p>
 
@@ -65,16 +67,16 @@
       <li>Dibujos de objetos: dibujando 20 manzanas y luego separándolas en 4 grupos.</li>
       <li>Arreglos: dibujando 4 filas con una manzana en cada fila y así sucesivamente hasta llegar a 20.</li>
     </ul>      
-  </paragraphs>
+  </li>
   
   <!-- Materiales requeridos de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-actividad-titulo"/></title>
     <xi:include href="./act-cuantasManzanas2-mat.ptx"/>
-  </paragraphs>
+  </li>
 
 
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <ul>
       <li>Grupos de 2</li>
@@ -82,8 +84,8 @@
       <li><q>Hablen con su compañero sobre cómo podrían resolver estos problemas</q></li>
       <li>1-2 minutos: discusión en pareja</li>
     </ul>      
-  </paragraphs>
-  <paragraphs>
+  </li>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <ul>
       <li><q>Resuelvan estos problemas. Usen objetos, un dibujo o un diagrama para mostrar cómo pensaron.</q></li>
@@ -103,8 +105,9 @@
       <li>Proporcione a cada grupo herramientas para crear una presentación visual.</li>
       <li>5-7 minutos: tiempo de trabajo en pareja</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -112,24 +115,27 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
-  <paragraphs>
+<p>
+<dl>
+  <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>Si los estudiantes no encuentran una solución a los problemas, considere preguntar: "¿De qué se trata este problema?" y "¿Cómo podrías representar el problema?"</p>
-  </paragraphs>
-  <paragraphs>
+  </li>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <p>Organice los pósteres alrededor del salón.</p>
-  </paragraphs>
-  <!-- <paragraphs> -->
+  </li>
+  <!-- <li> -->
     <!-- <title><custom ref="language-actividad-titulo"/></title> -->
     <!-- <p>[@@@@@@@@@]</p> -->
-  <!-- </paragraphs> -->
-  <paragraphs>
+  <!-- </li> -->
+  <li>
     <title><custom ref="accesibility-actividad-titulo"/></title>
     <p>Compromiso: Desarrollar Esfuerzo y Persistencia.</p> 
     <p>Divida esta tarea en partes más manejables. Apoye a los estudiantes y bríndeles retroalimentación y motivación después de cada parte (problema).</p>
     <p>Apoya la accesibilidad para: Atención</p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </postlude>
 </activity>

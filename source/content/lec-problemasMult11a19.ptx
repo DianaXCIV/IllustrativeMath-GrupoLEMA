@@ -34,9 +34,10 @@
   Introducción para el profesor                        
 =================================================  -->
 <introduction component="profesor">
-
+<p>
+<dl>
     <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-leccion-titulo"/></title> 
     <ul>
       <li>
@@ -48,22 +49,22 @@
         <xref ref="ccss-3-OA-C-7" text="custom">3.OA.C.7</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- índice de la lección (automático) -->
-  <paragraphs>
+  <li>
     <title><custom ref="timeline-leccion-titulo"/></title>
     <list-of elements="subsubsection reading-questions" scope="subsection"/>
-  </paragraphs>
+  </li>
 
   <!-- Propósito de la lección -->
-  <paragraphs>
+  <li>
     <title><custom ref="purpose-leccion-titulo"/></title>
     <p>Que los estudiantes resuelvan problemas en los que hay multiplicaciones hasta 100, en las cuales un factor es un número del 11 al 19, usando estrategias que tengan sentido para ellos.</p>
-  </paragraphs>
+  </li>
 
   <!-- Materiales requeridos -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-leccion-titulo"/></title>
     <ul>
       <li>
@@ -71,20 +72,22 @@
         <xi:include href="./act-multiplicarNums11a19-mat.ptx"/>
       </li>
     </ul> 
-  </paragraphs>
+  </li>
   
   <!-- Introducción de la lección (narrative) -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-leccion-titulo"/></title>
     <p>En esta lección, los estudiantes amplían sus estrategias para multiplicar números de un dígito, aplicándolas a números del 11 al 19. Pueden usar diagramas de área y expresiones para representar estrategias de multiplicación. Los estudiantes resuelven problemas y crean pósteres para compartir su trabajo. Durante el recorrido por el salón, observan diferentes formas de representar y resolver problemas. Esto les será útil en la próxima lección sobre multiplicación hasta 100, donde un factor es un número del 11 al 19.</p>
     <!-- <p>El trabajo de esta lección se conecta con el trabajo anterior porque los estudiantes han utilizado estrategias para multiplicar factores de un solo dígito. Ahora, tienen la oportunidad de extender estas estrategias a la multiplicación de números del 11 al 19. Los estudiantes pueden usar diagramas de área y expresiones para representar estrategias de multiplicación, que utilizaron en la sección anterior. Los estudiantes resuelven problemas que involucran la multiplicación de números del 11 al 19, luego hacen un póster de su trabajo con un estudiante que resolvió de manera similar. Durante el recorrido por el salón, los estudiantes ven una variedad de formas de representar y resolver el problema (MP2). Esto será útil en la próxima lección donde los estudiantes dan sentido a representaciones específicas de la multiplicación con números hasta 100 cuando un factor es un número del 11 al 19.</p> -->
-  </paragraphs>
+  </li>
   
   <!-- Preguntas de reflexión profesor -->
-  <paragraphs>
+  <li>
     <title><custom ref="reflection-quest-titulo"/></title>
     <p>¿Qué estudiantes tuvieron la oportunidad de compartir sus diagramas y razonamientos durante la discusión con toda la clase? ¿Cómo seleccioné a estos estudiantes?</p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </introduction>
 
 

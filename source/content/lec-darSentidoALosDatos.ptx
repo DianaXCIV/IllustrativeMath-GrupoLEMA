@@ -35,9 +35,10 @@
   Introducción para el profesor                        
 =================================================  -->
 <introduction component="profesor">
-
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-leccion-titulo"/></title> 
     <ul>
       <li>
@@ -49,23 +50,23 @@
         <xref ref="ccss-3-MD-B-3" text="custom">3.MD.B.3</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- índice de la lección (automático) -->
-  <paragraphs>
+  <li>
     <title><custom ref="timeline-leccion-titulo"/></title>
     <list-of elements="subsubsection reading-questions" scope="subsection"/>
-  </paragraphs>
+  </li>
 
   <!-- Propósito de la lección -->
-  <paragraphs>
+  <li>
     <title><custom ref="purpose-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this lesson is to elicit students’ prior understandings of single-unit scale picture graphs and bar graphs in preparation for upcoming work with scaled bar graphs.</p>
-  </paragraphs>
+  </li>
 
   <!-- Materiales requeridos -->
-  <!-- <paragraphs>
+  <!-- <li>
     <title><custom ref="materials-leccion-titulo"/></title>
     <ul>
       <li>
@@ -79,10 +80,10 @@
         <xi:include href="./act-graficasDeDibujosYGraficasDeBarras-matCentros.ptx"/>
       </li>
     </ul>  
-  </paragraphs>-->
+  </li>-->
   
   <!-- Introducción de la lección (narrative) -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>In grade 2, students learned how to draw and label single-unit scale bar graphs and picture graphs and used categorical data presented in graphs to solve simple problems. In this lesson, students revisit the structure of picture graphs and bar graphs, the features of graphs that help communicate information clearly, and the information they can learn by analyzing a graph. Students learn that a <alert>key</alert> is the part of a picture graph that tells what each picture represents. Students contextualize and make sense of the data based on the title, the given values, and their own experiences (MP2).</p>
@@ -91,14 +92,16 @@
     <image source="png-source/Beta Teacher Guide.MathCommunity_6in.png">
       <shortdescription>Cuadro de Mathematical Community de Doing Math vs Norms</shortdescription>
     </image>
-  </paragraphs>
+  </li>
   
   <!-- Preguntas de reflexión profesor -->
-  <paragraphs>
+  <li>
     <title><custom ref="reflection-quest-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>Today’s lesson provided an opportunity to learn from your students. How were you able to incorporate your students’ lived experience into the lesson?</p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </introduction>
 
 

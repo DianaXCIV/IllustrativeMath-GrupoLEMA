@@ -42,8 +42,10 @@
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
 <prelude component="profesor">
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li>
@@ -51,29 +53,29 @@
         <xref ref="ccss-3-OA-A-3" text="custom">3.OA.A.3</xref>
       </li>
     </ul>
-  </paragraphs> 
+  </li> 
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>15 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>El propósito de esta actividad es que los estudiantes piensen en sus estrategias mientras resuelven dos problemas de división en los que hay grupos iguales con números más grandes. El divisor en el primer problema es un número de un solo dígito, y los estudiantes pueden ver en la situación que es el número de grupos. En el segundo problema, el divisor es un número del <m>11</m> al <m>19</m>, y el contexto sugiere que es el tamaño de un grupo. Es probable que los estudiantes ajusten su estrategia en base a estas observaciones. Enfoque la discusión en cómo los estudiantes pueden haber razonado de manera diferente cuando hay un divisor más grande o de acuerdo a lo que entienden de la situación.</p>
-  </paragraphs>
+  </li>
 
 
   <!-- Materiales requeridos de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-actividad-titulo"/></title>
      <xi:include href="./act-gruposEnBusYAlmuerzo-mat.ptx"/>
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
       <ul>
         <li>Grupos de 2.</li>
@@ -85,11 +87,11 @@
         <li>1 minuto: discusión en pareja.</li>
         <li>Dé a los estudiantes acceso a cubos encajables o fichas, bloques en base diez y papel cuadriculado.</li>
       </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
       <ul>
         <li>
@@ -98,8 +100,9 @@
         <li>3 minutos: discusión en pareja.</li>
         <li>Identifique a los estudiantes que utilizan diferentes representaciones en los dos problemas (dibujaron varios diagramas o escribieron diferentes tipos de expresiones o ecuaciones).</li>
       </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -107,16 +110,15 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Estrategias de apoyo para estudiantes con dificultades 
-  <paragraphs>
+  <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs>-->
-
-
+  </li>-->
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
        <ul>
         <li>Invite a los estudiantes a compartir sus respuestas. Muestre o registre sus razonamientos.</li>
@@ -128,22 +130,23 @@
         </ul>
         </li>
       </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Descripción del desarrollo de lenguaje matemático 
-  <paragraphs>
+  <li>
     <title><custom ref="language-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs>-->
+  </li>-->
 
 
   <!-- Estrategias de acceso para estudiantes con discapacidades 
-  <paragraphs>
+  <li>
     <title><custom ref="accesibility-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs>-->
-
+  </li>-->
+</dl>
+</p>
 </postlude>
 
 </activity>

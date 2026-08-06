@@ -43,10 +43,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li> 
@@ -54,42 +56,42 @@
         <xref ref="ccss-3-MD-C-6" text="custom">3.MD.C.6</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>20 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this activity is for students to create and describe rectangles of a certain area. Students work in groups of 2. One partner creates a rectangle and describes it, and the other partner creates a matching rectangle based on the description. Then students compare how their rectangles are the same and different. Students should describe their rectangle to their partner without revealing the total number of squares they used, so that the focus is on understanding the rectangular structure. In the synthesis, students share language that helped them understand the rectangle their partner built. When students revise their language to be more precise in the descriptions of their rectangle, they attend to precision (MP6).</p>
-  </paragraphs>
+  </li>
 
 
   <!-- Materiales requeridos de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-actividad-titulo"/></title>
       <xi:include href="./act-queHice-mat.ptx"/> 
     <!-- <xi:include href="./act-queHice-matCentros.ptx"/>  -->
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
       <li>Groups of 2</li>
       <li>Ask students to place an object between them that obstructs their view, such as a folder.</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -104,8 +106,9 @@
       </li>
       <li>10–12 minutes: partner work</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -113,9 +116,10 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -123,17 +127,18 @@
         <q>¿Qué lenguaje usó su compañero que les resultó más útil para dibujar el mismo rectángulo que dibujó su compañero?</q>  (The number of squares in each row or column and the number of rows or columns.)
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Estrategias de acceso para estudiantes con discapacidades -->
-  <paragraphs>
+  <li>
     <title><custom ref="accesibility-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>Representation: Access for Perception. Begin by enacting a physical demonstration of how to accurately describe a drawn rectangle without telling them the total
        number of squares.</p>
     <p>Supports accessibility for: Social-Emotional Functioning</p>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </activity>

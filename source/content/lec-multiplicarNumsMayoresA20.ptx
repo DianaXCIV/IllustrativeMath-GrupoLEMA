@@ -34,9 +34,10 @@
   Introducción para el profesor                        
 =================================================  -->
 <introduction component="profesor">
-
+<p>
+<dl>
     <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-leccion-titulo"/></title> 
     <ul>
       <li>
@@ -48,22 +49,22 @@
         <xref ref="ccss-3-OA-C-7" text="custom">3.OA.C.7</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- índice de la lección (automático) -->
-  <paragraphs>
+  <li>
     <title><custom ref="timeline-leccion-titulo"/></title>
     <list-of elements="subsubsection reading-questions" scope="subsection"/>
-  </paragraphs>
+  </li>
 
   <!-- Propósito de la lección -->
-  <paragraphs>
+  <li>
     <title><custom ref="purpose-leccion-titulo"/></title>
     <p>El propósito de esta lección es que los estudiantes hagan multiplicaciones hasta 100, en los cuales un factor es mayor que 20.</p>
-  </paragraphs>
+  </li>
 
   <!-- Materiales requeridos -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-leccion-titulo"/></title>
     <ul>
       <li>
@@ -79,20 +80,22 @@
         <xi:include href="./act-juegoCerca100Multiplicacion-mat.ptx"/>
       </li>
     </ul> 
-  </paragraphs>
+  </li>
   
   <!-- Introducción de la lección (narrative) -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-leccion-titulo"/></title>
     <p>Anteriormente, los estudiantes usaron estrategias basadas en el valor posicional y las propiedades de las operaciones para multiplicar números de un dígito por números del 11 al 19. En esta lección, amplían estas estrategias a números de dos dígitos mayores que 20. También hay un juego opcional (actividad 3) para que practiquen la multiplicación de números más grandes.</p>
     <!-- <p>Anteriormente, los estudiantes han utilizado estrategias basadas en el valor posicional y propiedades de las operaciones para encontrar productos de un número de un dígito y un número del 11 al 19. Aquí, los estudiantes extienden este trabajo a números de dos dígitos más grandes. Los estudiantes primero analizan diferentes estrategias y luego aplican una o más de ellas para encontrar el valor de otros productos. La lección también incluye un juego opcional que los estudiantes pueden jugar para aplicar lo que han aprendido para multiplicar números más grandes.</p> -->
-  </paragraphs>
+  </li>
   
   <!-- Preguntas de reflexión profesor -->
-  <paragraphs>
+  <li>
     <title><custom ref="reflection-quest-titulo"/></title>
     <p>¿Cuándo sienten sus estudiantes que están avanzando con éxito en matemáticas? ¿Cómo lo sabe?</p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </introduction>
 
 

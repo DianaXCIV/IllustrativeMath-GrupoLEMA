@@ -37,9 +37,10 @@
   Introducción para el profesor                        
 =================================================  -->
 <introduction component="profesor">
-
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-leccion-titulo"/></title> 
     <ul>
       <li> 
@@ -47,23 +48,23 @@
         <xref ref="ccss-3-NF-A-1" text="custom">3.NF.A.1</xref>
       </li>
     </ul>
-    </paragraphs>
+    </li>
 
   <!-- índice de la lección (automático) -->
-  <paragraphs>
+  <li>
     <title><custom ref="timeline-leccion-titulo"/></title>
     <list-of elements="subsubsection reading-questions" scope="subsection"/>
-  </paragraphs>
+  </li>
 
   <!-- Propósito de la lección -->
-  <paragraphs>
+  <li>
     <title><custom ref="purpose-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this lesson is for students to understand non-unit fractions.</p>
-  </paragraphs>
+  </li>
 
   <!-- Materiales requeridos -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-leccion-titulo"/></title>
     <ul>
       <!--<li>
@@ -77,22 +78,24 @@
         <!--<xi:include href="./act-parejasDeFracciones-matCentros.ptx"/>-->
       </li>
     </ul> 
-  </paragraphs>
+  </li>
   
   <!-- Introducción de la lección (narrative) -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>Previously, students learned how to write unit fractions, using numbers of the form <m>\frac{1}{b}</m>. They also partitioned rectangles and used unit fractions to describe one of the parts. In this lesson, students use diagrams with multiple equal parts shaded to make sense of how non-unit fractions are made of unit fractions.</p>
     <p>Students learn that a <term>unit fraction</term> is a fraction in which the numerator is 1 because it describes one of the equal-sized parts. They work with fractions that are equal to a whole number and fractions greater than a whole number to see that all non-unit fractions are built from unit fractions in the same way. Students also notice that if all the parts are shaded, then the non-unit fraction is equivalent to a whole number. The terms numerator and denominator are not used until the next section.</p>
-  </paragraphs>
+  </li>
   
   <!-- Preguntas de reflexión profesor -->
-  <paragraphs>
+  <li>
     <title><custom ref="reflection-quest-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>How did students leverage their knowledge of unit fractions from previous lessons to make sense of non-unit fractions for the first time?</p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </introduction>
 
 

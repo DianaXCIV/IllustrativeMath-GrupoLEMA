@@ -35,9 +35,10 @@
   Introducción para el profesor                        
 =================================================  -->
 <introduction component="profesor">
-
+<p>
+<dl>
     <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-leccion-titulo"/></title> 
     <ul>
       <li>
@@ -51,23 +52,23 @@
         <xref ref="ccss-K-CC-C-7" text="custom">K.CC.C.7</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- índice de la lección (automático) -->
-  <paragraphs>
+  <li>
     <title><custom ref="timeline-leccion-titulo"/></title>
     <list-of elements="subsubsection reading-questions" scope="subsection"/>
-  </paragraphs>
+  </li>
 
   <!-- Propósito de la lección -->
-  <paragraphs>
+  <li>
     <title><custom ref="purpose-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this lesson is for students to order numbers from 1–10.</p>
-  </paragraphs>
+  </li>
 
   <!-- Materiales requeridos -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-leccion-titulo"/></title>
     <ul>
       <li>
@@ -83,23 +84,25 @@
         <xi:include href="./act-centros-escoger21-matCentros.ptx"/>
       </li>
     </ul> 
-  </paragraphs>
+  </li>
   
   <!-- Introducción de la lección (narrative) -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>Students build cube towers to match each number from 1–10. They put the towers and numbers in order. Students may use the count sequence to put the numbers in order, or they may use the cube towers as representations of each number to help them put the numbers in order. This representation of the numbers and cube towers for each number will be used in the next lesson as students determine one more and one less than a given number.</p>
 <p>During this lesson and throughout the section, students who are not yet recognizing written numbers should have access to the Reference Sheet Numbers (1–10) with 5-frames blackline master.</p>
-  </paragraphs>
+  </li>
   
   <!-- Preguntas de reflexión profesor -->
-  <paragraphs>
+  <li>
     <title><custom ref="reflection-quest-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>In the first activity, students created towers for numbers. How does this relate to the standard K.CC.B.4.c? </p>
 <p>(K.CC.B.4.c: Understand that each successive number name refers to a quantity that is one larger.)</p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </introduction>
 
 

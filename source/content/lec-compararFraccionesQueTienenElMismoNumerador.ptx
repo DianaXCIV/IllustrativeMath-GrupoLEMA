@@ -39,9 +39,10 @@
   Introducción para el profesor                        
 =================================================  -->
 <introduction component="profesor">
-
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-leccion-titulo"/></title> 
     <ul>
       <li> 
@@ -49,23 +50,23 @@
         <xref ref="ccss-3-NF-A-3-d" text="custom">3.NF.A.3.d</xref>
       </li>
     </ul>
-    </paragraphs>
+    </li>
 
   <!-- índice de la lección (automático) -->
-  <paragraphs>
+  <li>
     <title><custom ref="timeline-leccion-titulo"/></title>
     <list-of elements="subsubsection reading-questions" scope="subsection"/>
-  </paragraphs>
+  </li>
 
   <!-- Propósito de la lección -->
-  <paragraphs>
+  <li>
     <title><custom ref="purpose-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this lesson is for students to compare two fractions with the same numerator.</p>
-  </paragraphs>
+  </li>
 
   <!-- Materiales requeridos -->
-  <!-- <paragraphs>
+  <!-- <li>
     <title><custom ref="materials-leccion-titulo"/></title>
     <ul>
       <li>
@@ -79,21 +80,23 @@
         <xi:include href="./act-fraccionesQueTienenElMismoNumerador-matCentros.ptx"/>
       </li>
     </ul>  
-  </paragraphs>-->
+  </li>-->
   
   <!-- Introducción de la lección (narrative) -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>In this lesson, students reason that fractions with the same numerator have the same number of parts, and that the denominator shows the size or length of those parts. Students recognize that as the denominator increases, each part gets smaller. It is important that students develop this understanding rather than learning a rule about comparing fractions with the same numerator.</p>
-  </paragraphs>
+  </li>
   
   <!-- Preguntas de reflexión profesor -->
-  <paragraphs>
+  <li>
     <title><custom ref="reflection-quest-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>As students worked in their small groups today, whose ideas were heard, valued, and accepted? How can you adjust the group structure tomorrow to ensure each student’s ideas are a part of the collective learning?</p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </introduction>
 
 

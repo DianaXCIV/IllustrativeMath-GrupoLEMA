@@ -34,9 +34,10 @@
   Introducción para el profesor                        
 =================================================  -->
 <introduction component="profesor">
-
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-leccion-titulo"/></title> 
     <ul>
       <li> 
@@ -58,23 +59,23 @@
         <!-- <xref ref="ccss-2-OA-C-4" text="custom">2.OA.C.4</xref> -->
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- índice de la lección (automático) -->
-  <paragraphs>
+  <li>
     <title><custom ref="timeline-leccion-titulo"/></title>
     <list-of elements="subsubsection reading-questions" scope="subsection"/>
-  </paragraphs>
+  </li>
 
   <!-- Propósito de la lección -->
-  <paragraphs>
+  <li>
     <title><custom ref="purpose-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this lesson is for students to solve multiplication problems.</p>
-  </paragraphs>
+  </li>
 
   <!-- Materiales requeridos -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-leccion-titulo"/></title>
     <p>[@@@@@@@@@@@@@@]</p>
     <!-- <ul>
@@ -89,21 +90,23 @@
         <xi:include href="./act-salpiconDeMultiplicacion-matCentros.ptx"/>
       </li>
     </ul>  -->
-  </paragraphs>
+  </li>
   
   <!-- Introducción de la lección (narrative) -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>Students write equations with a symbol for the unknown to represent multiplication problems and then solve the problems. As in the previous lesson, some problems are unknown factor problems which students do not relate to division until a future unit. Students put together what they have learned about drawings, diagrams, expressions, and equations to solve multiplication problems.</p>
-  </paragraphs>
+  </li>
   
   <!-- Preguntas de reflexión profesor -->
-  <paragraphs>
+  <li>
     <title><custom ref="reflection-quest-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>As students worked in their small-groups today, whose ideas were heard, valued, and accepted? How can you adjust the group structure tomorrow to ensure each student’s ideas are a part of the collective learning?</p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </introduction>
 
 

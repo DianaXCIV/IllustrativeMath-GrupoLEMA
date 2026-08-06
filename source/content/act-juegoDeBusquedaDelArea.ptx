@@ -68,10 +68,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li> 
@@ -79,26 +81,26 @@
         <xref ref="ccss-3-MD-C-6" text="custom">3.MD.C.6</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>10 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this activity is for students to find things they could measure with the standard area units they have learned about. This activity can be completed in the classroom, but could also be completed during a walk around the school or community if time allows. This activity is optional because it could be condensed into a discussion about areas with which students are familiar and what units they would use to measure them. If time doesn't allow for taking a walk around the school or community, this activity could also be completed at a time when students are already walking around the school.</p>
 <p>When students recognize the mathematical features of familiar real world objects and use those features to solve problems, they model with mathematics (MP4).</p>
-  </paragraphs>
+  </li>
 
 
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -108,11 +110,11 @@
         <q>Vamos a caminar alrededor del salón (o del colegio o de la comunidad) y vamos a buscar áreas que podríamos medir con las diferentes unidades cuadradas que hemos aprendido</q>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -122,8 +124,9 @@
       <li>5–7 minutes: partner work time</li>
       <li>Monitor for students who use different units to measure the same area.</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -131,9 +134,10 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -145,7 +149,9 @@
         <q>¿Cómo decidieron cuál unidad cuadrada usar para medir cada área?</q>  (I thought about whether the area was a smaller area or a larger area. I chose small units for smaller areas and larger units for larger areas. I thought about how carefully I would want to measure the area.)
       </li>
     </ul>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </postlude>
 
 </activity>

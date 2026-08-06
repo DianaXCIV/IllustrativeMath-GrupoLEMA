@@ -64,8 +64,10 @@
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
 <prelude component="profesor">
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li>
@@ -74,36 +76,36 @@
         <xref ref="ccss-3-OA-C-7" text="custom">3.OA.C.7</xref>
       </li>
     </ul>
-  </paragraphs> 
+  </li> 
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>15 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>El propósito de esta actividad es que los estudiantes pasen de razonar sobre la división de manera concreta o visual (usando diagramas en base diez) a hacerlo de manera más abstracta (escribiendo ecuaciones). También se refuerzan las conexiones entre la multiplicación y la división.</p>
 
     <p>Los estudiantes dan sentido a tres estrategias diferentes para dividir <m>78</m> entre <m>3</m> y prestan atención a las conexiones entre las representaciones visuales y numéricas del mismo cociente. Mientras lo hacen, practican el razonamiento cuantitativo y abstracto (MP2).</p>
 
     <p>Durante la síntesis, discuta el papel de las unidades de valor posicional en las tres estrategias.</p>
-  </paragraphs>
+  </li>
 
 
   <!-- Materiales requeridos de la actividad
    NO HAY MATERIALES
-  <paragraphs>
+  <li>
     <title><custom ref="materials-actividad-titulo"/></title>
     @@@@@
     si hay materiales, crear el siguiente archivo -mat.ptx y ponerlos ahí (y agregar también el archivo en la lista de materiales de la lección)-->
     <!-- <xi:include href="../v00/graVV-uniXX-secYY-lecZZ-actRR-mat.ptx"/>  
-  </paragraphs> -->
+  </li> -->
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <ul>
       <li>Grupos de 2.</li>
@@ -111,11 +113,11 @@
         <q>Tómense un par de minutos para darle sentido al trabajo de Lin, de Priya y de Tyler</q>.</li>
       <li>2 minutos: tiempo para pensar en silencio.</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <ul>
       <li><p><q>Con su compañero, denle sentido al trabajo de Lin, de Priya y de Tyler, y completen la actividad</q>.</p></li>
@@ -128,8 +130,9 @@
       </li>
       <li>Identifique a los estudiantes que puedan explicar estas conexiones o distinciones para que las compartan durante la síntesis.</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -137,17 +140,16 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Estrategias de apoyo para estudiantes con dificultades
    NO HAY
-  <paragraphs>
+  <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> -->
-
-
+  </li> -->
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <ul>
       <li>Invite a los estudiantes a compartir en qué se parece lo que hicieron Lin, Priya y Tyler, y en qué se diferencia.</li>
@@ -155,26 +157,27 @@
       <li><p><q>¿Por qué tiene sentido que Priya y Tyler escribieran ecuaciones de multiplicación para encontrar el valor de un cociente?</q>. (La multiplicación y la división pueden representar la misma situación de grupos iguales. Dividir <m>78</m> entre <m>3</m> es encontrar cuántas cosas hay en cada uno de los <m>3</m> grupos o cuántos grupos de <m>3</m> hay. Podemos multiplicar hasta <m>78</m> para encontrar la respuesta).</p></li>
       <li>Considere preguntar: <q>¿Qué ideas nuevas sobre la división de números aprendieron y les gustaría intentar? Discutan con un compañero por qué les gustaría intentarlas</q>.</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Descripción del desarrollo de lenguaje matemático -->
-  <paragraphs>
+  <li>
     <title><custom ref="language-actividad-titulo"/></title>
     <p>Apoyos para la discusión de MLR8. En la síntesis muestre las estrategias de Lin, Priya y Tyler. Mientras los estudiantes comparten sus observaciones, escriba comentarios en la presentación para ilustrar las conexiones. Por ejemplo, muestre en cada diagrama dónde los estudiantes ven el divisor, el dividendo y el cociente.</p>
     
     <p>Avances: Escuchar, Representar</p>
-  </paragraphs>
+  </li>
 
 
   <!-- Estrategias de acceso para estudiantes con discapacidades 
    NO HAY   
-  <paragraphs>
+  <li>
     <title><custom ref="accesibility-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs>
+  </li>
   -->
-
+</dl>
+</p>
 </postlude>
 
 </activity>

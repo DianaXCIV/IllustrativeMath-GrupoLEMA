@@ -35,9 +35,10 @@
   Introducción para el profesor                        
 =================================================  -->
 <introduction component="profesor">
-
+<p>
+<dl>
     <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-leccion-titulo"/></title> 
     <ul>
       <li>
@@ -52,26 +53,26 @@
         <xref ref="ccss-K-MD-B-3" text="custom">K.MD.B.3</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- índice de la lección (automático) -->
-  <paragraphs>
+  <li>
     <title><custom ref="timeline-leccion-titulo"/></title>
     <list-of elements="subsubsection reading-questions" scope="subsection"/>
-  </paragraphs>
+  </li>
 
   <!-- Propósito de la lección -->
-  <paragraphs>
+  <li>
     <title><custom ref="purpose-leccion-titulo"/></title>
     <p>
       En esta lección los estudiantes exploran los bloques sólidos geométricos. Además, los profesores tienen la oportunidad de recopilar datos de evaluación formativa sobre los conceptos y habilidades de conteo de los estudiantes.habilidades de conteo.
        <!-- The purpose of this lesson is for students to explore geoblocks. Teachers also have an opportunity to gather formative assessment data about students' counting concepts and skills. -->
     </p>
    
-  </paragraphs>
+  </li>
 
   <!-- Materiales requeridos -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-leccion-titulo"/></title>
     <ul>
       <li>
@@ -87,10 +88,10 @@
         <xi:include href="./act-conozcamos-bloquesSolidosGeom-construyeVes-mat.ptx"/>
       </li>
     </ul> 
-  </paragraphs>
+  </li>
   
   <!-- Introducción de la lección (narrative) -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-leccion-titulo"/></title>
     <p>
       Los estudiantes comparten sus pensamientos e ideas sobre los bloques sólidos geométricos durante la rutina de "Observa y Pregúntate" y luego prueban sus ideas durante la exploración libre. Tienen la oportunidad de explorar los bloques sólidos geométricos antes de que se les pida usarlos para representar situaciones matemáticas en lecciones posteriores. Al explorar los bloques sólidos geométricos, es probable que construyan objetos. Mientras hace seguimiento, considere hacer preguntas como <q>¿Cuántos bloques sólidos geométricos usaron? ¿Cómo lo descubrieron? ¿Cómo decidieron qué bloques sólidos geométricos usar?</q> Estas preguntas ayudan a los profesores a conocer mejor a cada estudiante.
@@ -116,15 +117,17 @@
       <!-- Tell students that, at the end of the lesson, they will be asked to identify specific actions from their “Doing Math” list (both teacher and student sections) that they personally experienced. -->
     </p>
 
-  </paragraphs>
+  </li>
   
   <!-- Preguntas de reflexión profesor -->
-  <paragraphs>
+  <li>
     <title><custom ref="reflection-quest-titulo"/></title>
     <p>Los estudiantes compartieron su pensamiento varias veces en esta lección. ¿Qué ha notado sobre el lenguaje que usan? ¿Cómo puede ayudar a aquellos que tienen dificultades para expresar sus ideas oralmente?  
     <!-- Students shared their thinking multiple times in this lesson. What have you noticed about the language students use? What support can you offer to students who struggle to communicate their ideas orally? -->  
     </p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </introduction>
 
 

@@ -20,8 +20,10 @@
 </solution>
 
 <prelude component="profesor">
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li>
@@ -29,25 +31,30 @@
         <xref ref="ccss-3-OA-A-3" text="custom">3.OA.A.3</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </prelude>
 
 
-<postlude component="profesor"> <!-- Notas para el profesor -->
-
+<postlude component="profesor">
+<p>
+<dl>
+ <!-- Notas para el profesor -->
   <!-- Posibles errores -->
-  <paragraphs>
+  <li>
     <title><custom ref="errores-cool-titulo"/></title>
     <p>Los estudiantes usan un método ineficiente y como resultado cometen un error. Por ejemplo, dibujar 6 grupos de 15 y contar mal o contar de 6 en 6 y cometer un error en el conteo.</p>
-  </paragraphs>
+  </li>
 
 
   <!-- Estrategia de apoyo si muchos estudiantes respondieron incorrectamente -->
-  <paragraphs>
+  <li>
     <title><custom ref="apoyo-cool-titulo"/></title>
     <p>Antes de la actividad de calentamiento, reparta la actividad de cierre y haga que los estudiantes discutan estrategias que podrían usar para encontrar el producto.</p>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </project>

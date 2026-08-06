@@ -35,9 +35,10 @@
   Introducción para el profesor                        
 =================================================  -->
 <introduction component="profesor">
-
+<p>
+<dl>
     <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-leccion-titulo"/></title> 
     <ul>
       <li>
@@ -46,22 +47,22 @@
         <xref ref="ccss-K-MD-B-3" text="custom">K.MD.B.3</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- índice de la lección (automático) -->
-  <paragraphs>
+  <li>
     <title><custom ref="timeline-leccion-titulo"/></title>
     <list-of elements="subsubsection reading-questions" scope="subsection"/>
-  </paragraphs>
+  </li>
 
   <!-- Propósito de la lección -->
-  <paragraphs>
+  <li>
     <title><custom ref="purpose-leccion-titulo"/></title>
     <p>El propósito de esta lección es que los estudiantes exploren fichas de dos colores y tableros de 5. Los profesores también tienen la oportunidad de recopilar datos de evaluación formativa sobre los conceptos y habilidades de conteo de los estudiantes.</p>
-  </paragraphs>
+  </li>
 
   <!-- Materiales requeridos -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-leccion-titulo"/></title>
     <ul>
       <li>
@@ -69,21 +70,23 @@
         <xi:include href="./act-explorarFichasYTableros5-mat.ptx"/>
       </li>
     </ul> 
-  </paragraphs>
+  </li>
   
   <!-- Introducción de la lección (narrative) -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-leccion-titulo"/></title>
     <p>A medida que los estudiantes exploran las fichas de dos colores y los tableros de 5, es probable que creen diseños. A medida que los monitorea, considere hacer preguntas como <q>¿Cuántas fichas de dos colores hay en el tablero de 5? ¿Cuántas fichas rojas tienes? ¿Tienes suficientes fichas para completar el tablero de 5?</q> Estas preguntas ayudan a los profesores a conocer más sobre cada estudiante. El tablero de 5 es una herramienta útil para que los estudiantes desarrollen una visualización del número 5. Diferentes disposiciones de fichas en el tablero generan diferentes visualizaciones de números y estrategias para manipular estos números en relación con el cinco. Los estudiantes utilizarán el tablero de 5, y más adelante el tablero de 10, a lo largo del año. En la actividad de cierre de la lección, los estudiantes piensan en qué herramientas matemáticas elegirían para ciertas tareas (MP5).</p>
     <p>Las primeras lecciones de esta sección son intencionalmente más cortas para permitir que los estudiantes aprendan la estructura y las rutinas de las lecciones de matemáticas y para que los profesores tengan la oportunidad de aprender lo que los estudiantes saben sobre conceptos de número. Si hay tiempo extra, los estudiantes pueden pasar más tiempo explorando las fichas de dos colores en la primera actividad.</p>
     <p>En la actividad de cierre de la lección, los estudiantes practican decir la secuencia verbal de conteo hasta 10 en preparación para contar objetos en una sección próxima. Agregue variedad al conteo agregando movimiento. Por ejemplo, los estudiantes pueden contar mientras aplauden, pisan fuerte o saltan.</p>
-  </paragraphs>
+  </li>
   
   <!-- Preguntas de reflexión profesor -->
-  <paragraphs>
+  <li>
     <title><custom ref="reflection-quest-titulo"/></title>
     <p>A diferencia de hablar, escuchar es algo difícil de observar. ¿En qué momentos de la lección observaste a los estudiantes escuchándose mutuamente hoy en clase? ¿Qué indicadores tienes de que estaban escuchando y comprendiendo lo que se decía?</p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </introduction>
 
 

@@ -20,10 +20,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li> 
@@ -31,33 +33,33 @@
         <xref ref="ccss-3-NF-A-2-b" text="custom">3.NF.A.2.b</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>15 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this activity is for students to practice identifying fractional intervals along a number line. This is Stage 2 of the center activity, Number Line Scoot. This activity encourages students to count by the number of intervals (the numerator). Students have to land exactly on the last tick mark, which represents 4, to encourage them to move along different number lines. While this activity does not focus on equivalence, it gives students exposure to this idea before they work more formally with it in the next section. In the synthesis, students relate counting on a number line marked off in whole numbers to their number lines marked off in fractional-sized intervals.</p>
     <p>It may be helpful to play a few rounds with the whole class to be sure students are clear on the rules of the game. Keep the number line game boards for center use.</p>
-  </paragraphs>
+  </li>
 
 
   <!-- Materiales requeridos de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-actividad-titulo"/></title>
     <!-- si hay materiales, crear los archivos -mat.ptx (para materiales de la actividad) y -matCentros.ptx (para mencionar los otros centros que se usan y para los que se necesitan materiales) y poner los materiales ahí usando los archivos de template. Después hacer xinclude  de estos archivos en la lista de materiales de la lección.-->
     <xi:include href="./act-carreraSobreRectasNumericas-mat.ptx"/>
     <!-- <xi:include href="./act-carreraSobreRectasNumericas-matCentros.ptx"/>  -->
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -68,19 +70,20 @@
       </li>
       <li>Roll the number cube, demonstrate where to record the rolled number and move that fraction along one of the number lines.</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
       <li>10 minutes: partner work time</li>
       <li>As students work, monitor for students who count by the numerator once they have chosen a number line.</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -88,9 +91,10 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -106,17 +110,18 @@
         <q>¿En qué se parecen contar sobre esta recta numérica y contar sobre sus rectas numéricas? ¿En qué son diferentes?</q>  (On the whole number one each space is 1 so we just count 1, 2, 3, 4. On our number lines we still count the jumps, but now each space is smaller than 1 so we need the denominator to tell us the size of each space.)
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Estrategias de acceso para estudiantes con discapacidades -->
-  <paragraphs>
+  <li>
     <title><custom ref="accesibility-actividad-titulo"/></title>
     <p><em>Engagement: Develop Effort and Persistence.</em> Check in and provide each group with feedback that encourages collaboration and community. For example, check in after the first round of Number Line Scoot.</p>
     <p>
       <em>Supports accessibility for: Attention, Social-Emotional Functioning</em>
     </p>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </activity>

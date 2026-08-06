@@ -190,10 +190,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li> 
@@ -201,23 +203,23 @@
         <xref ref="ccss-3-NBT-A-1" text="custom">3.NBT.A.1</xref>        
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>25 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this activity is for students to locate two- and three-digit numbers on a series of number lines. The endpoints of each number line are multiples of 100, and the space between them is partitioned into ten equal intervals. As they locate the numbers, students recognize each tick mark as a multiple of 10. Later in the activity, students use a number line to name the closest multiple of 100 to a given number. When students choose the correct number line and accurately place each number on the number line they attend to precision and show an understanding of place value (MP6, MP7).</p>
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -250,11 +252,11 @@
       </li>
       <li>Assign one set of numbers (A, B, C, D, or E) to each group of 4.</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -274,8 +276,9 @@
       </li>
       <li>2–3 minutes: independent work time</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -283,9 +286,10 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Estrategias de apoyo para estudiantes con dificultades -->
-  <paragraphs>
+  <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>If students place a number on a number line on which it doesn’t belong, such as placing 216 on the number line that goes from 100 to 200, consider asking:</p>
@@ -297,11 +301,11 @@
         <q>¿Me puedes mostrar dónde iría 216 en esa recta numérica?</q>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -309,19 +313,20 @@
         <q>¿Cómo pueden saber qué múltiplo de 100 está mas cerca de un número dado?</q>  (The endpoints of the number lines are multiples of 100. From the number line, we can tell whether a point is closer to one end or the other. We can tell if a point is in the lower half or upper half of the number line. We can count the tick marks to each multiple of 100 to decide which one is closer.)
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Descripción del desarrollo de lenguaje matemático -->
-  <paragraphs>
+  <li>
     <title><custom ref="language-actividad-titulo"/></title>
     <p>[++++++++++++++++]</p>
     <p><em>MLR8 Discussion Supports:</em> Create a visual display of the number lines. As students share their strategies, annotate the display to illustrate connections. For example, as students talk about their numbers and number lines, write the number below the appropriate tick mark, and draw arrows to show the closest multiple of 100 they identified.</p>
     <p>
       <em>Advances: Speaking, Representing</em>
     </p>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </activity>

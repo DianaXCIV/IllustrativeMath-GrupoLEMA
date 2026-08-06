@@ -74,8 +74,10 @@
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
 <prelude component="profesor">
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li>
@@ -83,26 +85,26 @@
         <xref ref="ccss-3-OA-A-2" text="custom">3.OA.A.2</xref>
       </li>
     </ul>
-  </paragraphs> 
+  </li> 
 
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>15 minutos</p>
-  </paragraphs>
+  </li>
   
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>El propósito de esta actividad es que los estudiantes determinen si una situación se trata de un número desconocido de grupos o un número desconocido de objetos en cada grupo. Después de clasificar las situaciones, los estudiantes escriben una expresión de división para representar cada situación. El hecho de que la estructura de las expresiones sea la misma al representar un número desconocido de grupos o un número desconocido de objetos en cada grupo enfatiza aún más que las expresiones de división pueden interpretarse de dos maneras. Cuando los estudiantes discuten y justifican sus decisiones, comparten una afirmación matemática y el pensamiento que hay detrás de ella (MP3).
     </p>
-  </paragraphs>
+  </li>
   
  <!-- Materiales requeridos de la actividad -->
- <paragraphs>
+ <li>
   <title><custom ref="materials-actividad-titulo"/></title>
   <xi:include href="./act-clasificacionDeTarjetas-todoSobreBichos-mat.ptx"/> 
-</paragraphs>
+</li>
   
-  <paragraphs> <!-- lanzamiento -->
+  <li> <!-- lanzamiento -->
     <title><custom ref="launch-titulo"/></title>
     <ul>
       <li>Grupos de 2</li>
@@ -112,9 +114,9 @@
       <li>Si es necesario, aclare qué son las antenas.</li>
       <li>Distribuya un conjunto de tarjetas previamente recortadas a cada grupo de estudiantes.</li>
     </ul>
-  </paragraphs>
+  </li>
   
-  <paragraphs> <!-- desarrollo de la actividad -->
+  <li> <!-- desarrollo de la actividad -->
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <ul>
       <li><q>En esta actividad, van a clasificar algunas tarjetas en las categorías que elijan con su compañero.</q></li>
@@ -126,9 +128,9 @@
       <li><q>Una vez que hayan clasificado sus tarjetas, escriban una expresión de división para representar cada situación.</q></li>
       <li>5 minutos: tiempo de trabajo en pareja</li>
     </ul>
-  </paragraphs>
-
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -138,13 +140,14 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
-   <paragraphs>
+<p>
+<dl>
+   <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>Algunos estudiantes pueden confundirse porque no se trata de grupos de animales, sino que cada animal representa un grupo de antenas o un grupo de patas.</p>
-  </paragraphs> 
+  </li> 
   
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <ul>
       <li>Invite a los estudiantes a compartir la expresión que escribieron para cada situación.</li>
@@ -158,15 +161,17 @@
         </p>
       </li>
     </ul>
-  </paragraphs>
+  </li>
   
-  <paragraphs>
+  <li>
     <title><custom ref="language-actividad-titulo"/></title>
     <p>Apoyos para la discusión de MLR8. Síntesis. Muestre un esquema de oración para apoyar la discusión en clase: "Observamos <fillin/>, entonces . . . "</p>
-  </paragraphs>
-  <!-- <paragraphs>
+  </li>
+  <!-- <li>
     <title><custom ref="accesibility-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> -->
+  </li> -->
+</dl>
+</p>
 </postlude>
 </activity>

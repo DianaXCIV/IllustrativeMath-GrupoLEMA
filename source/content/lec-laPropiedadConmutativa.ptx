@@ -34,9 +34,10 @@
   Introducción para el profesor                        
 =================================================  -->
 <introduction component="profesor">
-
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-leccion-titulo"/></title> 
     <ul>
       <li> 
@@ -58,23 +59,23 @@
         <!-- <xref ref="ccss-2-OA-C-4" text="custom">2.OA.C.4</xref> -->
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- índice de la lección (automático) -->
-  <paragraphs>
+  <li>
     <title><custom ref="timeline-leccion-titulo"/></title>
     <list-of elements="subsubsection reading-questions" scope="subsection"/>
-  </paragraphs>
+  </li>
 
   <!-- Propósito de la lección -->
-  <paragraphs>
+  <li>
     <title><custom ref="purpose-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this lesson is for students to describe the commutative property of multiplication using arrays.</p>
-  </paragraphs>
+  </li>
 
   <!-- Materiales requeridos -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-leccion-titulo"/></title>
     <p>[@@@@@@@@@@@@@@]</p>
     <!-- <ul>
@@ -89,22 +90,24 @@
         <xi:include href="./act-retomemarLosArreglos-matCentros.ptx"/>
       </li>
     </ul>  -->
-  </paragraphs>
+  </li>
   
   <!-- Introducción de la lección (narrative) -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>In previous lessons, students used drawings of equal groups and arrays to represent multiplication situations. They also connected multiplication expressions and equations to these representations. In this lesson, students are introduced to the commutative property. Students will notice that the same product can be represented by different situations, arrays, or equations. Re-organizing the arrays or reversing the order of the factors in a multiplication expression does not change the total number of objects. It is important that students connect their equations to the corresponding situations and representations. They should be able to correctly explain what each factor and the product represents in their equations.</p>
 <p>Note that students are not expected to use the name of the property. They should, however, be able to rely on their conceptual understanding of multiplication to explain why the product does not change when the order of the factors changes.</p>
-  </paragraphs>
+  </li>
   
   <!-- Preguntas de reflexión profesor -->
-  <paragraphs>
+  <li>
     <title><custom ref="reflection-quest-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>What part of the lesson went really well today in terms of students learning? What did you do that made that part go well?</p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </introduction>
 
 

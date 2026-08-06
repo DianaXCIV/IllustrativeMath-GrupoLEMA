@@ -35,9 +35,10 @@
   Introducción para el profesor                        
 =================================================  -->
 <introduction component="profesor">
-
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-leccion-titulo"/></title> 
     <ul>      
       <li>
@@ -50,23 +51,23 @@
         <xref ref="ccss-2-NBT-A-2" text="custom">2.NBT.A.2</xref>
       </li>
     </ul>
-    </paragraphs>
+    </li>
 
   <!-- índice de la lección (automático) -->
-  <paragraphs>
+  <li>
     <title><custom ref="timeline-leccion-titulo"/></title>
     <list-of elements="subsubsection reading-questions" scope="subsection"/>
-  </paragraphs>
+  </li>
 
   <!-- Propósito de la lección -->
-  <paragraphs>
+  <li>
     <title><custom ref="purpose-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this lesson is for students to represent numbers using base-ten blocks, base-ten diagrams, expanded form, numerals, and word form.</p>
-  </paragraphs>
+  </li>
 
   <!-- Materiales requeridos -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-leccion-titulo"/></title>
     <ul>
       <li>
@@ -80,22 +81,24 @@
         <!--<xi:include href="./act-mesaRedondaDeNumEnDistintasFormas-matCentros.ptx"/>-->
       </li>
     </ul> 
-  </paragraphs>
+  </li>
   
   <!-- Introducción de la lección (narrative) -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>Prior to this grade, students represented numbers within 1,000 using number names, base-ten blocks and diagrams, and expanded form. They used place value to compose and decompose numbers within 1,000.</p>
     <p>In this lesson, students revisit these familiar representations and ways of reasoning about numbers as they work to build fluency with addition and subtraction within 1,000. The base-ten diagrams and the expanded form will continue to be used to support students throughout this unit. Give students access to base-ten blocks, in case requested.</p>
-  </paragraphs>
+  </li>
   
   <!-- Preguntas de reflexión profesor -->
-  <paragraphs>
+  <li>
     <title><custom ref="reflection-quest-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>Whose ideas were shared in class today? How can you leverage each of your students’ ideas to support them in being seen and heard in tomorrow’s math class?</p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </introduction>
 
 

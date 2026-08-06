@@ -33,10 +33,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li> 
@@ -44,25 +46,25 @@
         <xref ref="ccss-3-OA-B-5" text="custom">3.OA.B.5</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>10 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->  
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this How Many Do You See is for students to subitize or use grouping strategies to describe the images they see. The arrangement of the groups of dots encourages students to see 5 groups of dots in the first image and then 6 groups of dots in the next image. When students use equal groups and a known quantity to find an unknown quantity, they are looking for and making use of structure. (MP7).</p>
-  </paragraphs>
+  </li>
 
   <!-- Materiales requeridos de la actividad -->
   
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -73,10 +75,10 @@
       <li>Flash the image.</li>
       <li>30 seconds: quiet think time</li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -88,8 +90,9 @@
       <li>Record responses.</li>
       <li>Repeat for each image.</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -97,9 +100,10 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -110,8 +114,9 @@
         <q>¿Cómo les ayudaron la primera y la segunda imagen a encontrar el número de puntos de la tercera imagen?</q>  (I figured out 5 groups of 4 pretty quickly, then added another group of 4.)
       </li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </exploration>

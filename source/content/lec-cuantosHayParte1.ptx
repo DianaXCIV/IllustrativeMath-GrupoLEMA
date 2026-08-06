@@ -36,9 +36,10 @@
   Introducción para el profesor                        
 =================================================  -->
 <introduction component="profesor">
-
+<p>
+<dl>
     <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-leccion-titulo"/></title> 
     <ul>
       <li>
@@ -54,23 +55,23 @@
         <xref ref="ccss-K-CC-B-4-a" text="custom">K.CC.B.4.a</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- índice de la lección (automático) -->
-  <paragraphs>
+  <li>
     <title><custom ref="timeline-leccion-titulo"/></title>
     <list-of elements="subsubsection reading-questions" scope="subsection"/>
-  </paragraphs>
+  </li>
 
   <!-- Propósito de la lección -->
-  <paragraphs>
+  <li>
     <title><custom ref="purpose-leccion-titulo"/></title>
     <p>[+++++++++++++++++]</p>
     <p>The purpose of this lesson is for students to count collections of objects. The focus is saying one number for each object.</p>
-  </paragraphs>
+  </li>
 
   <!-- Materiales requeridos -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-leccion-titulo"/></title>
     <ul>
       <li>
@@ -83,22 +84,24 @@
         <xi:include href="./act-conozcamos-fichasGeom-consigueYConstruye-matCentros.ptx"/>
       </li>
     </ul>  
-  </paragraphs>
+  </li>
   
   <!-- Introducción de la lección (narrative) -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-leccion-titulo"/></title>
     <p>[+++++++++++++++++]</p>
 
     <p>Students are introduced to a new routine called Questions About Us. In this version, they figure out how many students are in the classroom today. Students then count objects in different collections in a way that makes sense to them. The second activity is an optional activity that provides support in orally counting to 10. Throughout the section, observe students for the look-fors on the Unit 1, Sections A-D Checkpoint.</p>
-  </paragraphs>
+  </li>
   
   <!-- Preguntas de reflexión profesor -->
-  <paragraphs>
+  <li>
     <title><custom ref="reflection-quest-titulo"/></title>
     <p>[+++++++++++++++++]</p>
     <p>Each lesson in this section includes an optional activity with additional support in developing counting concepts. What have you observed that indicates whether or not students may benefit from these activities?</p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </introduction>
 
 

@@ -34,9 +34,10 @@
   Introducción para el profesor                        
 =================================================  -->
 <introduction component="profesor">
-
+<p>
+<dl>
     <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-leccion-titulo"/></title> 
     <ul>
       <li>
@@ -48,22 +49,22 @@
         <xref ref="ccss-3-OA-C-7" text="custom">3.OA.C.7</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- índice de la lección (automático) -->
-  <paragraphs>
+  <li>
     <title><custom ref="timeline-leccion-titulo"/></title>
     <list-of elements="subsubsection reading-questions" scope="subsection"/>
-  </paragraphs>
+  </li>
 
   <!-- Propósito de la lección -->
-  <paragraphs>
+  <li>
     <title><custom ref="purpose-leccion-titulo"/></title>
     <p>Que los estudiantes hagan multiplicaciones hasta 100, en las cuales un factor es un número del 11 al 19.</p>
-  </paragraphs>
+  </li>
 
   <!-- Materiales requeridos -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-leccion-titulo"/></title>
     <ul>
       <li>
@@ -75,22 +76,24 @@
         <xi:include href="./act-recorridoSalon-problemasMultNums11a19MasGrandes-mat.ptx"/>
       </li>
     </ul> 
-  </paragraphs>
+  </li>
   
   <!-- Introducción de la lección (narrative) -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-leccion-titulo"/></title>
     <p>
       En esta lección, los estudiantes usan las estrategias y formas de representación que escogieron para resolver problemas con factores del 11 al 19. Se realiza un recorrido por el salón para compartir las diferentes estrategias utilizadas y en la síntesis se destaca el uso del diagrama de área para representar un problema. En el calentamiento se llama la atención sobre la escala de los diagramas de área. Aunque no es importante que los diagramas que hagan los estudiantes sean exactos, si lo es que los diagramas de área que presente a los estudiantes estén siempre a escala.
     </p>
     <!-- <p>El trabajo de esta lección se conecta con lecciones anteriores porque los estudiantes han visto una variedad de formas de representar y resolver problemas en los que uno de los factores es un número del 11 al 19. En esta lección, los estudiantes utilizan su elección de estrategia y representación para resolver este tipo de problemas. Los estudiantes participan en un recorrido por el salón para resaltar diferentes formas en que resolvieron problemas, y en la síntesis se destaca el diagrama de área para representar uno de los problemas. Si bien no es importante que las representaciones de los estudiantes sean exactas, es importante que cualquier diagrama de área presentado a los estudiantes esté a escala.</p> -->
-  </paragraphs>
+  </li>
   
   <!-- Preguntas de reflexión profesor -->
-  <paragraphs>
+  <li>
     <title><custom ref="reflection-quest-titulo"/></title>
    <p>¿Qué pregunta me gustaría haber hecho hoy? ¿Cuándo y por qué debí haberla hecho?</p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </introduction>
 
 

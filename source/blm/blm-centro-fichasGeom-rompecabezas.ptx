@@ -15,8 +15,9 @@
     <line><xref ref="centro-fichasGeom-etapa2" text="title"/></line>
   </p>
 </introduction>
-
-<paragraphs>
+<p>
+<dl>
+<li>
   <title>Muestra de páginas</title>  
   <sidebyside>
     <image source="blm/pdf-source/centro-fichasGeom-rompecabezas-0.png">
@@ -32,13 +33,14 @@
       <shortdescription></shortdescription>
     </image>
   </sidebyside>
-</paragraphs>
+</li>
 
-<paragraphs>
+<li>
   <title>Pdf para imprimir</title>
   <p>
     <url component="web" href="external/blm/pdf-source/centro-fichasGeom-rompecabezas.pdf">descargar</url>
   </p>
-</paragraphs>
-
+</li>
+</dl>
+</p>
 </subsection>

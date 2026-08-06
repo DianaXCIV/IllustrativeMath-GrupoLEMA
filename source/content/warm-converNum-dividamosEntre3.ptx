@@ -42,10 +42,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li> 
@@ -53,24 +55,24 @@
         <xref ref="ccss-3-OA-C-7" text="custom">3.OA.C.7</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>10 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->  
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>[++++++++++++++++]</p>
     <p>The purpose of this Number Talk is to elicit strategies and understandings students have for dividing within 100 and to help students develop fluency.</p>
     <p>When students use known multiplication and division facts to divide larger numbers, they look for and make use of structure (MP7).</p>
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <p>[++++++++++++++++]</p>
     <ul>
@@ -80,10 +82,10 @@
       <li><p><q>Hagan una señal cuando tengan una respuesta y puedan explicar cómo la obtuvieron</q></p></li>
       <li><p>1 minute: quiet think time</p></li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <p>[++++++++++++++++]</p>
     <ul>
@@ -93,8 +95,9 @@
       <li><p>Keep expressions and work displayed.</p></li>
       <li><p>Repeat with each expression.</p></li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -102,14 +105,16 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <p>[++++++++++++++++]</p>
     <p><q>¿Cómo usaron los hechos de división que ya conocen para encontrar algunos de los otros cocientes?</q> (I knew that <m>60\div 3</m> would be double the answer of <m>30\div 3</m>. Once I knew <m>60\div 3</m>, I was able to find <m>63\div 3</m> by adding another group of 3 and <m>54\div 3</m> by taking groups of 3 away.)</p>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </exploration>

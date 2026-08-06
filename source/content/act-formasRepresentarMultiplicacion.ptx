@@ -52,8 +52,10 @@
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
 <prelude component="profesor">
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li>
@@ -65,16 +67,16 @@
         <xref ref="ccss-3-OA-C-7" text="custom">3.OA.C.7</xref>
       </li>
     </ul>
-  </paragraphs> 
+  </li> 
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>15 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>
       El objetivo es que los estudiantes entiendan las diferentes formas de representar la multiplicación de un número entre 11 y 19. Para ello, Analizarán diagramas de área con cuadrícula, bloques en base diez y diagramas de área con longitudes de lado. Al discutir cómo estos diagramas representan el mismo producto, los estudiantes desarrollan razonamiento abstracto y cuantitativo.
@@ -82,20 +84,20 @@
     <!-- <p>
       El propósito de esta actividad es que los estudiantes comprendan las diferentes formas de representar la multiplicación de un número adolescente. Los estudiantes analizan un diagrama de área cuadriculado, bloques en base diez y un diagrama de área etiquetado con longitudes de lado. Cuando discuten cómo los diferentes diagramas representan el mismo producto, los estudiantes razonan de manera abstracta y cuantitativa (MP2).
     </p> -->
-  </paragraphs>
+  </li>
 
 
   <!-- Materiales requeridos de la actividad -->
   <!--   
-  <paragraphs>
+  <li>
     <title><custom ref="materials-actividad-titulo"/></title>
     @@@@@
     <xi:include href="../v00/graVV-uniXX-secYY-lecZZ-actRR-mat.ptx"/>
-  </paragraphs>
+  </li>
   -->
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <ul>
       <li>Grupos de 2</li>
@@ -109,11 +111,11 @@
         Compartir respuestas.
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <ul>
       <li>
@@ -123,8 +125,9 @@
         5-7 minutos: tiempo de trabajo en parejas
       </li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -132,18 +135,17 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Estrategias de apoyo para estudiantes con dificultades -->
   <!--   
-  <paragraphs>
+  <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> 
+  </li> 
   -->
-
-
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <ul>
       <li>
@@ -159,20 +161,20 @@
         (<m>3 \times 10</m> y <m>3 \times 5</m> o <m>10\times 3</m> y <m>5\times 3</m>)
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Descripción del desarrollo de lenguaje matemático -->
-  <paragraphs>
+  <li>
     <title><custom ref="language-actividad-titulo"/></title>
     <p>Apoyos para la discusión de MLR8. Síntesis: Muestre una presentación visual de los diagramas. A medida que los estudiantes comparten sus observaciones, marque la presentación para ilustrar conexiones. Por ejemplo, en cada diagrama, marque la descomposición de 15 en 10 y 5 dibujando círculos en los grupos de 10 y los grupos de 5.
     </p>
     <p>Avances: Escuchar, Representar</p>
-  </paragraphs>
+  </li>
 
 
   <!-- Estrategias de acceso para estudiantes con discapacidades -->
-  <paragraphs>
+  <li>
     <title><custom ref="accesibility-actividad-titulo"/></title>
     <p>
       Representación: Acceso para la percepción. Muestre cómo ve el producto de cada una de las 3 representaciones utilizando un problema diferente para apoyar la comprensión del contexto.
@@ -180,8 +182,9 @@
     <p>
       Apoya la accesibilidad para: Procesamiento conceptual, Procesamiento visual-espacial
     </p>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </activity>

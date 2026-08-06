@@ -52,10 +52,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li> 
@@ -63,34 +65,34 @@
         <xref ref="ccss-3-NF-A-2" text="custom">3.NF.A.2</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>25 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this activity is to transition students from thinking about fractional lengths on fraction strips to thinking about fractions as numbers on the number line. Students build on their experience of folding fraction strips to fold number lines into halves, thirds, fourths, sixths, and eighths and then label unit fractions.</p>
     <p>Students begin by considering how the fraction <m>\frac{1}{2}</m> can be labeled on the number line. They learn that each part of the number line has a length of one half, but the endpoint of the first one-half part is the location of the number <m>\frac{1}{2}</m> on the number line. This distinction is important for understanding fractions as numbers that can be represented as points on the number line and for using the number line precisely (MP6).</p>
     <p>When folding the number lines, students also need to attend to the fact that it is the interval between 0 and 1 that needs to be partitioned, rather than the length of the entire strip of paper that contains each number line.</p>
-  </paragraphs>
+  </li>
 
 
   <!-- Materiales requeridos de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-actividad-titulo"/></title>
     <!-- si hay materiales, crear los archivos -mat.ptx (para materiales de la actividad) y -matCentros.ptx (para mencionar los otros centros que se usan y para los que se necesitan materiales) y poner los materiales ahí usando los archivos de template. Después hacer xinclude  de estos archivos en la lista de materiales de la lección.-->
     <xi:include href="./act-doblarYMarcarLaRectaNumerica-mat.ptx"/>
     <!-- <xi:include href="./act-doblarYMarcarLaRectaNumerica-matCentros.ptx"/>  -->
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -120,11 +122,11 @@
       </li>
       <li>Give each student a copy of the blackline master and scissors.</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -143,8 +145,9 @@
       <li>3–5 minutes: partner work time</li>
       <li>Monitor for students who need support lining up the 0 and the 1 as they fold. Consider suggesting that they cut off the ends of the number line at 0 and 1, or marking 0 and 1 on both sides of each paper strip to make them easier to see while folding.</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -152,9 +155,10 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -163,17 +167,18 @@
         <q>¿En qué se pareció partir estas rectas numéricas a partir nuestras tiras de fracciones?</q> (The number lines were folded just like the strips were, but instead of a rectangle it’s just a line. We labeled the location of the unit fractions at the end of the first part on each number line instead of the space.)
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Estrategias de acceso para estudiantes con discapacidades -->
-  <paragraphs>
+  <li>
     <title><custom ref="accesibility-actividad-titulo"/></title><p>[++++++++++++++++]</p>
     <p><em>Representation: Develop Language and Symbols.</em> Synthesis: Make connections between representations visible. Highlight the similarities and differences in the strategies students used to fold their number lines.</p>
     <p>
       <em>Supports accessibility for: Conceptual Processing, Visual-Spatial Processing</em>
     </p>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </activity>

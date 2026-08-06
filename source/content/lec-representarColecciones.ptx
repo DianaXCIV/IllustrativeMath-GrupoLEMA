@@ -36,9 +36,10 @@
   Introducción para el profesor                        
 =================================================  -->
 <introduction component="profesor">
-
+<p>
+<dl>
     <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-leccion-titulo"/></title> 
     <ul>
       <li>
@@ -52,23 +53,23 @@
         <xref ref="ccss-K-CC-B" text="custom">K.CC.B</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- índice de la lección (automático) -->
-  <paragraphs>
+  <li>
     <title><custom ref="timeline-leccion-titulo"/></title>
     <list-of elements="subsubsection reading-questions" scope="subsection"/>
-  </paragraphs>
+  </li>
 
   <!-- Propósito de la lección -->
-  <paragraphs>
+  <li>
     <title><custom ref="purpose-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this lesson is for students to count collections of objects. The focus is on students representing how they counted.</p>
-  </paragraphs>
+  </li>
 
   <!-- Materiales requeridos -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-leccion-titulo"/></title>
     <ul>
       <li>
@@ -88,21 +89,23 @@
         <xi:include href="./act-centros-escoger10-matCentros.ptx"/>
       </li>
     </ul> 
-  </paragraphs>
+  </li>
   
   <!-- Introducción de la lección (narrative) -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>In the Questions About Us routine, students use 5-frames to determine how many students are at school today. Students then count objects in different collections in a way that makes sense to them and represent their collections. The second activity is an optional activity that provides support in keeping track of which objects have been counted.</p>
-  </paragraphs>
+  </li>
   
   <!-- Preguntas de reflexión profesor -->
-  <paragraphs>
+  <li>
     <title><custom ref="reflection-quest-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>As you finish up this unit, reflect on the norms and activities that have supported each student in learning math. List ways you have seen each student grow as a young mathematician throughout this work. List ways you have seen yourself grow as a teacher. What will you continue to do and what will you improve upon in Unit 2?</p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </introduction>
 
 

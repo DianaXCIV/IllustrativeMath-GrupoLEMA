@@ -73,8 +73,10 @@
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
 <prelude component="profesor">
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li>
@@ -82,21 +84,21 @@
         <xref ref="ccss-3-OA-A-2" text="custom">3.OA.A.2</xref>
       </li>
     </ul>
-  </paragraphs> 
+  </li> 
 
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>10 minutos</p>
-  </paragraphs>
-  <paragraphs>
+  </li>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>El propósito de esta actividad es que los estudiantes emparejen expresiones de división con situaciones de división. Los estudiantes deben justificar sus elecciones explicando claramente cómo se conectan los números en la expresión con lo que está sucediendo en la situación (MP2).</p>
-  </paragraphs>
-  <!-- <paragraphs>
+  </li>
+  <!-- <li>
     <title><custom ref="materials-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> -->
-  <paragraphs>
+  </li> -->
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <ul>
       <li>Grupos de 2</li>
@@ -106,16 +108,17 @@
       <li>Compartan las respuestas.</li>
       <li><q>Ahora vamos a trabajar con algunas situaciones que incluyen trompos. Más adelante, vamos a ver situaciones sobre otros juguetes.</q></li>
     </ul>
-  </paragraphs>
-  <paragraphs>
+  </li>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <ul>
       <li><q>Con su compañero, emparejen cada situación con una expresión de división.</q></li>
       <li>3-5 minutos: tiempo de trabajo en parejas</li>
       <li>Identifique a los estudiantes que puedan justificar sus emparejamientos explicando cómo los números en la expresión representan la situación.</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -124,25 +127,29 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
-  <!-- <paragraphs>
+<p>
+<dl>
+  <!-- <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> -->
-  <paragraphs>
+  </li> -->
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
       <ul>
         <li>Seleccione a los estudiantes identificados para compartir.</li>
         <li>Considere preguntar: <q>¿Cómo representan los números de la expresión lo que hay en la situación?</q></li>
       </ul>
-  </paragraphs>
-  <!-- <paragraphs>
+  </li>
+  <!-- <li>
     <title><custom ref="language-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> -->
-  <!-- <paragraphs>
+  </li> -->
+  <!-- <li>
     <title><custom ref="accesibility-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> -->
-  </postlude>
+  </li> -->
+  
+</dl>
+</p>
+</postlude>
 </activity>

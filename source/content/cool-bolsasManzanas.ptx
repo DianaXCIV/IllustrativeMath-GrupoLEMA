@@ -19,8 +19,10 @@
 </solution>
 
 <prelude component="profesor">
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li>
@@ -28,22 +30,27 @@
         <xref ref="ccss-3-OA-A-3" text="custom">3.OA.A.3</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </prelude>
 
-<postlude component="profesor"> <!-- Notas para el profesor -->
-
+<postlude component="profesor">
+<p>
+<dl>
+ <!-- Notas para el profesor -->
   <!-- Posibles errores -->
-   <paragraphs>
+   <li>
     <title><custom ref="errores-cool-titulo"/></title>
     <p>Los estudiantes representan 6 manzanas en cada bolsa en lugar de 6 bolsas con el mismo número de manzanas en cada una.</p>
-  </paragraphs>
+  </li>
 
   <!-- Estrategia de apoyo si muchos estudiantes respondieron incorrectamente -->
-  <paragraphs>
+  <li>
     <title><custom ref="apoyo-cool-titulo"/></title>
     <p>Durante el lanzamiento de la actividad del día siguiente, reparta la actividad de cierre y haga que los estudiantes trabajen en parejas para representar el problema con fichas y discutir la solución al problema.</p>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 </project>

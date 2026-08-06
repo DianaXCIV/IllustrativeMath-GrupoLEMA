@@ -15,24 +15,23 @@
   Alternativa caja de huevos 
   <!-- para <xref ref="act-contarCajasHuevos" text="title"/> -->
 </title>
-
-
-<paragraphs>
+<p>
+<dl>
+<li>
   <title>Muestra de páginas</title>  
   <sidebyside width="30%">
   <image source="blm/pdf-source/contemos-cajasDeHuevos.png">
     <shortdescription></shortdescription>
   </image>
   </sidebyside>
-</paragraphs>
+</li>
 
-<paragraphs>
+<li>
   <title>Pdf para imprimir</title>
   <p>
     <url component="web" href="external/blm/pdf-source/contemos-cajasDeHuevos.pdf">descargar</url>
   </p>
-</paragraphs>
-
-
-
+</li>
+</dl>
+</p>
 </subsection>

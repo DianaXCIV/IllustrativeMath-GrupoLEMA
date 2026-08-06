@@ -35,9 +35,10 @@
   Introducción para el profesor                        
 =================================================  -->
 <introduction component="profesor">
-
+<p>
+<dl>
     <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-leccion-titulo"/></title> 
     <ul>
       <li>
@@ -45,22 +46,22 @@
         <xref ref="ccss-3-OA-B-5" text="custom">3.OA.B.5</xref>, <xref ref="ccss-3-OA-C-7" text="custom">3.OA.C.7</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- índice de la lección (automático) -->
-  <paragraphs>
+  <li>
     <title><custom ref="timeline-leccion-titulo"/></title>
     <list-of elements="subsubsection reading-questions" scope="subsection"/>
-  </paragraphs>
+  </li>
 
   <!-- Propósito de la lección -->
-  <paragraphs>
+  <li>
     <title><custom ref="purpose-leccion-titulo"/></title>
     <p>El propósito de esta lección es que los estudiantes analicen representaciones y estrategias para encontrar cocientes con números más grandes y que dividan hasta <m>100</m>.</p>
-  </paragraphs>
+  </li>
 
   <!-- Materiales requeridos -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-leccion-titulo"/></title>
     <ul>
       <li>
@@ -72,21 +73,23 @@
         <xi:include href="./act-comparaDivideHasta100-mat.ptx"/>
       </li>
     </ul>
-  </paragraphs>
+  </li>
   
   <!-- Introducción de la lección (narrative) -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-leccion-titulo"/></title>
     <p>Anteriormente, los estudiantes usaron bloques en base diez, diagramas y otras representaciones o estrategias para razonar sobre la división hasta <m>100</m>. En esta lección, extienden y formalizan este trabajo para incluir cómo hallar el valor de un cociente por medio de la escritura de una serie de ecuaciones.</p>
 
     <p>Al analizar varias estrategias para representar la división, los estudiantes refuerzan su comprensión del valor posicional, las propiedades de las operaciones y la relación entre la multiplicación y la división.</p>
-  </paragraphs>
+  </li>
   
   <!-- Preguntas de reflexión profesor -->
-  <paragraphs>
+  <li>
     <title><custom ref="reflection-quest-titulo"/></title>
     <p>¿Quién ha estado compartiendo sus ideas en clase últimamente? Tome nota de los estudiantes cuyas ideas no han sido presentadas en clase y busque una oportunidad para que las compartan en la lección de mañana.</p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </introduction>
 
 

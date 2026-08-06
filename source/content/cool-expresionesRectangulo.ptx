@@ -36,8 +36,10 @@
 </solution>
 
 <prelude component="profesor">
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li>
@@ -45,25 +47,30 @@
         <xref ref="ccss-3-OA-C-7" text="custom">3.OA.C.7</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </prelude>
 
 
-<postlude component="profesor"> <!-- Notas para el profesor -->
-
+<postlude component="profesor">
+<p>
+<dl>
+ <!-- Notas para el profesor -->
   <!-- Posibles errores -->
-  <paragraphs>
+  <li>
     <title><custom ref="errores-cool-titulo"/></title>
     <p>Los estudiantes encuentran el área del rectángulo, pero no escriben una expresión que represente su estrategia.</p>
-  </paragraphs>
+  </li>
 
 
   <!-- Estrategia de apoyo si muchos estudiantes respondieron incorrectamente -->
-  <paragraphs>
+  <li>
     <title><custom ref="apoyo-cool-titulo"/></title>
     <p>Antes de la actividad de calentamiento, marque o sombree el rectángulo para mostrar una estrategia para encontrar su área y discuta cómo escribir expresiones que representen esa estrategia.</p>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </project>

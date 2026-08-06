@@ -57,9 +57,10 @@
   Introducción para el profesor                        
 =================================================  -->
 <introduction component="profesor">
-
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-leccion-titulo"/></title> 
     <ul>
       <li>
@@ -73,22 +74,22 @@
         </p>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- índice de la lección (automático) -->
-  <paragraphs>
+  <li>
     <title><custom ref="timeline-leccion-titulo"/></title>
     <list-of elements="subsubsection reading-questions" scope="subsection"/>
-  </paragraphs>
+  </li>
 
   <!-- Propósito de la lección -->
-  <!-- <paragraphs>
+  <!-- <li>
     <title><custom ref="purpose-leccion-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> -->
+  </li> -->
 
   <!-- Materiales requeridos -->
-  <!-- <paragraphs>
+  <!-- <li>
     <title><custom ref="materials-leccion-titulo"/></title>
     [@@@@@@@@] -->
     <!-- <ul>
@@ -101,10 +102,10 @@
         <xi:include href="./act-SSSSSSSS-mat.ptx"/>
       </li>
     </ul>  -->
-  <!-- </paragraphs> -->
+  <!-- </li> -->
   
   <!-- Introducción de la lección (narrative) -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-leccion-titulo"/></title>
     <p>
       [@@@@@@@@@] In this lesson, students apply the general procedure they just learned for solving <m>px = q</m> in order to define what <m>\frac{a}{b}</m> means when <m>a</m> and <m>b</m> are not whole numbers. Up until now, students have likely only seen a fraction bar separating two whole numbers. This is because before grade 6, they couldn't divide arbitrary rational numbers. Now an expression like <m>\frac{\num{2.5}}{\num{8.9}}</m> or <m>\frac{\frac{1}{2}}{\frac{3}{5}}</m> can be well-defined.
@@ -112,13 +113,15 @@
     <p>
       But the definition is not the same as what they learned for, for example, <m>\frac{2}{5}</m> in grade 3, where they learned that <m>\frac{2}{5}</m> is the number you get by partitioning the interval from <m>0</m> to <m>1</m> into <m>5</m> equal parts and then marking off <m>2</m> of the parts. That definition only works for whole numbers. However, in grade 5, students learned that <m>2 \div 3 = \frac{2}{3}</m>, so in grade 6 it makes sense to define <m>\frac{\num{2.5}}{\num{8.9}}</m> as <m>\num{2.5} \div \num{8.9}</m>. 
     </p>
-  </paragraphs>
+  </li>
   
   <!-- Preguntas de reflexión profesor -->
-  <!-- <paragraphs>
+  <!-- <li>
     <title><custom ref="reflection-quest-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> -->
+  </li> -->
+</dl>
+</p>
 </introduction>
 
 

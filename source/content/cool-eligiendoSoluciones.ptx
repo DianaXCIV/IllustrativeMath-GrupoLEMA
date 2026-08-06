@@ -45,21 +45,24 @@
 </solution>
 
 
-<postlude component="profesor"> <!-- Notas para el profesor -->
-
+<postlude component="profesor">
+<p>
+<dl>
+ <!-- Notas para el profesor -->
   <!-- Posibles errores -->
-  <paragraphs>
+  <li>
     <title><custom ref="errores-cool-titulo"/></title>
     <p>[@@@@@@@@@] If students struggle with recognizing the complex fraction as equivalent to other expressions in the cool-down, plan to focus on complex fractions when opportunities arise over the next several lessons. For example, in Activity 7.2 Representing a Percentage Problem with an Equation, consider using fraction form of percentages to amplify this connection.</p>
-  </paragraphs>
+  </li>
 
 
   <!-- Estrategia de apoyo si muchos estudiantes respondieron incorrectamente -->
-  <!-- <paragraphs>
+  <!-- <li>
     <title><custom ref="apoyo-cool-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> -->
-
+  </li> -->
+</dl>
+</p>
 </postlude>
 
 </project>

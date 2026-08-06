@@ -32,8 +32,10 @@
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
 <prelude component="profesor">
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li> 
@@ -49,30 +51,35 @@
         [@@@@@@@@@]
       </li>-->
     </ul>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </prelude>
 
 
 <!-- ============================================================== 
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
-<postlude component="profesor"> 
-
+<postlude component="profesor">
+<p>
+<dl>
+ 
   <!-- Posibles errores -->
-  <paragraphs>
+  <li>
     <title><custom ref="errores-cool-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>Students answer A, but they do not explain that it would take fewer of the larger square to tile the rectangle.</p>
-  </paragraphs>
+  </li>
 
 
   <!-- Estrategia de apoyo si muchos estudiantes respondieron incorrectamente -->
-  <paragraphs>
+  <li>
     <title><custom ref="apoyo-cool-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>During the launch of the next day's activity, have students discuss whether it would take less square inches or square centimeters to cover a surface (like a desk or book cover) and why.</p>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </project>

@@ -31,8 +31,10 @@
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
 <prelude component="profesor">
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li>
@@ -40,34 +42,34 @@
         <xref ref="ccss-3-OA-C-7" text="custom">3.OA.C.7</xref>
       </li>
     </ul>
-  </paragraphs> 
+  </li> 
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>10 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->  
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>El propósito de esta Conversación Numérica es sacar a luz estrategias y comprensiones que los estudiantes tengan para multiplicar y dividir con números que no se pasen de 100. Estas comprensiones ayudan a los estudiantes a desarrollar fluidez e identificar hechos de división que están relacionados con productos conocidos.</p>
 
     <p>Cuando los estudiantes utilizan la relación entre la multiplicación y la división para encontrar hechos de división que no conocen, están buscando y haciendo uso de estructuras (MP7).</p>
-  </paragraphs>
+  </li>
 
 
   <!-- Materiales requeridos de la actividad -->
   <!-- 
-  <paragraphs>
+  <li>
     <title><custom ref="materials-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs>
+  </li>
   -->
 
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <ul>
       <li>Muestre una expresión.</li>
@@ -76,18 +78,19 @@
       </li>
       <li>1 minuto: tiempo para pensar en silencio</li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <ul>
       <li>Registre respuestas y estrategias.</li>
       <li>Mantenga visibles las expresiones y el trabajo.</li>
       <li>Repita con cada expresión.</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -95,44 +98,44 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Estrategias de apoyo para estudiantes con dificultades -->
   <!-- 
-  <paragraphs>
+  <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs>
+  </li>
   -->
-
-
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <ul>
       <li>
         <q>¿Cómo muestran las primeras 3 expresiones que la multiplicación y la división están relacionadas?</q> (En cada expresión de división aparece uno de los factores de la ecuación de multiplicación asociada (<m>10 \times 4 = 40</m>). En la expresión <m>40\div 4</m>, se desconoce el 10. En la otra, se desconoce el 4.)
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Descripción del desarrollo de lenguaje matemático -->
   <!-- 
-  <paragraphs>
+  <li>
     <title><custom ref="language-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs>
+  </li>
   -->
 
 
   <!-- Estrategias de acceso para estudiantes con discapacidades -->
   <!-- 
-  <paragraphs>
+  <li>
     <title><custom ref="accesibility-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs>
+  </li>
   -->
-
+</dl>
+</p>
 </postlude>
 
 </exploration>

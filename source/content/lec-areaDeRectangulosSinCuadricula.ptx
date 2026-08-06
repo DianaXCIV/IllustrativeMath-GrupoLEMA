@@ -33,9 +33,10 @@
   Introducción para el profesor                        
 =================================================  -->
 <introduction component="profesor">
-
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-leccion-titulo"/></title> 
     <ul>
       <li>
@@ -43,23 +44,23 @@
         <xref ref="ccss-3-OA-B-5" text="custom">3.OA.B.5</xref>, <xref ref="ccss-3-MD-C-7-b" text="custom">3.MD.C.7.b</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- índice de la lección (automático) -->
-  <paragraphs>
+  <li>
     <title><custom ref="timeline-leccion-titulo"/></title>
     <list-of elements="subsubsection reading-questions" scope="subsection"/>
-  </paragraphs>
+  </li>
 
   <!-- Propósito de la lección -->
-  <paragraphs>
+  <li>
     <title><custom ref="purpose-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this lesson is for students to determine the area of rectangles that are not fully gridded with squares.</p>
-  </paragraphs>
+  </li>
 
   <!-- Materiales requeridos -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-leccion-titulo"/></title>
     <ul>
       <!-- <li>
@@ -73,22 +74,24 @@
         <!--<xi:include href="./act-noMasCuadrados-matCentros.ptx"/>-->
       </li>
     </ul>  
-  </paragraphs>
+  </li>
   
   <!-- Introducción de la lección (narrative) -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>In previous lessons, students used gridded rectangles to relate area to multiplication. They were also introduced to standard units of square inches, square centimeters, square feet, and square meters. In this lesson, students work with rectangles where the squares are less and less visible to encourage students to multiply the side lengths to find the area. This takes the form of partially tiled rectangles and rectangles with side lengths marked off in linear units. Students will consider strategies they use and discuss multiplying side lengths to find area. When students use multiplication to find the area of rectangles, they are using the structure of equal rows or columns and relating this to the operation of multiplication (MP7).</p>
 <p>In this lesson, students see diagrams of rectangles that are described with standard units, such as square inches and square meters, but are not to scale. They will gain experience working with such diagrams throughout the unit. Students should understand that shapes and figures may not always be the size the units indicated because drawing a picture can help us understand a situation even if we cannot draw the actual size.</p>
-  </paragraphs>
+  </li>
   
   <!-- Preguntas de reflexión profesor -->
-  <paragraphs>
+  <li>
     <title><custom ref="reflection-quest-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>How did students change their method for finding area when they saw rectangles that were partially tiled or that showed only tick marks along two sides?</p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </introduction>
 
 

@@ -35,8 +35,10 @@
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
 <prelude component="profesor">
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li>
@@ -49,16 +51,16 @@
         <xref ref="ccss-3-OA-C-7" text="custom">3.OA.C.7</xref>
       </li>
     </ul>
-  </paragraphs> 
+  </li> 
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>20 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>En esta actividad, los estudiantes trabajan en problemas de multiplicación hasta 100, en los cuales un factor es un número del 11 al 19. Esta es la primera vez que los estudiantes trabajan en problemas con números de este rango, por lo que se les debe animar a que utilicen las herramientas proporcionadas durante la lección, si así lo prefieren. También se les debe animar a utilizar herramientas y representaciones de la sección anterior. Cuando los estudiantes trabajen en parejas para crear pósteres en la siguiente actividad, trate que durante el recorrido por el salón vean varias estrategias, como:</p>
       
@@ -68,17 +70,17 @@
       <li>usar la propiedad distributiva para descomponer un número del 11 al 19 y multiplicarlo por partes.</li>
       <li>usar la propiedad distributiva y el valor posicional para descomponer un número del 11 al 19 en decenas y unidades y multiplicarlo por partes.</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Materiales requeridos de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-actividad-titulo"/></title>
     <xi:include href="./act-multiplicarNums11a19-mat.ptx"/> 
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <ul>
       <li>Grupos de 2</li>
@@ -87,11 +89,11 @@
       <li>Si es necesario, aclare que una docena es 12 y muestre a los estudiantes la ilustración de una docena de huevos.</li>
       <li>Proporcione a los estudiantes acceso a cubos o fichas encajables, papel cuadriculado y bloques en base diez.</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <ul>
       <li>
@@ -119,8 +121,9 @@
       <li>Proporcione a cada grupo herramientas para crear una presentación visual.</li>
       <li>6–8 minutos: tiempo de trabajo en parejas</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -128,9 +131,10 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Estrategias de apoyo para estudiantes con dificultades -->
-  <paragraphs>
+  <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>Si los estudiantes dicen que no están seguros de cómo comenzar el problema, considere preguntar:
     </p>
@@ -142,34 +146,35 @@
         <q>¿Cómo podrías usar bloques en base diez o papel cuadriculado para ayudarte a resolver el problema?</q>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <ul>
       <li>Muestre los pósteres alrededor del salón.</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Descripción del desarrollo de lenguaje matemático -->
   <!--
-  <paragraphs>
+  <li>
     <title><custom ref="language-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs>
+  </li>
   -->
 
   <!-- Estrategias de acceso para estudiantes con discapacidades -->
   <!--
-  <paragraphs>
+  <li>
     <title><custom ref="accesibility-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs>
+  </li>
   -->
-
+</dl>
+</p>
 </postlude>
 
 </activity>

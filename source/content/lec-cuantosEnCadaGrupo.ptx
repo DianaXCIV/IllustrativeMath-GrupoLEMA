@@ -32,9 +32,10 @@
   Introducción para el profesor                        
 =================================================  -->
 <introduction component="profesor">
-
+<p>
+<dl>
     <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-leccion-titulo"/></title> 
     <ul>
       <li>
@@ -46,22 +47,22 @@
         <xref ref="ccss-3-OA-A-3" text="custom">3.OA.A.3</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- índice de la lección -->
-  <paragraphs>
+  <li>
     <title><custom ref="timeline-leccion-titulo"/></title>
      <list-of elements="subsubsection reading-questions" scope="subsection"/>
-  </paragraphs>
+  </li>
 
   <!-- Propósito de la lección -->
-  <paragraphs>
+  <li>
       <title><custom ref="purpose-leccion-titulo"/></title>
       <p>El propósito de esta lección es que los estudiantes resuelvan problemas de "¿cuántos en cada grupo?" de una manera que tenga sentido para ellos.</p>
-  </paragraphs>
+  </li>
 
   <!-- Materiales requeridos -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-leccion-titulo"/></title>
     <ul>
       <li>
@@ -70,16 +71,18 @@
       </li>
     </ul> 
    
-  </paragraphs>
+  </li>
 
-  <paragraphs>
+  <li>
       <title><custom ref="narrative-leccion-titulo"/></title>
       <p>Previamente, los estudiantes resolvieron problemas de "¿cuántos grupos?" de una manera que tenía sentido para ellos. En esta lección, los estudiantes trabajan con problemas más amplios que involucran repartir en grupos de igual tamaño e incluyen problemas de "¿cuántos en cada grupo?". Nuevamente en esta lección los estudiantes tienen la flexibilidad de representar y resolver problemas utilizando cualquier estrategia que tenga sentido para ellos. Si los estudiantes usan cubos encajables, invítelos a dibujar una imagen que coincida con su trabajo. Al final de esta lección, la división se define como encontrar el número de grupos o encontrar el tamaño de cada grupo cuando repartimos en grupos de igual tamaño.</p>
-  </paragraphs>
-  <paragraphs>
+  </li>
+  <li>
     <title><custom ref="reflection-quest-titulo"/></title>
     <p>¿Qué dije, hice o pregunté durante la síntesis de la lección que ayudó a los estudiantes a tener claridad sobre el aprendizaje del día? ¿Haber entendido la actividad de cierre antes de enseñar hoy tuvo algún beneficio a la hora de sintetizar el aprendizaje de la lección? ¿Cómo?</p>  
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </introduction>
 
 

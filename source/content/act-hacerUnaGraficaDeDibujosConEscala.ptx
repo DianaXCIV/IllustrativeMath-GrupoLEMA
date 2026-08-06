@@ -23,10 +23,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li> 
@@ -34,24 +36,24 @@
         <xref ref="ccss-3-MD-B-3" text="custom">3.MD.B.3</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>20 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this activity is for students to apply understandings from previous lessons to create a picture graph with a scale of 2 from the categorical data they gathered. Students are guided to use a scale of 2 but can choose their own symbol. Depending on the data, students may need to use a half symbol in order to represent an odd number of students choosing a specific method of travel. This idea is discussed in the synthesis.</p>
 <p>Students will use their scaled picture graphs again in the next lesson.</p>
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -60,11 +62,11 @@
         <q>Queremos representar los datos que recogimos en la encuesta en una gráfica de dibujos. ¿Cómo lo podemos hacer sin tener que hacer un dibujo por cada estudiante de la clase?</q>  (We can make each symbol represent more than one student so we don’t have to draw as much.)
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -84,8 +86,9 @@
       <li>2 minutes: partner discussion</li>
       <li>Monitor for a graph that uses a half picture to show an odd number of students in one of the categories to share during the activity synthesis.</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -93,9 +96,10 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Estrategias de apoyo para estudiantes con dificultades -->
-  <paragraphs>
+  <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>If students choose symbols that are time-consuming to draw, consider asking:
@@ -108,11 +112,11 @@
         <q>¿Cómo puedes hacer que el símbolo sea más fácil de dibujar?</q>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -127,30 +131,31 @@
         <q>¿Qué preguntas tienen sobre cómo hacer una gráfica de dibujos con escala?</q>  (Could a face represent 3 students or 5 students? Can you use whatever picture you want to represent 2 students?)
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Descripción del desarrollo de lenguaje matemático -->
-  <paragraphs>
+  <li>
     <title><custom ref="language-actividad-titulo"/></title>
     <p>
       [+++++++++++++++++++++]
     </p>
     <p><em>MLR8 Discussion Supports.</em> Synthesis: When students compare graphs, display the following sentence frames: <em><q>El símbolo que escogí para representar _____ es _____ porque . . .</q></em>, <em><q>Una manera en la que nuestras gráficas se parecen es . . . </q></em> and <em><q> Una manera en la que nuestras gráficas son diferentes es . . .</q></em></p>
     <p><em>Advances: Speaking, Representing</em></p>
-  </paragraphs>
+  </li>
 
 
   <!-- Estrategias de acceso para estudiantes con discapacidades -->
-  <paragraphs>
+  <li>
     <title><custom ref="accesibility-actividad-titulo"/></title>
     <p>
       [+++++++++++++++++++++]
     </p>
     <p><em>Representation: Internalize Comprehension.</em> Invite students to begin by creating a physical model of a picture graph. Provide access to physical objects, such as connecting cubes, that students can use to represent each person, and then organize into groups of 2.</p>
     <p><em>Supports accessibility for: Visual-spatial processing, Conceptual processing</em></p>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </activity>

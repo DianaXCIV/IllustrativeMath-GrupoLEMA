@@ -35,9 +35,10 @@
   Introducción para el profesor                        
 =================================================  -->
 <introduction component="profesor">
-
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-leccion-titulo"/></title> 
     <ul>
       <li> 
@@ -46,23 +47,23 @@
         <xref ref="ccss-3-OA-D-9" text="custom">3.OA.D.9</xref>
       </li>      
     </ul>
-    </paragraphs>
+    </li>
 
   <!-- índice de la lección (automático) -->
-  <paragraphs>
+  <li>
     <title><custom ref="timeline-leccion-titulo"/></title>
     <list-of elements="subsubsection reading-questions" scope="subsection"/>
-  </paragraphs>
+  </li>
 
   <!-- Propósito de la lección -->
-  <paragraphs>
+  <li>
     <title><custom ref="purpose-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this lesson is for students to use an addition algorithm that records a single digit for the sum for each place value position and a 10 or 100 for a newly composed ten or hundred.</p>
-  </paragraphs>
+  </li>
 
   <!-- Materiales requeridos -->
-  <!-- <paragraphs>
+  <!-- <li>
     <title><custom ref="materials-leccion-titulo"/></title>
     <ul>
       <li>
@@ -76,21 +77,23 @@
         <xi:include href="./act-componerNuevasUnidades-matCentros.ptx"/>
       </li>
     </ul>  
-  </paragraphs>-->
+  </li>-->
   
   <!-- Introducción de la lección (narrative) -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>In this lesson, students learn an addition algorithm in which a single digit is recorded for the sum of each place value position. Students relate this algorithm to an algorithm they worked with in the previous lesson. Students also learn a method for recording a newly composed ten or hundred as a 10 or 100 above the addends. Students recognize that the new algorithm and new method of recording newly composed tens or hundreds are based on the idea of adding units by place value.</p>
-  </paragraphs>
+  </li>
   
   <!-- Preguntas de reflexión profesor -->
-  <paragraphs>
+  <li>
     <title><custom ref="reflection-quest-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>Think about times when students were able to make connections to and build on the ideas of their peers during discussions today. What norms or routines allowed students to engage with other students’ ideas?</p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </introduction>
 
 

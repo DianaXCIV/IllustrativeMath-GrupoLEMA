@@ -68,10 +68,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li> 
@@ -80,23 +82,23 @@
         <xref ref="ccss-3-NF-A-3-b" text="custom">3.NF.A.3.b</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>15 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this activity is for students to generate equivalent fractions, including for fractions greater than 1, given partially shaded diagrams. Student may use strategies from an earlier activity—partitioning a diagram into smaller equal parts, or making larger equal parts out of existing parts—or patterns they observed in the numerators and denominators of equivalent fractions (MP7).</p>
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -113,11 +115,11 @@
         <q>¿Qué fracciones pueden estar representadas por las partes sombreadas del diagrama?</q>  (<m>\frac{1}{2}, \frac{2}{4}, \frac{3}{6}, \frac{4}{8}</m>)
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -136,8 +138,9 @@
         </ul>
       </li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -145,9 +148,10 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Estrategias de apoyo para estudiantes con dificultades -->
-  <paragraphs>
+  <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>If students name a fraction, based only on the given partitions, consider asking:</p>
@@ -159,11 +163,11 @@
         <q>¿Cómo puedes usar el diagrama para encontrar otra manera de llamar a la fracción?</q>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -178,18 +182,19 @@
         <q>¿Pueden mencionar una fracción distinta a <m>\frac{3}{2}</m> y <m>\frac{6}{4}</m>?</q>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Descripción del desarrollo de lenguaje matemático -->
-  <paragraphs>
+  <li>
     <title><custom ref="language-actividad-titulo"/></title><p>[++++++++++++++++]</p>
     <p><em>MLR8 Discussion Supports.</em> Students should take turns naming the equivalent fractions they came up with and explaining their reasoning to their partner. Display the following sentence frames for all to see: <q>Observé <fillin characters="5" />, entonces pensé...</q> // <q>I noticed <fillin characters="5" />, so I thought....</q> Encourage students to challenge each other when they disagree.</p>
     <p>
       <em>Advances: Speaking, Representing</em>
     </p>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </activity>

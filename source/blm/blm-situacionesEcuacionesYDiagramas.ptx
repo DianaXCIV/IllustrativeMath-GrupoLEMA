@@ -8,9 +8,9 @@
 <title>
   Tarjetas para clasificar situaciones, ecuaciones y diagramas
 </title>
-
-
-<paragraphs>
+<p>
+<dl>
+<li>
   <title>Muestra de páginas</title>
   <sidebyside widths="30% 30%">
     <image source="blm/pdf-source/tarjetasSituacionesEcuacionesYDiagramas-0.png" >
@@ -21,13 +21,14 @@
     </image>
   </sidebyside>
   
-</paragraphs>
+</li>
 
-<paragraphs>
+<li>
   <title>Pdf para imprimir</title>
   <p>
     <url component="web" href="external/blm/pdf-source/tarjetasSituacionesEcuacionesYDiagramas.pdf">descargar</url>
   </p>
-</paragraphs>
-
+</li>
+</dl>
+</p>
 </subsection>

@@ -36,9 +36,10 @@
   Introducción para el profesor                        
 =================================================  -->
 <introduction component="profesor">
-
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-leccion-titulo"/></title> 
     <ul>
       <li>
@@ -50,23 +51,23 @@
         <xref ref="ccss-3-MD-C-5" text="custom">3.MD.C.5</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- índice de la lección (automático) -->
-  <paragraphs>
+  <li>
     <title><custom ref="timeline-leccion-titulo"/></title>
     <list-of elements="subsubsection reading-questions" scope="subsection"/>
-  </paragraphs>
+  </li>
 
   <!-- Propósito de la lección -->
-  <paragraphs>
+  <li>
     <title><custom ref="purpose-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this lesson is for students to use square tiles to build shapes and measure area.</p>
-  </paragraphs>
+  </li>
 
   <!-- Materiales requeridos -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-leccion-titulo"/></title>
     <ul>
       <li>
@@ -80,24 +81,26 @@
         <!--<xi:include href="./act-usarFichasCuadradasMedirElArea-matCentros.ptx"/>-->
       </li>
     </ul>  
-  </paragraphs>
+  </li>
   
   <!-- Introducción de la lección (narrative) -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>Previously, students compared the area of shapes informally—by cutting out and overlaying the shapes, by observing whether one shape would fit into another, and by covering the shapes with pattern blocks and comparing the number of blocks used.</p>
     <p>In this lesson, students learn that squares can be used to measure area: by tiling all of the shape. Each square represents one unit of area, or one square unit. Inch tiles are used, but are referred to as <q>fichas cuadradas</q> with students to emphasize how the tiles are used to measure square units. Students learn that shapes that don’t have specific names can be referred to as <q>figuras</q></p>
     <p>In the next lesson, students will take a closer look at square tiles that overlap.</p>
     <p>Provide inch tiles for students to use during the cool-down.</p>
-  </paragraphs>
+  </li>
   
   <!-- Preguntas de reflexión profesor -->
-  <paragraphs>
+  <li>
     <title><custom ref="reflection-quest-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>What ideas and experiences do students have about area? How did they influence students' work?</p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </introduction>
 
 

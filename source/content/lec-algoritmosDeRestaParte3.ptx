@@ -36,9 +36,10 @@
   Introducción para el profesor                        
 =================================================  -->
 <introduction component="profesor">
-
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-leccion-titulo"/></title> 
     <ul>
       <li> 
@@ -46,23 +47,23 @@
         <xref ref="ccss-3-NBT-A-2" text="custom">3.NBT.A.2</xref>
       </li>      
     </ul>
-    </paragraphs>
+    </li>
 
   <!-- índice de la lección (automático) -->
-  <paragraphs>
+  <li>
     <title><custom ref="timeline-leccion-titulo"/></title>
     <list-of elements="subsubsection reading-questions" scope="subsection"/>
-  </paragraphs>
+  </li>
 
   <!-- Propósito de la lección -->
-  <paragraphs>
+  <li>
     <title><custom ref="purpose-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this lesson is for students to use a subtraction algorithm that records a single digit for the difference between the numbers in each place value position and a condensed notation for a decomposed hundred or ten.</p>
-  </paragraphs>
+  </li>
 
   <!-- Materiales requeridos -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-leccion-titulo"/></title>
     <ul>
       <li>
@@ -80,21 +81,23 @@
         <xi:include href="./act-pruebaElAlgoritmoDeClare-matCentros.ptx"/>
       </li>-->
     </ul> 
-  </paragraphs>
+  </li>
   
   <!-- Introducción de la lección (narrative) -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>In this lesson, students continue to learn how to use algorithms to subtract within 1,000. The new algorithm in this lesson draws attention to how place value can be used to record less digits in each place value position. This condensed notation also changes the steps of the algorithm because students don't write the numbers in expanded form to start or add up the partial differences at the end.</p>
-  </paragraphs>
+  </li>
   
   <!-- Preguntas de reflexión profesor -->
-  <paragraphs>
+  <li>
     <title><custom ref="reflection-quest-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>Who got to do math today in class and how do you know? Identify the norms or routines that allowed these students to engage in mathematics. How can you adjust these norms and routines so all students do math tomorrow?</p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </introduction>
 
 

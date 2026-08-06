@@ -59,8 +59,10 @@
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
 <prelude component="profesor">
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li>
@@ -68,23 +70,23 @@
         <xref ref="ccss-3-OA-A-2" text="custom">3.OA.A.2</xref>
       </li>
     </ul>
-  </paragraphs> 
+  </li> 
 
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>15 minutos.</p>
-  </paragraphs>
+  </li>
   
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>El propósito de esta actividad es que los estudiantes apliquen lo que han aprendido sobre las representaciones de la división para relacionar dibujos y expresiones con situaciones de división (MP2). Al hacerlo, solidifican su comprensión de que la misma expresión de división puede representar ambos tipos de situaciones de división. Los dibujos dados permiten a los estudiantes ver la cantidad de grupos y cuántos objetos hay en cada grupo. El trabajo aquí ayuda a los estudiantes a hacer conexiones entre las tres representaciones antes de que escriban sus propias expresiones de división y resuelvan problemas de división en una lección posterior. Cuando los estudiantes describen cómo una expresión puede representar diferentes historias, prestan atención a la precisión en el lenguaje que utilizan y a la correspondencia que establecen entre la expresión y las historias (MP6).</p>
-  </paragraphs>
-  <!-- <paragraphs>
+  </li>
+  <!-- <li>
     <title><custom ref="materials-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> -->
+  </li> -->
   
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <ul>
       <li>Grupos de 2</li>
@@ -95,17 +97,17 @@
       <li>2-3 minutos: discusión en pareja</li>
       <li>Compartan las respuestas.</li>
     </ul>
-  </paragraphs>
+  </li>
   
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <ul>
       <li><q>Ahora, con su compañero, asocien cada situación con un dibujo y con una expresión que representan la situación</q></li>
       <li>3-5 minutos: tiempo de trabajo en pareja</li>
     </ul>
-  </paragraphs>
-
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -114,26 +116,29 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
-  <!-- <paragraphs>
+<p>
+<dl>
+  <!-- <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> -->
+  </li> -->
   
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <ul>
       <li><q>Consideremos las primeras dos situaciones sobre Kiran y Han. ¿Por qué podemos usar la misma expresión para representar estas situaciones, pero tenemos que usar dibujos diferentes?</q> (Ambas situaciones se representan con 6 dividido entre 2, pero en la primera situación el 2, o el divisor, es la cantidad de bloques en cada pila. En la segunda situación, el 2 es el número de pilas.)</li>
       <li><q>Ahora examinemos las situaciones de Han y Jada. ¿Por qué podemos usar el mismo dibujo para representar estas situaciones, pero no la misma expresión?</q> (Ambas situaciones describen 2 grupos de 3, por lo que coinciden con el mismo dibujo. La primera situación es de 6 bloques divididos entre 2 pilas y la segunda situación es de 6 bloques divididos en grupos de 3.)</li>
     </ul>
-  </paragraphs>
-  <!-- <paragraphs>
+  </li>
+  <!-- <li>
     <title><custom ref="language-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> -->
-  <!-- <paragraphs>
+  </li> -->
+  <!-- <li>
     <title><custom ref="accesibility-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> -->
+  </li> -->
+</dl>
+</p>
 </postlude>
 </activity>

@@ -43,8 +43,10 @@
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
 <prelude component="profesor">
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li>
@@ -52,20 +54,20 @@
         <xref ref="ccss-3-OA-A-3" text="custom">3.OA.A.3</xref>
       </li>
     </ul>
-  </paragraphs> 
+  </li> 
 
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>10 minutos</p>
-  </paragraphs>
-  <paragraphs>
+  </li>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
-    <p>El propósito de esta actividad de calentamiento es generar la idea de que se pueden hacer muchas preguntas diferentes sobre una situación, lo cual será útil cuando los estudiantes resuelvan problemas en una actividad posterior.</p>      </paragraphs>
-  <!-- <paragraphs> -->
+    <p>El propósito de esta actividad de calentamiento es generar la idea de que se pueden hacer muchas preguntas diferentes sobre una situación, lo cual será útil cuando los estudiantes resuelvan problemas en una actividad posterior.</p>      </li>
+  <!-- <li> -->
     <!-- <title><custom ref="materials-actividad-titulo"/></title> -->
     <!-- <p>[@@@@@@@@@]</p> -->
-  <!-- </paragraphs> -->
-  <paragraphs>
+  <!-- </li> -->
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <ul>
         <li>Grupos de 2</li>
@@ -73,16 +75,17 @@
         <li><q>¿Qué observan? ¿Qué se preguntan?</q></li>
         <li>1 minuto: tiempo de reflexión en silencio</li>
     </ul>
-  </paragraphs>
-  <paragraphs>
+  </li>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <ul>
       <li><q>Discutan con su compañero lo que pensaron</q></li>
       <li>1 minuto: discusión con el compañero</li>
       <li>Compartan y registren las respuestas.</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -91,22 +94,25 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
-  <!-- <paragraphs> -->
+<p>
+<dl>
+  <!-- <li> -->
     <!-- <title><custom ref="support-actividad-titulo"/></title> -->
     <!-- <p>[@@@@@@@@@]</p> -->
-  <!-- </paragraphs> -->
-  <paragraphs>
+  <!-- </li> -->
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <p>Si no se menciona en las respuestas de los estudiantes, pregunte: "¿Qué preguntas matemáticas podemos hacer sobre esta imagen?" (¿Cuántas manzanas hay en cada caja? ¿Hay más manzanas en las cajas que en los árboles? ¿Cuántas manzanas hay en total en las cajas?)</p>
-  </paragraphs>
-  <!-- <paragraphs> -->
+  </li>
+  <!-- <li> -->
     <!-- <title><custom ref="language-actividad-titulo"/></title> -->
     <!-- <p>[@@@@@@@@@]</p> -->
-  <!-- </paragraphs> -->
-  <!-- <paragraphs> -->
+  <!-- </li> -->
+  <!-- <li> -->
     <!-- <title><custom ref="accesibility-actividad-titulo"/></title> -->
     <!-- <p>[@@@@@@@@@]</p> -->
-  <!-- </paragraphs> -->
+  <!-- </li> -->
+</dl>
+</p>
 </postlude>
 </exploration>

@@ -35,9 +35,10 @@
   Introducción para el profesor                        
 =================================================  -->
 <introduction component="profesor">
-
+<p>
+<dl>
     <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-leccion-titulo"/></title> 
     <ul>
       <li>
@@ -49,22 +50,22 @@
         <xref ref="ccss-3-OA-A-3" text="custom">3.OA.A.3</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- índice de la lección (automático) -->
-  <paragraphs>
+  <li>
     <title><custom ref="timeline-leccion-titulo"/></title>
     <list-of elements="subsubsection reading-questions" scope="subsection"/>
-  </paragraphs>
+  </li>
 
   <!-- Propósito de la lección -->
-  <paragraphs>
+  <li>
     <title><custom ref="purpose-leccion-titulo"/></title>
     <p>El propósito de esta lección es usar la multiplicación y la división para modelar un problema de diseñar algo en el mundo real.</p>
-  </paragraphs>
+  </li>
 
   <!-- Materiales requeridos -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-leccion-titulo"/></title>    
     <ul>
       <li>
@@ -72,10 +73,10 @@
         <xi:include href="./act-planearLaHuerta-mat.ptx"/>
       </li>
     </ul>
-  </paragraphs>
+  </li>
   
   <!-- Introducción de la lección (narrative) -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-leccion-titulo"/></title>
       <p>Esta lección es opcional porque no aborda ningún nuevo estándar de contenido matemático. Sin embargo, esta lección da a los estudiantes la oportunidad de aplicar habilidades previas de modelación matemática.</p>
 
@@ -84,13 +85,15 @@
       <p>En esta lección, los estudiantes usan su comprensión de la multiplicación y la división para planear un jardín escolar. En la primera actividad, los estudiantes resuelven problemas que involucran el espacio entre las plantas en una fila y entre las filas. En la segunda actividad, planifican un jardín. Eligen los tipos de verduras y frutas para cultivar, cuántas plantas cultivar y la organización de las plantas. También piensan en la producción del jardín. Los estudiantes representan sus planes con diagramas y expresiones o ecuaciones.</p>
       
       <p>Los estudiantes modelan con matemáticas (MP4) al considerar restricciones, hacer suposiciones y decisiones sobre cantidades, pensar en cómo representar las relaciones entre las cantidades y verificar sus soluciones en términos de la situación.</p>
-  </paragraphs>
+  </li>
   
   <!-- Preguntas de reflexión profesor -->
-  <paragraphs>
+  <li>
     <title><custom ref="reflection-quest-titulo"/></title>
     <p>En qué formas ha mejorado la comunidad matemática que está fomentando? ¿Qué acciones puede tomar para mejorar en áreas que lo necesitan?</p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </introduction>
 
 

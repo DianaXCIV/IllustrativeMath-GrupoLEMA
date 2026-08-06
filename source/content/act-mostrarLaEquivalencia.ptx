@@ -94,10 +94,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li> 
@@ -106,36 +108,36 @@
         <xref ref="ccss-3-NF-A-3-b" text="custom">3.NF.A.3.b</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>20 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this activity is for students to use diagrams to reason about equivalence and reinforce their awareness of the relationship between fractions that are equivalent.</p>
     <p>Students show that a shaded diagram can represent two fractions, such as <m>\frac{1}{2}</m> and <m>\frac{4}{8}</m>, by further partitioning given parts or composing larger parts from the given parts. Unlike with the fraction strips, where different fractional parts are shown in rows and students could point out where and how they see equivalence, here students need to make additional marks or annotations to show equivalence.</p>
     <p>In upcoming lessons, students will extend similar strategies to reason about equivalence on a number line—by partitioning the given intervals on a number lines into smaller intervals or by composing larger intervals from the given intervals.</p>
     <p>In the first problem, students construct a viable argument in order to convince Tyler that <m>\frac{4}{8}</m> of the rectangle is shaded (MP3).</p>
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
       <li>Groups of 2</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -158,8 +160,9 @@
       </li>
       <li>Identify students using different strategies to share during synthesis.</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -167,9 +170,10 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Estrategias de apoyo para estudiantes con dificultades -->
-  <paragraphs>
+  <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>If students don’t explain how the pairs of fractions are equivalent, consider asking:</p>
@@ -181,28 +185,29 @@
         <q>¿Cómo podemos mostrar ambas fracciones para decidir si son equivalentes?</q>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
       <li>Select previously identified students to share their responses and reasoning. Display their work for all to see. </li>
       <li>As students explain, describe the strategies students use to show equivalence. Ask if others in the class showed equivalence the same way.</li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Estrategias de acceso para estudiantes con discapacidades -->
-  <paragraphs>
+  <li>
     <title><custom ref="accesibility-actividad-titulo"/></title><p>[++++++++++++++++]</p>
     <p><em>Action and Expression: Develop Expression and Communication.</em> Synthesis: Identify connections between strategies that result in the same outcomes but use differing approaches.</p>
     <p>
       <em>Supports accessibility for: Memory, Visual-Spatial Processing</em>
     </p>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </activity>

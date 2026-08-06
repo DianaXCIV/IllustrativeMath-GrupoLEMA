@@ -39,9 +39,10 @@
   Introducción para el profesor                        
 =================================================  -->
 <introduction component="profesor">
-
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-leccion-titulo"/></title> 
     <ul>
       <li> 
@@ -54,23 +55,23 @@
         <xref ref="ccss-3-MD-B-3" text="custom">3.MD.B.3</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- índice de la lección (automático) -->
-  <paragraphs>
+  <li>
     <title><custom ref="timeline-leccion-titulo"/></title>
     <list-of elements="subsubsection reading-questions" scope="subsection"/>
-  </paragraphs>
+  </li>
 
   <!-- Propósito de la lección -->
-  <paragraphs>
+  <li>
     <title><custom ref="purpose-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this lesson is for students to create a scaled bar graph.</p>
-  </paragraphs>
+  </li>
 
   <!-- Materiales requeridos -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-leccion-titulo"/></title>
     <ul>
       <!--<li>
@@ -84,23 +85,25 @@
         <!--<xi:include href="./act-hacerUnaGraficaDeBarrasConEscala-matCentros.ptx"/>-->
       </li>
     </ul>  
-  </paragraphs>
+  </li>
   
   <!-- Introducción de la lección (narrative) -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>In a previous lesson, students collected categorical class data and learned how to create a scaled picture graph. Students now make connections between scaled picture graphs and scaled bar graphs, and expand the idea of a scale that is more than one to bar graphs. In this lesson students choose a scale of 2 or 5 for their bar graph.</p>
 <p><strong>Math Community</strong></p>
 <p>Tell students that, at the end of the lesson, they will be asked to identify specific examples of norms they experienced as they did math.</p>
-  </paragraphs>
+  </li>
   
   <!-- Preguntas de reflexión profesor -->
-  <paragraphs>
+  <li>
     <title><custom ref="reflection-quest-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>Based on students’ prior work with scaled picture graphs, what strategy did you anticipate today? What strategy did you not anticipate?</p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </introduction>
 
 

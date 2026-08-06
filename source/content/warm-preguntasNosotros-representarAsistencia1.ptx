@@ -26,10 +26,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li>
@@ -41,29 +43,29 @@
         <xref ref="ccss-K-CC-B" text="custom">K.CC.B</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>10 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->  
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>[++++++++++++++]</p>
     <p>The purpose of this warm-up is for students to experience part of the Questions About Us routine. Students continue to engage in this routine throughout the section, focused on answering, <q>¿Cuántos estamos hoy aquí?</q>. In this activity, students develop ideas for how to represent how many students are here today. Student ideas should drive which representation is created. Representing their classmates with drawings helps students to move toward an abstract representation of objects and, eventually later in the year, a written number (MP2).</p>
-  </paragraphs>
+  </li>
 
   <!-- Materiales requeridos de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-actividad-titulo"/></title>
     <!-- <xi:include href="./warm-preguntasNosotros-representarAsistencia1-mat.ptx"/> -->
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <p>[++++++++++++++]</p>
     <ul>
@@ -77,10 +79,10 @@
       <li> Monitor for students who suggest drawing a stick figure of each student or writing each student’s name. </li>
       <li> Draw a stick figure for each student or write each student’s name. </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <p>[++++++++++++++]</p>
     <ul>
@@ -96,8 +98,9 @@
         <q> ¿Cuántos estamos hoy aquí? </q>
       </li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -105,15 +108,15 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Estrategias de apoyo para estudiantes con dificultades -->
-  <!-- <paragraphs>
+  <!-- <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> -->
-
+  </li> -->
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <p>[++++++++++++++]</p>
     <ul>
@@ -121,23 +124,24 @@
         <q> ¿Qué hicimos para mostrar a cada estudiante de nuestra clase? </q>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Descripción del desarrollo de lenguaje matemático -->
-  <paragraphs>
+  <li>
     <title><custom ref="language-actividad-titulo"/></title>
     <p>[++++++++++++++]</p>
     <p>MLR8 Discussion Supports. Synthesis: Verbalize what is drawn using phrases such as, “Puedo dibujar un muñeco de palitos para cada persona” // “I can draw a stick figure for each person.”</p>
     <p>Advances: Representation</p>
-  </paragraphs>
+  </li>
 
   <!-- Estrategias de acceso para estudiantes con discapacidades -->
-  <!-- <paragraphs>
+  <!-- <li>
     <title><custom ref="accesibility-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> -->
-
+  </li> -->
+</dl>
+</p>
 </postlude>
 
 </exploration>

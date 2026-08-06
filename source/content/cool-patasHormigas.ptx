@@ -33,8 +33,10 @@
 </solution>
 
 <prelude component="profesor">
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li>
@@ -42,7 +44,9 @@
         <xref ref="ccss-3-OA-A-2" text="custom">3.OA.A.2</xref>, <xref ref="ccss-3-OA-A-3" text="custom">3.OA.A.3</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -51,18 +55,21 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Posibles errores -->
-  <paragraphs>
+  <li>
     <title><custom ref="errores-cool-titulo"/></title>
     <p>Los estudiantes escriben una expresión distinta a <q>24 \div 4</q> para que se ajuste a la situación o no encuentran una solución al problema.</p>
-  </paragraphs>
+  </li>
 
   <!-- Estrategia de apoyo si muchos estudiantes respondieron incorrectamente -->
-  <paragraphs>
+  <li>
     <title><custom ref="apoyo-cool-titulo"/></title>
     <p>Pida a los estudiantes al inicio de la siguiente lección que trabajen en parejas en este problema.</p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </postlude>
 
 

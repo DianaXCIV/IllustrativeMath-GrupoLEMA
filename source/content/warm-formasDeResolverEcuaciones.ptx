@@ -28,38 +28,41 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>5 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->  
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>[@@@@@@@@@] The purpose of this warm-up is to apply what students have learned to some equations. Note that <m>\num{0.07} \div 10</m> and <m>\num{10.1} - \num{7.2}</m> should be easy to evaluate given that work with fluently computing with decimals precedes this unit.</p>
-  </paragraphs>
+  </li>
 
   <!-- Materiales requeridos de la actividad -->
-  <!-- <paragraphs>
+  <!-- <li>
     <title><custom ref="materials-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> -->
+  </li> -->
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <p>[@@@@@@@@@] Ask students to summarize what they learned in the previous lessons before setting them to work on this warm-up. Allow 1-2 minutes quiet think time, followed by a whole-class discussion.</p>
-  </paragraphs>
+  </li>
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <!-- <paragraphs>
+  <!-- <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> -->
-
+  </li> -->
+</dl>
+</p>
 </prelude>
 
 
@@ -67,32 +70,33 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Estrategias de apoyo para estudiantes con dificultades -->
-  <!-- <paragraphs>
+  <!-- <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> -->
-
+  </li> -->
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <p>[@@@@@@@@@] At the conclusion of the previous lesson, students should have seen that we can approach solving any equation of the form <m>px = q</m> (where <m>p</m> and <m>q</m> are rational numbers and <m>x</m> is unknown) by dividing each side by <m>p</m>. Also, we can approach solving any equation of the form <m>x + p = q</m> by subtracting <m>p</m> from each side. Discussion should focus on given <m>\num{0.07} = 10m</m>, we can write <m>\num{0.07} \div 10 = 10m \div 10</m> and then <m>\num{0.007} = m</m>.</p>
-  </paragraphs>
+  </li>
 
 
   <!-- Descripción del desarrollo de lenguaje matemático -->
-  <!-- <paragraphs>
+  <!-- <li>
     <title><custom ref="language-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> -->
+  </li> -->
 
   <!-- Estrategias de acceso para estudiantes con discapacidades -->
-  <!-- <paragraphs>
+  <!-- <li>
     <title><custom ref="accesibility-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> -->
-
+  </li> -->
+</dl>
+</p>
 </postlude>
 
 </exploration>

@@ -34,9 +34,10 @@
   Introducción para el profesor                        
 =================================================  -->
 <introduction component="profesor">
-
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-leccion-titulo"/></title> 
     <ul>
       <li> 
@@ -58,23 +59,23 @@
         <!-- <xref ref="ccss-2-OA-C-4" text="custom">2.OA.C.4</xref> -->
       </li>
     </ul>
-    </paragraphs>
+    </li>
 
   <!-- índice de la lección (automático) -->
-  <paragraphs>
+  <li>
     <title><custom ref="timeline-leccion-titulo"/></title>
     <list-of elements="subsubsection reading-questions" scope="subsection"/>
-  </paragraphs>
+  </li>
 
   <!-- Propósito de la lección -->
-  <paragraphs>
+  <li>
     <title><custom ref="purpose-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this lesson is for students to solve problems using the four operations as they imagine spending a day at the fair.</p>
-  </paragraphs>
+  </li>
 
   <!-- Materiales requeridos -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-leccion-titulo"/></title>
     <p>[mmmmmmmmmm]</p>
     <!-- <ul>
@@ -89,21 +90,23 @@
         <xi:include href="./act-recorridoSalon-unDiaEnLaFeria-matCentros.ptx"/>
       </li>
     </ul>  -->
-  </paragraphs>
+  </li>
   
   <!-- Introducción de la lección (narrative) -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>In previous lessons, students became familiar with and solved problems involving equal groups, time, weight, and liquid volume. In this lesson, students put together the ideas they have learned to consider a variety of mathematical situations that might arise during a day at the fair. Students solve problems as they imagine the course of a day at the fair and create a poster to highlight their mathematical reasoning.</p>
-  </paragraphs>
+  </li>
   
   <!-- Preguntas de reflexión profesor -->
-  <paragraphs>
+  <li>
     <title><custom ref="reflection-quest-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>As you finish up this unit, reflect on the norms and activities that have supported each student in learning math. How have you seen each student grow as a young mathematician throughout this work? How have you seen yourself grow as a teacher? What will you continue to do and what will you improve upon in the next unit?</p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </introduction>
 
 

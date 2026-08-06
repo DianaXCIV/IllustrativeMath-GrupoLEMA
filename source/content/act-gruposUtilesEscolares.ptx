@@ -122,8 +122,10 @@
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
 <prelude component="profesor">
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li>
@@ -131,33 +133,33 @@
         <xref ref="ccss-3-OA-A-3" text="custom">3.OA.A.3</xref>
       </li>
     </ul>
-  </paragraphs> 
+  </li> 
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>15 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>En esta actividad, los estudiantes resolverán problemas de grupos iguales. Pueden elegir resolver el problema o escribir la ecuación primero, dependiendo del orden que les parezca más lógico. Deben usar un símbolo para la cantidad desconocida y pueden escribir una ecuación de multiplicación o división. Al final, se destacarán una ecuación de multiplicación y una de división que representen el mismo problema.</p>
-  </paragraphs>
+  </li>
 
 
 
   <!-- Materiales requeridos de la actividad -->
   <!-- 
-  <paragraphs>
+  <li>
     <title><custom ref="materials-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs>
+  </li>
   -->
 
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <ul>
       <li>Grupos de 2</li>
@@ -165,11 +167,11 @@
       <li>30 segundos: tiempo para pensar en silencio</li>
       <li>Compartir respuestas.</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <ul>
       <li><q>Lean cada situación y escriban una ecuación para cada una. Usen un símbolo para representar la cantidad desconocida. Después, resuelvan la ecuación y encuentren el número desconocido. Pueden resolver el problema primero o escribir una ecuación primero dependiendo de qué tenga más sentido para ustedes. Prepárense para explicar su razonamiento.</q></li>
@@ -178,8 +180,9 @@
       <li><q>Ahora, por turnos, compartan sus ecuaciones y soluciones con su compañero.</q></li>
       <li>3–5 minutos: discusión en pareja</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -187,16 +190,17 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Estrategias de apoyo para estudiantes con dificultades -->
-  <paragraphs>
+  <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>Si los estudiantes no encuentran una solución a los problemas, considere preguntar: <q>¿De qué se trata este problema?</q> y <q>¿Cómo puedes representar el problema?</q></p>
-  </paragraphs>
+  </li>
 
 
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <ul>
       <li>Invite a los estudiantes que escribieron una ecuación de división y una de multiplicación para la misma situación. Muestre las ecuaciones para que todos las vean.</li>
@@ -211,26 +215,26 @@
       </li>
       <li>Invite a los estudiantes a compartir las estrategias que utilizaron para resolver el problema.</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Descripción del desarrollo de lenguaje matemático -->
-  <paragraphs>
+  <li>
     <title><custom ref="language-actividad-titulo"/></title>
     <p>MLR8 Soportes para la discusión: Antes de escribir las ecuaciones, invite a los estudiantes a entender el sentido de cada situación y a compartir con su compañero, por turnos, lo que entienden. Escuche y aclare cualquier pregunta sobre el contexto.</p>
     <p>Avances: Lectura, Representación</p>
-  </paragraphs>
+  </li>
 
 
   <!-- Estrategias de acceso para estudiantes con discapacidades -->
   <!-- 
-  <paragraphs>
+  <li>
     <title><custom ref="accesibility-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs>
+  </li>
   -->
-
-
+</dl>
+</p>
 </postlude>
 
 </activity>

@@ -52,10 +52,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li> 
@@ -63,33 +65,33 @@
         <xref ref="ccss-3-NF-A-1" text="custom">3.NF.A.1</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>20 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this activity is for students to match fractions to shaded diagrams. Reiterate that each rectangle represents one whole. After one round of matching, students pause to create 4 new pairs of cards to add to their set. Give students the Fraction Match Part 2 cards when they create their own pairs of cards.</p>
     <p>Students observe and use structure as they identify that the top number in the fraction represents the number of shaded pieces while the bottom number represents the number of those pieces in one whole rectangle (MP7).</p>
-  </paragraphs>
+  </li>
 
 
   <!-- Materiales requeridos de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-actividad-titulo"/></title>
     <!-- si hay materiales, crear los archivos -mat.ptx (para materiales de la actividad) y -matCentros.ptx (para mencionar los otros centros que se usan y para los que se necesitan materiales) y poner los materiales ahí usando los archivos de template. Después hacer xinclude  de estos archivos en la lista de materiales de la lección.-->
     <xi:include href="./act-parejasDeFracciones-mat.ptx"/> 
     <!-- <xi:include href="./act-parejasDeFracciones-matCentros.ptx"/>  -->
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -100,11 +102,11 @@
       <li>Answer any questions about the game.</li>
       <li>Give each group one set of cards created from Fraction Match Part 1.</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -123,8 +125,9 @@
       <li>5–7 minutes: partner work time</li>
       <li>Monitor for students who notice that <m>\frac{3}{3}</m> means the whole rectangle is shaded.</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -132,9 +135,10 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -151,28 +155,29 @@
         <q>Estas fracciones son equivalentes a 1 porque representan todas las partes de la unidad. A medida que sigamos aprendiendo sobre las fracciones, vamos a trabajar con otras fracciones como esta</q>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Descripción del desarrollo de lenguaje matemático -->
-  <paragraphs>
+  <li>
     <title><custom ref="language-actividad-titulo"/></title><p>[++++++++++++++++]</p>
     <p><q>MLR8 Discussion Supports.</q> Students should explain to their partner why the chosen cards match or do not match. Display the following sentence frames for all to see: <q>Observo <fillin characters="5" />, entonces estas dos tarjetas son / no son una pareja</q> // <q>I notice <fillin characters="5" />, so these two cards match/do not match.</q> Encourage students to challenge each other when they disagree.</p>
     <p>
       <q>Advances: Speaking, Representing</q>
     </p>
-  </paragraphs>
+  </li>
 
 
   <!-- Estrategias de acceso para estudiantes con discapacidades -->
-  <paragraphs>
+  <li>
     <title><custom ref="accesibility-actividad-titulo"/></title><p>[++++++++++++++++]</p>
     <p><q>Representation: Access for Perception.</q> Begin by showing a physical demonstration of how to play one round of the game Fraction Match to support understanding of the context.</p>
     <p>
       <q>Supports accessibility for: Memory, Social-Emotional Functioning</q>
     </p>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </activity>

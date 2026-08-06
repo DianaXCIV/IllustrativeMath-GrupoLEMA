@@ -13,8 +13,9 @@
 <title>
   Rectángulos para emparejar con expresiones correspondientes al área
 </title>
-
-<paragraphs>
+<p>
+<dl>
+<li>
   <title>Muestra de páginas</title>  
   <sidebyside width="40%">
   <image source="blm/pdf-source/emparejemosExpresionesConAreas-0.png">
@@ -24,14 +25,14 @@
     <shortdescription></shortdescription>
   </image>
   </sidebyside>
-</paragraphs>
+</li>
 
-<paragraphs>
+<li>
   <title>Pdf para imprimir</title>
   <p>
     <url component="web" href="external/blm/pdf-source/emparejemosExpresionesConAreas.pdf">descargar</url>
   </p>
-</paragraphs>
-
-
+</li>
+</dl>
+</p>
 </subsection>

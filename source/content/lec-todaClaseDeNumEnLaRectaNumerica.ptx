@@ -35,9 +35,10 @@
   Introducción para el profesor                        
 =================================================  -->
 <introduction component="profesor">
-
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-leccion-titulo"/></title> 
     <ul>
       <li> 
@@ -45,23 +46,23 @@
         <xref ref="ccss-3-NF-A-2" text="custom">3.NF.A.2</xref>
       </li>
     </ul>
-    </paragraphs>
+    </li>
 
   <!-- índice de la lección (automático) -->
-  <paragraphs>
+  <li>
     <title><custom ref="timeline-leccion-titulo"/></title>
     <list-of elements="subsubsection reading-questions" scope="subsection"/>
-  </paragraphs>
+  </li>
 
   <!-- Propósito de la lección -->
-  <paragraphs>
+  <li>
     <title><custom ref="purpose-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this lesson is for students to use their knowledge of fractions on the number line to locate 1 when given a non-unit fraction.</p>
-  </paragraphs>
+  </li>
 
   <!-- Materiales requeridos -->
-  <!-- <paragraphs>
+  <!-- <li>
     <title><custom ref="materials-leccion-titulo"/></title>
     <ul>
       <li>
@@ -75,22 +76,24 @@
         <xi:include href="./act-ubicarFrac34-matCentros.ptx"/>
       </li>
     </ul>  
-  </paragraphs>-->
+  </li>-->
   
   <!-- Introducción de la lección (narrative) -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>Previously, students have located fractions on the number line, including locating 1 when given a unit fraction. In the first activity, students reinforce their understanding of the numerator and denominator of a fraction as they find 1 given a fraction greater than 1. They use the numerator of the given fraction to identify the size of a unit fraction and then to locate 1. Later, they locate a non-unit fraction given the location of a unit fraction with a different denominator. There, students use their knowledge of locating 1 first and then locating the non-unit fraction from 1.</p>
     <p>The second activity in this lesson is optional because it goes beyond the depth of understanding required to address grade 3 standards.</p>
-  </paragraphs>
+  </li>
   
   <!-- Preguntas de reflexión profesor -->
-  <paragraphs>
+  <li>
     <title><custom ref="reflection-quest-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>What unfinished learning or misunderstandings do your students have about fractions? How did you leverage those misconceptions in a positive way to further the understanding of the class?</p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </introduction>
 
 

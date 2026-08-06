@@ -36,9 +36,10 @@
   Introducción para el profesor                        
 =================================================  -->
 <introduction component="profesor">
-
+<p>
+<dl>
     <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-leccion-titulo"/></title> 
     <ul>
       <li>
@@ -47,24 +48,24 @@
         <xref ref="ccss-K-CC-B-4" text="custom">K.CC.B.4</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- índice de la lección (automático) -->
-  <paragraphs>
+  <li>
     <title><custom ref="timeline-leccion-titulo"/></title>
     <list-of elements="subsubsection reading-questions" scope="subsection"/>
-  </paragraphs>
+  </li>
 
   <!-- Propósito de la lección -->
-  <paragraphs>
+  <li>
     <title><custom ref="purpose-leccion-titulo"/></title>
     <p>
       El propósito de esta lección es que los estudiantes reconozcan y nombren pequeños grupos de objetos e imágenes sin contarlos.
     </p>
-  </paragraphs>
+  </li>
 
   <!-- Materiales requeridos -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-leccion-titulo"/></title>
     <ul>
       <li>
@@ -72,21 +73,23 @@
         <xi:include href="./act-centros-escoger3-matCentros.ptx"/>
       </li>
     </ul> 
-  </paragraphs>
+  </li>
   
   <!-- Introducción de la lección (narrative) -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-leccion-titulo"/></title>
     <p>En una lección anterior, los estudiantes subitizaron, o determinaron cuántos hay sin contar, pequeños grupos de cosas en libros ilustrados. En esta lección, los estudiantes continúan su trabajo con la subitización al reconocer y nombrar pequeños grupos de objetos en el salón de clase sin contarlos. Aunque algunos estudiantes pueden contar para determinar cuántos hay en grupos más grandes de objetos, el enfoque está en encontrar pequeños grupos de objetos que puedan ser reconocidos y nombrados sin contar. Esta lección ayuda a los estudiantes a familiarizarse con su salón de clase y los anima a matematizar su entorno (MP4).</p>
 
     <p>En una lección futura, los estudiantes crearán sus propios libros ilustrados para mostrar las cantidades que identificaron en el salón de clase.</p>
-  </paragraphs>
+  </li>
   
   <!-- Preguntas de reflexión profesor -->
-  <paragraphs>
+  <li>
     <title><custom ref="reflection-quest-titulo"/></title>
     <p>¿Pudo recorrer el salón de clase y escuchar el pensamiento de los estudiantes mientras trabajaban en los centros? Si es así, ¿qué rutinas o estructuras ayudaron a los estudiantes a trabajar de forma independiente? Si no, ¿qué rutinas o estructuras puede establecer para asegurarse de poder recorrer el salón de clase y hablar con los estudiantes mientras trabajan?</p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </introduction>
 
 

@@ -39,10 +39,10 @@
   Introducción para el profesor                        
 =================================================  -->
 <introduction component="profesor">
-
-
+<p>
+<dl>
     <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-leccion-titulo"/></title> 
     <ul>
       <li>
@@ -50,25 +50,25 @@
         <xref ref="ccss-3-OA-A-2" text="custom">3.OA.A.2</xref>, <xref ref="ccss-3-OA-A-3" text="custom">3.OA.A.3</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- índice de la lección (automático) -->
-  <paragraphs>
+  <li>
     <title><custom ref="timeline-leccion-titulo"/></title>
     <list-of elements="subsubsection reading-questions" scope="subsection"/>
-  </paragraphs>
+  </li>
 
 
   <!-- Propósito de la lección -->
-  <paragraphs>
+  <li>
     <title><custom ref="purpose-leccion-titulo"/></title>
     <p>El propósito de esta lección es que los estudiantes resuelvan problemas de división hasta <m>100</m>, con cocientes mayores a <m>10</m>, de una manera que tenga sentido para ellos.</p>
-  </paragraphs>
+  </li>
 
 
   <!-- Materiales requeridos -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-leccion-titulo"/></title>
     <ul>
       <li>
@@ -80,22 +80,24 @@
         <xi:include href="./act-gruposEnBusYAlmuerzo-mat.ptx"/>
       </li>
     </ul>
-  </paragraphs>
+  </li>
  
   <!-- Introducción de la lección (narrative) -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-leccion-titulo"/></title>
     <p>En lecciones anteriores, los estudiantes aprendieron cómo están relacionadas la multiplicación y la división. También usaron estrategias basadas en las propiedades de las operaciones para multiplicar números más grandes.</p>
 
 
     <p>En esta lección, los estudiantes usan una estrategia de su elección para resolver problemas de división con cocientes más grandes que en las lecciones anteriores. Se debe animar a los estudiantes a usar cualquier estrategia y representación que les parezca lógica. El problema permite a los profesores ver cómo los estudiantes aplican lo que aprendieron en la unidad en un problema nuevo.</p>
-  </paragraphs>
+  </li>
  
   <!-- Preguntas de reflexión profesor -->
-  <paragraphs>
+  <li>
     <title><custom ref="reflection-quest-titulo"/></title>
     <p>¿Qué estrategias de división usaron sus estudiantes hoy al trabajar con números más grandes?</p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </introduction>
 
 

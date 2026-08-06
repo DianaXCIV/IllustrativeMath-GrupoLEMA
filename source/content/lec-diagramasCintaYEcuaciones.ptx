@@ -37,27 +37,28 @@
   Introducción para el profesor                        
 =================================================  -->
 <introduction component="profesor">
-
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-leccion-titulo"/></title> 
     <p>6.EE.B.5, 6.EE.B.6, 6.EE.B.7</p>
-  </paragraphs>
+  </li>
 
   <!-- índice de la lección (automático) -->
-  <paragraphs>
+  <li>
     <title><custom ref="timeline-leccion-titulo"/></title>
     <list-of elements="subsubsection reading-questions" scope="subsection"/>
-  </paragraphs>
+  </li>
 
   <!-- Propósito de la lección -->
-  <!-- <paragraphs>
+  <!-- <li>
     <title><custom ref="purpose-leccion-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> -->
+  </li> -->
 
   <!-- Materiales requeridos -->
-  <!-- <paragraphs>
+  <!-- <li>
     <title><custom ref="materials-leccion-titulo"/></title>
     [@@@@@@@@] -->
     <!-- <ul>
@@ -70,10 +71,10 @@
         <xi:include href="./act-SSSSSSSS-mat.ptx"/>
       </li>
     </ul>  -->
-  <!-- </paragraphs> -->
+  <!-- </li> -->
   
   <!-- Introducción de la lección (narrative) -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-leccion-titulo"/></title>
     <p>
       El propósito de esta lección es ayudar a los estudiantes a recordar de grados anteriores cómo se pueden usar los diagramas de cinta para representar operaciones. Hay dos funciones que pueden desempeñar los diagramas de cinta (o cualquier diagrama): ayudar a visualizar una relación y ayudar a resolver un problema. El enfoque aquí es la primera de ellas, para que posteriormente los estudiantes puedan usar diagramas para la segunda función. En esta lección, los estudiantes interpretan diagramas de cinta y crean los suyos propios.
@@ -82,13 +83,15 @@
     <p>
       Tenga en cuenta que los términos <term>solución</term> y <term>variable</term> no se definen hasta la próxima lección, y tampoco se debe generalizar ningún método de solución todavía. Los estudiantes deben desarrollar las actividades y razonar sobre cantidades desconocidas en formas que tengan sentido para ellos.
     </p>
-  </paragraphs>
+  </li>
   
   <!-- Preguntas de reflexión profesor -->
-  <!-- <paragraphs>
+  <!-- <li>
     <title><custom ref="reflection-quest-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> -->
+  </li> -->
+</dl>
+</p>
 </introduction>
 
 

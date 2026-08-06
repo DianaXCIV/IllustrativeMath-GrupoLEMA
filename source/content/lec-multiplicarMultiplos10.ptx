@@ -34,9 +34,10 @@
   Introducción para el profesor                        
 =================================================  -->
 <introduction component="profesor">
-
+<p>
+<dl>
     <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-leccion-titulo"/></title> 
     <ul>
       <li>
@@ -44,22 +45,22 @@
         <xref ref="ccss-3-NBT-A-3" text="custom">3.NBT.A.3</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- índice de la lección (automático) -->
-  <paragraphs>
+  <li>
     <title><custom ref="timeline-leccion-titulo"/></title>
     <list-of elements="subsubsection reading-questions" scope="subsection"/>
-  </paragraphs>
+  </li>
 
   <!-- Propósito de la lección -->
-  <paragraphs>
+  <li>
     <title><custom ref="purpose-leccion-titulo"/></title>
     <p>El propósito de esta lección es que los estudiantes multipliquen números de un dígito por múltiplos de 10.</p>
-  </paragraphs>
+  </li>
 
   <!-- Materiales requeridos -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-leccion-titulo"/></title>
     <ul>
       <li>
@@ -71,22 +72,24 @@
         <xi:include href="./act-dosEstrategias-mat.ptx"/>
       </li>
     </ul> 
-  </paragraphs>
+  </li>
   
 
   
   <!-- Introducción de la lección (narrative) -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-leccion-titulo"/></title>
     <p>Está lección se relaciona con el uso de estrategias basadas en las propiedades de las operaciones para multiplicar números hasta 100, que se trabajó anteriormente. A partir de esto, los estudiantes  usarán el valor posicional para multiplicar números de un solo dígito por múltiplos de 10. Primero, los estudiantes resolverán un problema en contexto en el que exploran diferentes maneras de agrupar 180 en múltiplos de diez. Luego, analizarán dos estrategias para multiplicar un número de un solo dígito por un múltiplo de diez, y solucionarán problemas usando la estrategia que escojan. A lo largo de la lección, se usa la propiedad asociativa como una estrategia para pensar en problemas tipo <m>3 \times 60</m> como 18 decenas o como <m>18 \times 10</m>.</p>
     <p>Cuando los estudiantes descomponen múltiplos de diez de diferentes maneras como estrategia para multiplicar, están buscando y haciendo uso de estructuras [MP7].</p>
-  </paragraphs>
+  </li>
   
   <!-- Preguntas de reflexión profesor -->
-  <paragraphs>
+  <li>
     <title><custom ref="reflection-quest-titulo"/></title>
     <p>En lecciones anteriores, los estudiantes utilizaron el valor posicional para sumar y restar. En esta lección, ¿de qué manera comenzaron a utilizar el valor posicional como estrategia para multiplicar múltiplos de 10?</p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </introduction>
 
 

@@ -36,10 +36,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li> 
@@ -48,26 +50,26 @@
         
       </li>      
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>10 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->  
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this How Many Do You See is for students to subitize or use grouping strategies to describe the images they see. Students may see equal groups in the rows or the columns of the array. Recording the equations for each way of seeing the groups is an opportunity to reinforce the commutative property.</p>
     <p>When students use different ways to group dots within the same array to find the total number of dots they look for and make use of structure (MP7).</p>
-  </paragraphs>
+  </li>
 
   <!-- Materiales requeridos de la actividad -->
   
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -78,10 +80,10 @@
       <li>Flash the image.</li>
       <li>30 seconds: quiet think time</li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -93,8 +95,9 @@
       <li>Record responses.</li>
       <li>Repeat for each image.</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -102,16 +105,16 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Estrategias de apoyo para estudiantes con dificultades -->
-  <!--<paragraphs>
+  <!--<li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>=== NOT PRESENT ===</p>
-  </paragraphs>-->
-
+  </li>-->
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -123,21 +126,22 @@
         <q>¿Cómo cambian las ecuaciones si pensamos que las filas son los grupos o que las columnas son los grupos?</q>  (For the image with 12 dots, if we think about the rows as the groups, we write <m>4 \times 3 = 12</m>, but if we think about the columns as the groups, we write <m>3 \times 4 = 12</m>. The order of the factors is reversed, but the product stays the same.)
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Descripción del desarrollo de lenguaje matemático -->
-  <!--<paragraphs>
+  <!--<li>
     <title><custom ref="language-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs>-->
+  </li>-->
 
   <!-- Estrategias de acceso para estudiantes con discapacidades -->
-  <!--<paragraphs>
+  <!--<li>
     <title><custom ref="accesibility-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs>-->
-
+  </li>-->
+</dl>
+</p>
 </postlude>
 
 </exploration>

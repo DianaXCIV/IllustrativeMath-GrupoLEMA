@@ -35,9 +35,10 @@
   Introducción para el profesor                        
 =================================================  -->
 <introduction component="profesor">
-
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-leccion-titulo"/></title> 
     <ul>
       <li> 
@@ -49,23 +50,23 @@
         <xref ref="ccss-3-MD-B-4" text="custom">3.MD.B.4</xref>
       </li>
     </ul>
-    </paragraphs>
+    </li>
 
   <!-- índice de la lección (automático) -->
-  <paragraphs>
+  <li>
     <title><custom ref="timeline-leccion-titulo"/></title>
     <list-of elements="subsubsection reading-questions" scope="subsection"/>
-  </paragraphs>
+  </li>
 
   <!-- Propósito de la lección -->
-  <paragraphs>
+  <li>
     <title><custom ref="purpose-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this lesson is for students to measure lengths that are fractions of an inch and relate these measurements to fractions on a number line.</p>
-  </paragraphs>
+  </li>
 
   <!-- Materiales requeridos -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-leccion-titulo"/></title>
     <ul>
       <li>
@@ -79,23 +80,25 @@
         <!--<xi:include href="./act-partirPulgadasEnMitades-matCentros.ptx"/>-->
       </li>
     </ul>  
-  </paragraphs>
+  </li>
   
   <!-- Introducción de la lección (narrative) -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>In grade 2, students learned how to measure lengths to the nearest inch. They also learned how to represent fractions on the number line in the previous unit.</p>
     <p>In this lesson, students start by measuring the length of objects using an inch ruler. As students find objects whose length is not a whole number of inches, they consider how to partition the inches to get a more precise measurement. Students then partition a ruler to show halves of an inch and use the ruler to measure lengths to the nearest half of an inch. The lesson synthesis introduces students to <term>mixed numbers</term> as numbers that combine whole numbers and fractions less than 1.</p>
     <p>Students use the rulers they make in this lesson again in future lessons.</p>
-  </paragraphs>
+  </li>
   
   <!-- Preguntas de reflexión profesor -->
-  <paragraphs>
+  <li>
     <title><custom ref="reflection-quest-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>In the last unit, students learned how to represent fractions on diagrams and number lines. In what ways did you see students applying that experience here?</p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </introduction>
 
 

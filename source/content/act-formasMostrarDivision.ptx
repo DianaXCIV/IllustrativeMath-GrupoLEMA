@@ -58,8 +58,10 @@
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
 <prelude component="profesor">
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li>
@@ -68,31 +70,31 @@
         <xref ref="ccss-3-OA-C-7" text="custom">3.OA.C.7</xref>
       </li>
     </ul>
-  </paragraphs> 
+  </li> 
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>15 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>El propósito de esta actividad es mostrar que los dos significados de la división siguen siendo válidos al dividir números más grandes y que, en algunos casos, una interpretación puede ser más útil que la otra.</p>
 
     <p>Los estudiantes primero analizan dos formas de usar bloques en base diez para representar <m>60 \div 5</m> y ven que el divisor, <m>5</m>, puede interpretarse como el número de grupos o el tamaño de cada grupo. Luego consideran cómo podrían interpretar y representar el divisor en otros cocientes. Este razonamiento prepara a los estudiantes para pensar de manera más estratégica a medida que dividen números más grandes.</p>
-  </paragraphs>
+  </li>
 
 
   <!-- Materiales requeridos de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-actividad-titulo"/></title>
     <xi:include href="./act-formasMostrarDivision-mat.ptx"/>
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <ul>
       <li>Grupos de 2 a 4.</li>
@@ -101,11 +103,11 @@
       <li><q>Usen bloques en base diez para encontrar el valor de <m>60 \div 5</m>.</q></li>
       <li>1-2 minutos: tiempo de trabajo independiente.</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <ul>
       <li><q>Ahora observen el trabajo de Jada y de Han en la actividad. ¿Quién de ellos representó la división de la misma forma en que ustedes lo hicieron?</q></li>
@@ -116,8 +118,9 @@
       <li><q>Ahora trabajen individualmente en el segundo grupo de problemas</q>.</li>
       <li>5 minutos: tiempo de trabajo independiente.</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -125,37 +128,37 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Estrategias de apoyo para estudiantes con dificultades -->
-  <!-- <paragraphs>
+  <!-- <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> -->
-
-
+  </li> -->
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <ul>
       <li>Invite a los estudiantes a compartir sus respuestas y su razonamiento sobre el último grupo de problemas.</li>
       <li><q>¿Cómo decidieron si el divisor, o sea el número entre el cual estamos dividiendo, es el número de grupos o la cantidad en cada grupo?</q> (Depende del número. En los dos primeros problemas, el divisor era <m>4</m> y <m>6</m>, por lo que era más fácil pensar en <m>4</m> grupos y <m>6</m> grupos. En el último problema, el divisor era <m>15</m>. Ahí era más fácil pensar en cuántos grupos de <m>15</m> hay en <m>75</m> que en hacer <m>15</m> grupos a partir de <m>75</m>).</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Descripción del desarrollo de lenguaje matemático -->
-  <!-- <paragraphs>
+  <!-- <li>
     <title><custom ref="language-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> -->
+  </li> -->
 
 
   <!-- Estrategias de acceso para estudiantes con discapacidades -->
-  <!-- <paragraphs>
+  <!-- <li>
     <title><custom ref="accesibility-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> -->
-
+  </li> -->
+</dl>
+</p>
 </postlude>
 
 </activity>

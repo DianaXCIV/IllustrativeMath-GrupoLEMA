@@ -35,9 +35,10 @@
   Introducción para el profesor                        
 =================================================  -->
 <introduction component="profesor">
-
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-leccion-titulo"/></title> 
     <ul>
       <li> 
@@ -46,23 +47,23 @@
         <xref ref="ccss-3-NF-A-2-a" text="custom">3.NF.A.2.a</xref>
       </li>
     </ul>
-    </paragraphs>
+    </li>
 
   <!-- índice de la lección (automático) -->
-  <paragraphs>
+  <li>
     <title><custom ref="timeline-leccion-titulo"/></title>
     <list-of elements="subsubsection reading-questions" scope="subsection"/>
-  </paragraphs>
+  </li>
 
   <!-- Propósito de la lección -->
-  <paragraphs>
+  <li>
     <title><custom ref="purpose-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this lesson is for students to partition the interval from 0 to 1and locate unit fractions within that interval.</p>
-  </paragraphs>
+  </li>
 
   <!-- Materiales requeridos -->
-  <!-- <paragraphs> -->
+  <!-- <li> -->
     <!-- <title><custom ref="materials-leccion-titulo"/></title> -->
     <!-- <ul>
       <li>
@@ -76,22 +77,24 @@
         <xi:include href="./act-fraccionesUnitariasEnLaRectaNumerica-matCentros.ptx"/>
       </li>
     </ul>  -->
-  <!-- </paragraphs> -->
+  <!-- </li> -->
   
   <!-- Introducción de la lección (narrative) -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>In previous lessons, students made sense of number lines that were partitioned into fractions. While this lesson focuses on partitioning and locating unit fractions within the interval from 0 to 1, the number lines in this lesson vary in length. This allows students to consider common misconceptions about partitioning the number line into fractional parts, such as partitioning the whole number line rather than each unit interval, such as from 0 to 1, 1 to 2, and so on, and counting tick marks rather than parts of the interval.</p>
     <p>As students partition number lines in the rest of this unit, the most important thing is that they are accurate in relatively locating fractions on the number line and they understand the partitions should be equally spaced (MP6). It is not necessary that they locate fractions exactly or be overly concerned with making sure partitions are exactly the same size.</p>
-  </paragraphs>
+  </li>
   
   <!-- Preguntas de reflexión profesor -->
-  <paragraphs>
+  <li>
     <title><custom ref="reflection-quest-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>How did you see or hear students leverage their prior experiences with fractions to place fractions on the number line?</p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </introduction>
 
 

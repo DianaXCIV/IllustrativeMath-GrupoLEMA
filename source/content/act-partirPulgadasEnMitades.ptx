@@ -77,10 +77,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li> 
@@ -88,33 +90,33 @@
         <xref ref="ccss-3-MD-B-4" text="custom">3.MD.B.4</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>20 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this activity is for students to partition the inches on a ruler to show half inches and then use their ruler to measure lengths to the nearest half of an inch.</p>
     <p>The unpartitioned rulers from this activity are used in the next lesson.</p>
-  </paragraphs>
+  </li>
 
 
   <!-- Materiales requeridos de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-actividad-titulo"/></title>
     <!-- si hay materiales, crear los archivos -mat.ptx (para materiales de la actividad) y -matCentros.ptx (para mencionar los otros centros que se usan y para los que se necesitan materiales) y poner los materiales ahí usando los archivos de template. Después hacer xinclude  de estos archivos en la lista de materiales de la lección.-->
     <xi:include href="./act-partirPulgadasEnMitades-mat.ptx"/> 
     <!-- <xi:include href="./act-partirPulgadasEnMitades-matCentros.ptx"/>  -->
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -123,11 +125,11 @@
         <q>¿Cómo podemos modificar nuestras reglas para medir longitudes que están entre dos números enteros?</q> (We could fold each inch into smaller equal parts. We could partition each inch into halves.)
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -145,8 +147,9 @@
       </li>
       <li>5–7 minutes: partner work time</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -154,9 +157,10 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Estrategias de apoyo para estudiantes con dificultades -->
-  <paragraphs>
+  <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>If the parts students partitioned aren’t the same size, consider asking:</p>
@@ -168,11 +172,11 @@
         <q>¿Cómo puedes asegurarte de que las mitades son del mismo tamaño?</q>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -181,15 +185,16 @@
       </li>
       <li><p><q>Guarden ambas reglas (en la que hicieron una partición para mostrar mitades de pulgada y en la que no) para la siguiente lección</q></p></li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Descripción del desarrollo de lenguaje matemático -->
-  <paragraphs>
+  <li>
     <title><custom ref="language-actividad-titulo"/></title><p>[++++++++++++++++]</p>
     <p><em>MLR2 Collect and Display.</em> Circulate, listen for and collect the language and numbers students use as they measure objects. On a visible display, record numbers, words and phrases such as: seven half inches, seven halves of an inch, <m>\frac{7}{2}</m>, between 2 and 3 inches, six and a half inches, <m>6\frac{1}{2}</m>, and less than 5 inches. Invite students to borrow language from the display as needed, and update it throughout the lesson.</p>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </activity>

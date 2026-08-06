@@ -129,8 +129,10 @@
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
 <prelude component="profesor">
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li>
@@ -139,16 +141,16 @@
         <xref ref="ccss-3-OA-C-7" text="custom">3.OA.C.7</xref>
       </li>
     </ul>
-  </paragraphs> 
+  </li> 
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>20 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>
       El propósito de esta actividad es que los estudiantes analicen diferentes formas de descomponer un rectángulo con cuadrícula para encontrar el número total de cuadrados en el mismo. Por ejemplo, ven que el área de un rectángulo que mide 3 unidades por 6 unidades se puede encontrar sumando <m>3 \times 5</m> y <m>3 \times 1</m> y relacionar esa estrategia con la expresión <m>(3 \times 5) + (3 \times 1)</m>. El área también se puede encontrar descomponiendo el rectángulo en dos mitades y encontrar el doble de <m>3 \times 3</m>, que se representa como <m>2 \times (3 \times 3)</m>.
@@ -156,20 +158,20 @@
     <p>  
       Este razonamiento permite a los estudiantes dar sentido visualmente a estrategias para multiplicar que se basan en las propiedades asociativas y distributivas de la multiplicación. El enfoque no está en mencionar las propiedades, sino en interpretar las expresiones y relacionarlas con las cantidades en los diagramas (MP7).
      </p>
-  </paragraphs>
+  </li>
 
 
   <!-- Materiales requeridos de la actividad -->
   
-  <paragraphs>
+  <li>
     <title><custom ref="materials-actividad-titulo"/></title>
     <xi:include href="./act-deDiagramasAExpresiones-mat.ptx"/> 
-  </paragraphs>
+  </li>
  
 
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <ul>
       <li>Grupos de 2</li>
@@ -177,11 +179,11 @@
       <li><q>Tómense un minuto para entender cómo Andre y Elena encontraron el área de un rectángulo</q></li>
       <li>1 minuto: tiempo para pensar en silencio</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <ul>
       <li><q>Discutan con su compañero en qué se parecen y en qué se diferencian las estrategias de Andre y Elena. También discutan cómo se relacionan los números de cada una de sus expresiones con sus diagramas</q></li>
@@ -195,8 +197,9 @@
           <li>Recorra el salón, escuche y recopile las formas como los estudiantes descomponen el rectángulo y el lenguaje que usan para describir las estrategias que utilizaron. Preste atención a: "descompuesto", "partes más pequeñas", "rectángulos más pequeños", "<m>2 \times 2 \times 9</m>, <m>2 \times 18</m>, <m>4 \times 5 + 4 \times 4</m> y <m>5 \times 4 + 4 \times 4</m>".</li>
           <li>Registre los diagramas, palabras y frases de los estudiantes en un póster y actualícelo a lo largo de la lección.</li>
       </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -204,20 +207,21 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Estrategias de apoyo para estudiantes con dificultades -->
-  <paragraphs>
+  <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>Si los estudiantes cuentan de uno en uno para encontrar el área del rectángulo en el segundo problema, considere preguntar:</p>
     <ul>
       <li><q>¿Cómo encontraste el área del rectángulo?</q></li>
       <li><q>¿Cómo puedes usar un producto que ya conoces para encontrar el área del rectángulo? ¿Cómo puedes mostrar tu estrategia en el rectángulo?</q></li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <ul>
       <li>
@@ -226,29 +230,29 @@
       <li>Al compartir las respuestas de los estudiantes, actualice la presentación agregando (o reemplazando) lenguaje, diagramas o anotaciones.</li>
       <li>Recuerde a los estudiantes que pueden usar lenguaje de la presentación cuando les parezca conveniente.</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Descripción del desarrollo de lenguaje matemático -->
-  <!-- <paragraphs>
+  <!-- <li>
     <title><custom ref="language-actividad-titulo"/></title>
     <p>MLR2 Recolectar y mostrar</p>
     <ul>
       <li>Recorra el salón, escuche y recopile las formas como los estudiantes descomponen el rectángulo y el lenguaje que usan para describir las estrategias que utilizaron. Preste atención a: "descompuesto", "partes más pequeñas", "rectángulos más pequeños", "<m>2 \times 2 \times 9</m>, <m>2 \times 18</m>, <m>4 \times 5 + 4 \times 4</m> y <m>5 \times 4 + 4 \times 4</m>".</li>
       <li>Registre los diagramas, palabras y frases de los estudiantes en un póster y actualícelo a lo largo de la lección.</li>
     </ul>
-  </paragraphs> -->
+  </li> -->
 
 
   <!-- Estrategias de acceso para estudiantes con discapacidades -->
   <!-- 
-  <paragraphs>
+  <li>
     <title><custom ref="accesibility-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs>
+  </li>
  -->
-
-
+</dl>
+</p>
 </postlude>
 
 </activity>

@@ -90,10 +90,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li> 
@@ -101,33 +103,33 @@
         <xref ref="ccss-3-NF-A-1" text="custom">3.NF.A.1</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>20 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>Previously, students partitioned rectangular pieces of paper into 2, 3, 4, 6, and 8 equal parts by folding. The purpose of this activity is for students to partition rectangles by drawing and continue to practice naming the parts with the unit fractions <m>\frac{1}{2}</m>, <m>\frac{1}{3}</m>, <m>\frac{1}{4}</m>, <m>\frac{1}{6}</m>, and <m>\frac{1}{8}</m>. It’s important that students try to make the parts as close to equal-sized as they can, but student drawings do not need to be exact. After they practice partitioning, students partition and shade, but don’t label, a fraction on a rectangle, then trade with a partner to determine the fraction their partner has shaded. The synthesis focuses on how to name a single equal part, such as one sixth, rather than talking about all the equal parts in a shape, such as sixths. This will be helpful as students use non-unit fractions to name multiple equal parts in the next lesson.</p>
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
       <li>Groups of 2</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -146,8 +148,9 @@
       <li>1–2 minutes: independent work time</li>
       <li>1–2 minutes: partner work time</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -155,9 +158,10 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -166,17 +170,18 @@
         <q>¿Cómo supieron qué fracción del rectángulo coloreó su compañero?</q>  (I counted the equal parts in the rectangle. There were four equal parts, so I knew my partner shaded a fourth.)
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Estrategias de acceso para estudiantes con discapacidades -->
-  <paragraphs>
+  <li>
     <title><custom ref="accesibility-actividad-titulo"/></title><p>[++++++++++++++++]</p>
     <p><q>MLR8 Discussion Supports.</q> At the appropriate time, give students 2–3 minutes to make sure that everyone in their group can explain their process for partitioning their rectangles and determining how to label each part. Invite groups to rehearse what they will say when they share with the whole class.</p>
     <p>
       <q>Advances: Speaking, Representing</q>
     </p>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </activity>

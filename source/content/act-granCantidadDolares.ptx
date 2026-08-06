@@ -84,8 +84,10 @@
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
 <prelude component="profesor">
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li>
@@ -93,31 +95,31 @@
         <xref ref="ccss-3-NBT-A-3" text="custom">3.NBT.A.3</xref>
       </li>
     </ul>
-  </paragraphs> 
+  </li> 
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>15 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>
       En esta actividad, los estudiantes trabajan con billetes de dólar para representar cantidades de números enteros y múltiplos de 10 de forma concreta antes de abordar conceptos más abstractos. Por ejemplo, con cuatro billetes de $20, escriben expresiones como <m>4 \times 20</m> para representar la cantidad y luego encuentran su valor utilizando estrategias que tengan sentido para ellos. Algunas estrategias pueden ser contar de 20 en 20, o pensar en $20 como dos billetes de $10 y calcular <m>4 \times 2 \times 10</m> (o <m>8 \times 10</m>). Se sugiere proporcionar dinero de juguete para ayudarles a visualizar las cantidades y apoyar su razonamiento.
     </p>
-  </paragraphs>
+  </li>
 
 
   <!-- Materiales requeridos de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-actividad-titulo"/></title>
     <xi:include href="./act-granCantidadDolares-mat.ptx"/> 
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <ul>
       <li>Grupos de 2</li>
@@ -126,11 +128,11 @@
       <li>Compartir respuestas.</li>
       <li>Dar acceso a los estudiantes a bloques en base diez, papel cuadriculado y dinero de juguete, si está disponible.</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <ul>
       <li><q>Completen los problemas con su compañero</q></li>
@@ -144,8 +146,9 @@
         </ul>
       </li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -153,20 +156,21 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Estrategias de apoyo para estudiantes con dificultades -->
-  <paragraphs>
+  <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>Si en el último problema los estudiantes no encuentran el producto de números enteros de un solo dígito y múltiplos de 10, considere preguntar:
     </p>
     <ul>
       <li><q>¿Qué has intentado hasta ahora para encontrar el producto?</q></li>
       <li><q>¿Cómo podrías representar el producto con bloques en base diez?</q></li> </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <ul>
       <li>
@@ -176,20 +180,20 @@
         Seleccione algunos estudiantes que identificó previamente para que compartan sus estrategias sobre cómo encontraron uno de los totales en el último problema.
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Descripción del desarrollo de lenguaje matemático -->
-  <paragraphs>
+  <li>
     <title><custom ref="language-actividad-titulo"/></title>
     <p>
       MLR8 Apoyo a la discusión. Antes de resolver los problemas, invite a los estudiantes a que den sentido a las situaciones y a que compartan con su compañero lo que comprendieron por turnos. Escuche y aclare cualquier pregunta sobre el contexto.
     </p>
-  </paragraphs> 
+  </li> 
 
 
   <!-- Estrategias de acceso para estudiantes con discapacidades -->
-  <paragraphs>
+  <li>
     <title><custom ref="accesibility-actividad-titulo"/></title>
     <p>
       Compromiso: Desarrollar esfuerzo y persistencia. Discuta con cada grupo y deles retroalimentación que fomente la colaboración y la integración. Por ejemplo, asegúrese de que cada miembro del grupo tenga la oportunidad de compartir sus ideas y soluciones.
@@ -197,8 +201,9 @@
     <p> 
       Apoya la accesibilidad para: Funcionamiento social-emocional
     </p>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </activity>

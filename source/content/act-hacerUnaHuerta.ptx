@@ -47,10 +47,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li> 
@@ -58,34 +60,34 @@
         <xref ref="ccss-3-MD-C-7-b" text="custom">3.MD.C.7.b</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>25 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this activity is for students to solve an area problem that involves missing side lengths. The problem has multiple solutions, as the area of the garden could be between 20 square feet to 30 square feet. The launch serves to familiarize students with the ideas involved in designing a garden before they solve the problem.</p>
 <p>When students share with other groups and describe what others did that was different they are making and understanding mathematical arguments (MP3).</p>
 <p>This activity uses <em>MLR6 Three Reads. Advances: reading, listening, representing</em></p>
-  </paragraphs>
+  </li>
 
 
   <!-- Materiales requeridos de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-actividad-titulo"/></title>
     <!-- si hay materiales, crear los archivos -mat.ptx (para materiales de la actividad) y -matCentros.ptx (para mencionar los otros centros que se usan y para los que se necesitan materiales) y poner los materiales ahí usando los archivos de template. Después hacer xinclude  de estos archivos en la lista de materiales de la lección.-->
     <xi:include href="./act-hacerUnaHuerta-mat.ptx"/>
     <!-- <xi:include href="./act-hacerUnaHuerta-matCentros.ptx"/>  -->
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -124,11 +126,11 @@
       <li>1–2 minutes: group discussion</li>
       <li>Give each group tools for creating a visual display and access to square tiles and grid paper.</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -143,8 +145,9 @@
 </ul>
       </li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -152,9 +155,10 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -167,19 +171,20 @@
       <li>Remind students to switch posters at 2 minutes if they haven’t already so they see a few posters.</li>
       <li>Switch group roles and repeat.</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Estrategias de acceso para estudiantes con discapacidades -->
-  <paragraphs>
+  <li>
     <title><custom ref="accesibility-actividad-titulo"/></title> 
     <p>
       [++++++++++++++++++++++++]
     </p>
     <p><em>Engagement: Develop Effort and Persistence:</em> Invite students to generate a list of shared expectations for group work. Record responses on a display and keep visible during the activity.</p>
     <p><em>Supports accessibility for Social-Emotional Functioning</em></p>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </activity>

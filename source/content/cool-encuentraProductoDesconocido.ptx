@@ -32,8 +32,10 @@
 </solution>
 
 <prelude component="profesor">
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li>
@@ -41,25 +43,30 @@
         <xref ref="ccss-3-OA-D-9" text="custom">3.OA.D.9</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </prelude>
 
 
-<postlude component="profesor"> <!-- Notas para el profesor -->
-
+<postlude component="profesor">
+<p>
+<dl>
+ <!-- Notas para el profesor -->
   <!-- Posibles errores -->
-  <paragraphs>
+  <li>
     <title><custom ref="errores-cool-titulo"/></title>
     <p>Los estudiantes encuentran el producto de 4 y 8 dibujando un diagrama discreto o contando uno por uno. Invítelos a que justifiquen su respuesta usando propiedades de las operaciones o usando números que ya aparecen en la tabla.</p>
-  </paragraphs>
+  </li>
 
 
   <!-- Estrategia de apoyo si muchos estudiantes respondieron incorrectamente -->
-  <paragraphs>
+  <li>
     <title><custom ref="apoyo-cool-titulo"/></title>
     <p>Antes de la actividad de calentamiento del día siguiente, permita que los estudiantes discutan qué hechos de multiplicación en la tabla se pueden usar para encontrar <m>4\times 8</m>.</p>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </project>

@@ -70,10 +70,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li> 
@@ -81,23 +83,23 @@
       <xref ref="ccss-3-MD-B-3" text="custom">3.MD.B.3</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>20 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this activity is for students to use data presented in scaled bar graphs to solve one-step <q>how many more</q> and <q>how many fewer</q> problems. The graph in the previous activity was familiar to students since they had created it in the previous lesson, but the graph used in this activity is new to students. Because the graph has a scale of 10, students need to estimate values that do not show an exact multiple of 10. As a result, answers may vary slightly. Accept all answers that align to reasonable estimates.</p>
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -107,11 +109,11 @@
       </li>
       <li>1 minute: partner discussion</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -125,8 +127,9 @@
       </li>
       <li>2–3 minutes: partner work time</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -134,9 +137,10 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Estrategias de apoyo para estudiantes con dificultades -->
-  <paragraphs>
+  <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>If students find sums for compare problems or do not find a solution, consider asking:</p>
@@ -148,41 +152,42 @@
         <q>¿Cómo podrías usar la información de la gráfica para resolver el problema?</q>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
       <li>Have students share responses for the first three problems. Be sure to share a variety of reasonable estimates for the values in each category to make sure students know it’s okay if they don’t know the exact value for sure.</li>
       <li>Have 2–3 groups share a question they wrote and have the whole class solve it. As students share, use this as an opportunity to highlight addition and subtraction strategies in which students use tens and ones.</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Descripción del desarrollo de lenguaje matemático -->
-  <paragraphs>
+  <li>
     <title><custom ref="language-actividad-titulo"/></title>
     <p>
       [++++++++++++++++++++++++]
     </p>
     <p><em>MLR8 Discussion Supports.</em> Synthesis: Involve both students in sharing their response with the whole class. While one student speaks, invite the other student to follow along and point to the corresponding parts of the bar graph on the display.</p>
     <p><em>Advances: Speaking, Representing, Listening</em></p>
-  </paragraphs>
+  </li>
 
 
   <!-- Estrategias de acceso para estudiantes con discapacidades -->
-  <paragraphs>
+  <li>
     <title><custom ref="accesibility-actividad-titulo"/></title>
     <p>
       [+++++++++++++++++++++++]
     </p>
   <p><em>Representation: Internalize Comprehension.</em> Begin by asking, <em><q>¿Esta situación les recuerda algo que hayamos visto, leído o hecho antes?</q></em></p>
   <p><em>Supports accessibility for: Social-Emotional Functioning</em></p>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </activity>

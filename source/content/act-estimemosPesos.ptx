@@ -144,10 +144,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li> 
@@ -155,33 +157,33 @@
         <xref ref="ccss-3-MD-A-2" text="custom">3.MD.A.2</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>30 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this activity is for students to learn that grams and kilograms are standard units for measuring weight. Students are introduced to the units using common objects as benchmarks. For each benchmark, students hold an object of some number of grams or kilograms and think of an example of an object that has about the same weight. Then, students look for items in the room that are in specific weight ranges. </p>
     <p>If time permits and if a scale or a balance is available, give students an opportunity during the synthesis to confirm the weights of the objects they estimated. Depending on the number of weight measurement tools available, arrange for a whole-class weighing demonstration with the objects students chose, or arrange for students to weigh their chosen objects in groups, taking turns with each type of available tool.</p>
-  </paragraphs>
+  </li>
 
 
   <!-- Materiales requeridos de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-actividad-titulo"/></title>
     <!-- si hay materiales, crear los archivos -mat.ptx (para materiales de la actividad) y -matCentros.ptx (para mencionar los otros centros que se usan y para los que se necesitan materiales) y poner los materiales ahí usando los archivos de template. Después hacer xinclude  de estos archivos en la lista de materiales de la lección.-->
     <xi:include href="./act-estimemosPesos-mat.ptx"/> 
     <!-- <xi:include href="./act-estimemosPesos-matCentros.ptx"/>  -->
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -190,11 +192,11 @@
         <q>Los gramos y los kilogramos son unas unidades que usamos para medir el peso. Un <term>gramo</term> es una unidad métrica de peso pequeña y es aproximadamente lo mismo que pesa un clip. Un <term>kilogramo</term> es una unidad métrica de peso más grande y es aproximadamente lo mismo que pesa una cesta de manzanas</q>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -224,8 +226,9 @@
       </li>
       <li>5–7 minutes: small-group work time</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -233,9 +236,10 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Estrategias de apoyo para estudiantes con dificultades -->
-  <paragraphs>
+  <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>If students say they aren’t sure in which column an object belongs, consider asking:</p>
@@ -247,11 +251,11 @@
         <q>¿Cuántos gramos o cuántos kilogramos crees que pesa?</q>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -267,8 +271,9 @@
       </li>
       <li><p>If multiple scales are available, allow students to weigh their objects in groups. If only one scale is available, demonstrate it for the class.</p></li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </activity>

@@ -47,9 +47,10 @@
   Introducción para el profesor                        
 =================================================  -->
 <introduction component="profesor">
-
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-leccion-titulo"/></title> 
     <ul>
       <li> 
@@ -65,23 +66,23 @@
         <xref ref="ccss-3-MD-B-3" text="custom">3.MD.B.3</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- índice de la lección (automático) -->
-  <paragraphs>
+  <li>
     <title><custom ref="timeline-leccion-titulo"/></title>
     <list-of elements="subsubsection reading-questions" scope="subsection"/>
-  </paragraphs>
+  </li>
 
   <!-- Propósito de la lección -->
-  <paragraphs>
+  <li>
     <title><custom ref="purpose-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this lesson is for students to read and answer questions about scaled picture graphs.</p>
-  </paragraphs>
+  </li>
 
   <!-- Materiales requeridos -->
-  <!-- <paragraphs>
+  <!-- <li>
     <title><custom ref="materials-leccion-titulo"/></title>
     <ul>
       <li>
@@ -95,23 +96,25 @@
         <xi:include href="./act-preguntasSobreGraficasDeDibujosConEscala-matCentros.ptx"/>
       </li>
     </ul>  
-  </paragraphs>-->
+  </li>-->
   
   <!-- Introducción de la lección (narrative) -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>In previous lessons, students reviewed how to create and interpret single-unit scale picture graphs. In this lesson, students learn that a <term>scaled picture graph</term> is a picture graph where each picture represents an amount other than 1. They read, interpret, and answer questions about scaled picture graphs with a scale of 2 and 5, and generate questions that can be answered by these graphs.</p>
 <p><alert>Math Community</alert></p>
 <p>Tell students that, at the end of the lesson, they will be asked to identify specific actions from their <q>Doing Math</q> list (both teacher and student sections) they personally experienced.</p>
-  </paragraphs>
+  </li>
   
   <!-- Preguntas de reflexión profesor -->
-  <paragraphs>
+  <li>
     <title><custom ref="reflection-quest-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>In this lesson, students make sense of scaling a picture graph by a number other than 1. How does this support the work that students will do with multiplication later in this unit?</p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </introduction>
 
 

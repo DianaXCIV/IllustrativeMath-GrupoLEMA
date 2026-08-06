@@ -15,8 +15,9 @@
     <line><xref ref="centro-librosDeImagenes-etapa2" text="title"/></line>
   </p>
 </introduction>
-
-<paragraphs>
+<p>
+<dl>
+<li>
   <title>Muestra de páginas</title>  
   <sidebyside>
     <image source="blm/pdf-source/center-picture-books-k-5-stage-2-create-picture-books-stage-2-recording-sheet1">
@@ -29,13 +30,14 @@
       <shortdescription></shortdescription>
     </image>
   </sidebyside>
-</paragraphs>
+</li>
 
-<paragraphs>
+<li>
   <title>Pdf para imprimir</title>
   <p>
     <url component="web" href="external/blm/pdf-source/center-picture-books-k-5-stage-2-create-picture-books-stage-2-recording-sheet.pdf">descargar</url>
   </p>
-</paragraphs>
-
+</li>
+</dl>
+</p>
 </subsection>

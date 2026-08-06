@@ -22,8 +22,10 @@
 </solution>
 
 <prelude component="profesor">
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li>
@@ -31,25 +33,29 @@
         <xref ref="ccss-3-OA-B-6" text="custom">3.OA.B.6</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </prelude>
 
 
-<postlude component="profesor"> <!-- Notas para el profesor -->
+<postlude component="profesor">
+<p>
+<dl>
+ <!-- Notas para el profesor -->
 
   <!-- Posibles errores -->
-  <!-- <paragraphs> -->
+  <!-- <li> -->
     <!-- <title><custom ref="errores-cool-titulo"/></title> -->
     <!-- <p>El trabajo en esta lección se basa en los conceptos de multiplicación desarrollados en una unidad anterior.</p> -->
-  <!-- </paragraphs> -->
-
-
+  <!-- </li> -->
   <!-- Estrategia de apoyo si muchos estudiantes respondieron incorrectamente -->
-  <paragraphs>
+  <li>
     <title><custom ref="apoyo-cool-titulo"/></title>
     <p>Sección de apoyo: Grado 3, Unidad 1, Sección B: De gráficas a multiplicación.</p>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </project>

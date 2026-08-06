@@ -38,8 +38,10 @@
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
 <prelude component="profesor">
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li>
@@ -48,48 +50,49 @@
         <xref ref="ccss-3-OA-C-7" text="custom">3.OA.C.7</xref>
       </li>
     </ul>
-  </paragraphs> 
+  </li> 
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>20 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>En esta actividad de clasificación, los estudiantes identifican expresiones que podrían representar el área del mismo rectángulo y explican su razonamiento. Para hacerlo, aplican su comprensión de las propiedades de la multiplicación y dibujan rectángulos según sea necesario mientras interpretan partes de las expresiones. Algunos estudiantes pueden clasificar las expresiones basándose únicamente en el valor de las expresiones. Anímelos a explicar o mostrar cómo saben, por ejemplo, que <m>8 \times 6</m> y <m>3 \times 6 + 5 \times 6</m> pueden representar el área del mismo rectángulo (MP2, MP7). Algunas de las expresiones de esta actividad se utilizan en la síntesis para resaltar las propiedades conmutativas, distributivas y asociativas de la multiplicación.</p>
-  </paragraphs>
+  </li>
 
 
   <!-- Materiales requeridos de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-actividad-titulo"/></title>
     <xi:include href="./act-clasificacionDeTarjetas-expresionesMultiplicacionRectangulos-mat.ptx"/> 
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <ul>
       <li>Grupos de 2 o 4</li>
       <li>Entregue a cada grupo un grupo de tarjetas precortadas.</li>
       <li>Dé a los estudiantes acceso a papel cuadriculado.</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <ul>
       <li><q>Este grupo de tarjetas incluye expresiones que representan áreas de rectángulos. Agrupen las expresiones que representan el área del mismo rectángulo</q></li>
       <li><q>Con su compañero, expliquen sus decisiones de clasificación. Si les ayuda, pueden dibujar rectángulos</q></li>
       <li>8 minutos: tiempo de trabajo en parejas</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -97,18 +100,17 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Estrategias de apoyo para estudiantes con dificultades -->
   <!-- 
-  <paragraphs>
+  <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs>
+  </li>
   -->
-
-
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <ul>
         <li>
@@ -141,27 +143,28 @@
           </ul>
         </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Descripción del desarrollo de lenguaje matemático -->
   <!-- 
-  <paragraphs>
+  <li>
     <title><custom ref="language-actividad-titulo"/></title>
     <p>[@@@@@@@@@@@@@@]</p>
-  </paragraphs>
+  </li>
   -->
 
 
   <!-- Estrategias de acceso para estudiantes con discapacidades -->
-  <paragraphs>
+  <li>
     <title><custom ref="accesibility-actividad-titulo"/></title>
     <p>
       Participación: Desarrollar esfuerzo y persistencia. Divida esta tarea en partes manejables. Dé a los estudiantes un subconjunto de las tarjetas para comenzar y entrégueles las tarjetas restantes una vez que los estudiantes hayan completado su primer grupo de parejas.
     </p>
     <p>Apoya la accesibilidad para: Atención, Enfoque</p>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </activity>

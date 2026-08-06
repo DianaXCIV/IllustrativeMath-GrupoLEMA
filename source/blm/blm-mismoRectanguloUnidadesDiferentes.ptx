@@ -13,8 +13,9 @@
 <title>
   Cuadrículas de pulgadas cuadradas y de centímetros cuadrados
 </title>
-
-<paragraphs>
+<p>
+<dl>
+<li>
   <title>Muestra de páginas</title>  
   <sidebyside widths="40% 40%">
     <image source="blm/pdf-source/MismoRectanguloUnidadesDiferentes-0.png">
@@ -25,14 +26,14 @@
   </image>
   </sidebyside>
   
-</paragraphs>
+</li>
 
-<paragraphs>
+<li>
   <title>Pdf para imprimir</title>
   <p>
     <url component="web" href="external/blm/pdf-source/MismoRectanguloUnidadesDiferentes.pdf">descargar</url>
   </p>
-</paragraphs>
-
-
+</li>
+</dl>
+</p>
 </subsection>

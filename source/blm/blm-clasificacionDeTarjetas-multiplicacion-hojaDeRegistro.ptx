@@ -8,22 +8,23 @@
 <title>
   Hoja de registro para clasificar tarjetas de multiplicación
 </title>
-
-<paragraphs>
+<p>
+<dl>
+<li>
   <title>Muestra de páginas</title>  
   <sidebyside width="30%">
   <image source="act-pdf/act-clasificacionDeTarjetas-multiplicacion.png">
     <shortdescription></shortdescription>
   </image>
   </sidebyside>
-</paragraphs>
+</li>
 
-<paragraphs>
+<li>
   <title>Pdf para imprimir</title>
   <p>
     <url component="web" href="external/act-pdf/act-clasificacionDeTarjetas-multiplicacion.pdf">descargar</url>
   </p>
-</paragraphs>
-
-
+</li>
+</dl>
+</p>
 </subsection>

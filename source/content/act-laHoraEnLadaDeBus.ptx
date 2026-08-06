@@ -101,10 +101,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li> 
@@ -112,16 +114,16 @@
         <xref ref="ccss-3-MD-A-1" text="custom">3.MD.A.1</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>25 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>In this activity, students solve problems involving elapsed time in a way that makes sense to them. Although the problem type may be new, students can reason about them using their understanding of time and of addition and subtraction. They can also support their reasoning by drawing on a clock.</p>
@@ -136,10 +138,10 @@
     </ul>
     <p>To elicit and discuss as many possible strategies and representations for reasoning about the problems, significant time is allocated for this activity. Students may choose to use any of the strategies or representations they see here to solve elapsed time problems in future lessons.</p>
     <p>When they determine what time different events occurred based on the initial time and the 24 minutes of elapsed time students reason abstractly and quantitatively(MP2).</p>
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -153,11 +155,11 @@
       <li>1–2 minutes: partner discussion</li>
       <li>Share and record responses.</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -174,8 +176,9 @@
       </li>
       <li>Monitor for and identify students who use the strategies listed in the activity narrative.</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -183,9 +186,10 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Estrategias de apoyo para estudiantes con dificultades -->
-  <paragraphs>
+  <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>If students say they aren’t sure how to show their thinking, consider asking:</p>
@@ -197,11 +201,11 @@
         <q>¿Qué representaciones que hayamos usado con la suma y la resta podrías usar aquí para mostrar cómo pensaste?</q>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -210,30 +214,31 @@
         <q>En el problema de Elena, ¿cómo nos ayuda cada una de las estrategias a ver que el bus llegará después de las 4:00?</q> (If we add the minutes and get a sum that is more than 60, we know that it’s a new hour. On the clock, we can see that there are only 15 minutes until 4:00, so 24 minutes would be past 4:00.)
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Descripción del desarrollo de lenguaje matemático -->
-  <paragraphs>
+  <li>
     <title><custom ref="language-actividad-titulo"/></title>
     <p>[++++++++++++++++]</p>
     <p><em>MLR7 Compare and Connect.</em> Synthesis: Lead a discussion comparing, contrasting, and connecting the different representations. Ask, <q>¿En qué se parecen las representaciones?</q> // <q>How are the representations alike?</q>, <q>¿En qué se diferencian?</q> // <q>How are they different?</q>, <q>¿Cómo se muestran los 24 minutos en cada representación?</q> // <q>How do 24 minutes show up in each representation?</q></p>
     <p>
       <em>Advances: Representing, Conversing</em>
     </p>
-  </paragraphs>
+  </li>
 
 
   <!-- Estrategias de acceso para estudiantes con discapacidades -->
-  <paragraphs>
+  <li>
     <title><custom ref="accesibility-actividad-titulo"/></title>
     <p>[++++++++++++++++]</p>
     <p><em>Action and Expression: Internalize Executive Functions.</em> Invite students to plan a strategy, including the tools they will use, for solving the elapsed time story problem. If time allows, invite students to share their plan with a partner before they begin.</p>
     <p>
       <em>Supports accessibility for: Organization</em>
     </p>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </activity>

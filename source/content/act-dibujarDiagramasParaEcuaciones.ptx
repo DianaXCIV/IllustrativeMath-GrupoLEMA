@@ -34,44 +34,47 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>15 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>
       En esta actividad, los estudiantes dibujan diagramas de cinta para asociar ecuaciones dadas. Luego, razonan sobre el valor desconocido que hace que la ecuación sea verdadera, un proceso también conocido como resolución de la ecuación. A los estudiantes no se les debe mostrar estrategias para resolver, sino que deben razonar con ecuaciones o diagramas de manera que tengan sentido para ellos. Mientras trabajan, observe a los estudiantes que usan los diagramas para encontrar cantidades desconocidas y a los que usan las ecuaciones.
     </p>
-  </paragraphs>
+  </li>
 
 
   <!-- Materiales requeridos de la actividad -->
-  <!-- <paragraphs>
+  <!-- <li>
     <title><custom ref="materials-actividad-titulo"/></title>
     @@@@@ -->
     <!-- si hay materiales, crear el siguiente archivo -mat.ptx y ponerlos ahí (y agregar también el archivo en la lista de materiales de la lección)-->
     <!-- <xi:include href="../v00/graVV-uniXX-secYY-lecZZ-actRR-mat.ptx"/>  -->
-  <!-- </paragraphs> -->
+  <!-- </li> -->
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <p>Dé a los estudiantes 5 minutos de trabajo en silencio seguidos de una discusión con toda la clase.</p>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <!-- <paragraphs>
+  <!-- <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> -->
-
+  </li> -->
+</dl>
+</p>
 </prelude>
 
 
@@ -79,9 +82,10 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Estrategias de apoyo para estudiantes con dificultades -->
-  <paragraphs>
+  <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>
       Los estudiantes podrían dibujar un cuadro marcado con 3 para la ecuación <m>18 = 3 \boldcdot y</m>. Pregunte a los estudiantes sobre el significado de la multiplicación y específicamente qué significa <m>3 \boldcdot y</m>. Pregunte cómo podrían representar <m>3</m> grupos iguales con tamaño desconocido <m>y</m>.
@@ -90,18 +94,18 @@
     <p>
       Los estudiantes podrían pensar que necesitan mostrar un número desconocido (<m>y</m>) de grupos iguales de <m>3</m>. Si bien esto es posible, mostrar <m>3</m> grupos iguales con tamaño desconocido <m>y</m> es más sencillo de representar.
     </p>
-  </paragraphs>
+  </li>
 
 
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <p>Invite a los estudiantes a compartir sus estrategias para encontrar los valores de <m>x</m> e <m>y</m>. Incluya al menos un estudiante que razonó con el diagrama y otro que razonó con la ecuación. Ayude a los estudiantes a conectar diferentes métodos pensando en las relaciones entre las tres cantidades en cada problema y cómo las representan tanto las ecuaciones como los diagramas.</p>
-  </paragraphs>
+  </li>
 
 
   <!-- Descripción del desarrollo de lenguaje matemático -->
-  <paragraphs>
+  <li>
     <title><custom ref="language-actividad-titulo"/></title>
     <p>
       Hablar, escuchar, representar: RLM 7 (comparar y conectar). Utilice esta rutina cuando los estudiantes presenten sus ecuaciones y diagramas de cinta. Llame la atención de los estudiantes sobre cómo se representan las operaciones matemáticas (suma, resta, multiplicación, división) en cada relación. Por ejemplo, pregunte: <q>¿Dónde ves la multiplicación en el diagrama?</q> Esto fortalecerá el uso del lenguaje matemático y el razonamiento de los estudiantes sobre las representaciones de las ecuaciones en diagramas de cinta.
@@ -110,11 +114,11 @@
     <p>
       Principio(s) de diseño: apoyar la creación de sentido; maximizar la autoconciencia.
     </p>
-  </paragraphs>
+  </li>
 
 
   <!-- Estrategias de acceso para estudiantes con discapacidades -->
-  <paragraphs>
+  <li>
     <title><custom ref="accesibility-actividad-titulo"/></title>
     <p>
       Representar: Interiorizar la comprensión. Para cada ecuación, proporcione a los estudiantes una plantilla en blanco de un diagrama de cinta para que completen y encuentren las cantidades desconocidas.
@@ -123,8 +127,9 @@
     <p>
       Apoya accesibilidad para: procesamiento visual-espacial; Organización.
     </p>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </activity>

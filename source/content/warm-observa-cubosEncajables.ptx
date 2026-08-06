@@ -39,10 +39,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li>
@@ -51,31 +53,31 @@
         <xref ref="ccss-K-MD-B-3" text="custom">K.MD.B.3</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>15 minutos</p>
-  </paragraphs>
+  </li>
 
   
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>El propósito de esta actividad es obtener ideas que los estudiantes tienen sobre los cubos encajables. Los estudiantes aprenden la rutina de Observa y Pregúntate que se utilizará durante todo el año. Esta rutina brinda la oportunidad para que todos los estudiantes contribuyan a la conversación y para que el maestro escuche el conocimiento que los estudiantes ya tienen.</p>
 
     <p>Para todas las rutinas, considere establecer una señal manual pequeña y discreta que los estudiantes puedan mostrar para indicar que tienen una respuesta que pueden respaldar con razonamiento. Esta señal podría ser un pulgar arriba, un cierto número de dedos que indique el número de respuestas que tienen, u otra señal sutil. Esta es una forma rápida de ver si los estudiantes han tenido suficiente tiempo para pensar en el problema. También evita que los estudiantes se distraigan o se apresuren levantando las manos en toda la clase.</p>
 
     <p>Se proporciona una imagen de cubos encajables. Sin embargo, es preferible mostrar una colección de cubos encajables reales. Los estudiantes también tienen al menos un cubo encajable para examinar de cerca.</p>
-  </paragraphs>
+  </li>
 
 
-  <paragraphs>
+  <li>
     <title><custom ref="materials-actividad-titulo"/></title>
     <xi:include href="./warm-observa-cubosEncajables-mat.ptx"/>
-  </paragraphs>
+  </li>
 
 
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <ul>
       <li>Grupos de 2</li>
@@ -83,10 +85,10 @@
       <li><q>¿Qué observan? Piensen en silencio, después lo compartirán con un compañero</q></li>
       <li>30 segundos: tiempo de reflexión en silencio</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <ul>
         <li><q>Cuéntenle a su compañero lo que observaron</q></li>
@@ -98,14 +100,16 @@
         <li>1 minuto: discusión en pareja</li>
     <li>Compartir y registrar respuestas.</li>
     </ul>
-  </paragraphs>
+  </li>
 
 <!-- 
-  <paragraphs>
+  <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs>
+  </li>
 -->
+</dl>
+</p>
 </prelude>
 
 
@@ -113,28 +117,30 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
-  <paragraphs>
+<p>
+<dl>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <p>
       <q>Estos se llaman cubos encajables. ¿Qué creen que podrían hacer o construir con los cubos encajables?</q>
     </p>
-  </paragraphs>
+  </li>
 
 <!-- 
-  <paragraphs>
+  <li>
     <title><custom ref="language-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs>
+  </li>
  -->
 
 <!-- 
-  <paragraphs>
+  <li>
     <title><custom ref="accesibility-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs>
+  </li>
 -->
-
+</dl>
+</p>
 </postlude>
 
 </exploration>

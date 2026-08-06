@@ -80,10 +80,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li> 
@@ -91,35 +93,35 @@
         <xref ref="ccss-3-MD-A-2" text="custom">3.MD.A.2</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>20 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>In this activity, students explore liquid volumes by estimating and comparing them. They use a unit container to fill two containers, A and B, to determine which container holds a greater liquid volume.</p>
     <p>To make the comparison interesting, containers A and B should be different in size and shape but could hold similar liquid volumes. Consider, for example, a bowl and a cup. The unit container should be small enough so that multiple iterations are needed to fill and compare containers A and B. Consider a large spoon or a small measuring cup.</p>
     <p>To involve every student in the measuring process, consider assigning roles of <q>filler</q> and <q>recorder</q> for container A, then switch roles for container B.</p>
     <p>The purpose of an Estimation Exploration is to practice the skill of estimating a reasonable answer based on experience and known information. It gives students a low-stakes opportunity to share a mathematical claim and the thinking behind it (MP3). Asking oneself <q>Does this make sense?</q> is a component of making sense of problems (MP1). Making an estimate or a range of reasonable answers with incomplete information is a part of modeling with mathematics (MP4).</p>
-  </paragraphs>
+  </li>
 
 
   <!-- Materiales requeridos de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-actividad-titulo"/></title>
      <!--si hay materiales, crear los archivos -mat.ptx (para materiales de la actividad) y -matCentros.ptx (para mencionar los otros centros que se usan y para los que se necesitan materiales) y poner los materiales ahí usando los archivos de template. Después hacer xinclude  de estos archivos en la lista de materiales de la lección.-->
     <xi:include href="./act-exploracionDeEstimacion-volumenLiquido-mat.ptx"/> 
     <!--<xi:include href="./act-exploracionDeEstimacion-volumenLiquido-matCentros.ptx"/> -->
-  </paragraphs> 
+  </li> 
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -132,11 +134,11 @@
         <q>¿Cómo podríamos usar el recipiente pequeño, el que está marcado con la palabra ‘unidad’, para comparar los recipientes A y B?</q>  (We could see how many of the small containers full of water fit in containers A and B. The one that holds the most holds the most liquid volume.)
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -153,8 +155,9 @@
       </li>
       <li>5–7 minutes: group work time</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -162,9 +165,10 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -172,8 +176,9 @@
         <q>¿Cómo nos ayudó el recipiente que se usa como unidad a comparar los volúmenes líquidos que le caben a los otros dos recipientes?</q>  (We can count how many units fit in each container so we could compare them.)
       </li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </activity>

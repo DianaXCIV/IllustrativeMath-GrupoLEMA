@@ -19,24 +19,27 @@
   <introduction>
     <p>[@@@@@@@@@@@@@@@@@@@]</p>
   </introduction>
-
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
-    <title><custom ref="ccss-centro-etapa-titulo"/></title> 
+  <li>
+    <title><custom ref="ccss-centro-etapa-titulo"/></title>
     <p>[@@@@@@@@@@@@@@@@@@@]</p>
-  </paragraphs>
+  </li>
 
   <!-- materiales requeridos -->
-  <paragraphs>
+  <li>
     <title>Materiales</title>
-    <xi:include href="../graVV-uniXX/act-conozcamos-RRRRR-SSSSSS-mat.ptx"/> 
-  </paragraphs>
-  
+    <xi:include href="../graVV-uniXX/act-conozcamos-RRRRR-SSSSSS-mat.ptx"/>
+  </li>
+
   <!-- referencia a la actividad en la que se presenta el centro por primera vez -->
-  <paragraphs>
+  <li>
     <title><custom ref="centros-ubicacion-act-intro-titlulo"/></title>
     <p> <xref ref="act-conozcamos-RRRRR-SSSSSS" text="title"/> </p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 
   <!-- Archivo con el contenido -->
   <!-- <xi:include href="../graVV-uniXX/act-conozcamos-RRRRR-SSSSSS.ptx"/>    -->

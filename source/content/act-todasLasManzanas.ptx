@@ -36,8 +36,10 @@
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
 <prelude component="profesor">
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li>
@@ -46,33 +48,33 @@
         <xref ref="ccss-3-OA-A-3" text="custom">3.OA.A.3</xref>
       </li>
     </ul>
-  </paragraphs> 
+  </li> 
 
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>10 minutos.</p>
-  </paragraphs>
-  <paragraphs>
+  </li>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>El propósito de esta actividad es que los estudiantes consideren en qué se parecen y en qué son diferentes los problemas de "¿cuántos grupos?" y "¿cuántos en cada grupo?" que resolvieron en una lección anterior y en esta lección. La discusión debe resaltar que en los problemas de "¿cuántos grupos?" conocemos el tamaño de cada grupo y en los problemas de "¿cuántos en cada grupo?" sabemos cuántos grupos hay. Para describir en qué se parecen y en qué se diferencian los problemas, los estudiantes prestan atención a la estructura de los problemas, es decir, lo que se da en cada situación y lo que es desconocido (MP7).</p>
-  </paragraphs>
-  <paragraphs>
+  </li>
+  <li>
     <title>Preparación previa</title>
     <p>Seleccione 2 o 3 pósteres de la lección anterior y de esta lección que resalten el conteo de los grupos en un problema de "¿cuántos grupos?" y el proceso de encontrar cuántos hay en cada grupo en un problema de "¿cuántos en cada grupo?".</p>
-  </paragraphs>
-  <!-- <paragraphs> -->
+  </li>
+  <!-- <li> -->
     <!-- <title><custom ref="materials-actividad-titulo"/></title> -->
     <!-- <p>[@@@@@@@@@]</p> -->
-  <!-- </paragraphs> -->
-  <paragraphs>
+  <!-- </li> -->
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <ul>
       <li>Grupos de 2</li>
       <li>Muestre los problemas.</li>
       <li>Muestre los 2 o 3 pósteres previamente seleccionados para cada problema.</li>
       </ul>
-  </paragraphs>
-  <paragraphs>
+  </li>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <ul>
       <li><q>Estos son dos problemas en los que trabajamos. Ayer hicimos pósteres para el primero y hoy hicimos pósteres para el segundo.</q></li>
@@ -80,8 +82,9 @@
       <li><q>Discutan con su compañero en qué se parecen estos problemas y en qué se diferencian. También hablen sobre en qué se parecen y en qué se diferencian las formas de representar y resolver estos problemas.</q></li>
       <li>3-5 minutos: discusión en pareja</li>
       </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -90,12 +93,13 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
-  <!-- <paragraphs> -->
+<p>
+<dl>
+  <!-- <li> -->
     <!-- <title><custom ref="support-actividad-titulo"/></title> -->
     <!-- <p>[@@@@@@@@@]</p> -->
-  <!-- </paragraphs> -->
-  <paragraphs>
+  <!-- </li> -->
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <ul>
       <li><q>¿Qué observaron ustedes y su compañero que era parecido?</q></li>
@@ -103,14 +107,16 @@
       <li>Compartan y registren las respuestas.</li>
       <li>A medida que los estudiantes comparten, motívelos a usar los pósteres para mostrar ejemplos de lo que observan.</li>
     </ul>
-  </paragraphs>
-  <!-- <paragraphs> -->
+  </li>
+  <!-- <li> -->
     <!-- <title><custom ref="language-actividad-titulo"/></title> -->
     <!-- <p>[@@@@@@@@@]</p> -->
-  <!-- </paragraphs> -->
-  <!-- <paragraphs> -->
+  <!-- </li> -->
+  <!-- <li> -->
     <!-- <title><custom ref="accesibility-actividad-titulo"/></title> -->
     <!-- <p>[@@@@@@@@@]</p> -->
-  <!-- </paragraphs> -->
+  <!-- </li> -->
+</dl>
+</p>
 </postlude>
 </activity>

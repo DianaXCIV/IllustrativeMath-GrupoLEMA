@@ -39,9 +39,10 @@
   Introducción para el profesor                        
 =================================================  -->
 <introduction component="profesor">
-
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-leccion-titulo"/></title> 
     <ul>
       <li> 
@@ -49,23 +50,23 @@
         <xref ref="ccss-3-MD-B-3" text="custom">3.MD.B.3</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- índice de la lección (automático) -->
-  <paragraphs>
+  <li>
     <title><custom ref="timeline-leccion-titulo"/></title>
     <list-of elements="subsubsection reading-questions" scope="subsection"/>
-  </paragraphs>
+  </li>
 
   <!-- Propósito de la lección -->
-  <paragraphs>
+  <li>
     <title><custom ref="purpose-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this lesson is for students to consider the advantages and disadvantages of various bar graph scales.</p>
-  </paragraphs>
+  </li>
 
   <!-- Materiales requeridos -->
-  <!--<paragraphs>
+  <!--<li>
     <title><custom ref="materials-leccion-titulo"/></title>
      <ul>
       <li>
@@ -79,23 +80,25 @@
         <xi:include href="./act-representarMasDatosEnUnaGraficaDeBarrasConEscala-matCentros.ptx"/>
       </li>
     </ul>  
-  </paragraphs>-->
+  </li>-->
   
   <!-- Introducción de la lección (narrative) -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>In previous lessons, students created scaled picture and bar graphs with a given scale of 2 or 5. This lesson extends this work to allow students to choose the scale for their bar graph and reflect on the advantages or disadvantages of their choices. Through the work of the lesson, students notice that they can choose a scale based on the numbers in the data set and that the scale can make a graph easier or more difficult to read (MP6).</p>
 <p><strong>Math Community</strong></p>
 <p>Tell students they will reflect on their identified norms at the end of this lesson.</p>
-  </paragraphs>
+  </li>
   
   <!-- Preguntas de reflexión profesor -->
-  <paragraphs>
+  <li>
     <title><custom ref="reflection-quest-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>In tomorrow's lesson, students solve one- and two-step <q>how many more</q> and <q>how many fewer</q> problems using data presented in scaled bar graphs. Based on the work you have seen students doing in previous lessons, what strategies do you anticipate each student will use to solve these problems? How will you encourage each student to share their understandings and listen to one another’s strategies?</p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </introduction>
 
 

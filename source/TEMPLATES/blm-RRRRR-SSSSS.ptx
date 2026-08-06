@@ -13,9 +13,10 @@
 <title>
   SSSSS
 </title>
-
-<paragraphs>
-  <title>Muestra de páginas</title>  
+<p>
+<dl>
+<li>
+  <title>Muestra de páginas</title>
   <sidebyside width="30%">
   <image source="blm/pdf-source/[@@@@@@@@@@@@]-0.png">
     <shortdescription></shortdescription>
@@ -27,14 +28,16 @@
     <shortdescription></shortdescription>
   </image>
   </sidebyside>
-</paragraphs>
+</li>
 
-<paragraphs>
+<li>
   <title>Pdf para imprimir</title>
   <p>
     <url component="web" href="external/blm/pdf-source/[@@@@@@@@@@@@@].pdf">descargar</url>
   </p>
-</paragraphs>
+</li>
+</dl>
+</p>
 
 
 </subsection>

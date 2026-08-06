@@ -37,10 +37,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li> 
@@ -48,24 +50,24 @@
         <xref ref="ccss-3-MD-C-7-b" text="custom">3.MD.C.7.b</xref>,
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>15 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this activity is for students to solve an area problem with a partially tiled rectangle. This encourages students to multiply to solve problems involving area, but still provides some visual support to see the arrangement of the rows and columns. This problem includes a product of ten, with which students should be increasingly comfortable. The number of square inches is large in order to discourage one-by-one counting.</p>
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -84,11 +86,11 @@
       </li>
       <li>1 minute: quiet think time</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -102,8 +104,9 @@
       </ul>
       </li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -111,9 +114,10 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Estrategias de apoyo para estudiantes con dificultades -->
-  <paragraphs>
+  <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>If students count one by one to find the total number of square tiles, consider asking:</p>
@@ -125,11 +129,11 @@
         <q>¿Cómo podríamos usar esto para encontrar el área?</q>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -147,28 +151,29 @@
         <q>Algunas veces veremos imágenes marcadas con unidades que no son exactamente del tamaño que dice la marca. De todas maneras, podemos usar esas imágenes para representar la situación de la que hablamos</q>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
-<paragraphs>
+<li>
     <title><custom ref="language-actividad-titulo"/></title>
     <p>
       [+++++++++++++++++++++++]
     </p>
     <p><em>MLR8 Discussion Supports.</em> Synthesis: Revoice student ideas to demonstrate and amplify mathematical language use. For example, revoice the student statement, <em><q>Yo vi una fila completa, y si recubriera todas las filas, entonces todas serían iguales</q></em> // <q>I saw a complete row, and if I tiled all the rows, then they are all the same</q> as <em><q>Yo vi una fila completa, y si recubriera el resto de las filas, cada fila sería un grupo igual</q></em> // <q>I saw a complete row, and if you tiled the rest of the rows, each row would be an equal group.</q></p>
     <p><em>Advances: Listening, Speaking</em></p>
-  </paragraphs>
+  </li>
 
 
   <!-- Estrategias de acceso para estudiantes con discapacidades -->
-  <paragraphs>
+  <li>
     <title><custom ref="accesibility-actividad-titulo"/></title>
     <p>
       [+++++++++++++++++++++]
     </p>
     <p><em>Engagement: Develop Effort and Persistence:</em> Differentiate the degree of difficulty or complexity. Some students may benefit from starting with a rectangle with more accessible value. For example, display a partially tiled rectangle with fewer rows.</p>
     <p><em>Supports accessibility for: Conceptual Processing</em></p>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </activity>

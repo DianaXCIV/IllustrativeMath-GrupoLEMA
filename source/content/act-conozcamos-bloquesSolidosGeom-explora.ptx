@@ -23,10 +23,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li>
@@ -36,32 +38,32 @@
         <xref ref="ccss-K-MD" text="custom">K.MD</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>15 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>
       El propósito de esta actividad es que los estudiantes exploren bloques sólidos geométricos antes de usarlos en situaciones matemáticas en lecciones posteriores. Observe si los estudiantes clasifican, cuentan o usan lenguaje geométrico para describir los bloques. Esta es la etapa 1 del <xref ref="centro-bloquesSolidosGeom" text="title"/>.
       <!-- El propósito de esta actividad es que los estudiantes exploren bloques sólidos geométricos. Los estudiantes tienen la oportunidad de explorar los bloques sólidos geométricos antes de que se les pida que los utilicen para representar situaciones matemáticas en lecciones posteriores. Mientras los estudiantes exploran, observe si los estudiantes clasifican los bloques sólidos geométricos, los cuentan o utilizan lenguaje geométrico para describirlos (MP6). Los estudiantes tendrán oportunidades de seguir explorando bloques sólidos geométricos en centros en futuras lecciones. Esta es la etapa 1 del centro de bloques sólidos geométricos. -->
     </p>
-  </paragraphs>
+  </li>
 
 
   <!-- Materiales requeridos de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-actividad-titulo"/></title>
     <xi:include href="./act-conozcamos-bloquesSolidosGeom-explora-mat.ptx"/> 
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <ul>
       <li>Grupos de 2</li>
@@ -71,19 +73,20 @@
       <li>30 segundos: tiempo para pensar en silencio</li>
       <li>Compartan sus respuestas.</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <ul>
       <li>10 minutos: tiempo de trabajo en parejas</li>
       <li><q>Compartan con su compañero una cosa que hayan hecho o construido con los bloques sólidos geométricos.</q></li>
       <li>2 minutos: discusión en pareja</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -91,17 +94,17 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Estrategias de apoyo para estudiantes con dificultades -->
   <!-- 
-  <paragraphs>
+  <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs>
+  </li>
   -->
-
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <ul>
       <li>
@@ -111,26 +114,27 @@
           <q>Algo que hicimos con los bloques sólidos geométricos fue construir. ¿Qué tipos de herramientas pueden usar en sus casas para construir cosas?</q>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Descripción del desarrollo de lenguaje matemático -->
-  <paragraphs>
+  <li>
     <title><custom ref="language-actividad-titulo"/></title>
     <p>Apoyos para la discusión. Cree una presentación visual de lo que los estudiantes quieren hacer o crear con los bloques geométricos. A medida que los estudiantes comparten ideas, incluya un dibujo o notas para ilustrar las conexiones.
     </p>
     <p>Avances: Hablar, Representar</p>
-  </paragraphs>
+  </li>
 
 
   <!-- Estrategias de acceso para estudiantes con discapacidades -->
-  <paragraphs>
+  <li>
     <title><custom ref="accesibility-actividad-titulo"/></title>
     <p>Acción y Expresión: Interiorizar las Funciones Ejecutivas. Invite a los estudiantes a planificar una estrategia, incluyendo lo que quieren hacer o crear con los bloques geométricos. Si el tiempo lo permite, invite a los estudiantes a compartir su plan con un compañero antes de comenzar.</p>
 
     <p>Apoya la accesibilidad para: Procesamiento conceptual, Organización.</p>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </activity>

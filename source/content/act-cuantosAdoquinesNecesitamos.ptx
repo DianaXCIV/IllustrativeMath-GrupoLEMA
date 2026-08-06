@@ -40,10 +40,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li> 
@@ -51,23 +53,23 @@
         <xref ref="ccss-3-MD-C-7-d" text="custom">3.MD.C.7.d</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>15 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this activity is for students to find the area of a figure composed of rectangles given only their side lengths. The context of paving a patio provides students a link to their experience with squares of various sizes and should help them imagine how the diagram of the patio could be covered with squares. Students decompose the patio into rectangles and can multiply to find the area of the patio, but they should make the connection that the number of pavers needed to cover the patio is the same as the area of the patio. When students connect the quantities in the story problem to an equation, they reason abstractly and quantitatively (MP2).</p>
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -81,11 +83,11 @@
       </li>
       <li>1 minute: quiet think time</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -109,8 +111,9 @@
 </ul>
       </li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -118,9 +121,10 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Estrategias de apoyo para estudiantes con dificultades -->
-  <paragraphs>
+  <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>If students add numbers that indicate they tried to find the area by adding the areas of rectangles that overlap, consider asking:</p>
@@ -132,11 +136,11 @@
         <q>¿Cómo influiría la superposición de los rectángulos en el número de cuadrados necesarios para cubrir la figura?</q>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -149,19 +153,20 @@
         <q>¿Cómo representa cada expresión una forma de encontrar el área de la figura?</q>  (The expression <m>(9 \times 4) + (3 \times 2)</m> shows the figure decomposed into a big rectangle across the top and a small rectangle below. Each part of the expression in parentheses represents one of the smaller rectangles in the figure. The expressions <m>6 \times 3 = 18</m>, <m>6 \times 4 = 24</m>, and <m>18 + 24 = 42</m> show how the figure was decomposed into a 6-by-3 rectangle on the left and a 4-by-6 rectangle on the right, then the areas were added.)
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Descripción del desarrollo de lenguaje matemático -->
-  <paragraphs>
+  <li>
     <title><custom ref="language-actividad-titulo"/></title>
     <p>
       [+++++++++++++++++++++++++++++]
     </p>
     <p><em>MLR7 Compare and Connect.</em>Synthesis: Invite groups to prepare a visual display that shows the strategy they used to figure out the number of tiles and the area of the floor. Encourage students to include details that will help others interpret their thinking. Give students time to investigate each others’ work. During the whole-class discussion, ask students,<q><em>¿Por qué resultó la misma área con todos los métodos?</em></q> // <q>How did the same area show up in each method?</q> <q><em>¿Por qué las diferentes estrategias llevaron al mismo resultado?</em></q> // <q>Why did the different approaches lead to the same outcome?</q> <q><em>¿Alguien resolvió el problema de la misma forma, pero lo explicaría de otra manera?</em></q> // <q>Did anyone solve the problem the same way, but would explain it differently?</q></p>
     <p><em>Advances: Representing, Conversing</em></p>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </activity>

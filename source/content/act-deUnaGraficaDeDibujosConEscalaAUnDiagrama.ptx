@@ -39,10 +39,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li> 
@@ -56,34 +58,34 @@
         <!-- <xref ref="ccss-2-OA-C-4" text="custom">2.OA.C.4</xref> -->
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>15 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this activity is for students to build on the work they have done with scaled picture graphs to use the tape diagram as a new representation of multiplication. The scale of the picture graph will be used to help students think about a category of the graph as a situation involving equal groups.</p>
 <p>To add movement to this activity, students could find someone in the class who represented a different category than they did or represented the same category in a different way. When they find a person, they can describe what is the same and what is different about their representations.</p>
-  </paragraphs>
+  </li>
 
 
   <!-- Materiales requeridos de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-actividad-titulo"/></title>
     <p>[@@@@@@@@@@@@@@]</p>
     <!-- si hay materiales, crear los archivos -mat.ptx (para materiales de la actividad) y -matCentros.ptx (para mencionar los otros centros que se usan y para los que se necesitan materiales) y poner los materiales ahí usando los archivos de template. Después hacer xinclude  de estos archivos en la lista de materiales de la lección.-->
     <!-- <xi:include href="./act-deUnaGraficaDeDibujosConEscalaAUnDiagrama-mat.ptx"/>  -->
     <!-- <xi:include href="./act-deUnaGraficaDeDibujosConEscalaAUnDiagrama-matCentros.ptx"/>  -->
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -99,11 +101,11 @@
       </li>
       <li>Share responses.</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -117,8 +119,9 @@
       <li>2–3 minutes: partner discussion</li>
       <li>Monitor for students who create a tape diagram to represent one of the other categories to use during the synthesis.</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -126,9 +129,10 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -144,19 +148,20 @@
         <q>¿En qué se diferencian el diagrama y la gráfica de dibujos con escala?</q>  (In the graph, you have to read the key to know that each picture shows two signs. In the diagram, each part is labeled with a 2.)
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Descripción del desarrollo de lenguaje matemático -->
-  <paragraphs>
+  <li>
     <title><custom ref="language-actividad-titulo"/></title>
     <p>
       [+++++++++++++++++++++++]
     </p>
     <p><em>MLR8 Discussion Supports.</em> Synthesis: When students compare the diagram and the scaled picture graph, display sentence frames to support whole-class discussion: <em><q>_____ y _____ se parecen porque . . .</q></em> and <em><q>_____ y _____ son diferentes porque . . .</q></em></p>
     <p><em>Advances: Speaking, Representing</em></p>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </activity>

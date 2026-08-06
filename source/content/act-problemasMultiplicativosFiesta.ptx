@@ -53,8 +53,10 @@
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
 <prelude component="profesor">
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li>
@@ -62,40 +64,40 @@
         <xref ref="ccss-3-OA-D-8" text="custom">3.OA.D.8</xref>
       </li>
     </ul>
-  </paragraphs> 
+  </li> 
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>20 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>En esta actividad, los estudiantes resuelven problemas verbales de dos pasos usando las cuatro operaciones. Se les invitará a resolver el problema o a escribir la ecuación primero, según su preferencia. Motive a los estudiantes a usar paréntesis si es necesario que aclaren el orden de las operaciones en sus ecuaciones.</p>
     <!-- <p>El propósito de esta actividad es que los estudiantes resuelvan problemas verbales de dos pasos usando las cuatro operaciones. Se debe motivar a los estudiantes a resolver el problema primero o escribir la ecuación primero, dependiendo de su preferencia. Anime a los estudiantes a usar paréntesis si es necesario mostrar qué se está haciendo primero en sus ecuaciones.</p> -->
-  </paragraphs>
+  </li>
 
 
   <!-- Materiales requeridos de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-actividad-titulo"/></title>
     <xi:include href="./act-problemasMultiplicativosFiesta-mat.ptx"/> 
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <ul>
       <li>Grupos de 2</li>
       <li>Dé acceso a papel cuadriculado y bloques en base diez.</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <ul>
       <li>
@@ -111,8 +113,9 @@
         5–7 minutos: discusión en pareja
       </li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -120,9 +123,10 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Estrategias de apoyo para estudiantes con dificultades -->
-  <paragraphs>
+  <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>
       Si los estudiantes no escriben una sola ecuación para representar ambos pasos del problema, considere preguntar:
@@ -135,11 +139,11 @@
         <q>¿Cómo podrías combinar tus ecuaciones para escribir una ecuación que represente el problema?</q>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <ul>
       <li>
@@ -154,24 +158,25 @@
         </ul>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Descripción del desarrollo de lenguaje matemático -->
-  <paragraphs>
+  <li>
     <title><custom ref="language-actividad-titulo"/></title>
     <p>MLR5 Preguntas de Co-Creación. Mantenga los libros o dispositivos cerrados. Muestre solo el enunciado del problema, sin revelar la pregunta. Dé a los estudiantes 2-3 minutos para escribir una lista de preguntas matemáticas que podrían hacerse sobre esta situación, y luego pida que comparen las preguntas con un compañero. Invite a cada grupo a compartir una pregunta escrita para presentarla a toda la clase. Pida a la clase que compare las preguntas compartidas con las suyas propias. Muestre las preguntas previstas para esta actividad e invite a hacer conexiones adicionales.</p>
     <p>Avances: Lectura, Escritura</p>
-  </paragraphs>
+  </li>
 
 
   <!-- Estrategias de acceso para estudiantes con discapacidades -->
-  <paragraphs>
+  <li>
     <title><custom ref="accesibility-actividad-titulo"/></title>
     <p>Participación: Desarrollar esfuerzo y persistencia. Algunos estudiantes pueden beneficiarse de retroalimentación que enfatice el esfuerzo y el tiempo dedicado a la tarea. Por ejemplo, revise y dé retroalimentación después de cada problema sobre planear una fiesta.</p>
     <p>Apoya la accesibilidad para: Atención</p>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </activity>

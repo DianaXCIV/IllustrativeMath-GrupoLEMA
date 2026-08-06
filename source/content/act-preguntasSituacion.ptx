@@ -28,8 +28,10 @@
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
 <prelude component="profesor">
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li>
@@ -37,24 +39,24 @@
         <xref ref="ccss-3-OA-D-8" text="custom">3.OA.D.8</xref>
       </li>
     </ul>
-  </paragraphs> 
+  </li> 
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>15 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>El propósito de esta actividad es que los estudiantes consideren una situación y piensen en todas las preguntas matemáticas que podrían hacer. Esto le permite a los estudiantes dar sentido a la situación antes de empezar a resolver problemas. En la síntesis, los estudiantes podrían optar por escribir una ecuación de multiplicación como <m>(g \times 6) + 94 = 142</m>. Haga saber que esto representa la situación, pero enfoque la discusión en la división para conectar con el trabajo de la siguiente sección.</p>
     <!-- <p>El propósito de esta actividad es que los estudiantes consideren una situación y piensen en todas las preguntas matemáticas que podrían hacer al respecto. Esto les da a los estudiantes la oportunidad de dar sentido a la situación antes de que se les pida resolver problemas. Los estudiantes podrían optar por escribir una ecuación de multiplicación como <m>(g \times 6) + 94 = 142</m>. Reconozca que esto representa la situación, pero enfoque la discusión en la síntesis en la división para conectar con el trabajo en la siguiente sección.</p> -->
-  </paragraphs>
+  </li>
 
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <ul>
       <li>Grupos de 2</li>
@@ -64,11 +66,11 @@
       <li>1 minuto: tiempo para pensar en silencio</li>
       <li>Comparta las respuestas.</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <ul>
       <li>
@@ -83,8 +85,9 @@
       </li>
       <li>3–5 minutos: tiempo de trabajo en parejas</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -92,9 +95,10 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <ul>
       <li>
@@ -115,8 +119,9 @@
         <q>Los paréntesis nos muestran que la resta se hace primero en la ecuación que representa el problema. Tengan esto en mente cuando trabajen en la siguiente actividad.</q>
       </li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </activity>

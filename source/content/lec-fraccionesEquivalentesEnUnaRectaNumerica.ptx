@@ -36,9 +36,10 @@
   Introducción para el profesor                        
 =================================================  -->
 <introduction component="profesor">
-
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-leccion-titulo"/></title> 
     <ul>
       <li> 
@@ -51,23 +52,23 @@
         <xref ref="ccss-3-NF-A-3" text="custom">3.NF.A.3</xref>
       </li>
     </ul>
-    </paragraphs>
+    </li>
 
   <!-- índice de la lección (automático) -->
-  <paragraphs>
+  <li>
     <title><custom ref="timeline-leccion-titulo"/></title>
     <list-of elements="subsubsection reading-questions" scope="subsection"/>
-  </paragraphs>
+  </li>
 
   <!-- Propósito de la lección -->
-  <paragraphs>
+  <li>
     <title><custom ref="purpose-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this lesson is for students to use the number line to determine whether fractions are equivalent.</p>
-  </paragraphs>
+  </li>
 
   <!-- Materiales requeridos -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-leccion-titulo"/></title>    
     <ul>
       <!--<li>
@@ -85,21 +86,23 @@
         <xi:include href="./act-lanzateAHacerFraccionesEquivalentes-mat.ptx"/>
       </li>
     </ul>  
-  </paragraphs>
+  </li>
   
   <!-- Introducción de la lección (narrative) -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>In previous lessons, students learned that two fractions are equivalent if they are the same size. In this lesson, students work with situations that involve lengths to build their understanding that fractions at the same location on a number line are equivalent. Number lines are provided to ensure that if students choose to use two number lines to demonstrate equivalence, they work with the same length interval for 1 unit.</p>
-  </paragraphs>
+  </li>
   
   <!-- Preguntas de reflexión profesor -->
-  <paragraphs>
+  <li>
     <title><custom ref="reflection-quest-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>In this lesson, students use number lines to show that fractions are equivalent. How did their previous work with diagrams and fraction strips prepare them to do this?</p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </introduction>
 
 

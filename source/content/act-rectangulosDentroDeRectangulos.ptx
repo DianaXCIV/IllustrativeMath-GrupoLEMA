@@ -28,8 +28,11 @@
   </ol>
 </solution>
 
-<prelude component="profesor"> 
-  <paragraphs>
+<prelude component="profesor">
+<p>
+<dl>
+ 
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li> 
@@ -37,22 +40,22 @@
         <xref ref="ccss-3-MD-C-7-d" text="custom">3.MD.C.7.d</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>15 minutos</p>
-  </paragraphs>
+  </li>
 
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     [+++++++++++++++++++++]
     <p>The purpose of this activity is for students to learn that area is additive. Students decompose a rectangle into two smaller ones and find the sum of their areas in order to find the area of the whole rectangle. They can find the area of the two smaller rectangles by counting or by multiplying the side lengths.</p>
 
 <p>When students consider how to decompose a larger rectangle into smaller ones to facilitate the process of finding area, they look for and make use of structure (MP7).</p>
-  </paragraphs>
+  </li>
 
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <ul>
       <li>Groups of 2</li>
@@ -60,9 +63,9 @@
       <li>1 minute: quiet think time</li>
       <li>Share responses.</li>
     </ul>
-  </paragraphs>
+  </li>
 
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <ul>
       <li><q>Ahora trabajen con su pareja en el primer problema</q></li>
@@ -83,11 +86,15 @@
       </li>
       <li>5 minutes: independent work time</li>
     </ul>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </prelude>
 
 <postlude component="profesor">
-  <paragraphs>
+<p>
+<dl>
+  <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>
       [++++++++++++++++++++++]
@@ -99,9 +106,9 @@
       <li><q>Dime cómo encontraste el área de tu huerta</q></li>
       <li><p>¿Cómo podrías usar la multiplicación para encontrar el área de tu huerta?</p></li>
     </ul>
-  </paragraphs>
+  </li>
 
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <ul>
       <li>Select 2–3 students who created a rectangular garden to share.</li>
@@ -114,18 +121,19 @@
         </ul>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Estrategias de acceso para estudiantes con discapacidades -->
-  <paragraphs>
+  <li>
     <title><custom ref="accesibility-actividad-titulo"/></title>
     <p>
       [++++++++++++++++++++++]
     </p>
     <p><em>Action and Expression: Develop Expression and Communication:</em> Identify connections between strategies that result in the same outcomes but use differing approaches. When students share different ways that they found the area, elicit from students how the strategies vary but result in the same answer.</p>
     <p><em> Supports accessibility for: Conceptual Processing</em></p>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 

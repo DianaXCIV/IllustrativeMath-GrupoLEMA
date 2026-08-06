@@ -63,8 +63,10 @@
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
 <prelude component="profesor">
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li>
@@ -73,31 +75,31 @@
         <xref ref="ccss-3-OA-C-7" text="custom">3.OA.C.7</xref>
       </li>
     </ul>
-  </paragraphs> 
+  </li> 
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>20 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>El propósito de esta actividad es que los estudiantes utilicen estrategias basadas en el valor posicional para encontrar cocientes mayores que <m>10</m>. Los estudiantes utilizan bloques en base diez para representar cocientes con divisores de un solo dígito, para los cuales es natural pensar en el divisor como el número de grupos. En una actividad posterior, se les recordará a los estudiantes que el divisor también puede interpretarse como el tamaño de cada grupo.</p>
     
     <p>Trabajar con bloques en base diez incentiva a los estudiantes a dividir las decenas y luego las unidades, y a ver que a veces es necesario descomponer una o más decenas para terminar de poner el dividendo en grupos iguales. Cuando los estudiantes representan un cociente utilizando bloques en base diez, razonan de manera abstracta y cuantitativa (MP2).</p>
-  </paragraphs>
+  </li>
 
 
   <!-- Materiales requeridos de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-actividad-titulo"/></title>
     <xi:include href="./act-dividirConBloquesBase10-mat.ptx"/>
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <ul>
       <li>Grupos de 2.</li>
@@ -114,11 +116,11 @@
       <li><q>¿Cómo se pudieron haber dividido los bloques para que terminaran de esta forma?</q> (Las decenas se organizaron en <m>3</m> grupos y luego las unidades se pusieron una por una en los <m>3</m> grupos hasta que no quedó ninguna).</li>
       <li>Destaque que los bloques también se podrían haber dividido en decenas y luego en unidades.</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <ul>
       <li><q>Trabajen con su compañero en el primer problema</q>.</li>
@@ -128,8 +130,9 @@
       <li><q>Ahora, individualmente, encuentren el valor de los cocientes del segundo problema.</q></li>
       <li>6 a 8 minutos: tiempo de trabajo independiente.</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -137,42 +140,42 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Estrategias de apoyo para estudiantes con dificultades -->
-  <!-- <paragraphs>
+  <!-- <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> -->
-
-
+  </li> -->
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <ul>
       <li>Invite a los estudiantes a compartir sus respuestas y razonamientos para el último grupo de cocientes.</li>
       <li>Pregunte a los estudiantes que utilizaron bloques en base diez o dibujaron diagramas: <q>¿Fue necesario descomponer alguna decena en unidades para dividir?</q> (No fue necesario para <m>63 \div 3</m> porque ya había la cantidad correcta de decenas y unidades para colocar en <m>3</m> grupos. No fue necesario para <m>100 \div 5</m> porque comencé con <m>10</m> decenas y ya había la cantidad correcta de decenas para hacer <m>5</m> grupos.)</li>
       <li><q>¿Por qué fue necesario o útil descomponer las decenas de <m>84</m>?</q> (Después de colocar <m>7</m> decenas en <m>7</m> grupos, todavía queda <m>1</m> decena y <m>4</m> unidades. <m>1</m> decena no se pudo dividir en <m>7</m> grupos.)</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Descripción del desarrollo de lenguaje matemático -->
-  <paragraphs>
+  <li>
     <title><custom ref="language-actividad-titulo"/></title>
     <p>Apoyos para la discusión de MLR8:</p>
     <p>Síntesis: Algunos estudiantes pueden beneficiarse de la oportunidad de ensayar lo que dirán con un compañero antes de compartirlo con toda la clase.</p>
     <p>Avances: Habla.</p>
-  </paragraphs>
+  </li>
 
 
   <!-- Estrategias de acceso para estudiantes con discapacidades -->
-  <paragraphs>
+  <li>
     <title><custom ref="accesibility-actividad-titulo"/></title>
     <p>Representación: Interiorizar la comprensión.</p>
     <p>Síntesis: Invite a los estudiantes a identificar qué detalles fueron más importantes al decidir cómo dividir los bloques. Muestre el esquema de oración: <q>La próxima vez que use bloques en base diez para dividir, buscaré / prestaré atención a<𝚎𝚕𝚕𝚒𝚙𝚜𝚒𝚜/></q>.</p>
     <p>Apoya la accesibilidad para: Funcionamiento Social-Emocional.</p>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </activity>

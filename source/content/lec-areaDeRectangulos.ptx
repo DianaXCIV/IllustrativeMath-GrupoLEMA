@@ -36,9 +36,10 @@
   Introducción para el profesor                        
 =================================================  -->
 <introduction component="profesor">
-
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-leccion-titulo"/></title> 
     <ul>
       <li>
@@ -46,23 +47,23 @@
         <xref ref="ccss-3-MD-C-6" text="custom">3.MD.C.6</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- índice de la lección (automático) -->
-  <paragraphs>
+  <li>
     <title><custom ref="timeline-leccion-titulo"/></title>
     <list-of elements="subsubsection reading-questions" scope="subsection"/>
-  </paragraphs>
+  </li>
 
   <!-- Propósito de la lección -->
-  <paragraphs>
+  <li>
     <title><custom ref="purpose-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this lesson is for students to continue to count squares to create rectangles and to find the area of rectangles with larger numbers than in the previous lesson.</p>
-  </paragraphs>
+  </li>
 
   <!-- Materiales requeridos -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-leccion-titulo"/></title>
     <ul>
       <li>
@@ -71,21 +72,23 @@
         <!--<xi:include href="./act-queHice-matCentros.ptx"/>-->
       </li>
     </ul> 
-  </paragraphs>
+  </li>
   
   <!-- Introducción de la lección (narrative) -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>In previous lessons, students identified equal groups in the rows and columns of arrays. In this lesson, students describe rectangles in terms of the rows and columns. They find the area of rectangles that have rows or columns of 2, 5, or 10 squares to encourage students to skip-count to find the total number of squares. Students should be encouraged to use the term <q>square units</q> in preparation for working with more specific units like square centimeters in future lessons. For example, if students find that a rectangle has 12 squares, they should say the area is 12 square units. In the next section, students formally relate area to multiplication.</p>
-  </paragraphs>
+  </li>
   
   <!-- Preguntas de reflexión profesor -->
-  <paragraphs>
+  <li>
     <title><custom ref="reflection-quest-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>Reflect on your norms and routines. Are they promoting engagement from all of your students? Are there any adjustments you might make so that all students do math tomorrow?</p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </introduction>
 
 

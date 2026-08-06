@@ -36,9 +36,10 @@
   Introducción para el profesor                        
 =================================================  -->
 <introduction component="profesor">
-
+<p>
+<dl>
     <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-leccion-titulo"/></title> 
     <ul>
       <li>
@@ -51,23 +52,23 @@
         <xref ref="ccss-K-CC-A-3" text="custom">K.CC.A.3</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- índice de la lección (automático) -->
-  <paragraphs>
+  <li>
     <title><custom ref="timeline-leccion-titulo"/></title>
     <list-of elements="subsubsection reading-questions" scope="subsection"/>
-  </paragraphs>
+  </li>
 
   <!-- Propósito de la lección -->
-  <paragraphs>
+  <li>
     <title><custom ref="purpose-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this lesson is for students to connect groups of images in different arrangements to spoken and written numbers.</p>
-  </paragraphs>
+  </li>
 
   <!-- Materiales requeridos -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-leccion-titulo"/></title>
     <ul>
       <li>
@@ -83,23 +84,25 @@
         <xi:include href="./act-centros-escoger18-matCentros.ptx"/>
       </li>
     </ul> 
-  </paragraphs>
+  </li>
   
   <!-- Introducción de la lección (narrative) -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>In a previous section, students counted groups of images in lines, arrays, dot cube arrangements, on 5-frames, and on fingers. In this lesson, students initially match one group of images with a number as they practice counting and keeping track of images in a circle. Circular arrangements can be more challenging for students because they need to keep track of where they started counting. Students need repeated practice counting and keeping track of images arranged in circles. This skill will be revisited in future units and is not necessary for all students by the end of this lesson. Then students match more than one group of images to each number, which encourages them to notice that the arrangement of a group of images does not affect the number of images. Two-color counters and connecting cubes should be made available to students. As demonstrated in the optional activity in the previous section, students can place one object on each image as they count as one way to keep track.</p>
 <p>Students have used sets of cards in the Image Cards blackline master in previous sections and lessons. Add the cards from the Images in Circles Cards blackline master to the existing sets of cards.</p>
 <p>In the lesson synthesis, students practice saying the verbal count sequence to 20. Add variety to the counting by adding movement. For example, students can count as they clap, stomp their feet, or jump.</p>
-  </paragraphs>
+  </li>
   
   <!-- Preguntas de reflexión profesor -->
-  <paragraphs>
+  <li>
     <title><custom ref="reflection-quest-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>How effective were your questions in supporting students’ thinking today? What did students say or do that showed they were effective?</p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </introduction>
 
 

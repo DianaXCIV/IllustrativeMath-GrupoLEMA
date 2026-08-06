@@ -89,10 +89,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li> 
@@ -100,16 +102,16 @@
         <xref ref="ccss-3-NF-A-3-c" text="custom">3.NF.A.3.c</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>20 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>In an earlier lesson, students saw that whole numbers could be written as fractions. The purpose of this activity is for students to recognize fractions that are equivalent to whole numbers, using patterns in number lines to support their reasoning. To identify fractions that are equivalent to whole numbers on number lines, students may:</p>
@@ -120,10 +122,10 @@
     </ul>
     <p>Students then record equations that show fractions that are equivalent to whole numbers. Finally, given a list of fractions, students determine which ones are equivalent to whole numbers.</p>
     <p>When students use patterns to identify fractions that are equivalent to whole numbers, they look for and express regularity in repeated reasoning (MP8).</p>
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -138,11 +140,11 @@
       <li>1–2 minutes: partner discussion</li>
       <li>Share responses.</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -158,8 +160,9 @@
       </li>
       <li>2–3 minutes: partner discussion</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -167,9 +170,10 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Estrategias de apoyo para estudiantes con dificultades -->
-  <paragraphs>
+  <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>If students don’t locate whole numbers on the number lines, consider asking:</p>
@@ -181,11 +185,11 @@
         <q>¿Cómo puedes usar las particiones de 1 entero para encontrar las fracciones que están en la misma ubicación que 2?, ¿que 3?</q>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -199,17 +203,18 @@
       </li>
       <li>Highlight strategies that are based on understanding of the number of equal parts that are in 1 whole and on observed patterns. (For instance, the thirds that are equivalent to whole numbers have a numerator that is a number we get when counting by 3.)</li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Estrategias de acceso para estudiantes con discapacidades -->
-  <paragraphs>
+  <li>
     <title><custom ref="accesibility-actividad-titulo"/></title><p>[++++++++++++++++]</p>
     <p><em>Engagement: Provide Access by Recruiting Interest.</em> Leverage choice around perceived challenge. Invite students to select at least 3 of the 5 problems in each question to complete.</p>
     <p>
       <em>Supports accessibility for: Organization, Attention, Social-emotional skills</em>
     </p>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </activity>

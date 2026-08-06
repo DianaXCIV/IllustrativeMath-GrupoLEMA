@@ -15,9 +15,10 @@
     <line><xref ref="centro-RRRRR-etapaXX" text="title"/></line>
   </p>
 </introduction>
-
-<paragraphs>
-  <title>Muestra de páginas</title>  
+<p>
+<dl>
+<li>
+  <title>Muestra de páginas</title>
   <sidebyside>
   <image source="blm/pdf-source/centro-RRRRR-WWWWW-0.png">
     <shortdescription></shortdescription>
@@ -29,13 +30,15 @@
     <shortdescription></shortdescription>
   </image>
   </sidebyside>
-</paragraphs>
+</li>
 
-<paragraphs>
+<li>
   <title>Pdf para imprimir</title>
   <p>
     <url component="web" href="external/blm/pdf-source/centro-RRRRR-WWWWW.pdf">descargar</url>
   </p>
-</paragraphs>
+</li>
+</dl>
+</p>
 
 </subsection>

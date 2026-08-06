@@ -138,10 +138,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li> 
@@ -149,33 +151,33 @@
         <xref ref="ccss-3-MD-B-4" text="custom">3.MD.B.4</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>20 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this activity is for students to generate measurement data using rulers marked with half inches and quarter inches. Students go on a walk in nature, around the school, or on the playground to measure the length of items they chose. If time is limited, this activity could also be done in the classroom. </p>
     <p>Students may record and organize their data in the provided tables or on lined paper.</p>
-  </paragraphs>
+  </li>
 
 
   <!-- Materiales requeridos de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-actividad-titulo"/></title>
     <!-- si hay materiales, crear los archivos -mat.ptx (para materiales de la actividad) y -matCentros.ptx (para mencionar los otros centros que se usan y para los que se necesitan materiales) y poner los materiales ahí usando los archivos de template. Después hacer xinclude  de estos archivos en la lista de materiales de la lección.-->
     <xi:include href="./act-hacerUnRecorridoMedir-mat.ptx"/>
     <!-- <xi:include href="./act-hacerUnRecorridoMedir-matCentros.ptx"/>  -->
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -191,11 +193,11 @@
       <li>Make sure each group has a ruler that shows halves and fourths of an inch (from an earlier lesson).</li>
       <li>If not using the table in the workbook, give students blank lined paper for recording measurements.</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -212,8 +214,9 @@
       </li>
       <li>20 minutes: whole-class walk around the school</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -221,9 +224,10 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -231,18 +235,19 @@
         <q>Ahora que tenemos nuestros datos de las medidas, hagamos un diagrama de puntos</q>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Descripción del desarrollo de lenguaje matemático -->
-  <paragraphs>
+  <li>
     <title><custom ref="language-actividad-titulo"/></title><p>[++++++++++++++++]</p>
     <p><em>MLR8 Discussion Supports.</em> Synthesis: Revoice student ideas to demonstrate and amplify mathematical language use. For example, revoice the student statement <q>It lined up with one of the half thingies</q> as <q>Se alineó con una de las marcas de mitad de pulgada</q> // <q>It lined up with one of the half inch marks,</q> or <q>We recorded it in halves</q> as <q>Lo anotamos en mitades de pulgada</q> // <q>We recorded it in half inches.</q></p>
     <p>
       <em>Advances: Speaking</em>
     </p>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </activity>

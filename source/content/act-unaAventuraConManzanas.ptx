@@ -38,8 +38,10 @@
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
 <prelude component="profesor">
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li>
@@ -47,44 +49,44 @@
         <xref ref="ccss-3-OA-D-8" text="custom">3.OA.D.8</xref>
       </li>
     </ul>
-  </paragraphs> 
+  </li> 
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>20 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>El propósito de esta actividad es que los estudiantes piensen en lo que necesitan saber para resolver problemas verbales de dos pasos. Ellos escogen números que tengan sentido juntos para completar el problema del calentamiento. Además, expresan con claridad las relaciones que hay entre las cantidades del problema para justificar los números que escogieron. Si los estudiantes encuentran rápidamente una combinación de números que funcione, anímelos a ver si hay otras posibilidades o a escribir una situación con los números que han elegido.</p>
 
     <p>Los estudiantes que no escogen rápidamente un grupo de números logran comprender el problema y perseveran para resolverlo, mientras consideran la relación entre las diferentes cantidades y las restricciones que esta impone sobre los números que pueden describir la situación (MP1).</p>
-  </paragraphs>
+  </li>
 
 
   <!-- Materiales requeridos de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-actividad-titulo"/></title>
 
     <!-- si hay materiales, crear el siguiente archivo -mat.ptx y ponerlos ahí (y agregar también el archivo en la lista de materiales de la lección)-->
     <xi:include href="./act-unaAventuraConManzanas-mat.ptx"/> 
- </paragraphs>
+ </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <ul>
       <li>Grupos de 2 y 4.</li>
       <li>Mantenga la situación de la actividad de calentamiento visible.</li>
       <li><q>Supongamos que todas las cajas que empaca el agricultor tienen el mismo tamaño</q>.</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <ul>
       <li><q>En la actividad se muestra una lista de números. Con su compañero, escojan 4 números que al estar juntos tengan sentido en esta situación. Si encuentran una combinación de números que funcione, pueden buscar otras combinaciones</q>.</li>
@@ -93,8 +95,9 @@
       <li><q>Compartan con otro grupo por qué los números que escogieron tienen sentido</q>.</li>
       <li>2 a 3 minutos: Discusión en grupos pequeños.</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -102,16 +105,15 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Estrategias de apoyo para estudiantes con dificultades -->
-  <!-- <paragraphs>
+  <!-- <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> -->
-
-
+  </li> -->
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <ul>
       <li>
@@ -132,24 +134,25 @@
         </ul>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Descripción del desarrollo de lenguaje matemático -->
-  <!-- <paragraphs>
+  <!-- <li>
     <title><custom ref="language-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> -->
+  </li> -->
 
 
   <!-- Estrategias de acceso para estudiantes con discapacidades -->
-  <paragraphs>
+  <li>
     <title><custom ref="accesibility-actividad-titulo"/></title>
     <p>Acción y Expresión: Internalizar las Funciones Ejecutivas.</p>
     <p>Invite a los estudiantes a planear una estrategia para completar la tabla, en la que incluyan las herramientas que utilizarán. Si el tiempo lo permite, invite a los estudiantes a compartir su plan con su compañero antes de comenzar.</p>
     <p>Apoya la accesibilidad para: Organización, Procesamiento Conceptual.</p>
-  </paragraphs> 
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </activity>

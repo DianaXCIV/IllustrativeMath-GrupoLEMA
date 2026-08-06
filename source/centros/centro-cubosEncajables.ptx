@@ -18,25 +18,28 @@
   <introduction>
     <p>Los estudiantes exploran con libertad los cubos encajables.</p>
   </introduction>
-
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-centro-etapa-titulo"/></title> 
     <p>K.CC.B, K.G.B, K.MD</p>
-  </paragraphs>
+  </li>
 
   <!-- materiales requeridos -->
-  <paragraphs>
+  <li>
     <title>Materiales</title>
     <xi:include href="../content/act-conozcamos-cubosEncajables-explora-mat.ptx"/> 
-  </paragraphs>
+  </li>
   
   <!-- referencia a la actividad en la que se presenta el centro por primera vez -->
-  <paragraphs>
+  <li>
     <title><custom ref="centros-ubicacion-act-intro-titlulo"/></title>
     <!-- gra0-uni1-secA-lec1-act1 -->
     <p> <xref ref="act-conozcamos-cubosEncajables-explora" text="title"/> </p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
   
   <!-- Archivo con el contenido -->
   <!-- <xi:include href="../graVV-uniXX/act-RRRR-SSSS.ptx"/>    -->
@@ -53,25 +56,28 @@ Etapa 2
   <introduction>
     <p>Los estudiantes construyen con cubos encajables lo que ven en imágenes.</p>
   </introduction>
-  
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-centro-etapa-titulo"/></title> 
     <p>K.CC.B</p>
-  </paragraphs>
+  </li>
   
   <!-- materiales requeridos -->
-  <paragraphs>
+  <li>
     <title>Materiales</title>
     <xi:include href="../content/act-conozcamos-cubosEncajables-construyeLoQueVes-mat.ptx"/> 
-  </paragraphs>
+  </li>
   
   <!-- referencia a la actividad en la que se presenta el centro por primera vez -->
-  <paragraphs>
+  <li>
     <title><custom ref="centros-ubicacion-act-intro-titlulo"/></title>
     <!-- gra0-uni1-secA-lec5-act1 -->
     <p> <xref ref="act-conozcamos-cubosEncajables-construyeLoQueVes" text="title"/> </p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 
   <!-- Archivo con el contenido -->
   <!-- <xi:include href="../graVV-uniXX/act-RRRR-SSSS.ptx"/>    -->
@@ -87,25 +93,28 @@ Etapa 2
   <introduction>
     <p>Los estudiantes usan una cantidad específica de cada color de cubos encajables para construir un objeto de su elección.</p>
   </introduction>
-
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-centro-etapa-titulo"/></title> 
     <p>K.CC, K.CC.B.4, K.G.B</p>
-  </paragraphs>
+  </li>
 
   <!-- materiales requeridos -->
-  <paragraphs>
+  <li>
     <title>Materiales</title>
     <xi:include href="../content/act-conozcamos-cubosEncajables-consigueConstruye-mat.ptx"/> 
-  </paragraphs>
+  </li>
   
   <!-- referencia a la actividad en la que se presenta el centro por primera vez -->
-  <paragraphs>
+  <li>
     <title><custom ref="centros-ubicacion-act-intro-titlulo"/></title>
     <!-- gra0-uni1-secA-lec5-act1 -->
     <p> <xref ref="act-conozcamos-cubosEncajables-consigueConstruye" text="title"/> </p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 
   <!-- Archivo con el contenido -->
   <!-- <xi:include href="../graVV-uniXX/act-RRRR-SSSS.ptx"/>    -->

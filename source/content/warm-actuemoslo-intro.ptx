@@ -34,10 +34,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li>
@@ -45,38 +47,38 @@
         <xref ref="ccss-K-CC-B-4" text="custom">K.CC.B.4</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>10 minutos</p>
-  </paragraphs>
+  </li>
 
   
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
 
     <p>El propósito de esta actividad es que los estudiantes experimenten parte de la rutina “Actuémoslo”. Esta rutina permite a los estudiantes participar escuchando el lenguaje y repitiendo un poema simple relacionado con los números. Los estudiantes comparten sus pensamientos iniciales sobre de qué trata la historia. Los estudiantes retoman esta historia en la siguiente lección y la representan. Los estudiantes continúan participando en esta rutina a lo largo de la sección y participan en la rutina completa al final de la sección.</p>
-  </paragraphs>
+  </li>
 
 
-  <!-- <paragraphs>
+  <!-- <li>
     <title><custom ref="materials-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> -->
+  </li> -->
 
 
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
 
     <ul>
       <li>Grupos de 2</li>
       <li>Muestre y lea la historia.</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
 
     <ul>
@@ -87,41 +89,44 @@
       <li>Lean la historia juntos.</li>
     </ul>
 
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>  
 
 <!-- ============================================================== 
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
-  <!-- <paragraphs>
+<p>
+<dl>
+  <!-- <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> -->
+  </li> -->
 
 
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <ul>
       <li><q>Mañana volveremos a esta historia y pensaremos en lo que pasa en la historia</q></li>
     </ul>
 
-  </paragraphs>
+  </li>
 
 
-  <!-- <paragraphs>
+  <!-- <li>
     <title><custom ref="language-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> -->
+  </li> -->
 
 
-  <!-- <paragraphs>
+  <!-- <li>
     <title><custom ref="accesibility-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> -->
-
+  </li> -->
+</dl>
+</p>
 </postlude>
 
 </exploration>

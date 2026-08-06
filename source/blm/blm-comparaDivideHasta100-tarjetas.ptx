@@ -14,20 +14,22 @@
 <title>
   Hojas reproducibles: tarjetas para <xref ref="act-comparaDivideHasta100" text="title"/>
 </title>
-
-<paragraphs>
+<p>
+<dl>
+<li>
   <title>Pdf para imprimir</title>
   <p>
     <url component="web" href="external/blm/pdf-source/comparaDivideHasta100-tarjetas.pdf">descargar</url>
   </p>
-</paragraphs>
+</li>
 
 
-<paragraphs component="web">
+<li component="web">
   <title>Muestra de páginas</title>  
   <image source="blm/pdf-source/comparaDivideHasta100-tarjetas.png">
     <shortdescription></shortdescription>
   </image>
-</paragraphs>
-
+</li>
+</dl>
+</p>
 </subsection>

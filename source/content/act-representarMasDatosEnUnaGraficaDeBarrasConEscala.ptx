@@ -50,10 +50,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li> 
@@ -61,24 +63,24 @@
         <xref ref="ccss-3-MD-B-3" text="custom">3.MD.B.3</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>15 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this activity is for students to represent data in a scaled bar graph. In this activity, the categorical data is presented in a table. Students choose a scale and make a scaled bar graph of the categorical data. Students have prior experience with scales of 2, 5, and 10, and are not directed to a specific scale in this activity. However, due to the larger numbers, it is likely that students choose a scale of 5 or 10. If students struggle to get started, you could suggest a scale of 5 or 10. In the whole-class discussion, students share how their choice of scale affected their graph.</p>
 <p>Students will use their scaled bar graphs again in the next lesson.</p>
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -92,11 +94,11 @@
         <q>Vamos a hacer una gráfica de barras con escala para representar los momentos favoritos del año de algunos estudiantes de 3er grado</q>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -109,8 +111,9 @@
       </li>
       <li>2–3 minutes: small-group discussion</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -118,9 +121,10 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -128,19 +132,20 @@
         <q>¿Cómo inflluyó la escala que escogieron en la forma como quedó su gráfica al final?</q>  (Certain scales make it easier or more difficult to read the data. For example, with a scale of 10, it might be more difficult to read the exact values from the graph.)
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Descripción del desarrollo de lenguaje matemático -->
-  <paragraphs>
+  <li>
     <title><custom ref="language-actividad-titulo"/></title>
     <p>
       [++++++++++++++++++++++++++]
     </p>
     <p><em>MLR8 Discussion Supports.</em> During small-group discussion, invite students to take turns sharing their responses. Ask students to restate what they heard using precise mathematical language and their own words. Display the sentence frame: <em><q>Te escuché decir . . .</q></em> Original speakers can agree or clarify for their partner.</p>
     <p><em>Advances: Listening, Speaking</em></p>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </activity>

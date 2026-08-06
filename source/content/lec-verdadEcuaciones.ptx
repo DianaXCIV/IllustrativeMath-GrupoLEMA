@@ -37,27 +37,28 @@
   Introducción para el profesor                        
 =================================================  -->
 <introduction component="profesor">
-
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-leccion-titulo"/></title> 
     <p>6.EE.B.5, 6.EE.B.6</p>
-  </paragraphs>
+  </li>
 
   <!-- índice de la lección (automático) -->
-  <paragraphs>
+  <li>
     <title><custom ref="timeline-leccion-titulo"/></title>
     <list-of elements="subsubsection reading-questions" scope="subsection"/>
-  </paragraphs>
+  </li>
 
   <!-- Propósito de la lección -->
-  <!-- <paragraphs>
+  <!-- <li>
     <title><custom ref="purpose-leccion-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> -->
+  </li> -->
 
   <!-- Materiales requeridos -->
-  <!-- <paragraphs>
+  <!-- <li>
     <title><custom ref="materials-leccion-titulo"/></title>
     [@@@@@@@@] -->
     <!-- <ul>
@@ -70,10 +71,10 @@
         <xi:include href="./act-SSSSSSSS-mat.ptx"/>
       </li>
     </ul>  -->
-  <!-- </paragraphs> -->
+  <!-- </li> -->
   
   <!-- Introducción de la lección (narrative) -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-leccion-titulo"/></title>
     <p>
       Los estudiantes comienzan la lección profundizando en lo que significa que una ecuación sea verdadera o no. Amplían conocimientos previos sobre las ecuaciones al pensar en el supuesto de que las ecuaciones son siempre verdaderas. Los estudiantes aprenden que una letra que sustituye a un número se llama variable. Los estudiantes aprenden que, para una ecuación con una variable, un valor de la variable que hace que la ecuación sea verdadera se llama solución de la ecuación. Encuentran soluciones a ecuaciones usando diagramas de cinta o razonando sobre el significado de <term>solución</term> una vez escrita una ecuación.
@@ -82,13 +83,15 @@
     <p>
       Esta lección es donde se presenta la notación <term>al lado de</term> (por ejemplo, <m>10m</m> es <m>10 \boldcdot m</m>).
     </p>
-  </paragraphs>
+  </li>
   
   <!-- Preguntas de reflexión profesor -->
-  <!-- <paragraphs>
+  <!-- <li>
     <title><custom ref="reflection-quest-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> -->
+  </li> -->
+</dl>
+</p>
 </introduction>
 
 

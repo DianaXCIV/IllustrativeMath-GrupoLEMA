@@ -19,24 +19,27 @@
   <introduction>
     <p>Los estudiantes eligen una colección de objetos los ponen en el cuadro que está en la parte de arriba del tablero de comparación. Completan el tablero de comparación para mostrar grupos que tienen menos, lo mismo o más objetos que la cantidad original.</p>
   </introduction>
-
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-centro-etapa-titulo"/></title> 
     <p>K.CC.C.6</p>
-  </paragraphs>
+  </li>
 
   <!-- materiales requeridos -->
-  <paragraphs>
+  <li>
     <title>Materiales</title>
     <xi:include href="../content/act-conozcamos-menosLoMismoMas-gruposDeObjetos-mat.ptx"/> 
-  </paragraphs>
+  </li>
   
   <!-- referencia a la actividad en la que se presenta el centro por primera vez -->
-  <paragraphs>
+  <li>
     <title><custom ref="centros-ubicacion-act-intro-titlulo"/></title>
     <p> <xref ref="act-conozcamos-menosLoMismoMas-gruposDeObjetos" text="title"/> </p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 
   <!-- Archivo con el contenido -->
   <!-- <xi:include href="../graVV-uniXX/act-conozcamos-menosLoMismoMas-gruposDeObjetos.ptx"/>    -->
@@ -53,24 +56,27 @@
   <introduction>
     <p>Los estudiantes eligen una tarjeta con una imagen y la ponen en el cuadro que está en la parte de arriba del tablero de comparación. Después, eligen más tarjetas y las ponen en el tablero según si muestran menos, lo mismo o más imágenes que la cantidad original.</p>
   </introduction>
-  
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-centro-etapa-titulo"/></title> 
     <p>K.CC.C.6</p>
-  </paragraphs>
+  </li>
 
   <!-- materiales requeridos -->
-  <paragraphs>
+  <li>
     <title>Materiales</title>
     <xi:include href="../content/act-conozcamos-menosLoMismoMas-imagenes-mat.ptx"/> 
-  </paragraphs>
+  </li>
   
   <!-- referencia a la actividad en la que se presenta el centro por primera vez -->
-  <paragraphs>
+  <li>
     <title><custom ref="centros-ubicacion-act-intro-titlulo"/></title>
     <p> <xref ref="act-conozcamos-menosLoMismoMas-imagenes" text="title"/> </p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 
   <!-- Archivo con el contenido -->
   <!-- <xi:include href="../graVV-uniXX/act-conozcamos-menosLoMismoMas-gruposDeObjetos.ptx"/>    -->
@@ -86,24 +92,27 @@
   <introduction>
     <p>Los estudiantes eligen una tarjeta con una imagen y la ponen en el cuadro que está en la parte de arriba del tablero de comparación. Después, dibujan en el tablero de comparación grupos que tienen menos, lo mismo o más imágenes que la cantidad original.</p>
   </introduction>
-
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-centro-etapa-titulo"/></title> 
     <p>K.CC.C.6</p>
-  </paragraphs>
+  </li>
 
   <!-- materiales requeridos -->
-  <paragraphs>
+  <li>
     <title>Materiales</title>
     <xi:include href="../content/act-conozcamos-menosLoMismoMas-dibujos-mat.ptx"/> 
-  </paragraphs>
+  </li>
   
   <!-- referencia a la actividad en la que se presenta el centro por primera vez -->
-  <paragraphs>
+  <li>
     <title><custom ref="centros-ubicacion-act-intro-titlulo"/></title>
     <p> <xref ref="act-conozcamos-menosLoMismoMas-dibujos" text="title"/> </p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 
   <!-- Archivo con el contenido -->
   <!-- <xi:include href="../graVV-uniXX/act-conozcamos-menosLoMismoMas-dibujos.ptx"/>    -->
@@ -120,24 +129,27 @@
   <introduction>
     <p>Los estudiantes usan tarjetas que tienen un número y una imagen. Eligen una tarjeta y la colocan en el cuadro que está en la parte de arriba del tablero de comparación. Después, eligen más tarjetas y determinan si cada una muestra menos, lo mismo o más que la cantidad original.</p>
   </introduction>
-
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-centro-etapa-titulo"/></title> 
     <p>K.CC.C.6, K.CC.C.7</p>
-  </paragraphs>
+  </li>
 
   <!-- materiales requeridos -->
-  <paragraphs>
+  <li>
     <title>Materiales</title>
     <xi:include href="../content/act-conozcamos-menosLoMismoMas-numEImagenes-mat.ptx"/> 
-  </paragraphs>
+  </li>
   
   <!-- referencia a la actividad en la que se presenta el centro por primera vez -->
-  <paragraphs>
+  <li>
     <title><custom ref="centros-ubicacion-act-intro-titlulo"/></title>
     <p> <xref ref="act-conozcamos-menosLoMismoMas-numEImagenes" text="title"/> </p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 
   <!-- Archivo con el contenido -->
   <!-- <xi:include href="../graVV-uniXX/act-conozcamos-menosLoMismoMas-dibujos.ptx"/>    -->

@@ -40,9 +40,10 @@
   Introducción para el profesor                        
 =================================================  -->
 <introduction component="profesor">
-
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-leccion-titulo"/></title> 
     <ul>
       <li> 
@@ -51,23 +52,23 @@
         <xref ref="ccss-3-NF-A-3-c" text="custom">3.NF.A.3.c</xref>
       </li>
     </ul>
-    </paragraphs>
+    </li>
 
   <!-- índice de la lección (automático) -->
-  <paragraphs>
+  <li>
     <title><custom ref="timeline-leccion-titulo"/></title>
     <list-of elements="subsubsection reading-questions" scope="subsection"/>
-  </paragraphs>
+  </li>
 
   <!-- Propósito de la lección -->
-  <paragraphs>
+  <li>
     <title><custom ref="purpose-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this lesson is for students to use what they know about fraction equivalence to measure with a ruler that is marked with halves and fourths of an inch.</p>
-  </paragraphs>
+  </li>
 
   <!-- Materiales requeridos -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-leccion-titulo"/></title>
     <ul>
       <li>
@@ -85,22 +86,24 @@
         <!--<xi:include href="./act-medirYDescribir-matCentros.ptx"/>-->
       </li>
     </ul>  
-  </paragraphs>
+  </li>
   
   <!-- Introducción de la lección (narrative) -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>Previously, students learned to measure lengths using separate rulers that were marked with halves or fourths of an inch. Here, they use what they know about fraction equivalence to read measurements from a ruler marked with both halves and fourths of an inch. Then, students consider lengths that could be named in more than one way.</p>
     <p>In future lessons, this ruler will be used to measure objects and represent measurements in a line plot.</p>
-  </paragraphs>
+  </li>
   
   <!-- Preguntas de reflexión profesor -->
-  <paragraphs>
+  <li>
     <title><custom ref="reflection-quest-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>Think about who volunteered to share their thinking with the class today. Are the same students always volunteering, while some students never offer to share? What can you do to help the class understand the value of hearing the ideas of every mathematician?</p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </introduction>
 
 

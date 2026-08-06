@@ -13,22 +13,23 @@
 <title>
   Tarjetas de números en círculos
 </title>
-
-<paragraphs>
+<p>
+<dl>
+<li>
   <title>Muestra de páginas</title>  
   <sidebyside width="30%">
   <image source="blm/pdf-source/tarjetasNumerosEnCirculos.png">
     <shortdescription></shortdescription>
   </image>
   </sidebyside>
-</paragraphs>
+</li>
 
-<paragraphs>
+<li>
   <title>Pdf para imprimir</title>
   <p>
     <url component="web" href="external/blm/pdf-source/tarjetasNumerosEnCirculos.pdf">descargar</url>
   </p>
-</paragraphs>
-
-
+</li>
+</dl>
+</p>
 </subsection>

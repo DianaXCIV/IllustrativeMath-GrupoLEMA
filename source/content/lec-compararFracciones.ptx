@@ -44,9 +44,10 @@
   Introducción para el profesor                        
 =================================================  -->
 <introduction component="profesor">
-
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-leccion-titulo"/></title> 
     <ul>
       <li> 
@@ -60,23 +61,23 @@
         <xref ref="ccss-3-MD-B-4" text="custom">3.MD.B.4</xref>
       </li>
     </ul>
-    </paragraphs>
+    </li>
 
   <!-- índice de la lección (automático) -->
-  <paragraphs>
+  <li>
     <title><custom ref="timeline-leccion-titulo"/></title>
     <list-of elements="subsubsection reading-questions" scope="subsection"/>
-  </paragraphs>
+  </li>
 
   <!-- Propósito de la lección -->
-  <paragraphs>
+  <li>
     <title><custom ref="purpose-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this lesson is for students to compare two fractions with the same numerator or the same denominator in and out of context and to justify their conclusions.</p>
-  </paragraphs>
+  </li>
 
   <!-- Materiales requeridos -->
-  <!-- <paragraphs>
+  <!-- <li>
     <title><custom ref="materials-leccion-titulo"/></title>
     <ul>
       <li>
@@ -90,21 +91,23 @@
         <xi:include href="./act-queFraccionTieneSentido-matCentros.ptx"/>
       </li>
     </ul>
-  </paragraphs>  -->
+  </li>  -->
   
   <!-- Introducción de la lección (narrative) -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>In previous lessons, students learned what it means for fractions to be equivalent, and compared two fractions with the same denominator or the same numerator. In this lesson, students apply their knowledge to compare fractions in and out of context and have an opportunity to generalize about what they have learned about fraction comparison.</p>
-  </paragraphs>
+  </li>
   
   <!-- Preguntas de reflexión profesor -->
-  <paragraphs>
+  <li>
     <title><custom ref="reflection-quest-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>As you finish up this unit, reflect on the norms and activities that have supported each student in learning math. How have you seen each student grow as a young mathematician throughout this work? What will you continue to do and what will you improve upon in the next unit?</p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </introduction>
 
 

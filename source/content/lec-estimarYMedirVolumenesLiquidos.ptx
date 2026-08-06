@@ -35,9 +35,10 @@
   Introducción para el profesor                        
 =================================================  -->
 <introduction component="profesor">
-
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-leccion-titulo"/></title> 
     <ul>
       <li> 
@@ -46,23 +47,23 @@
         <xref ref="ccss-3-OA-C-7" text="custom">3.OA.C.7</xref>
       </li>
     </ul>
-    </paragraphs>
+    </li>
 
   <!-- índice de la lección (automático) -->
-  <paragraphs>
+  <li>
     <title><custom ref="timeline-leccion-titulo"/></title>
     <list-of elements="subsubsection reading-questions" scope="subsection"/>
-  </paragraphs>
+  </li>
 
   <!-- Propósito de la lección -->
-  <paragraphs>
+  <li>
     <title><custom ref="purpose-leccion-titulo"/></title>
     <p>[++++++++++++++++]</p>
     <p>The purpose of this lesson is for students to use liters to measure and estimate liquid volumes.</p>
-  </paragraphs>
+  </li>
 
   <!-- Materiales requeridos -->
-  <!-- <paragraphs>
+  <!-- <li>
     <title><custom ref="materials-leccion-titulo"/></title>
     <ul>
       <li>
@@ -76,21 +77,23 @@
         <xi:include href="./act-medirVolumenesLiquidos-matCentros.ptx"/>
       </li>
     </ul> 
-  </paragraphs> -->
+  </li> -->
   
   <!-- Introducción de la lección (narrative) -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-leccion-titulo"/></title>
     <p>[++++++++++++++++]</p>
     <p>In previous lessons, students learned that liquid volume is a measurable attribute and that liters can be used to measure liquid volume. Students use this experience to match containers with estimated liquid volumes they can hold. They compare the marks on a ruler to the marks on a container and learn to use a container with liter marks to measure liquid volume. </p>
-  </paragraphs>
+  </li>
   
   <!-- Preguntas de reflexión profesor -->
-  <paragraphs>
+  <li>
     <title><custom ref="reflection-quest-titulo"/></title>
     <p>[++++++++++++++++]</p>
     <p>What ideas do students have about liquid volume from their everyday lives? How did it influence their ideas in this lesson?</p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </introduction>
 
 

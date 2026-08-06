@@ -36,8 +36,10 @@
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
 <prelude component="profesor">
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li>
@@ -45,38 +47,38 @@
         <xref ref="ccss-3-NBT-A-2" text="custom">3.NBT.A.2</xref>
       </li>
     </ul>
-  </paragraphs> 
+  </li> 
 
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>10 minutos</p>
-  </paragraphs>
-  <paragraphs>
+  </li>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>El propósito de esta conversación numérica es hacer visibles las estrategias y comprensiones que los estudiantes tienen para restar hasta 1,000 (es decir, sin que los números ni los resultados se pasen de 1,000), especialmente con expresiones que mantienen una diferencia constante. Estas comprensiones ayudan a desarrollar fluidez para restar con números hasta 1,000. Considere dibujar líneas numéricas mientras los estudiantes comparten sus estrategias para enfatizar que la diferencia de los dos números en cada expresión no está cambiando.</p>
-  </paragraphs>
-  <!-- <paragraphs>
+  </li>
+  <!-- <li>
     <title>Materiales</title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> -->
-  <paragraphs>
+  </li> -->
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <ul>
       <li>Muestre una expresión.</li>
       <li><q>Hagan una señal cuando tengan una respuesta y puedan explicar cómo la obtuvieron.</q></li>
       <li>1 minuto: tiempo de reflexión en silencio</li>
     </ul>
-  </paragraphs>
-  <paragraphs>
+  </li>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <ul>
       <li>Registre las respuestas y las estrategias.</li>
       <li>Mantenga las expresiones y el trabajo visible.</li>
       <li>Repita con cada expresión.</li>
     </ul>
-  </paragraphs>
-
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -85,12 +87,13 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
-  <!-- <paragraphs>
+<p>
+<dl>
+  <!-- <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> -->
-  <paragraphs>
+  </li> -->
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <ul>
       <li><q>¿Qué observan acerca de estas expresiones?</q> (Todas tienen el mismo valor.)</li>
@@ -106,16 +109,17 @@
           </p>
       </li>
     </ul>
-  </paragraphs>
- <!--  <paragraphs>
+  </li>
+ <!--  <li>
     <title><custom ref="language-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> -->
-  <!-- <paragraphs>
+  </li> -->
+  <!-- <li>
     <title><custom ref="accesibility-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> -->
-
+  </li> -->
+</dl>
+</p>
 </postlude>
 
 

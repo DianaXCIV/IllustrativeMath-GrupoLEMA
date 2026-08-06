@@ -59,10 +59,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li> 
@@ -70,23 +72,23 @@
         <xref ref="ccss-3-MD-B-3" text="custom">3.MD.B.3</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>20 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this activity is for students to analyze a scale and create a scaled bar graph. Students consider a large collection of pattern blocks and decide which scale will work best to represent the categorical data. They consider three students’ ideas, choose a scale of 2, 5, or 10, and create a scaled bar graph to represent the categorical data. Students must justify why they agree that a particular scale would be best. During the activity and whole-class discussion, students share their thinking and have opportunities to listen to and critique the reasoning of their peers (MP3). Providing a variety of scales for students to choose from allows for discussion about the benefits of using larger scales for larger groups of objects and the effect of a scale on how easy it may be to read and interpret data in a graph.</p>
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -97,11 +99,11 @@
       </li>
       <li>30 seconds: quiet think time</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -111,8 +113,9 @@
       <li>12 minutes: partner work</li>
       <li>Monitor for students who used each of the scales to create their bar graph.</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -120,9 +123,10 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Estrategias de apoyo para estudiantes con dificultades -->
-  <paragraphs>
+  <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>If students use a scale of 2, consider asking:</p>
@@ -134,11 +138,11 @@
         <q>¿Cómo cambiaría la gráfica si usaras una escala de 5 o de 10?</q>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -147,18 +151,19 @@
         <q>¿Qué escala usaron en su gráfica de barras? ¿Por qué escogieron esa escala?</q>  (I used a scale of 5 because each amount can be counted by 5. I used a scale of 10 so I don’t have to make as many marks on the scale.)
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Estrategias de acceso para estudiantes con discapacidades -->
-  <paragraphs>
+  <li>
     <title><custom ref="accesibility-actividad-titulo"/></title>
     <p>
       [+++++++++++++++++++]
     </p>
     <p><em>Representation: Access for Perception.</em> Provide access to pattern blocks to model the collection of pattern blocks in the student-facing task statement.</p>
     <p><em>Supports accessibility for: Organization, Visual-Spatial Processing</em></p>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </activity>

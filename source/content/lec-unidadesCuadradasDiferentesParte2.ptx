@@ -35,9 +35,10 @@
   Introducción para el profesor                        
 =================================================  -->
 <introduction component="profesor">
-
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-leccion-titulo"/></title> 
     <ul>
       <li>
@@ -45,23 +46,23 @@
         <xref ref="ccss-3-MD-C-6" text="custom">3.MD.C.6</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- índice de la lección (automático) -->
-  <paragraphs>
+  <li>
     <title><custom ref="timeline-leccion-titulo"/></title>
     <list-of elements="subsubsection reading-questions" scope="subsection"/>
-  </paragraphs>
+  </li>
 
   <!-- Propósito de la lección -->
-  <paragraphs>
+  <li>
     <title><custom ref="purpose-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this lesson is for students to learn about <term>square feet</term> and <term>square meters</term>, and consider when these larger units can be helpful to measure area.</p>
-  </paragraphs>
+  </li>
 
   <!-- Materiales requeridos -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-leccion-titulo"/></title>
      <ul>
       <li>
@@ -75,21 +76,23 @@
         <!--<xi:include href="./act-cualUnidadCuadrada-matCentros.ptx"/>-->
       </li>
     </ul> 
-  </paragraphs>
+  </li>
   
   <!-- Introducción de la lección (narrative) -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>In a previous lesson, students learned about the difference between square inches and square centimeters. In this lesson, students work with square feet and square meters, building on their work with feet and meters in grade 2. Students consider different areas in real-world situations and choose a square unit that would be the most useful to measure each given area.</p>
-  </paragraphs>
+  </li>
   
   <!-- Preguntas de reflexión profesor -->
-  <paragraphs>
+  <li>
     <title><custom ref="reflection-quest-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>In what ways can you connect the math in today’s lesson to student’s lived experience? Consider interviewing student’s family or community members to find out how they use area in their daily lives.</p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </introduction>
 
 

@@ -16,8 +16,9 @@
     <line><xref ref="centro-compara-etapa4" text="title"/></line>
   </p>
 </introduction>
-
-<paragraphs>
+<p>
+<dl>
+<li>
   <title>Muestra de páginas</title>  
   <sidebyside width="30%">
   <image source="act-pdf/act-comparaDivideHasta100-0.png">
@@ -30,14 +31,14 @@
     <shortdescription></shortdescription>
   </image>
   </sidebyside>
-</paragraphs>
+</li>
 
-<paragraphs>
+<li>
   <title>Pdf para imprimir</title>
   <p>
     <url component="web" href="external/act-pdf/act-comparaDivideHasta100.pdf">descargar</url>
   </p>
-</paragraphs>
-
-
+</li>
+</dl>
+</p>
 </subsection>

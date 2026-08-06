@@ -15,8 +15,9 @@
     <line><xref ref="centro-mateLibreta-etapa1" text="title"/></line>
   </p>
 </introduction>
-
-<paragraphs>
+<p>
+<dl>
+<li>
   <title>Muestra de páginas</title>  
   <sidebyside>
   <image source="blm/pdf-source/centro-mateLibreta-escenas-0.png">
@@ -29,13 +30,14 @@
     <shortdescription></shortdescription>
   </image>
   </sidebyside>
-</paragraphs>
+</li>
 
-<paragraphs>
+<li>
   <title>Pdf para imprimir</title>
   <p>
     <url component="web" href="external/blm/pdf-source/centro-mateLibreta-escenas.pdf">descargar</url>
   </p>
-</paragraphs>
-
+</li>
+</dl>
+</p>
 </subsection>

@@ -41,9 +41,10 @@
   Introducción para el profesor                        
 =================================================  -->
 <introduction component="profesor">
-
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-leccion-titulo"/></title> 
     <ul>
       <li> 
@@ -56,23 +57,23 @@
         <xref ref="ccss-3-MD-B-3" text="custom">3.MD.B.3</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- índice de la lección (automático) -->
-  <paragraphs>
+  <li>
     <title><custom ref="timeline-leccion-titulo"/></title>
     <list-of elements="subsubsection reading-questions" scope="subsection"/>
-  </paragraphs>
+  </li>
 
   <!-- Propósito de la lección -->
-  <paragraphs>
+  <li>
     <title><custom ref="purpose-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this lesson is for students to create a scaled picture graph to represent categorical data.</p>
-  </paragraphs>
+  </li>
 
   <!-- Materiales requeridos -->
-  <!--<paragraphs>
+  <!--<li>
     <title><custom ref="materials-leccion-titulo"/></title>
      <ul>
       <li>
@@ -86,23 +87,25 @@
         <xi:include href="./act-hacerUnaGraficaDeDibujosConEscala-matCentros.ptx"/>
       </li>
     </ul>  
-  </paragraphs>-->
+  </li>-->
   
   <!-- Introducción de la lección (narrative) -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>In a previous lesson, students interpreted and answered questions about scaled picture graphs. In this lesson, they gather and organize data about ways that students would like to travel and represent the data in a scaled picture graph with a scale of 2. Students make sense of how to represent a single student on a scaled picture graph that has a scale of 2.</p>
     <p><alert>Math Community</alert></p>
     <p>Explain to students that norms are expectations that help everyone in the room feel safe, comfortable, and productive doing math together. Tell students that some of these norms may apply to both you and me, however there may be things you need me to do to support you in doing math each day. Offer an example, such as <q>Cuando compartimos nuestras ideas con los demás, una norma que puede servir es 'Escuchar cuando otros comparten sus ideas'</q> Tell students you will pause at two different points of the lesson to identify norms that help everyone do math.</p>
-  </paragraphs>
+  </li>
   
   <!-- Preguntas de reflexión profesor -->
-  <paragraphs>
+  <li>
     <title><custom ref="reflection-quest-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>What was the best question you asked students today? Why would you consider it the best one based on what students said or did?</p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </introduction>
 
 

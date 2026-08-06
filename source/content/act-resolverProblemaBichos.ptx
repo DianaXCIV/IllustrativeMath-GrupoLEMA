@@ -28,8 +28,10 @@
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
 <prelude component="profesor">
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li>
@@ -37,34 +39,34 @@
         <xref ref="ccss-3-OA-A-3" text="custom">3.OA.A.3</xref>
       </li>
     </ul>
-  </paragraphs> 
+  </li> 
 
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>20 minutos</p>
-  </paragraphs>
-  <paragraphs>
+  </li>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>En esta actividad, los estudiantes consolidan su comprensión de los tipos de situaciones de división y sus representaciones para resolver problemas de división.</p>
 
     <p>Durante la síntesis, organice y muestre los pósteres de los estudiantes por tipo, de acuerdo a las categorías de la actividad anterior.</p>
-  </paragraphs>
+  </li>
 
   <!-- Materiales requeridos de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-actividad-titulo"/></title>
     <xi:include href="./act-resolverProblemaBichos-mat.ptx"/> 
-  </paragraphs>
+  </li>
 
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <ul>
       <li>Grupos de 2</li>
       <li>Asigne a cada grupo uno de los problemas de la actividad anterior y pídales que lo resuelvan.</li>
       <li>Proporcione a cada grupo herramientas para crear una presentación visual.</li>
     </ul>
-  </paragraphs>
-  <paragraphs>
+  </li>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <p>MLR7 Comparar y Conectar. Avances: representar, conversar</p>
     <ul>
@@ -72,9 +74,9 @@
       <li><q>5 minutos: tiempo de trabajo en parejas</q></li>
       <li><q>8-10 minutos: recorrido por el salón</q></li>
     </ul>      
-  </paragraphs>
-
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -83,26 +85,29 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
-  <!-- <paragraphs>
+<p>
+<dl>
+  <!-- <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> -->
-  <paragraphs>
+  </li> -->
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <ul>
       <li><q>¿En qué se parecen los dos tipos de problemas de división?</q> (Ambos implican poner cosas en grupos iguales.)</li>
       <li><q>¿En qué se diferencian?</q> (A veces sabemos cuántas cosas hay en cada grupo y necesitamos encontrar cuántos grupos podemos formar. A veces sabemos cuántos grupos hay, pero necesitamos encontrar cuántas cosas hay en cada grupo.)</li>
     </ul>
-  </paragraphs>
-  <paragraphs>
+  </li>
+  <li>
     <title><custom ref="language-actividad-titulo"/></title>
     <p>MLR7 Comparar y Conectar. Avances: representar, conversar</p>
-  </paragraphs>
-  <!-- <paragraphs>
+  </li>
+  <!-- <li>
     <title><custom ref="accesibility-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> -->
+  </li> -->
+</dl>
+</p>
 </postlude>
 
 

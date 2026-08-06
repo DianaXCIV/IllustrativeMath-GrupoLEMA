@@ -40,10 +40,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li>
@@ -52,14 +54,14 @@
         <xref ref="ccss-K-MD-B-3" text="custom">K.MD.B.3</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>10 minutos</p>
-  </paragraphs>
+  </li>
 
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     
     <p>
@@ -70,14 +72,14 @@
       La actividad tiene una imagen de los bloques sólidos geométricos. Sin embargo, es preferible mostrar una colección de bloques reales. 
       <!-- A picture of geoblocks is provided. However, it is preferable to display a collection of actual blocks. Students also have a few geoblocks to examine up close. -->
     </p>
-  </paragraphs>
+  </li>
 
-  <paragraphs>
+  <li>
     <title><custom ref="materials-actividad-titulo"/></title>
     <xi:include href="./warm-observa-bloquesSolidosGeom-mat.ptx" />
-  </paragraphs>
+  </li>
 
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     
     <ul>
@@ -88,9 +90,9 @@
     </li>
     <li>30 segundos: tiempo para pensar en silencio</li>
   </ul>
-  </paragraphs>
+  </li>
 
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     
     <ul>
@@ -110,36 +112,42 @@
       <li>1 minuto: discusión en pareja</li>
       <li>Comparta y registre las respuestas.</li>
     </ul>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </prelude>
 
 <!-- ============================================================== 
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-  <!-- <paragraphs>
+<p>
+<dl>
+  <!-- <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> -->  
-  <paragraphs>
+  </li> -->  
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <ul>
       <li>
         <q>Estos se llaman bloques sólidos geométricos. ¿Qué creen que podrían hacer o construir con los bloques sólidos geométricos?</q>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
- <!-- <paragraphs>
+ <!-- <li>
     <title><custom ref="language-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> -->
+  </li> -->
 
 
-  <!-- <paragraphs>
+  <!-- <li>
     <title><custom ref="accesibility-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> -->
+  </li> -->
+</dl>
+</p>
 </postlude>
 
 </exploration>

@@ -12,11 +12,9 @@
 
 <!-- Frase resumen para estudiante. Originalmente [Student Facing Goals] -->
 <introduction component="est-goal"> 
-  <li>
-    <p>
-      Acomodemos muebles en una habitación.
-    </p>
-  </li>
+  <p>
+    Acomodemos muebles en una habitación.
+  </p>
 </introduction>
 
 <!-- Objetivos para el estudiante. Originalmente [Student-Facing Targets] -->
@@ -41,9 +39,10 @@
   Introducción para el profesor                        
 =================================================  -->
 <introduction component="profesor">
-
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-leccion-titulo"/></title> 
     <ul>
       <li>
@@ -55,23 +54,23 @@
         <xref ref="ccss-3-MD-C-7-d" text="custom">3.MD.C.7.d</xref>, <xref ref="ccss-3-MD-C-7-b" text="custom">3.MD.C.7.b</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- índice de la lección (automático) -->
-  <paragraphs>
+  <li>
     <title><custom ref="timeline-leccion-titulo"/></title>
     <list-of elements="subsubsection reading-questions" scope="subsection"/>
-  </paragraphs>
+  </li>
 
   <!-- Propósito de la lección -->
-  <paragraphs>
+  <li>
     <title><custom ref="purpose-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this lesson is for students to use their experience with areas of figures composed of rectangles to solve problems.</p>
-  </paragraphs>
+  </li>
 
   <!-- Materiales requeridos -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-leccion-titulo"/></title>
     <ul>
       <!--<li>
@@ -85,10 +84,10 @@
         <!--<xi:include href="./act-camaYEscritorioNuevos-matCentros.ptx"/>-->
       </li>
     </ul>  
-  </paragraphs>
+  </li>
   
   <!-- Introducción de la lección (narrative) -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>This lesson is optional because it does not address any new mathematical content standards. This lesson does provide students with an opportunity to apply precursor skills of mathematical modeling.</p>
@@ -96,14 +95,16 @@
 <p>In this lesson, students find missing side lengths of a room and use their knowledge about areas of rectangles to solve a problem about fitting a bed and desk into a room. As students make decisions, they consider what space is really usable in the room or what is the best spot in the room for each piece of furniture.</p>
 <p>There are several ways to approach this problem and students are given freedom to choose their own strategy to make a decision (MP1).</p>
 <p>When students make choices and translate mathematics to real world contexts, they model with mathematics (MP4).</p>
-  </paragraphs>
+  </li>
   
   <!-- Preguntas de reflexión profesor -->
-  <paragraphs>
+  <li>
     <title><custom ref="reflection-quest-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>What unfinished learning or misunderstandings do your students have about the area of rectangles? How did you leverage those misconceptions in a positive way to further the understanding of the class?</p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </introduction>
 
 

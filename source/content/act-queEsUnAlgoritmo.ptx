@@ -44,10 +44,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li> 
@@ -55,32 +57,32 @@
         <xref ref="ccss-3-NBT-A-2" text="custom">3.NBT.A.2</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>20 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>In this activity, students use their knowledge of base-ten representations and place value to make sense of two addition algorithms. One algorithm shows the addends in expanded form. Both algorithms show the sums of ones, tens, and hundreds separately, but display these partial sums differently. Students notice that both algorithms show hundreds added to hundreds, tens to tens, and ones to ones, regardless of order. In the synthesis, introduce the term <q>algoritmo</q>.</p>
-  </paragraphs>
+  </li>
 
 
   <!-- Materiales requeridos de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-actividad-titulo"/></title>
     <!-- si hay materiales, crear los archivos -mat.ptx (para materiales de la actividad) y -matCentros.ptx (para mencionar los otros centros que se usan y para los que se necesitan materiales) y poner los materiales ahí usando los archivos de template. Después hacer xinclude  de estos archivos en la lista de materiales de la lección.-->
     <xi:include href="./act-queEsUnAlgoritmo-mat.ptx"/> 
     <!-- <xi:include href="./act-queEsUnAlgoritmo-matCentros.ptx"/>  -->
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -89,11 +91,11 @@
       <li> En una lección anterior, exploramos muchas formas de encontrar el valor de una suma. Por un minuto, observen cómo estos 3 estudiantes sumaron <m>362+354</m></li>
       <li>1 minute: quiet think time</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -102,8 +104,9 @@
       </li>
       <li>7-10 minutes: partner work time.</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -111,9 +114,10 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Estrategias de apoyo para estudiantes con dificultades -->
-  <paragraphs>
+  <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>If students don't explain one of the written algorithms, consider asking:</p>
@@ -125,11 +129,11 @@
         <q>¿Cómo se relaciona el trabajo de ellos con el dibujo de Tyler?</q>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -158,16 +162,17 @@
         </ul>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Descripción del desarrollo de lenguaje matemático -->
-  <paragraphs>
+  <li>
     <title><custom ref="language-actividad-titulo"/></title><p>[+++++++++++++++]</p>
     <p><em>MLR7 Compare and Connect.</em> Synthesis: Invite groups to prepare a visual display that shows the strategy they used to find the value of the sums. Encourage students to include details that will help others interpret their thinking. For example, specific language, using different colors, shading, arrows, labels, notes, diagrams or drawings. Give students time to investigate each others’ work. During the whole-class discussion, ask students, <q>¿Qué tenían en común las representaciones?</q> // <q>What did the representations have in common?</q>, <q>¿En qué eran diferentes?</q> // <q>How were they different?</q>, <q>¿Cómo se veía la suma total en cada método?</q> // <q>How did the total sum show up in each method?</q></p>
     <p><em>Advances: Representing, Conversing</em></p>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </activity>

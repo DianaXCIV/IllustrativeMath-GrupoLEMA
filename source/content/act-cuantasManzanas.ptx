@@ -31,8 +31,10 @@
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
 <prelude component="profesor">
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li>
@@ -41,16 +43,16 @@
         <xref ref="ccss-3-OA-A-3" text="custom">3.OA.A.3</xref>
       </li>
     </ul>
-  </paragraphs> 
+  </li> 
 
    <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>20 minutos.</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>El propósito de esta actividad es que los estudiantes representen y resuelvan problemas de "¿cuántos grupos?". Invítelos a utilizar cualquier estrategia y representación visual que les parezca lógica.</p>
   <p>Los estudiantes crean un póster de su solución al primer problema con un compañero. En la siguiente actividad, los estudiantes participan en un recorrido por el salón para observar los pósteres.</p>
@@ -61,25 +63,25 @@
     <li>arreglos: dibujando 3 filas de 8 manzanas cada una para llegar a 24</li>
   </ul>
   <p>Cuando los estudiantes representan la situación con objetos, dibujos concretos o dibujos abstractos, están razonando de manera abstracta y cuantitativa (MP2).</p>
-  </paragraphs>
+  </li>
 
   <!-- Materiales requeridos de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-actividad-titulo"/></title>
     <xi:include href="./act-cuantasManzanas-mat.ptx"/>
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <ul>
       <li>Grupos de 2</li>
       <li>Dele a los estudiantes acceso a cubos encajables o fichas para contar.</li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <ul>
       <li><q>Resuelvan estos problemas. Usen objetos, un dibujo o un diagrama para mostrar cómo pensaron.</q></li>
@@ -99,8 +101,9 @@
       <li>Proporcione a cada grupo herramientas para hacer una exhibición visual.</li>
       <li>6-8 minutos: tiempo de trabajo en pareja</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -109,31 +112,34 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Estrategias de apoyo para estudiantes con dificultades -->
-  <paragraphs>
+  <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>Si los estudiantes no encuentran una solución a los problemas, considere preguntar: "¿De qué se trata este problema?" y "¿Cómo podrías representar el problema?"</p>
-  </paragraphs>
+  </li>
 
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <p>Organice los pósteres alrededor del salón.</p>
-  </paragraphs>
+  </li>
 
   <!-- Descripción del desarrollo de lenguaje matemático -->
-  <!-- <paragraphs> -->
+  <!-- <li> -->
     <!-- <title><custom ref="language-actividad-titulo"/></title> -->
     <!-- <p>[@@@@@@@@@]</p> -->
-  <!-- </paragraphs> -->
+  <!-- </li> -->
 
   <!-- Estrategias de acceso para estudiantes con discapacidades -->
-  <paragraphs>
+  <li>
     <title><custom ref="accesibility-actividad-titulo"/></title>
     <p>Representación: Acceso para la percepción.</p>
     <p>Comience mostrando cómo podría verse el póster, utilizando un problema diferente, para apoyar la comprensión del contexto.</p>
     <p>Apoya la accesibilidad para: Funcionamiento socioemocional</p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </postlude>
 </activity>

@@ -76,10 +76,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li> 
@@ -88,24 +90,24 @@
         <xref ref="ccss-3-NF-A-3-b" text="custom">3.NF.A.3.b</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>15 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this activity is for students to consider equivalent fractions using diagrams. One half has been chosen to introduce equivalent fractions because there are many ways to see and represent fractions that are equivalent to <m>\frac{1}{2}</m>. Many students may be familiar with the concept of halves and justify equivalence by saying 2 is half of 4. This reasoning is helpful with 1 half and 2 fourths but may not be generalizable to other cases of equivalence. For this reason, the activity synthesis focuses on justifications about whether or not the shaded parts are the same size. The idea that <m>\frac{1}{2}</m> and <m>\frac{2}{4}</m> are the same size is used to define <term>equivalent fractions</term> as fractions that are the same size.</p>
     <p>Students need to use language carefully as they explain why the shaded parts of a shape show <m>\frac{1}{2}</m> (MP6). For example, they may say that 2 of 4 equal parts in shape D are shaded, but if they combine those parts, the total shaded amount is the same as in the shape where 1 of 2 equal parts is shaded.</p>
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -116,11 +118,11 @@
       <li>1 minute: quiet think time</li>
       <li>Share and record responses.</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -130,8 +132,9 @@
       <li>5–7 minutes: partner work time</li>
       <li>Monitor for students who explain that the shading in A and D both represents <m>\frac{1}{2}</m> of the shape.</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -139,9 +142,10 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -157,28 +161,29 @@
         <q>Dos números que tienen el mismo tamaño son equivalentes, así que las fracciones <m>\frac{2}{4}</m> y <m>\frac{1}{2}</m> son <term>fracciones equivalentes</term></q>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Descripción del desarrollo de lenguaje matemático -->
-  <paragraphs>
+  <li>
     <title><custom ref="language-actividad-titulo"/></title><p>[++++++++++++++++]</p>
     <p><em>MLR7 Compare and Connect.</em> Synthesis: Lead a discussion comparing, contrasting, and connecting shapes C and D. Ask, <q>¿En qué se parecen las figuras C y D?</q> // <q>How are shapes C and D the same?</q>, <q>¿En qué son diferentes?</q> // <q>How are they different?</q>, and <q>¿Cómo muestran <m>\frac{1}{2}</m> estas dos representaciones diferentes?</q> // <q>How do these two different representations show <m>\frac{1}{2}</m>?</q></p>
     <p>
       <em>Advances: Representing, Conversing</em>
     </p>
-  </paragraphs>
+  </li>
 
 
   <!-- Estrategias de acceso para estudiantes con discapacidades -->
-  <paragraphs>
+  <li>
     <title><custom ref="accesibility-actividad-titulo"/></title><p>[++++++++++++++++]</p>
     <p><em>Engagement: Provide Access by Recruiting Interest.</em> Synthesis: Invite students to share connections between finding one-half in fractions with more than two equal parts in this activity and when they might, in their own lives, see one half when there are more than 2 equal parts.</p>
     <p>
       <em>Supports accessibility for: Visual-Spatial Processing</em>
     </p>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </activity>

@@ -44,10 +44,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li>
@@ -55,32 +57,32 @@
         <xref ref="ccss-2-NBT-A-2" text="custom">2.NBT.A.2</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>20 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this activity is for students to use place value understanding from grade 2 to decompose numbers in different ways. In small groups, students start by writing a three-digit number, and then pass their number to the group member to their right. Each time students receive the number, they decompose it in a different way. In the synthesis, students look for connections in the ways their number was decomposed, and in all the recording sheets in their group. Highlight connections that show that place value can be used to represent a number as different combinations of hundreds, tens, and ones. This will be helpful later in the unit when students add and subtract using strategies and algorithms based on place value.</p>
-  </paragraphs>
+  </li>
 
 
   <!-- Materiales requeridos de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-actividad-titulo"/></title>
     <!-- si hay materiales, crear los archivos -mat.ptx (para materiales de la actividad) y -matCentros.ptx (para mencionar los otros centros que se usan y para los que se necesitan materiales) y poner los materiales ahí usando los archivos de template. Después hacer xinclude  de estos archivos en la lista de materiales de la lección.-->
     <xi:include href="./act-mesaRedondaDeNumEnDistintasFormas-mat.ptx"/>
     <!-- <xi:include href="./act-mesaRedondaDeNumEnDistintasFormas-matCentros.ptx"/>  -->
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -96,11 +98,11 @@
       <li>30 seconds: quiet think time.</li>
       <li><q>Now write your number in the first box on your sheet.</q></li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>Part 1</p>
@@ -123,8 +125,9 @@
       <li><q>Ahora, miren todas las hojas de registro. ¿Qué patrones observan en las maneras en las que los números se descompusieron?</q></li>
       <li>2-3 minutes: group discussion</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -132,9 +135,10 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Estrategias de apoyo para estudiantes con dificultades -->
-  <paragraphs>
+  <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>If students don't generate decompositions based on place value, consider asking:</p>
@@ -146,18 +150,19 @@
         <q>¿Cómo puedes usar los bloques en base diez para encontrar otras maneras de descomponer el número?</q>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
       <li>Have groups share the connections they saw across the sheets.</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </activity>

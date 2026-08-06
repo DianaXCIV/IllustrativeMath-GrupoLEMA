@@ -36,10 +36,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li>
@@ -47,29 +49,29 @@
         <xref ref="ccss-K-CC-B-4" text="custom">K.CC.B.4</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>10 minutos</p>
-  </paragraphs>
+  </li>
 
   
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>
       El propósito de esta actividad es que los estudiantes revisen una historia y consideren formas de actuarla. Además de explicar de qué trata la historia, los estudiantes también piensan en formas en que la clase podría actuar la historia. Cuando los estudiantes actúan la historia, comprenden el contexto y desarrollan estrategias para entender problemas y perseverar en resolverlos (MP1). Identifique a los estudiantes que sugieren actuar la historia con objetos concretos como cubos encajables, dedos o estudiantes, así como representar la historia con imágenes. En la síntesis, la clase actúa la historia de una de las formas sugeridas por los estudiantes. En una lección posterior, los estudiantes actúan la misma historia de otra manera para ver diferentes representaciones de la misma historia. 
     </p>
-  </paragraphs>
+  </li>
 
 
-  <!-- <paragraphs>
+  <!-- <li>
     <title><custom ref="materials-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> -->
+  </li> -->
 
 
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <ul>
       <li>Grupos de 2</li>
@@ -81,10 +83,10 @@
       <li><q>¿Cómo pueden actuar esta historia?</q></li>
       <li>30 segundos: tiempo para pensar en silencio</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <ul>
       <li><q>Discutan con su pareja cómo pensaron</q></li>
@@ -92,41 +94,44 @@
       <li>Identifique a los estudiantes que sugieren usar objetos físicos como dedos, cubos encajables o estudiantes para representar los patos, o dibujar imágenes para representar la historia.</li>
     </ul>
 
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 <!-- ============================================================== 
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
-  <!-- <paragraphs>
+<p>
+<dl>
+  <!-- <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> -->
+  </li> -->
 
 
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <ul>
       <li>Lean la historia juntos.</li>
       <li>Actúe la historia usando alguna sugerencia de usar objetos concretos o imágenes.</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
-  <!-- <paragraphs>
+  <!-- <li>
     <title><custom ref="language-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> -->
+  </li> -->
 
 
-  <!-- <paragraphs>
+  <!-- <li>
     <title><custom ref="accesibility-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> -->
-
+  </li> -->
+</dl>
+</p>
 </postlude>
 
 </exploration>

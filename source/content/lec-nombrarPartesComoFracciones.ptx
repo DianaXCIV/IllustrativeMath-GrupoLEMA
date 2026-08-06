@@ -44,9 +44,10 @@
   Introducción para el profesor                        
 =================================================  -->
 <introduction component="profesor">
-
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-leccion-titulo"/></title> 
     <ul>
       <li> 
@@ -62,23 +63,23 @@
         <xref ref="ccss-3-NF-A-1" text="custom">3.NF.A.1</xref>
       </li>
     </ul>
-    </paragraphs>
+    </li>
 
   <!-- índice de la lección (automático) -->
-  <paragraphs>
+  <li>
     <title><custom ref="timeline-leccion-titulo"/></title>
     <list-of elements="subsubsection reading-questions" scope="subsection"/>
-  </paragraphs>
+  </li>
 
   <!-- Propósito de la lección -->
-  <paragraphs>
+  <li>
     <title><custom ref="purpose-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this lesson is for students to partition shapes into equal parts and express each equal-size part as a unit fraction.</p>
-  </paragraphs>
+  </li>
 
   <!-- Materiales requeridos -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-leccion-titulo"/></title>
     <ul>
       <li>
@@ -92,21 +93,23 @@
         <xi:include href="./act-partirColorearEIntercambiar-matCentros.ptx"/>
       </li>-->
     </ul> 
-  </paragraphs>
+  </li>
   
   <!-- Introducción de la lección (narrative) -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>Previously, students partitioned rectangles that each represented 1 into fractional parts by folding. They now draw lines to partition a shape and use the fraction notation they learned to label each part as a unit fraction and describe a shaded part as a unit fraction. This lesson is the first time that students work with fraction strips, which will be used multiple times in the unit.</p>
-  </paragraphs>
+  </li>
   
   <!-- Preguntas de reflexión profesor -->
-  <paragraphs>
+  <li>
     <title><custom ref="reflection-quest-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>What student strategies surprised you in today’s lesson? How will you build on those strategies as students develop ideas about fractions?</p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </introduction>
 
 

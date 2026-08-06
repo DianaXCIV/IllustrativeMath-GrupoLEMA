@@ -37,9 +37,10 @@
   Introducción para el profesor                        
 =================================================  -->
 <introduction component="profesor">
-
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-leccion-titulo"/></title> 
     <ul>
       <li> 
@@ -55,23 +56,23 @@
         <xref ref="ccss-3-MD-B-4" text="custom">3.MD.B.4</xref>
       </li>
     </ul>
-    </paragraphs>
+    </li>
 
   <!-- índice de la lección (automático) -->
-  <paragraphs>
+  <li>
     <title><custom ref="timeline-leccion-titulo"/></title>
     <list-of elements="subsubsection reading-questions" scope="subsection"/>
-  </paragraphs>
+  </li>
 
   <!-- Propósito de la lección -->
-  <paragraphs>
+  <li>
     <title><custom ref="purpose-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this lesson is for students to make sense of line plots that represent measurements to the nearest half or fourth of an inch.</p>
-  </paragraphs>
+  </li>
 
   <!-- Materiales requeridos -->
-  <!--<paragraphs>
+  <!--<li>
     <title><custom ref="materials-leccion-titulo"/></title>
     <ul>
       <li>
@@ -85,21 +86,23 @@
         <xi:include href="./act-todoSobreLasRamas-matCentros.ptx"/>
       </li>
     </ul>  
-  </paragraphs>-->
+  </li>-->
   
   <!-- Introducción de la lección (narrative) -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>In grade 2, students made line plots to show measurements to the nearest whole unit. In previous lessons, they measured objects with rulers marked with halves and fourths of an inch. In this lesson, students interpret line plots that show lengths in half inches and quarter inches and ask and answer questions about the data. </p>
-  </paragraphs>
+  </li>
   
   <!-- Preguntas de reflexión profesor -->
-  <paragraphs>
+  <li>
     <title><custom ref="reflection-quest-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>What part of the lesson went really well today in terms of students’ learning? What did you do that made that part go well?</p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </introduction>
 
 

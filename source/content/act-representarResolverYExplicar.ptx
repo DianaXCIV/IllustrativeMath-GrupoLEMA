@@ -41,10 +41,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li> 
@@ -52,25 +54,25 @@
         <xref ref="ccss-3-OA-D-8" text="custom">3.OA.D.8</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>15 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>Previously, students matched diagrams and equations to situations with an unknown quantity. Here, they generate such equations, using a letter for the unknown quantity, solve problems, and explain how they know their answers makes sense. Students should be encouraged to use any solving strategy they feel comfortable with. If not yet addressed, mention that any letter can be used for the unknown quantity in their equation.</p>
     <p>While this activity is focused on independent practice, encourage students to discuss the problem with a partner if needed. Though the task asks students to write an equation first, students may complete the task in any order that makes sense to them.</p>
     <p>Students reason abstractly and quantitatively when they write an equation that represents the situation (MP2). They also practice making sense of a problem and its solution in terms of the context (MP1).</p>
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -86,11 +88,11 @@
       </li>
       <li>Share and record responses.</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -106,8 +108,9 @@
         </ul>
       </li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -115,9 +118,10 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Estrategias de apoyo para estudiantes con dificultades -->
-  <paragraphs>
+  <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>If students don't find a solution to the problem, consider asking:</p>
@@ -129,11 +133,11 @@
         <q>¿Cómo puedes representar el problema?</q>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -150,30 +154,31 @@
         </ul>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Descripción del desarrollo de lenguaje matemático -->
-  <paragraphs>
+  <li>
     <title><custom ref="language-actividad-titulo"/></title>
     <p>[++++++++++++++++]</p>
     <p><em>MLR5 Co-Craft Questions:</em> Keep books or devices closed. Display only the problem stem, without revealing the question, and ask students to write down possible mathematical questions that could be asked about the situation. Invite students to compare their questions before revealing the task. Ask, <q>¿Qué tienen en común estas preguntas? ¿En qué son diferentes?</q> // <q>What do these questions have in common? How are they different?</q> Reveal the intended questions for this task and invite additional connections.</p>
     <p>
       <em>Advances: Reading, Writing</em>
     </p>
-  </paragraphs>
+  </li>
 
 
   <!-- Estrategias de acceso para estudiantes con discapacidades -->
-  <paragraphs>
+  <li>
     <title><custom ref="accesibility-actividad-titulo"/></title>
     <p>[++++++++++++++++]</p>
     <p><em>Engagement: Develop Effort and Persistence.</em> Differentiate the degree of difficulty or complexity. Some students may benefit from starting with a familiar example or one with more accessible values before working independently on the three parts to the activity.</p>
     <p>
       <em>Supports accessibility for: Social-Emotional Functioning, Conceptual Processing</em>
     </p>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </activity>

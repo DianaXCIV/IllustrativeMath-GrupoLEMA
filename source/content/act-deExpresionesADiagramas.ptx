@@ -98,8 +98,10 @@
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
 <prelude component="profesor">
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li>
@@ -108,29 +110,29 @@
         <xref ref="ccss-3-OA-C-7" text="custom">3.OA.C.7</xref>
       </li>
     </ul>
-  </paragraphs> 
+  </li> 
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>15 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>En esta actividad, los estudiantes trabajan con expresiones que representan estrategias para encontrar el área de rectángulos. Las estrategias se basan en la propiedad distributiva y la propiedad asociativa de la multiplicación. Los estudiantes interpretan las expresiones marcando o sombreando diagramas de área y conectan cada expresión con el producto de dos factores (MP2). Por ejemplo, ven que encontrar el valor de <m>2 \times (2 \times 6)</m> es lo mismo que encontrar el valor de <m>4 \times 6</m> o <m>6 \times 4</m>.</p>
-  </paragraphs>
+  </li>
 
 
   <!-- Materiales requeridos de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-actividad-titulo"/></title>
     <xi:include href="./act-deExpresionesADiagramas-mat.ptx"/> 
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <ul>
       <li>Grupos de 2</li>
@@ -140,11 +142,11 @@
       <li>Responda cualquier pregunta de aclaración de los estudiantes.</li>
       <li>Dé acceso a los estudiantes a lápices de colores, crayones o marcadores.</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <ul>
       <li><q>Marquen o coloreen cada diagrama para representar cómo encontró el área cada estudiante</q></li>
@@ -152,8 +154,9 @@
       <li><q>Compartan con su compañero cómo usaron los rectángulos para mostrar cada expresión</q></li>
       <li>3–5 minutos: discusión en pareja</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -161,17 +164,17 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Estrategias de apoyo para estudiantes con dificultades -->
   <!-- 
-  <paragraphs>
+  <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs>
+  </li>
   -->
-
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <ul>
       <li><q>¿Cuáles son los dos factores que pueden multiplicar para encontrar el área del rectángulo de Noah?</q> (7 y 3)</li>
@@ -179,26 +182,27 @@
       <li><q>¿En qué parte de su expresión ven los dos factores?</q> (El 7 es la combinación de 5 y 2. El 3 está en <m>5 \times 3</m> y en <m>2 \times 3</m>).</li>
       <li>Repita la secuencia de preguntas con el rectángulo y la expresión de Priya.</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Descripción del desarrollo de lenguaje matemático -->
-  <paragraphs>
+  <li>
     <title><custom ref="language-actividad-titulo"/></title>
     <p>MLR8 Apoyos a la Discusión: En la síntesis cree una presentación visual de los diagramas. A medida que los estudiantes comparten sus estrategias, marque la presentación para representar las conexiones. Por ejemplo, dibuje el área que corresponde a 5 columnas de 3, y escriba <m>5\times 3</m>.</p>
-  </paragraphs>
+  </li>
 
 
   <!-- Estrategias de acceso para estudiantes con discapacidades -->
-  <paragraphs>
+  <li>
     <title><custom ref="accesibility-actividad-titulo"/></title>
     <p>
       Participación: Proporcione acceso al despertar interés. Aproveche que es posible elegir. Invite a los estudiantes a que seleccionen al menos 2 de los 3 problemas, basándose en qué tan retadores los perciben.
     </p> 
     <p>Apoya la accesibilidad para: Organización, Atención, Habilidades Socioemocionales</p>
     
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </activity>

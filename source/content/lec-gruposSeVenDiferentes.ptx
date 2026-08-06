@@ -36,9 +36,10 @@
   Introducción para el profesor                        
 =================================================  -->
 <introduction component="profesor">
-
+<p>
+<dl>
     <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-leccion-titulo"/></title> 
     <ul>
       <li>
@@ -50,23 +51,23 @@
         <xref ref="ccss-K-CC-A-3" text="custom">K.CC.A.3</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- índice de la lección (automático) -->
-  <paragraphs>
+  <li>
     <title><custom ref="timeline-leccion-titulo"/></title>
     <list-of elements="subsubsection reading-questions" scope="subsection"/>
-  </paragraphs>
+  </li>
 
   <!-- Propósito de la lección -->
-  <paragraphs>
+  <li>
     <title><custom ref="purpose-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this lesson is for students to compare groups of objects with very different quantities.</p>
-  </paragraphs>
+  </li>
 
   <!-- Materiales requeridos -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-leccion-titulo"/></title>
     <ul>
       <li>
@@ -83,21 +84,23 @@
         <xi:include href="./act-conozcamos-carreraConNum-numDel1Al10-matCentros.ptx"/>
       </li>
     </ul> 
-  </paragraphs>
+  </li>
   
   <!-- Introducción de la lección (narrative) -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>Since this is the first activity where students compare the number of objects in groups, the numbers selected allow students to visually determine which groups have more objects and which groups have fewer. Students are introduced to the language <term>more</term> and <term>fewer</term>, however they are not required to produce this language until a future lesson. As you ask students to compare quantities, vary between using “fewer” and “more”. Because “more” occurs regularly in everyday speech, students may be comfortable with “more” initially, but need many chances to hear “fewer” to describe the number of objects in groups. In this lesson, students can compare groups of objects without counting, but are asked to count to answer “how many” questions. This continues to give students practice counting up to 10 objects and begins working toward counting to compare.</p>
-  </paragraphs>
+  </li>
   
   <!-- Preguntas de reflexión profesor -->
-  <paragraphs>
+  <li>
     <title><custom ref="reflection-quest-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>Who got to do math today in class and how do you know? Identify the norms or routines that allowed those students to engage in mathematics. How can you adjust these norms and routines so all students do math tomorrow?</p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </introduction>
 
 

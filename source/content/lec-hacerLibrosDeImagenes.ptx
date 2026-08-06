@@ -36,9 +36,10 @@
   Introducción para el profesor                        
 =================================================  -->
 <introduction component="profesor">
-
+<p>
+<dl>
     <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-leccion-titulo"/></title> 
     <ul>
       <li>
@@ -51,23 +52,23 @@
         <xref ref="ccss-K-CC-B-4" text="custom">K.CC.B.4</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- índice de la lección (automático) -->
-  <paragraphs>
+  <li>
     <title><custom ref="timeline-leccion-titulo"/></title>
     <list-of elements="subsubsection reading-questions" scope="subsection"/>
-  </paragraphs>
+  </li>
 
   <!-- Propósito de la lección -->
-  <paragraphs>
+  <li>
     <title><custom ref="purpose-leccion-titulo"/></title>
     <p>[++++++++++++++]</p>
     <p>The purpose of this lesson is for students to recognize and represent groups of up to 4 objects and images without counting.</p>
-  </paragraphs>
+  </li>
 
   <!-- Materiales requeridos -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-leccion-titulo"/></title>
     <p>[+++++++++++++++++++]</p>
     <ul>
@@ -80,22 +81,24 @@
         <xi:include href="./act-centros-escoger5-matCentros.ptx"/>
       </li>
     </ul> 
-  </paragraphs>
+  </li>
   
   <!-- Introducción de la lección (narrative) -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-leccion-titulo"/></title>
     <p>[+++++++++++++++++]</p>
     <p>This lesson builds on the work of previous lessons where students recognized small groups of things without counting and matched groups with the same quantity. In this lesson, students create a page in a picture book where they record many different groups of objects with the same quantity that they see in the classroom. Students can make more picture book pages in centers in this and future lessons.</p>
     <p>In the lesson synthesis, students practice saying the verbal count sequence to 10 in preparation for counting objects in an upcoming section. Add variety to the counting by adding movement. For example, students can count as they clap, stomp their feet, or jump.</p>
-  </paragraphs>
+  </li>
   
   <!-- Preguntas de reflexión profesor -->
-  <paragraphs>
+  <li>
     <title><custom ref="reflection-quest-titulo"/></title>
     <p>[+++++++++++++++++]</p>
     <p>How did the work of matching groups with the same number of objects or images prepare students for the work in this lesson?</p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </introduction>
 
 

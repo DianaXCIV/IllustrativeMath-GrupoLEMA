@@ -64,10 +64,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li> 
@@ -75,23 +77,23 @@
         <xref ref="ccss-3-MD-B-4" text="custom">3.MD.B.4</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>15 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this activity is for students to use a line plot to answer questions about a set of length data. The data show measurements to the nearest quarter inch. Students may apply their understanding of fraction equivalence to interpret the data and answer the questions.</p>
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -100,11 +102,11 @@
         <q>Este diagrama de puntos tiene datos sobre las longitudes de algunas ramas. ¿Qué observan? ¿Qué se preguntan?</q>  (Students may notice: The twigs were measured to the nearest quarter inch. The longest twig is <m>7\frac{2}{4}</m> inches. Students may wonder: Where were the twigs found? How many twigs are shown on the line plot?)
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -117,8 +119,9 @@
       </li>
       <li>5–7 minutes: partner work time</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -126,9 +129,10 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -139,28 +143,29 @@
         <q>¿Cómo usaron la equivalencia de fracciones para responder las preguntas?</q> (When the question asked how many of the twigs were <m>6\frac{1}{2}</m> inches long, I used the mark that was at <m>6\frac{2}{4}</m>, because the lengths are equivalent. When I added a twig to the line plot, it was at the <m>3\frac{2}{4}</m> inch mark, but I wrote <m>3\frac{1}{2}</m> because the fractions are equivalent.)
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Descripción del desarrollo de lenguaje matemático -->
-  <paragraphs>
+  <li>
     <title><custom ref="language-actividad-titulo"/></title><p>[++++++++++++++++]</p>
     <p><em>Reading: MLR6 Three Reads.</em> Keep books or devices closed. Display only the graph, without revealing the questions. <q>Vamos a leer esta gráfica 3 veces</q> // <q>We are going to read this graph 3 times.</q> 1st Read: Give students 2–3 minutes to interpret and read the information displayed by the graph. Ask, <q>¿De qué se trata esta situación?</q> // <q>What is this situation about?</q> Listen for and clarify any questions about the context. 2nd Read: <q>Lean e interpreten la gráfica por segunda vez. ¿Qué cantidades están representadas? ¿Qué se puede contar o medir en esta situación?</q> // <q>Read and interpret the graph a second time. What quantities are represented? What can be counted or measured in this situation?</q> 3rd Read: Reveal and read the questions aloud. Invite students to take turns explaining their observations about the graph related to each question as they work together.</p>
     <p>
       <em>Advances: Reading, Representing</em>
     </p>
-  </paragraphs>
+  </li>
 
 
   <!-- Estrategias de acceso para estudiantes con discapacidades -->
-  <paragraphs>
+  <li>
     <title><custom ref="accesibility-actividad-titulo"/></title><p>[++++++++++++++++]</p>
     <p><em>Engagement: Provide Access by Recruiting Interest.</em> Leverage choice around perceived challenge. Invite students to select complete 6 out of the 8 line plot questions.</p>
     <p>
       <em>Supports accessibility for: Organization, Attention, Social-emotional skills</em>
     </p>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </activity>

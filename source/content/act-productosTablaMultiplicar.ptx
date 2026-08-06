@@ -55,8 +55,10 @@
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
 <prelude component="profesor">
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li>
@@ -64,34 +66,34 @@
         <xref ref="ccss-3-OA-D-9" text="custom">3.OA.D.9</xref>
       </li>
     </ul>
-  </paragraphs> 
+  </li> 
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>20 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>El propósito de esta actividad es que los estudiantes encuentren productos en una tabla de multiplicar aplicando estrategias de multiplicación basadas en las propiedades de las operaciones. Aunque los estudiantes pueden usar diversas estrategias basadas en las propiedades de las operaciones, intente resaltar estrategias basadas en la propiedad conmutativa. Los estudiantes consideran cómo los productos conocidos (los que ya aparecen en la tabla) pueden ayudar a encontrar un producto desconocido en la tabla de multiplicar.</p>
 
     <p>Cuando los estudiantes utilizan un hecho de multiplicación que conocen para determinar un hecho de multiplicación que no conocen, buscan y hacen uso de estructuras (MP7).</p>
-  </paragraphs>
+  </li>
 
 
   <!-- Materiales requeridos de la actividad -->
   <!-- 
-  <paragraphs>
+  <li>
     <title><custom ref="materials-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs>
+  </li>
   -->
 
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <ul>
       <li>Grupos de 2</li>
@@ -99,11 +101,11 @@
       <li>1 minuto: tiempo para pensar en silencio</li>
       <li>Compartir respuestas.</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <ul>
       <li><q>Usen los números que ya aparecen en la tabla como ayuda para encontrar los números que deberían ir en lugar de las letras de la A a la G. Piensen en cómo ayudan los números que ya están en la tabla</q></li>
@@ -120,8 +122,9 @@
         </ul>
       </li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -129,40 +132,41 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Estrategias de apoyo para estudiantes con dificultades -->
   <!-- 
-  <paragraphs>
+  <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs>
+  </li>
   -->
-
-
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <ul>
       <li>Seleccione a los estudiantes previamente identificados para que compartan cómo utilizaron los números que estaban en la tabla para encontrar los productos desconocidos. De ser posible, muestre una copia grande de la tabla e ilustre el razonamiento de los estudiantes.</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Descripción del desarrollo de lenguaje matemático -->
-  <paragraphs>
+  <li>
     <title><custom ref="language-actividad-titulo"/></title>
     <p>MLR2 Recopilar y Mostrar. Camine por el salón, escuche y recopile el lenguaje que los estudiantes utilizan al encontrar los productos desconocidos y al describir sus estrategias. En una presentación visual, registre palabras y frases como: "agregar un grupo más", "los mismos factores", "cambiar el orden", "quitar un grupo", "duplicar". Invite a los estudiantes a tomar prestado el lenguaje de la presentación según sea necesario, y actualícelo a lo largo de la lección.</p>
     <p>Avances: Conversacion, Lectura</p>
-  </paragraphs>
+  </li>
 
 
   <!-- Estrategias de acceso para estudiantes con discapacidades -->
   <!-- 
-  <paragraphs>
+  <li>
     <title><custom ref="accesibility-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs>
+  </li>
   -->
+</dl>
+</p>
 </postlude>
 
 </activity>

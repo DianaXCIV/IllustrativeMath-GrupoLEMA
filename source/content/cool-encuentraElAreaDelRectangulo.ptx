@@ -23,8 +23,10 @@
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
 <prelude component="profesor">
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li>
@@ -32,33 +34,37 @@
       <xref ref="ccss-3-MD-C-7-b" text="custom">3.MD.C.7.b</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </prelude>
 
 
 <!-- ============================================================== 
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ============================================ -->
-
-<!-- Estrategia de apoyo si muchos estudiantes respondieron incorrectamente -->
-  
-<paragraphs>
-    <title><custom ref="apoyo-cool-titulo"/></title>
-    <p>
-      [++++++++++++++++++++++]
-    </p>
-    <p>During the launch of the next day's activity, have students discuss how they could use the given measurements to find the area of the wall.</p>
-  </paragraphs>
-
-
-<!-- Posibles errores -->
-  <paragraphs>
+<postlude component="profesor">
+<p>
+<dl>
+  <!-- Posibles errores -->
+  <li>
     <title><custom ref="errores-cool-titulo"/></title>
     <p>[+++++++++++++++++++++]</p>
     <p>
       Students measure correctly, but do not multiply the length measurements to find the area of the rectangle.
     </p>
-  </paragraphs>
+  </li>
 
+  <!-- Estrategia de apoyo si muchos estudiantes respondieron incorrectamente -->
+  <li>
+    <title><custom ref="apoyo-cool-titulo"/></title>
+    <p>
+      [++++++++++++++++++++++]
+    </p>
+    <p>During the launch of the next day's activity, have students discuss how they could use the given measurements to find the area of the wall.</p>
+  </li>
+</dl>
+</p>
+</postlude>
 
 </project>

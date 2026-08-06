@@ -40,8 +40,10 @@
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
 <prelude component="profesor">
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li>
@@ -49,31 +51,31 @@
         <xref ref="ccss-3-OA-D-9" text="custom">3.OA.D.9</xref>
       </li>
     </ul>
-  </paragraphs> 
+  </li> 
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>10 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->  
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>El propósito de esta actividad es generar la idea de que el producto de dos factores en la tabla de multiplicar se encuentra en la casilla donde se cruzan la fila y la columna de cada factor. Aunque los estudiantes pueden observar y preguntarse muchas cosas sobre estos productos, se debe hacer énfasis en los patrones de la tabla de multiplicar y en cómo está estructurada.</p>
-  </paragraphs>
+  </li>
 
   <!-- Materiales requeridos de la actividad -->
   <!-- 
-  <paragraphs>
+  <li>
     <title><custom ref="materials-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs>
+  </li>
   -->
 
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <ul>
       <li>Grupos de 2</li>
@@ -83,10 +85,10 @@
       </li>
       <li>1 minuto: tiempo para pensar en silencio</li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <ul>
       <li>
@@ -95,8 +97,9 @@
       <li>1 minuto: discusión en pareja</li>
       <li>Compartan y registren las respuestas.</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -104,18 +107,17 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Estrategias de apoyo para estudiantes con dificultades -->
   <!-- 
-  <paragraphs>
+  <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs>
+  </li>
   -->
-
-
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <ul>
       <li>Si los estudiantes no lo mencionan, explique: <q>En una tabla de multiplicar se usan filas y columnas para mostrar los productos de dos números. Los números que están en la columna de la izquierda y en la fila de más arriba son los factores</q></li>
@@ -124,27 +126,27 @@
       <li><q>¿Qué patrones ven en la tabla de multiplicar y por qué funcionan?</q> (Al movernos hacia la derecha en la fila que comienza con un 3 o hacia abajo en la columna que comienza con un 3, los productos aumentan de 3 en 3, porque estamos sumando grupos de 3. El número 15 aparece en dos lugares porque podemos obtener el 15 haciendo <m>3 \times 5</m> o <m>5 \times 3</m>. Vemos el 12 en dos lugares de la tabla porque podemos obtener 12 contando de 3 en 3 como 3, 6, 9, 12 o contando de 4 en 4 como 4, 8, 12.)</li>
       <li><q>Encuentren todas las posiciones en las que aparece el 20. ¿Cuáles parejas de factores, al ser multiplicadas, dan 20?</q> (4 y 5)</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Descripción del desarrollo de lenguaje matemático -->
   <!-- 
-  <paragraphs>
+  <li>
     <title><custom ref="language-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs>
+  </li>
   -->
 
 
   <!-- Estrategias de acceso para estudiantes con discapacidades -->
   <!-- 
-  <paragraphs>
+  <li>
     <title><custom ref="accesibility-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs>
+  </li>
   -->
-
-
+</dl>
+</p>
 </postlude>
 
 </exploration>

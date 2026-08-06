@@ -35,9 +35,10 @@
   Introducción para el profesor                        
 =================================================  -->
 <introduction component="profesor">
-
+<p>
+<dl>
     <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-leccion-titulo"/></title> 
     <ul>
       <li>
@@ -45,36 +46,38 @@
         <xref ref="ccss-3-NBT-A-2" text="custom">3.NBT.A.2</xref>, <xref ref="ccss-3-OA-A-2" text="custom">3.OA.A.2</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- índice de la lección -->
-  <paragraphs>
+  <li>
     <title><custom ref="timeline-leccion-titulo"/></title>
      <list-of elements="subsubsection reading-questions" scope="subsection"/>
-  </paragraphs>
+  </li>
 
   <!-- Propósito de la lección -->
-  <paragraphs>
+  <li>
       <title><custom ref="purpose-leccion-titulo"/></title>
       <p>El propósito de esta lección es que los estudiantes interpreten descripciones o dibujos de situaciones de división y reconozcan si implican encontrar un número desconocido de grupos o encontrar un número desconocido de objetos en cada grupo.</p>
-  </paragraphs>
+  </li>
 
- <!--  <paragraphs>
+ <!--  <li>
     <title><custom ref="materials-act-titulo"/></title>
     <ul>
       <li>Cubos encajables o fichas para contar</li>
       <li>Herramientas para crear una presentación visual</li>
     </ul>
-  </paragraphs> -->
+  </li> -->
 
-  <paragraphs>
+  <li>
       <title><custom ref="narrative-leccion-titulo"/></title>
       <p>Los estudiantes ven los dos tipos de situaciones de división en esta lección. Comprenden que la división consiste en encontrar el número en cada grupo o el tamaño de cada grupo y pueden relacionar las situaciones de división con dibujos. Los estudiantes aprenden que el mismo dibujo puede corresponder a cualquiera de los dos tipos de situaciones de división. Esto se debe a que los dibujos representan el resultado final después de que se ha realizado la división. A partir del dibujo, no podemos saber si se conocía el número de grupos o el número de objetos en cada grupo. El símbolo de división, <m>\div</m>, se introduce en la síntesis de la lección.</p>
-  </paragraphs>
-  <paragraphs>
+  </li>
+  <li>
     <title><custom ref="reflection-quest-titulo"/></title>
     <p>Los estudiantes utilizaron cierto tipo de dibujos al multiplicar, ¿cómo los están aprovechando ahora para resolver problemas de división?</p>  
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </introduction>
 
 

@@ -54,10 +54,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li>
@@ -66,27 +68,27 @@
         <xref ref="ccss-K-MD-B-3" text="custom">K.MD.B.3</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>15 minutos</p>
-  </paragraphs>
+  </li>
 
   
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>Este calentamiento invita a los estudiantes a observar y preguntarse sobre cuatro herramientas matemáticas diferentes, dos herramientas con las que han trabajado anteriormente y dos nuevas herramientas que explorarán en esta lección. La estructura de la imagen es la misma que los estudiantes verán en la rutina "¿Cuál es diferente?" a la que se les presentará en una unidad futura. Para prepararse para eso, la síntesis se centra en comparar las diferentes herramientas. Escuche el lenguaje que los estudiantes usan para describir y explicar a otros cómo ven las diferentes herramientas matemáticas (MP3, MP6).</p>
-  </paragraphs>
+  </li>
 
 <!-- 
-  <paragraphs>
+  <li>
     <title><custom ref="materials-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs>
+  </li>
  -->
 
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <ul>
       <li>Grupos de 2</li>
@@ -94,10 +96,10 @@
       <li><q>¿Qué observan?</q></li>
       <li>30 segundos: tiempo de reflexión en silencio</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <ul>
       <li><q>Cuéntenle a su compañero qué observaron</q></li>
@@ -110,8 +112,9 @@
       <li><q>Compartan algo que su compañero se haya preguntado</q></li>
       <li>Compartan y registren las respuestas</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -119,39 +122,40 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
 <!-- 
-  <paragraphs>
+  <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs>
+  </li>
  -->
 
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <ul>
       <li><q>Estas herramientas se llaman fichas de dos colores.</q></li>
       <li>Si es necesario, pregunte <q>¿En qué se parecen estas herramientas? ¿En qué son diferentes?</q></li>
     </ul>
-  </paragraphs>
+  </li>
 
 <!-- 
-  <paragraphs>
+  <li>
     <title><custom ref="language-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs>
+  </li>
  -->
 
 
 
 <!-- 
-  <paragraphs>
+  <li>
     <title><custom ref="accesibility-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs>
+  </li>
  -->
-
-
+</dl>
+</p>
 </postlude>
 
 </exploration>

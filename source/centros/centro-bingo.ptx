@@ -19,24 +19,27 @@
   <introduction>
     <p>Un estudiante elige una tarjeta con una imagen y todos los estudiantes en el grupo cubren con fichas todas las casillas de su tablero de juego que muestran ese número. Juegan hasta que alguien tenga cuatro fichas en una fila. </p>
   </introduction>
-
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-centro-etapa-titulo"/></title> 
     <p>K.CC.B.5, K.CC.C.6</p>
-  </paragraphs>
+  </li>
 
   <!-- materiales requeridos -->
-  <paragraphs>
+  <li>
     <title>Materiales</title>
     <xi:include href="../content/act-conozcamos-bingo-imagenes-mat.ptx"/> 
-  </paragraphs>
+  </li>
   
   <!-- referencia a la actividad en la que se presenta el centro por primera vez -->
-  <paragraphs>
+  <li>
     <title><custom ref="centros-ubicacion-act-intro-titlulo"/></title>
     <p> <xref ref="act-conozcamos-bingo-imagenes" text="title"/> </p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 
   <!-- Archivo con el contenido -->
   <!-- <xi:include href="../graVV-uniXX/act-conozcamos-bingo-SSSSSS.ptx"/>    -->
@@ -53,24 +56,27 @@
   <introduction>
     <p>Un estudiante elige una tarjeta con un número y todos los estudiantes en el grupo cubren con fichas todas las casillas de su tablero de juego que muestran ese número. Juegan hasta que alguien tenga cuatro fichas en una fila.</p>
   </introduction>
-
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-centro-etapa-titulo"/></title> 
     <p>K.CC.B.5, K.CC.C.6</p>
-  </paragraphs>
+  </li>
 
   <!-- materiales requeridos -->
-  <paragraphs>
+  <li>
     <title>Materiales</title>
     <xi:include href="../content/act-conozcamos-bingo-imagenesNum-mat.ptx"/> 
-  </paragraphs>
+  </li>
   
   <!-- referencia a la actividad en la que se presenta el centro por primera vez -->
-  <paragraphs>
+  <li>
     <title><custom ref="centros-ubicacion-act-intro-titlulo"/></title>
     <p> <xref ref="act-conozcamos-bingo-imagenesNum" text="title"/> </p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 
   <!-- Archivo con el contenido -->
   <!-- <xi:include href="../graVV-uniXX/act-conozcamos-bingo-SSSSSS.ptx"/>    -->

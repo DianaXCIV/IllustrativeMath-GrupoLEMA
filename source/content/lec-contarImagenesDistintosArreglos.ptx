@@ -36,9 +36,10 @@
   Introducción para el profesor                        
 =================================================  -->
 <introduction component="profesor">
-
+<p>
+<dl>
     <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-leccion-titulo"/></title> 
     <ul>
       <li>
@@ -49,23 +50,23 @@
         <xref ref="ccss-K-CC-B-5" text="custom">K.CC.B.5</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- índice de la lección (automático) -->
-  <paragraphs>
+  <li>
     <title><custom ref="timeline-leccion-titulo"/></title>
     <list-of elements="subsubsection reading-questions" scope="subsection"/>
-  </paragraphs>
+  </li>
 
   <!-- Propósito de la lección -->
-  <paragraphs>
+  <li>
     <title><custom ref="purpose-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this lesson is for students to count groups of up to 10 images and understand that the order counted does not change the number of images.</p>
-  </paragraphs>
+  </li>
 
   <!-- Materiales requeridos -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-leccion-titulo"/></title>
     <ul>
       <li>
@@ -87,22 +88,24 @@
         <xi:include href="./act-conozcamos-historiasMate-cuantos-matCentros.ptx"/>
       </li>
     </ul> 
-  </paragraphs>
+  </li>
   
   <!-- Introducción de la lección (narrative) -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>Students count and keep track of images in organized arrangements, such as in lines, arrays, on 5-frames, in dot cube arrangements, and on fingers. As students count and observe their peers counting, they notice that if you count a group of images in a different order, the number stays the same as long as you count each image one time. This understanding develops over time and it is not necessary for all students to articulate at the end of this lesson.</p>
 <p>The second activity is an optional activity that provides support in keeping track of which images have been counted. In the lesson synthesis, students practice saying the verbal count sequence to 20. Add variety to the counting by adding movement. For example, students can count as they clap, stomp their feet, or jump.</p>
-  </paragraphs>
+  </li>
   
   <!-- Preguntas de reflexión profesor -->
-  <paragraphs>
+  <li>
     <title><custom ref="reflection-quest-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>In an upcoming section, students will count images organized in circles. What do you notice in their work from today’s lesson that you might leverage in that future lesson?</p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </introduction>
 
 

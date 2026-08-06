@@ -36,9 +36,10 @@
   Introducción para el profesor                        
 =================================================  -->
 <introduction component="profesor">
-
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-leccion-titulo"/></title> 
     <ul>
       <li> 
@@ -50,23 +51,23 @@
         <xref ref="ccss-3-NBT-A-1" text="custom">3.NBT.A.1</xref>
       </li>
     </ul>
-    </paragraphs>
+    </li>
 
   <!-- índice de la lección (automático) -->
-  <paragraphs>
+  <li>
     <title><custom ref="timeline-leccion-titulo"/></title>
     <list-of elements="subsubsection reading-questions" scope="subsection"/>
-  </paragraphs>
+  </li>
 
   <!-- Propósito de la lección -->
-  <paragraphs>
+  <li>
     <title><custom ref="purpose-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this lesson is for students to reason about the position of numbers relative to their immediate multiples of 100, using number lines to do so.</p>
-  </paragraphs>
+  </li>
 
   <!-- Materiales requeridos -->
-  <!--<paragraphs>
+  <!--<li>
     <title><custom ref="materials-leccion-titulo"/></title>
      <ul>
       <li>
@@ -80,23 +81,25 @@
         <xi:include href="./act-cercaDeMultiplosDe100-matCentros.ptx"/>
       </li>
     </ul> 
-  </paragraphs> -->
+  </li> -->
   
   <!-- Introducción de la lección (narrative) -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>In grade 2, students learned to represent whole numbers within 1,000 and make sense of their relative sizes on a number line. They also used number lines to represent addition and subtraction, and they often and intuitively relied on multiples of 10 and 100 as benchmarks to reason about sums and differences. (For example, to find <m>105 - 17</m>, they may start at 105, move 5 to the left to 100, move 10 more to the left to 90 and then move 2 more to land at 88.)</p>
     <p>In this lesson, students take a closer look at the relationship between numbers within 1,000 and multiples of 100. The lesson begins by eliciting students’ informal ideas about what it means for numbers to be <q>close to</q> multiples of 100. Then, they use number lines to identify the multiples of 100 between which a two- or three-digit number lies and examine their relative distance from the number.</p>
     <p>The work with number lines here allows students to reason visually about proximity to multiples of 100, preparing them to reason numerically about nearest multiples of 100 and about the idea of rounding in upcoming lessons.</p>
-  </paragraphs>
+  </li>
   
   <!-- Preguntas de reflexión profesor -->
-  <paragraphs>
+  <li>
     <title><custom ref="reflection-quest-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>In grade 2, students were introduced to the number line. What previous understandings are students leveraging as they use the number line to find the nearest multiple of 100?</p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </introduction>
 
 

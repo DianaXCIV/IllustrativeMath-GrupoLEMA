@@ -37,9 +37,10 @@
   Introducción para el profesor                        
 =================================================  -->
 <introduction component="profesor">
-
+<p>
+<dl>
     <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-leccion-titulo"/></title> 
     <ul>
       <li>
@@ -50,23 +51,23 @@
         <xref ref="ccss-K-CC-C-7" text="custom">K.CC.C.7</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- índice de la lección (automático) -->
-  <paragraphs>
+  <li>
     <title><custom ref="timeline-leccion-titulo"/></title>
     <list-of elements="subsubsection reading-questions" scope="subsection"/>
-  </paragraphs>
+  </li>
 
   <!-- Propósito de la lección -->
-  <paragraphs>
+  <li>
     <title><custom ref="purpose-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this lesson is for students to apply skills and their understanding of numbers 1-10 in the context of pizza toppings.</p>
-  </paragraphs>
+  </li>
 
   <!-- Materiales requeridos -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-leccion-titulo"/></title>
     <ul>
       <li>
@@ -78,23 +79,25 @@
         <xi:include href="./act-masPedidosPizza-mat.ptx"/>
       </li>
     </ul> 
-  </paragraphs>
+  </li>
   
   <!-- Introducción de la lección (narrative) -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>This lesson is optional because it does not address any new mathematical content standards. This lesson does provide students with an opportunity to apply precursor skills of mathematical modeling. In previous lessons students learned to connect quantities with spoken number words and written numbers. They compared and wrote numbers up to 10. In this lesson, they apply the various skills from the previous units in the context of pizza toppings. Throughout the lesson, students make sense of problems and persevere in solving them (MP1).</p>
 <p>In the first activity, students take a class order for a pizza and make the order. In doing so, they connect the spoken number with the written number and a representation of the number. When students translate a mathematical answer back into the context of a real world situation, they model with mathematics (MP4).</p>
 <p>In the second activity, students continue to take orders with up to 10 of any toppings for up to 3 types of toppings and create a visual representation of the order. They analyze their orders by comparing the different quantities. When students make choices and adhere to mathematical constraints, they model with mathematics (MP4).</p>
-  </paragraphs>
+  </li>
   
   <!-- Preguntas de reflexión profesor -->
-  <paragraphs>
+  <li>
     <title><custom ref="reflection-quest-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>Check-in with your norms and routines. Are they promoting engagement from all of your students? Are there any adjustments you might make so that all students do math tomorrow?</p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </introduction>
 
 

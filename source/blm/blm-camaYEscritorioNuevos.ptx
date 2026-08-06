@@ -8,20 +8,21 @@
 <title>
   Plano de habitación con cama y escritorio nuevos
 </title>
-
-
-<paragraphs>
+<p>
+<dl>
+<li>
   <title>Muestra de páginas</title>  
   <image source="blm/pdf-source/camaYEscritorioNuevos-0.png" width="30%">
     <shortdescription></shortdescription>
   </image>  
-</paragraphs>
+</li>
 
-<paragraphs>
+<li>
   <title>Pdf para imprimir</title>
   <p>
     <url component="web" href="external/blm/pdf-source/camaYEscritorioNuevos.pdf">descargar</url>
   </p>
-</paragraphs>
-
+</li>
+</dl>
+</p>
 </subsection>

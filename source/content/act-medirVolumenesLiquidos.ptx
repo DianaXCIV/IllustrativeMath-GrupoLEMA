@@ -172,10 +172,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li> 
@@ -183,23 +185,23 @@
         <xref ref="ccss-3-MD-A-2" text="custom">3.MD.A.2</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>20 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>[++++++++++++++++]</p>
     <p>The purpose of this activity is for students to measure liquid volume using liters. Students compare the liter marks on a container for measuring liquid volume to the marks on a ruler before they use images of containers marked in liters to determine or show the volume of liquid in each container.</p>
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <p>[++++++++++++++++]</p>
     <ul>
@@ -216,11 +218,11 @@
       <li><p>Share responses.</p></li>
       <li><p>If no students mention the zero mark, ask <q>¿En qué parte de los recipientes está el cero?</q></p></li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <p>[++++++++++++++++]</p>
     <ul>
@@ -235,8 +237,9 @@
         </ul>
       </li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -244,9 +247,10 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Estrategias de apoyo para estudiantes con dificultades -->
-  <paragraphs>
+  <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>[++++++++++++++++]</p>
     <p>If students interpret the shorter tick marks on the container as fractional amounts, consider asking:</p>
@@ -258,11 +262,11 @@
         <p><q>Mira las marcas del recipiente F. Hay 4 marcas entre 10 y 15 que están separadas por la misma distancia. ¿Qué números podrían representar?</q></p>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <p>[++++++++++++++++]</p>
     <ul>
@@ -271,18 +275,19 @@
       </li>
     </ul>
     
-  </paragraphs>
+  </li>
 
   <!-- Estrategias de acceso para estudiantes con discapacidades -->
-  <paragraphs>
+  <li>
     <title><custom ref="accesibility-actividad-titulo"/></title>
     <p>[++++++++++++++++]</p>
     <p><em>Engagement: Provide Access by Recruiting Interest.</em> Leverage choice around perceived challenge. Invite students to select 6 out of the 8 parts of problem 1 and 3 out of the 5 parts of problem 2 to complete.</p>
     <p>
       <em>Supports accessibility for: Organization, Attention, Social-emotional skills</em>
     </p>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </activity>

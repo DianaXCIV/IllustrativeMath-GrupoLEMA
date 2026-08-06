@@ -34,9 +34,10 @@
   Introducción para el profesor                        
 =================================================  -->
 <introduction component="profesor">
-
+<p>
+<dl>
     <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-leccion-titulo"/></title> 
     <ul>
       <li>
@@ -44,22 +45,22 @@
         <xref ref="ccss-3-OA-C-7" text="custom">3.OA.C.7</xref>, <xref ref="ccss-3-OA-B-6" text="custom">3.OA.B.6</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- índice de la lección (automático) -->
-  <paragraphs>
+  <li>
     <title><custom ref="timeline-leccion-titulo"/></title>
     <list-of elements="subsubsection reading-questions" scope="subsection"/>
-  </paragraphs>
+  </li>
 
   <!-- Propósito de la lección -->
-  <paragraphs>
+  <li>
     <title><custom ref="purpose-leccion-titulo"/></title>
     <p>El propósito de esta lección es que los estudiantes practiquen la identificación de hechos de multiplicación hasta 100 y que utilicen los productos que conocen para determinar cocientes desconocidos.</p>
-  </paragraphs>
+  </li>
 
   <!-- Materiales requeridos -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-leccion-titulo"/></title>
     <ul>
       <li>
@@ -71,19 +72,21 @@
         <xi:include href="./act-siSeQueEntoncesSeQue-mat.ptx"/>
       </li>
     </ul> 
-  </paragraphs>
+  </li>
   
   <!-- Introducción de la lección (narrative) -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-leccion-titulo"/></title>
     <p>En esta lección, los estudiantes evalúan su progreso en la fluidez para multiplicar usando números hasta 100 y clasifican los hechos numéricos de multiplicación que conocen en categorías. Luego, utilizan estos hechos para generar hechos numéricos de división relacionados. El saber hechos relacionados los ayudará a multiplicar y dividir en lecciones futuras.</p>
-  </paragraphs>
+  </li>
   
   <!-- Preguntas de reflexión profesor -->
-  <paragraphs>
+  <li>
     <title><custom ref="reflection-quest-titulo"/></title>
     <p>¿Qué estudiantes propusieron ideas que fueron escuchadas, valoradas y aceptadas durante el trabajo en grupos pequeños hoy? ¿Cómo puede organizar los grupos mañana para asegurar que las ideas de cada estudiante sean parte del aprendizaje colectivo?</p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </introduction>
 
 

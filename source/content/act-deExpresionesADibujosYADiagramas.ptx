@@ -62,10 +62,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li> 
@@ -74,35 +76,35 @@
         <!-- <xref ref="ccss-2-OA-C-4" text="custom">2.OA.C.4</xref> -->
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>15 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this activity is for students to demonstrate a conceptual understanding of multiplication expressions by creating drawings of equal groups or tape diagrams that match expressions. Drawings of equal groups and tape diagrams are familiar representations to students from previous lessons and support students as they make sense of multiplication expressions.</p>
 <p>Three expressions are given, but the focus of the synthesis is the second expression, <m>3\times4</m>. This provides an opportunity to support students on the first problem as you monitor and then let them try the second and third expressions on their own. To keep things simple and allow ideas about commutativity to develop over time, in this activity we suggest you display student responses that follow the convention of groups as the first factor and the size of the groups as the second factor.</p>
 <p>If there is time, and you want to include more movement, this activity could be done as a gallery walk.</p>
-  </paragraphs>
+  </li>
 
 
   <!-- Materiales requeridos de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-actividad-titulo"/></title>
     <p>[@@@@@@@@@@@@@@]</p>
     <!-- si hay materiales, crear los archivos -mat.ptx (para materiales de la actividad) y -matCentros.ptx (para mencionar los otros centros que se usan y para los que se necesitan materiales) y poner los materiales ahí usando los archivos de template. Después hacer xinclude  de estos archivos en la lista de materiales de la lección.-->
     <!-- <xi:include href="./act-deExpresionesADibujosYADiagramas-mat.ptx"/>  -->
     <!-- <xi:include href="./act-deExpresionesADibujosYADiagramas-matCentros.ptx"/>  -->
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -120,11 +122,11 @@
       </li>
       <li>30 seconds: quiet think time</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -134,8 +136,9 @@
       <li>5–7 minutes: partner work time</li>
       <li>Monitor for student-created drawings and tape diagrams to share during synthesis.</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -143,10 +146,10 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
-
+<p>
+<dl>
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -162,30 +165,31 @@
 </ul>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Descripción del desarrollo de lenguaje matemático -->
-  <paragraphs>
+  <li>
     <title><custom ref="language-actividad-titulo"/></title>
     <p>
     [++++++++++++++++++++++++]
     </p>
     <p><em>MLR2 Collect and Display.</em> Collect the language students use to describe the diagrams for each of the expressions. Display words and phrases such as: <em><q>5 grupos de 2</q></em> // <em><q>hay 5 grupos y hay 2 en cada grupo</q></em> // <em><q>hay 5 grupos iguales</q></em>. During the synthesis, invite students to suggest ways to update the display and to borrow language from the display as needed.</p>
     <p><em>Advances: Conversing, Reading</em></p>
-  </paragraphs>
+  </li>
 
 
   <!-- Estrategias de acceso para estudiantes con discapacidades -->
-  <paragraphs>
+  <li>
     <title><custom ref="accesibility-actividad-titulo"/></title>
       <p>
     [++++++++++++++++++++++++]
     </p>
     <p><em>Action and Expression: Develop Expression and Communication.</em> Provide access to a variety of tools: mini-whiteboards and counters.</p>
     <p><em>Supports accessibility for: Conceptual Processing, Visual-Spatial Processing</em></p>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </activity>

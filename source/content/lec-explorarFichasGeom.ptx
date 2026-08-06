@@ -35,9 +35,10 @@
   Introducción para el profesor                        
 =================================================  -->
 <introduction component="profesor">
-
+<p>
+<dl>
     <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-leccion-titulo"/></title> 
     <ul>
       <li>
@@ -47,22 +48,22 @@
         <xref ref="ccss-K-MD-B-3" text="custom">K.MD.B.3</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- índice de la lección (automático) -->
-  <paragraphs>
+  <li>
     <title><custom ref="timeline-leccion-titulo"/></title>
     <list-of elements="subsubsection reading-questions" scope="subsection"/>
-  </paragraphs>
+  </li>
 
   <!-- Propósito de la lección -->
-  <paragraphs>
+  <li>
     <title><custom ref="purpose-leccion-titulo"/></title>
     <p>El propósito de esta lección es que los estudiantes exploren las fichas geométricas. Los profesores también tienen la oportunidad de recopilar datos de evaluación formativa sobre los conceptos y habilidades de conteo de los estudiantes.</p>
-  </paragraphs>
+  </li>
 
   <!-- Materiales requeridos -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-leccion-titulo"/></title>
     <ul>
       <li>
@@ -74,10 +75,10 @@
         <xi:include href="./act-conozcamos-fichasGeom-explora-mat.ptx"/>
       </li>
     </ul> 
-  </paragraphs>
+  </li>
   
   <!-- Introducción de la lección (narrative) -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-leccion-titulo"/></title>
     <p>Los estudiantes utilizan bloques de patrones en actividades de matemáticas durante todo el año. Los estudiantes comparten sus pensamientos e ideas sobre los bloques de patrones durante la rutina de Observar y Preguntarse y luego prueban sus ideas durante la exploración libre. A medida que los estudiantes exploran los bloques de patrones, es probable que construyan o creen diseños. Al monitorear, considere hacer preguntas como ""¿Cuántas fichas geométricas rojas tienes en tu objeto? ¿Cómo puedes descubrirlo? ¿De qué color son esas fichas geométricas? ¿Cómo decidiste qué fichas geométricas usar? ¿Cuántas fichas geométricas hay en la parte inferior de tu objeto?"" Estas preguntas ayudan a los maestros a aprender más sobre cada estudiante.</p>
     
@@ -86,13 +87,15 @@
     <p>
       Comunidad matemática: Dígale a los estudiantes que van a tener la oportunidad de revisar sus ideas sobre la comunidad matemática al final de la lección, por lo que deben pensar muentras trabajan en qué acciones pueden agregar a la lista actual.
     </p>
-  </paragraphs>
+  </li>
   
   <!-- Preguntas de reflexión profesor -->
-  <paragraphs>
+  <li>
     <title><custom ref="reflection-quest-titulo"/></title>
     <p>¿Qué suposiciones estoy haciendo sobre los estudiantes que no participaron hoy? ¿Cómo puedo aprovechar las ideas de cada uno de mis estudiantes para apoyarlos a ser vistos y escuchados en la clase de matemáticas de mañana?</p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </introduction>
 
 

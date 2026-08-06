@@ -13,24 +13,26 @@
 <title>
   Tableros de 5 de asistencia
 </title>
-
-<paragraphs>
+<p>
+<dl>
+<li>
   <title>Pdf para imprimir</title>
   <p>Se necesita una hoja con tableros de 5 que tenga igual número de cuadrados que estudiantes en su clase. La puede generar en <url href="external/html/generadorTablerosDe5-asistencia.html">este link</url></p>
-</paragraphs>
+</li>
 
-<!-- <paragraphs>
+<!-- <li>
   <title>Cantidad de copias necesarias</title>
   <p>[@@@@@@@@@@@@@@@@@@]</p>
-</paragraphs> -->
+</li> -->
 
 
-<paragraphs component="web">
+<li component="web">
   <title>Muestra de páginas</title>  
   <p>Ejemplo para 23 estudiantes:</p>
   <image source="blm/pdf-source/asistenciaTableros5-ejemplo">
     <shortdescription></shortdescription>
   </image>
-</paragraphs>
-
+</li>
+</dl>
+</p>
 </subsection>

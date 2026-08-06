@@ -41,8 +41,10 @@
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
 <prelude component="profesor">
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li>
@@ -55,30 +57,30 @@
         <xref ref="ccss-3-OA-C-7" text="custom">3.OA.C.7</xref>
       </li>
     </ul>
-  </paragraphs> 
+  </li> 
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>20 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>En esta actividad, los estudiantes trabajan en problemas de multiplicación con factores del 11 al 19, eligiendo cómo resolverlos y representarlos. En el problema 3, observe las diferentes formas en que los estudiantes usan los diagramas de área para destacarlas en los pósteres de la próxima actividad. De esta manera, los estudiantes desarrollan habilidades de razonamiento abstracto y cuantitativo al interpretar historias y representarlas con diagramas, expresiones o ecuaciones.</p>
     <!-- <p>El propósito de esta actividad es que los estudiantes resuelvan problemas que involucren multiplicación donde un factor es un número del 11 al 19. Los estudiantes pueden resolver y representar el problema de la manera que elijan. En el problema 3, busca diferentes formas en las que los estudiantes están utilizando diagramas de área para resaltar en los pósteres para el recorrido por el salón en la próxima actividad. Los estudiantes razonan abstracta y cuantitativamente cuando interpretan las historias y las representan con diagramas, expresiones o ecuaciones (MP2).</p> -->
-  </paragraphs>
+  </li>
 
 
   <!-- Materiales requeridos de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-actividad-titulo"/></title>
     <xi:include href="./act-problemasMultNums11a19MasGrandes-mat.ptx"/> 
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <ul>
       <li>Grupos de 2</li>
@@ -90,11 +92,11 @@
       <li><q>Hablen con su compañero sobre cómo podrían resolver estos problemas</q>.</li>
       <li>1-2 minutos: discusión en pareja</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <ul>
       <li><q>Resuelvan estos problemas. Expliquen o muestren cómo razonaron</q>.</li>
@@ -117,8 +119,9 @@
       <li>Proporcione a cada grupo herramientas para crear una presentación visual.</li>
       <li>6-8 minutos: tiempo de trabajo en pareja</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -126,38 +129,40 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Estrategias de apoyo para estudiantes con dificultades -->
-  <paragraphs>
+  <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>Si los estudiantes no encuentran una solución a los problemas, considere preguntar: <q>¿De qué se trata este problema?</q> y <q>¿Cómo podrías representar el problema?</q></p>
-  </paragraphs>
+  </li>
 
 
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <ul>
       <li>Muestre los pósteres alrededor del salón.</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Descripción del desarrollo de lenguaje matemático -->
   <!--   
-  <paragraphs>
+  <li>
     <title><custom ref="language-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs>
+  </li>
   -->
 
   <!-- Estrategias de acceso para estudiantes con discapacidades -->
-  <paragraphs>
+  <li>
     <title><custom ref="accesibility-actividad-titulo"/></title>
     <p>Participación: Proporcione acceso al despertar el interés. Aproveche que hay varios problemas e invite a los estudiantes a que elijan al menos 2 de los 4 problemas, basándose en qué tan retadores los perciben.</p>
     <p>Apoya la accesibilidad para: Organización, Atención, Habilidades Socioemocionales</p>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </activity>

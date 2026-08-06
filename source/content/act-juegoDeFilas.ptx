@@ -33,44 +33,47 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>15 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>[@@@@@@@@@] The purpose of this activity is for students to practice solving equations. Some students may use the “do the same to each side” strategy they developed in their work with balanced hangers. Others may use strategies like substituting values until they find a value that makes the equation true, or asking themselves questions like “2 times what is 18?” As students progress through the activity, the equations become more difficult to solve by strategies other than “do the same thing to each side.”</p>
-  </paragraphs>
+  </li>
 
 
   <!-- Materiales requeridos de la actividad -->
-  <!-- <paragraphs>
+  <!-- <li>
     <title><custom ref="materials-actividad-titulo"/></title>
     @@@@@ -->
     <!-- si hay materiales, crear el siguiente archivo -mat.ptx y ponerlos ahí (y agregar también el archivo en la lista de materiales de la lección)-->
     <!-- <xi:include href="./act-RRRRRR-SSSSSS-mat.ptx"/>  -->
-  <!-- </paragraphs> -->
+  <!-- </li> -->
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <p>[@@@@@@@@@] Display an equation like <m>2x = 12</m> or similar. Ask students to think about the balanced hangers of the last lesson and to recall how that helped us solve equations by doing the same to each side. Tell students that, after obtaining a solution via algebraic means, we end up with a variable on one side of the equal sign and a number on the other, e.g. <m>x = 6</m>. We can easily read the solution—in this case 6—from an equation with a letter on one side and a number on the other, and we often write solutions in this way. Tell students that the act of finding an equation's solution is sometimes called solving the equation.</p>
 
     <p>Arrange students in groups of 2, and ensure that everyone understands how the row game works before students start working. Allow students 10 minutes of partner work followed by a whole-class discussion.</p>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <!-- <paragraphs>
+  <!-- <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> -->
-
+  </li> -->
+</dl>
+</p>
 </prelude>
 
 
@@ -78,38 +81,38 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Estrategias de apoyo para estudiantes con dificultades -->
-  <!-- <paragraphs>
+  <!-- <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> -->
-
-
+  </li> -->
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <p>[@@@@@@@@@] Draw students' attention to <m>21 = \frac{1}{4}x</m>, and ask selected students to explain how they thought about solving this equation. Some may share strategies like “one-fourth of what number is <m>21</m>?” Ideally, one student will say “divide each side by <m>\frac{1}{4}</m>” and another will say “multiply each side by <m>4</m>.” From their studies in earlier units, students should understand that multiplying by <m>4</m> has the same result as dividing by <m>\frac{1}{4}</m>. Next, turn students attention to <m>\frac{5}{7}x = 55</m> and ask them to describe the two ways to think about solving it. “Divide each side by <m>\frac{5}{7}</m>” gets the same result as “Multiply each side by <m>\frac{7}{5}</m>.”</p>
-  </paragraphs>
+  </li>
 
 
   <!-- Descripción del desarrollo de lenguaje matemático -->
-  <paragraphs>
+  <li>
     <title><custom ref="language-actividad-titulo"/></title>
     <p>[@@@@@@@@@] Conversing, Representing, Writing: MLR2 Collect and Display. While pairs are working, circulate, collect and make a visual display of vocabulary, phrases and representations students use as they solve each situation. Make connections between how similar ideas might be communicated and represented in different ways. Look for and amplify phrases such as “I did the same thing to each side” or “I subtracted the same amount from both sides.” This helps students use mathematical language during paired and whole-group discussions.</p>
 
     <p>Design Principle(s): Support sense-making</p>
-  </paragraphs>
+  </li>
 
 
   <!-- Estrategias de acceso para estudiantes con discapacidades -->
-  <paragraphs>
+  <li>
     <title><custom ref="accesibility-actividad-titulo"/></title>
     <p>[@@@@@@@@@] Action and Expression: Internalize Executive Functions. Chunk this task into more manageable parts. For example, after students have completed the first four rows of the table, check-in with either select groups of students or the whole class. Invite students to share the strategies they have used so far as well as any questions they have before continuing.</p>
 
     <p>Supports accessibility for: Organization; Attention</p>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </activity>

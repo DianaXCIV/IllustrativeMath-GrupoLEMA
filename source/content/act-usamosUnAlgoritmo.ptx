@@ -37,10 +37,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li> 
@@ -48,24 +50,24 @@
         <xref ref="ccss-3-NBT-A-2" text="custom">3.NBT.A.2</xref>
       </li> 
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>15 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this activity is for students to make sense of an algorithm in which a number with non-zero digits is subtracted from a number with a zero in the tens place. In the given problem, it is necessary to decompose a larger unit to have enough ones to subtract. There are no tens to decompose, however, prompt students to consider whether subtraction is possible, and if so, how it could be done.</p>
     <p>When students make sense of Elena’s reasoning, they construct viable arguments and critique the reasoning of others (MP3).</p>
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -75,11 +77,11 @@
       </li>
       <li>1 minute: quiet think time</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -89,8 +91,9 @@
       <li>5–7 minutes: partner work time</li>
       <li>Monitor for a student who shows how the problem could be completed with decomposing a hundred into tens, then decomposing a ten into more ones.</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -98,9 +101,10 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -110,8 +114,9 @@
         <q>¿Cómo muestra esto que podemos tener suficientes unidades para restar, aunque 301 tenga un 0 en la posición de las decenas?</q>  (Crossing out the 3 in the hundreds and writing 10 in the tens place shows a hundred decomposed to get tens. Crossing out the 10 and writing a 9 in the tens place and writing 11 in the ones place shows a ten decomposed to get ones.)
       </li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </activity>

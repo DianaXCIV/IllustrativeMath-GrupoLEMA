@@ -29,9 +29,10 @@
 </objectives>
 
 <introduction component="profesor">
-
+<p>
+<dl>
     <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-leccion-titulo"/></title> 
     <ul>
       <li>
@@ -43,22 +44,22 @@
         <xref ref="ccss-3-OA-A-3" text="custom">3.OA.A.3</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
   
   <!-- índice de la lección -->
-  <paragraphs>
+  <li>
     <title><custom ref="timeline-leccion-titulo"/></title>
     <list-of elements="subsubsection reading-questions" scope="subsection"/>
-  </paragraphs>
+  </li>
   
   <!-- Propósito de la lección -->
-  <paragraphs>
+  <li>
     <title><custom ref="purpose-leccion-titulo"/></title>
     <p>El propósito de esta lección es que los estudiantes resuelvan problemas de "¿Cuántos grupos?" de una manera que tenga sentido para ellos. </p>
-  </paragraphs>
+  </li>
   
    <!-- Materiales requeridos -->
-   <paragraphs>
+   <li>
     <title><custom ref="materials-leccion-titulo"/></title>
     <ul>
       <li>
@@ -67,19 +68,21 @@
       </li>
     </ul> 
    
-  </paragraphs>
+  </li>
   
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-leccion-titulo"/></title>
     <p>En una unidad anterior, los estudiantes comenzaron a pensar en la idea de la multiplicación. Interpretaron los productos como el número total de objetos en una colección de grupos de igual tamaño. Los estudiantes representaron grupos de igual tamaño usando dibujos, diagramas de cinta y arreglos.</p>
     <p>El propósito de esta lección es introducir problemas que involucren poner objetos en grupos de igual tamaño, comenzando con problemas de "¿cuántos grupos?". Aunque la estructura de los problemas sugiere división, los estudiantes pueden usar su comprensión de la multiplicación o cualquier estrategia que tenga sentido para ellos para resolverlos. Si los estudiantes usan cubos encajables, invítelos a dibujar una imagen que coincida con su trabajo. En la síntesis de la lección, los estudiantes tienen la oportunidad de pensar en cómo definir la división. Sin embargo, la definición y el símbolo de la división se presentarán en lecciones posteriores.</p>
-  </paragraphs>
-  <paragraphs>
+  </li>
+  <li>
     <title><custom ref="reflection-quest-titulo"/></title>
     <p>
       En esta lección, los estudiantes pensarán en la idea de la división por primera vez. ¿Cómo está influyendo y apoyando su comprensión de la multiplicación en la forma en que resuelven problemas de división?
     </p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </introduction>
 
 <!-- ============================================ 

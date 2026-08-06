@@ -36,9 +36,10 @@
   Introducción para el profesor                        
 =================================================  -->
 <introduction component="profesor">
-
+<p>
+<dl>
     <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-leccion-titulo"/></title> 
     <ul>
       <li>
@@ -47,23 +48,23 @@
         <xref ref="ccss-K-CC-A-1" text="custom">K.CC.A.1</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- índice de la lección (automático) -->
-  <paragraphs>
+  <li>
     <title><custom ref="timeline-leccion-titulo"/></title>
     <list-of elements="subsubsection reading-questions" scope="subsection"/>
-  </paragraphs>
+  </li>
 
   <!-- Propósito de la lección -->
-  <paragraphs>
+  <li>
     <title><custom ref="purpose-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this lesson is for students to recognize, name, and show quantities with their fingers.</p>
-  </paragraphs>
+  </li>
 
   <!-- Materiales requeridos -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-leccion-titulo"/></title>
     <ul>
       <li>
@@ -72,10 +73,10 @@
         <xi:include href="./act-conozcamos-dedosMate-muestraYDilo-matCentros.ptx"/>
       </li>
     </ul> 
-  </paragraphs>
+  </li>
   
   <!-- Introducción de la lección (narrative) -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>Fingers are helpful for representing quantities because they are familiar and always available to students. Sometimes students may be embarrassed about using their fingers. Students should be encouraged to use their fingers whenever they find them helpful. In upcoming lessons, students may find using their fingers helpful when comparing quantities. In later units, students may find using their fingers helpful with topics such as counting on and addition and subtraction. The structure of fingers also encourages students to notice how numbers are related to 5 and 10. The kindergarten materials always show quantities beginning with the left pinky. Numbers 6–10 continue with the thumb on the right hand.</p>
@@ -83,14 +84,16 @@
       <shortdescription>Dos manos contando con dedos.</shortdescription>
     </image>
     <p>When demonstrating this, begin with the right pinky and palms facing out, so that students see the fingers raising from left to right. When students raise their fingers in this way, their palms will be facing out. While this is the way the curriculum presents quantities on fingers for consistency, any way that students choose or are able to represent quantities on their fingers should be accepted.</p>
-  </paragraphs>
+  </li>
   
   <!-- Preguntas de reflexión profesor -->
-  <paragraphs>
+  <li>
     <title><custom ref="reflection-quest-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>When do your students feel successful in math? How do you know?</p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </introduction>
 
 

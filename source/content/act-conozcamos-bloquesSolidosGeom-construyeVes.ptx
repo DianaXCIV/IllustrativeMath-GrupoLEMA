@@ -74,10 +74,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li>
@@ -85,32 +87,32 @@
         <xref ref="ccss-K-G" text="custom">K.G</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>10 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>El propósito de esta actividad es que los estudiantes conozcan la <xref ref="centro-bloquesSolidosGeom-etapa2" text="title"/> del <xref ref="centro-bloquesSolidosGeom" text="title"/>. Los estudiantes utilizan formas sólidas para construir objetos representados en tarjetas. El enfoque está en cómo los estudiantes eligen qué formas usar y el lenguaje que utilizan para describir sus creaciones, en lugar de crear una representación perfecta del objeto (MP6). Cuando los estudiantes hacen y describen sus propias elecciones sobre cómo representar objetos del mundo real con formas geométricas, se preparan para modelar problemas del mundo real con matemáticas (MP4).
     </p>
 
     <p>Los conjuntos estándar de bloques sólidos geométricos no incluyen cilindros, esferas y conos. Cuando se requieren estas formas, se incluye <term>figuras sólidas</term> en los materiales requeridos. La herramienta sigue llamándose bloques sólidos geométricos para mantener las cosas simples para los estudiantes.</p>
-  </paragraphs>
+  </li>
 
 
   <!-- Materiales requeridos de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-actividad-titulo"/></title>
     <xi:include href="./act-conozcamos-bloquesSolidosGeom-construyeVes-mat.ptx"/> 
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <ul>
       <li>Grupos de 2</li>
@@ -120,11 +122,11 @@
       <li>1 minuto: discusión en pareja</li>
       <li>Compartir y registrar las respuestas.</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <ul>
       <li>De a cada grupo de estudiantes bloques geométricos, figuras sólidas y una copia de las hoja reproducibles.</li>
@@ -142,8 +144,9 @@
         </ul>
       </li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -151,17 +154,17 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Estrategias de apoyo para estudiantes con dificultades -->
   <!-- 
-  <paragraphs>
+  <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs>
+  </li>
   -->
-
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <ul>
       <li>Invite a 3 o 4 estudiantes a que compartan sus creaciones</li>
@@ -169,24 +172,26 @@
         <q>¿De qué ideas nuevas habló hoy su compañero cuando usó los bloques sólidos geométricos? ¿Qué vieron hacer a su compañero con los bloques sólidos geométricos?</q>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Descripción del desarrollo de lenguaje matemático -->
   <!-- 
-  <paragraphs>
+  <li>
     <title><custom ref="language-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs>
+  </li>
   -->
 
   <!-- Estrategias de acceso para estudiantes con discapacidades -->
   <!-- 
-  <paragraphs>
+  <li>
     <title><custom ref="accesibility-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs>
+  </li>
   -->
+</dl>
+</p>
 </postlude>
 
 </activity>

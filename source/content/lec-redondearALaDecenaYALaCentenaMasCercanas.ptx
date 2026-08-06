@@ -39,9 +39,10 @@
   Introducción para el profesor                        
 =================================================  -->
 <introduction component="profesor">
-
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-leccion-titulo"/></title> 
     <ul>
       <li> 
@@ -57,23 +58,23 @@
         <xref ref="ccss-3-NBT-A-1" text="custom">3.NBT.A.1</xref>
       </li>
     </ul>
-    </paragraphs>
+    </li>
 
   <!-- índice de la lección (automático) -->
-  <paragraphs>
+  <li>
     <title><custom ref="timeline-leccion-titulo"/></title>
     <list-of elements="subsubsection reading-questions" scope="subsection"/>
-  </paragraphs>
+  </li>
 
   <!-- Propósito de la lección -->
-  <paragraphs>
+  <li>
     <title><custom ref="purpose-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this lesson is for students to round whole numbers within 1,000 to the nearest ten or hundred.</p>
-  </paragraphs>
+  </li>
 
   <!-- Materiales requeridos -->
-  <!--<paragraphs>
+  <!--<li>
     <title><custom ref="materials-leccion-titulo"/></title>
      <ul>
       <li>
@@ -87,22 +88,24 @@
         <xi:include href="./act-redondearHacerEstimaciones-matCentros.ptx"/>
       </li>
     </ul>  
-  </paragraphs>-->
+  </li>-->
   
   <!-- Introducción de la lección (narrative) -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>Before this lesson, students named multiples of 10 and 100 that are near given numbers and identified the multiple of 10 or 100 that was closest. They located numbers on a number line and approximated their distance from adjacent tick marks that indicate tens, or from endpoints that mark hundreds.</p>
     <p>Here, students learn that sometimes, when we round to the nearest ten and the nearest hundred, we round to the same number. Students also learn that when numbers are right in the middle of two multiples of 10 or 100, the convention is to round up. Students use rounding to estimate the number of students in a school and see that rounding to the nearest ten and the nearest hundred can give different estimates for the same situation.</p>
-  </paragraphs>
+  </li>
   
   <!-- Preguntas de reflexión profesor -->
-  <paragraphs>
+  <li>
     <title><custom ref="reflection-quest-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>How is your students’ understanding of place value contributing to their work rounding to the nearest ten and hundred?</p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </introduction>
 
 

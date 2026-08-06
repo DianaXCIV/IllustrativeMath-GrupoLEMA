@@ -75,10 +75,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li> 
@@ -90,23 +92,23 @@
         <xref ref="ccss-3-MD-B-3" text="custom">3.MD.B.3</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>20 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this activity is for students to interpret a scaled picture graph and write questions that can be asked based on the data represented in a scaled picture graph.</p>
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -118,11 +120,11 @@
       <li>1 minute: quiet think time</li>
       <li>Share and record responses.</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -135,8 +137,9 @@
         <q>Doing Math</q>  actions.
       </li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -144,14 +147,14 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Estrategias de apoyo para estudiantes con dificultades -->
-  <paragraphs>
+  <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
-    <p>If students answer questions about the graph with numbers that don’t match the graph, consider asking:
-</p>
-<ul>
+    <p>If students answer questions about the graph with numbers that don’t match the graph, consider asking:</p>
+    <ul>
       <li>
         <q>¿Cómo hiciste para responder las preguntas sobre la gráfica?</q>
       </li>
@@ -159,11 +162,11 @@
         <q>¿Qué nos dice la leyenda sobre cada dibujo en la gráfica?</q>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -181,31 +184,30 @@
         </ul>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Descripción del desarrollo de lenguaje matemático -->
-  <paragraphs>
+  <li>
+    <title><custom ref="language-actividad-titulo"/></title>
     <p>
       [++++++++++++++++++++++++]
     </p>
-    <title><custom ref="language-actividad-titulo"/></title>
     <p><em>MLR8 Discussion Supports.</em> Use multimodal examples to show the meaning of a symbol. Use verbal descriptions along with gestures, drawings, or concrete objects to show how each flower on the graph is a symbol that represents five flowers that were seen in the park.</p>
     <p><em>Advances: Listening, Representing</em></p>
-  </paragraphs>
-
-
+  </li>
+  
+  
   <!-- Estrategias de acceso para estudiantes con discapacidades -->
-  <paragraphs>
+  <li>
     <title><custom ref="accesibility-actividad-titulo"/></title>
-    <p>
-      [++++++++++++++++++++++++]
-    </p>
-    <title><custom ref="language-actividad-titulo"/></title>
+    <p>[++++++++++++++++++++++++]</p>
     <p><em>Representation: Internalize Comprehension.</em> Synthesis: Invite students to identify which details were needed to solve the problem. Display the sentence frame, <q><em> La próxima vez que lea una gráfica de dibujos con escala, prestaré atención a . . .</em></q></p>
     <p><em>Supports accessibility for: Conceptual Processing </em></p>
-  </paragraphs>
-
+  </li>
+  
+</dl>
+</p>
 </postlude>
 
 </activity>

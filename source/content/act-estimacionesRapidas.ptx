@@ -44,10 +44,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li> 
@@ -55,25 +57,25 @@
         <xref ref="ccss-3-OA-D-8" text="custom">3.OA.D.8</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>15 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this activity is for students to consider what it means for an answer to make sense. They see that rounding is a useful strategy to estimate the answer to a problem and determine if an answer makes sense.</p>
     <p>The quantities chosen are close to multiples of 100 and 10 to encourage students to round as they decide if an answer makes sense. The first problem also says that <q>Priya makes an estimate</q> and <q>about 400 beads.</q> If students begin computing the exact numbers of beads, remind them of the situation and that they do not need to solve to determine if the answer makes sense.</p>
     <p>As students work, prompt them to explain their strategies for making estimates and relate them to the idea of rounding (MP3). When students use language such as <q>about 600 beads</q> to convey that they are estimating, they practice communicating with precision (MP6).</p>
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -97,11 +99,11 @@
       </li>
       <li>30 seconds: quiet think time</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -137,8 +139,9 @@
       </li>
       <li>3–5 minutes: partner work time</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -146,9 +149,10 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -159,8 +163,9 @@
         <q>Cuando queremos decidir si una respuesta tiene sentido, no estamos resolviendo el problema para obtener una respuesta exacta. Estamos estimando la respuesta. Redondear es una estrategia que puede ser útil para estimar una respuesta</q>
       </li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </activity>

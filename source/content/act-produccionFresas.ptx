@@ -58,8 +58,10 @@
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
 <prelude component="profesor">
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li>
@@ -69,45 +71,45 @@
         <xref ref="ccss-3-OA-A-4" text="custom">3.OA.A.4</xref>
       </li>
     </ul>
-  </paragraphs> 
+  </li> 
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>15 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
       <p>El propósito de esta actividad es que los estudiantes usen la multiplicación y la división para resolver problemas sobre el cultivo de fresas. Ellos dibujan diagramas y escriben expresiones o ecuaciones para representar cada situación, y luego resuelven el problema. El contexto dado anima a los estudiantes a pensar en grupos iguales, arreglos o áreas rectangulares.</p>
 
       <p>En lecciones anteriores, se les pidió a los estudiantes escribir una ecuación o expresión. Esta actividad les da la oportunidad de decidirlo. Alternativamente, los profesores pueden optar por pedirle a los estudiantes que escriban una ecuación o una expresión.</p>
-  </paragraphs>
+  </li>
 
 
   <!-- Materiales requeridos de la actividad
    NO HAY
-  <paragraphs>
+  <li>
     <title><custom ref="materials-actividad-titulo"/></title>
     si hay materiales, crear el siguiente archivo -mat.ptx y ponerlos ahí (y agregar también el archivo en la lista de materiales de la lección)
     <xi:include href="../v00/graVV-uniXX-secYY-lecZZ-actRR-mat.ptx"/>
-  </paragraphs>
+  </li>
   -->
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <ul>
       <li>Grupos de 2.</li>
       <li><q>Las fresas se cultivan en parcelas que están organizadas en filas</q>.</li>
       <li><q>En esta actividad, van a ver cómo se organizan las fresas y cuántas frutas produce una planta de fresas. En la siguiente actividad van a planear su propia huerta</q>.</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <ul>
       <li>2 minutos: tiempo de trabajo independiente.</li>
@@ -119,8 +121,9 @@
         </ul>
       </li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -128,41 +131,41 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Estrategias de apoyo para estudiantes con dificultades 
    NO HAY
-  <paragraphs>
+  <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> -->
-
-
+  </li> -->
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <ul>
       <li>Invite a los estudiantes previamente seleccionados a compartir su trabajo.</li>
       <li><q>¿Cómo les ayudaron los diagramas a pensar en el problema?</q>.</li>
       <li><q>¿En qué parte del diagrama ven los números de la ecuación?</q>.</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Descripción del desarrollo de lenguaje matemático
    NO HAY
-  <paragraphs>
+  <li>
     <title><custom ref="language-actividad-titulo"/></title>
     <p>[@@@@@@@@@] </p>
-  </paragraphs> -->
+  </li> -->
 
 
   <!-- Estrategias de acceso para estudiantes con discapacidades 
    NO HAY
-  <paragraphs>
+  <li>
     <title><custom ref="accesibility-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> -->
-
+  </li> -->
+</dl>
+</p>
 </postlude>
 
 </activity>

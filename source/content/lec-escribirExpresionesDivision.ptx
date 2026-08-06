@@ -35,9 +35,10 @@
   Introducción para el profesor                        
 =================================================  -->
 <introduction component="profesor">
-
+<p>
+<dl>
     <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-leccion-titulo"/></title> 
     <ul>
       <li>
@@ -45,22 +46,22 @@
         <xref ref="ccss-3-NBT-A-2" text="custom">3.NBT.A.2</xref>, <xref ref="ccss-3-OA-A-2" text="custom">3.OA.A.2</xref>, <xref ref="ccss-3-OA-A-3" text="custom">3.OA.A.3</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- índice de la lección -->
-  <paragraphs>
+  <li>
     <title><custom ref="timeline-leccion-titulo"/></title>
     <list-of elements="subsubsection reading-questions" scope="subsection"/>
-  </paragraphs>
+  </li>
 
   <!-- Propósito de la lección -->
-  <paragraphs>
+  <li>
     <title><custom ref="purpose-leccion-titulo"/></title>
     <p>El propósito de esta lección es que los estudiantes escriban expresiones de división para representar situaciones de división y resuelvan problemas de "¿cuántos grupos?" y "¿cuántos en cada grupo?". </p>
-  </paragraphs>
+  </li>
 
 <!-- Materiales requeridos -->
-<paragraphs>
+<li>
   <title><custom ref="materials-leccion-titulo"/></title>
   <ul>
     <li>
@@ -72,19 +73,21 @@
       <xi:include href="./act-resolverProblemaBichos-mat.ptx"/>
     </li>
   </ul> 
-</paragraphs>
+</li>
 
   <!-- Narrative de la lección -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-leccion-titulo"/></title>
     <p>Los estudiantes clasifican situaciones de división dependiendo de si el número de grupos es desconocido o si el número de objetos en cada grupo es desconocido y escriben expresiones de división para representar cada situación (MP2). Luego, los estudiantes tienen la oportunidad de usar las representaciones que han aprendido en esta sección para resolver problemas de división.</p>
-  </paragraphs>
+  </li>
 
   <!-- Preguntas de reflexión teacher -->
-  <paragraphs>
+  <li>
     <title><custom ref="reflection-quest-titulo"/></title>
     <p>¿Cómo han evolucionado las estrategias de los estudiantes para resolver problemas de división desde la primera lección de esta unidad?</p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </introduction>
 
 

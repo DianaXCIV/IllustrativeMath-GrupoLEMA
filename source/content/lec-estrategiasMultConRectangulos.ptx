@@ -34,9 +34,10 @@
   Introducción para el profesor                        
 =================================================  -->
 <introduction component="profesor">
-
+<p>
+<dl>
     <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-leccion-titulo"/></title> 
     <ul>
       <li>
@@ -44,22 +45,22 @@
         <xref ref="ccss-3-MD-C-7-c" text="custom">3.MD.C.7.c</xref>, <xref ref="ccss-3-OA-C-7" text="custom">3.OA.C.7</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- índice de la lección (automático) -->
-  <paragraphs>
+  <li>
     <title><custom ref="timeline-leccion-titulo"/></title>
     <list-of elements="subsubsection reading-questions" scope="subsection"/>
-  </paragraphs>
+  </li>
 
   <!-- Propósito de la lección -->
-  <paragraphs>
+  <li>
     <title><custom ref="purpose-leccion-titulo"/></title>
     <p>El propósito de esta lección es que los estudiantes utilicen diagramas de área para explorar estrategias de multiplicación basadas en propiedades de las operaciones.</p>
-  </paragraphs>
+  </li>
 
   <!-- Materiales requeridos -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-leccion-titulo"/></title>
     <ul>
       <li>
@@ -71,21 +72,23 @@
         <xi:include href="./act-deExpresionesADiagramas-mat.ptx"/>
       </li>
     </ul> 
-  </paragraphs>
+  </li>
   
   <!-- Introducción de la lección (narrative) -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-leccion-titulo"/></title>
     <p>En lecciones anteriores, los estudiantes examinaron patrones en la tabla de multiplicar y los utilizaron para encontrar productos hasta 100 y para observar propiedades de la multiplicación, en particular la propiedad conmutativa. En esta lección, analizan estrategias para encontrar el área de rectángulos, y así explorar la propiedad distributiva y la asociativa. Estudian rectángulos con cuadrículas que se descompusieron en partes más pequeñas y expresiones que representan cómo la descomposición puede ayudarnos a encontrar su área. Los estudiantes ven cómo las estrategias, junto con los diagramas y las expresiones que los representan, pueden ayudarnos a encontrar el producto de dos números.
     </p>
     <p>Al dar sentido a las expresiones e interpretarlas en términos de partes de los diagramas de área, los estudiantes practican el razonamiento cuantitativo y abstracto.</p>
-  </paragraphs>
+  </li>
   
   <!-- Preguntas de reflexión profesor -->
-  <paragraphs>
+  <li>
     <title><custom ref="reflection-quest-titulo"/></title>
     <p>Piense en las veces que observó a los estudiantes escuchando las ideas de sus compañeros hoy en clase. ¿Qué normas pueden ayudar a los estudiantes a prestar mejor atención a las ideas de sus compañeros en futuras lecciones?</p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </introduction>
 
 

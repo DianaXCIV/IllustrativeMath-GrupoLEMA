@@ -18,25 +18,28 @@
   <introduction>
     <p>Los estudiantes tienen tiempo libre para explorar las fichas geométricas.</p>
   </introduction>
-
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-centro-etapa-titulo"/></title> 
     <p>K.CC.B, K.G, K.MD.B.3</p>
-  </paragraphs>
+  </li>
 
   <!-- materiales requeridos -->
-  <paragraphs>
+  <li>
     <title>Materiales</title>
     <xi:include href="../content/act-conozcamos-fichasGeom-explora-mat.ptx"/> 
-  </paragraphs>
+  </li>
 
   <!-- referencia a la actividad en la que se presenta el centro por primera vez -->
-  <paragraphs>
+  <li>
     <title><custom ref="centros-ubicacion-act-intro-titlulo"/></title>
     <!-- gra0-uni1-secA-lec1-act1 -->
     <p> <xref ref="act-conozcamos-fichasGeom-explora" text="title"/> </p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 
   <!-- Archivo con el contenido -->
   <!-- <xi:include href="../graVV-uniXX/act-RRRR-SSSS.ptx"/>    -->
@@ -53,25 +56,28 @@
   <introduction>
     <p>Los estudiantes usan fichas geométricas para completar rompecabezas en  los que los bordes de cada figura no se tocan.</p>
   </introduction>
-
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-centro-etapa-titulo"/></title> 
     <p>K.G</p>
-  </paragraphs>
+  </li>
 
   <!-- materiales requeridos -->
-  <paragraphs>
+  <li>
     <title>Materiales</title>
     <xi:include href="../content/act-conozcamos-fichasGeom-rompecabezas-mat.ptx"/> 
-  </paragraphs>
+  </li>
   
   <!-- referencia a la actividad en la que se presenta el centro por primera vez -->
-  <paragraphs>
+  <li>
     <title><custom ref="centros-ubicacion-act-intro-titlulo"/></title>
     <!-- gra0-uni1-secA-lec5-act2 -->
     <p> <xref ref="act-conozcamos-fichasGeom-rompecabezas" text="title"/> </p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 
   <!-- Archivo con el contenido -->
   <!-- <xi:include href="../graVV-uniXX/act-RRRR-SSSS.ptx"/>    -->
@@ -86,25 +92,28 @@
   <introduction>
     <p>Los estudiantes usan una cantidad específica de cada ficha geométrica para construir una figura.</p>
   </introduction>
-
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-centro-etapa-titulo"/></title> 
     <p>K.CC, K.CC.B.4, K.G.B</p>
-  </paragraphs>
+  </li>
 
   <!-- materiales requeridos -->
-  <paragraphs>
+  <li>
     <title>Materiales</title>
     <xi:include href="../content/act-conozcamos-fichasGeom-consigueYConstruye-mat.ptx"/> 
-  </paragraphs>
+  </li>
   
   <!-- referencia a la actividad en la que se presenta el centro por primera vez -->
-  <paragraphs>
+  <li>
     <title><custom ref="centros-ubicacion-act-intro-titlulo"/></title>
     <!-- gra0-uni1-secA-lec12-act3 -->
     <p> <xref ref="act-conozcamos-fichasGeom-consigueYConstruye" text="title"/> </p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 
   <!-- Archivo con el contenido -->
   <!-- <xi:include href="../graVV-uniXX/act-RRRR-SSSS.ptx"/>    -->

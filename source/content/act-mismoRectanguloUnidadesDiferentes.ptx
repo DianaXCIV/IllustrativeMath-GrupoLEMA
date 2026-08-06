@@ -41,10 +41,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li> 
@@ -52,32 +54,32 @@
         <xref ref="ccss-3-MD-C-6" text="custom">3.MD.C.6</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>15 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this activity is for students to see that there are different types of square units that can be used to measure area and that an area with the same number of square units can be larger or smaller depending on the unit that is used. To facilitate comparison, one partner works on inch grid paper and one works on centimeter grid paper. In the synthesis, students are introduced to square inches and square centimeters.</p>
-  </paragraphs>
+  </li>
 
 
   <!-- Materiales requeridos de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-actividad-titulo"/></title>    
     <!-- si hay materiales, crear los archivos -mat.ptx (para materiales de la actividad) y -matCentros.ptx (para mencionar los otros centros que se usan y para los que se necesitan materiales) y poner los materiales ahí usando los archivos de template. Después hacer xinclude  de estos archivos en la lista de materiales de la lección.-->
     <xi:include href="./act-mismoRectanguloUnidadesDiferentes-mat.ptx"/> 
     <!-- <xi:include href="./act-mismoRectanguloUnidadesDiferentes-matCentros.ptx"/>  -->
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -88,11 +90,11 @@
       </li>
       <li>30 seconds: quiet think time</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -102,8 +104,9 @@
       </li>
       <li>2–3 minutes: partner discussion</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -111,9 +114,10 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Estrategias de apoyo para estudiantes con dificultades -->
-  <paragraphs>
+  <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>If students say that rectangles with the same number of squares have the same area, even if the squares are different sized, consider asking:</p>
@@ -125,11 +129,11 @@
         <q>Si hay la misma cantidad de cuadrados, ¿cómo influye cambiar el tamaño de los cuadrados en el área que ellos cubren?</q>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -147,19 +151,19 @@
         <q>La cuadrícula 1 es papel cuadriculado de pulgadas. Los cuadrados del papel cuadriculado de pulgadas tienen una longitud de lado de 1 pulgada. La cuadrícula 2 es papel cuadriculado de centímetros. Los cuadrados del papel cuadriculado de centímetros tienen una longitud de lado de 1 centímetro.</q>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Descripción del desarrollo de lenguaje matemático -->
-  <paragraphs>
+  <li>
     <title><custom ref="language-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>MLR8 Discussion Supports. Synthesis: For each observation that is shared, listen for the appropriate use of the word area, 
       and invite students to turn to a partner and restate what they heard using precise mathematical language.</p>
     <p>Advances: Listening, Speaking</p>
-  </paragraphs>
-
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </activity>

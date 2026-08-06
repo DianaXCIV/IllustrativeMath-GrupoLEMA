@@ -35,9 +35,10 @@
   Introducción para el profesor                        
 =================================================  -->
 <introduction component="profesor">
-
+<p>
+<dl>
     <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-leccion-titulo"/></title> 
     <ul>
       <li>
@@ -45,22 +46,22 @@
         <xref ref="ccss-3-OA-D-8" text="custom">3.OA.D.8</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- índice de la lección (automático) -->
-  <paragraphs>
+  <li>
     <title><custom ref="timeline-leccion-titulo"/></title>
     <list-of elements="subsubsection reading-questions" scope="subsection"/>
-  </paragraphs>
+  </li>
 
   <!-- Propósito de la lección -->
-  <paragraphs>
+  <li>
     <title><custom ref="purpose-leccion-titulo"/></title>
     <p>El propósito de esta lección es que los estudiantes representen y resuelvan problemas verbales de dos pasos usando las cuatro operaciones.</p>
-  </paragraphs>
+  </li>
 
   <!-- Materiales requeridos -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-leccion-titulo"/></title>
     <ul>
       <li>
@@ -68,19 +69,21 @@
         <xi:include href="./act-unaAventuraConManzanas-mat.ptx"/>
       </li>
     </ul> 
-  </paragraphs>
+  </li>
   
   <!-- Introducción de la lección (narrative) -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-leccion-titulo"/></title>
     <p>Anteriormente, los estudiantes han representado y resuelto problemas verbales de dos pasos usando adición, sustracción, multiplicación y división con números más pequeños. En esta lección, los estudiantes continúan profundizando su comprensión de este tipo de problemas a medida que piensan en lo que necesitan saber para resolverlos y reflexionan sobre la relación entre los números en un problema. Los estudiantes representan estos problemas escribiendo ecuaciones con una letra que representa la cantidad desconocida.</p>
-  </paragraphs>
+  </li>
   
   <!-- Preguntas de reflexión profesor -->
-  <paragraphs>
+  <li>
     <title><custom ref="reflection-quest-titulo"/></title>
     <p>Revisa tus normas y rutinas. ¿Están promoviendo la participación de todos tus estudiantes? ¿Hay algún ajuste que podrías hacer para que mañana todos los estudiantes hagan matemáticas?</p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </introduction>
 
 

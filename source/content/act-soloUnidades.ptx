@@ -49,10 +49,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li> 
@@ -60,23 +62,23 @@
         <xref ref="ccss-3-NBT-A-2" text="custom">3.NBT.A.2</xref>
       </li>  
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>15 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this activity is for students to compare two methods to record newly composed tens and hundreds when using the same algorithm. The first method, which students saw in a previous lesson, records the newly composed tens and hundreds as a 10 or 100 at the top of the problem. The second method records the newly composed tens and hundreds as a single digit of 1 at the top of the tens and hundreds column. It is important that students understand that an additional 1 in the tens column represents a newly composed ten and an additional 1 in the hundreds column represents a newly composed hundred. Students interpret the work and thinking shown in the different methods, and discuss the similarities and differences (MP3).</p>
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -86,11 +88,11 @@
       </li>
       <li>1 minute: quiet think time</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -105,8 +107,9 @@
       <li>5-7 minutes: partner work time</li>
       <li>Monitor for student work where the second method of recording is used to share during the synthesis.</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -114,9 +117,10 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -134,17 +138,18 @@
         <q>¿Cómo nos ayuda el valor posicional a recordar lo que representa cada 1 adicional?</q> (If the 1 is in the tens column, it represents 10. If it is in the hundreds column it represents 100.)
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Descripción del desarrollo de lenguaje matemático -->
-  <paragraphs>
+  <li>
     <title><custom ref="language-actividad-titulo"/></title>
     <p>[++++++++++++++++]</p>
     <p><em>MLR8 Discussion Supports.</em> Synthesis: Revoice student ideas to demonstrate and amplify mathematical language use. For example, revoice the student statement “Porque cuando se suman 7 y 6, eso es 13, así que hay 1 más” // “because when you add 7 and 6, that’s 13, so you have 1 more” as “Porque cuando se suman 7 y 6, eso es 13, así que ahora tenemos tres unidades y una nueva decena” // “because when you add 7 and 6, that’s 13, so now we have three ones and one new ten.”</p>
     <p><em>Advances: Speaking</em></p>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </activity>

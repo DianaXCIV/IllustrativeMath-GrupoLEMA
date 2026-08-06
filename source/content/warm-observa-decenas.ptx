@@ -43,8 +43,10 @@
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
 <prelude component="profesor">
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li>
@@ -52,30 +54,30 @@
         <xref ref="ccss-3-NBT-A-3" text="custom">3.NBT.A.3</xref>
       </li>
     </ul>
-  </paragraphs> 
+  </li> 
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>10 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->  
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>El propósito de esta actividad de calentamiento es lograr que los estudiantes vean que 3 grupos de 40 también se pueden ver como 12 grupos de 10. Esto les servirá en una actividad posterior, cuando multipliquen números enteros de un dígito por múltiplos de 10. Aunque los estudiantes pueden observar muchas cosas y hacerse muchas preguntas, lo más importante de la discusión es ver que el total se puede descomponer en filas de 30 y luego en grupos de 10.</p>
-  </paragraphs>
+  </li>
 
   <!-- Materiales requeridos de la actividad -->
   <!--   
-  <paragraphs>
+  <li>
     <title><custom ref="materials-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> 
+  </li> 
   -->
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <ul>
       <li>Grupos de 2</li>
@@ -83,18 +85,19 @@
       <li><q>¿Qué observan? ¿Qué se preguntan?</q></li>
       <li>1 minuto: tiempo para pensar en silencio</li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <ul>
       <li><q>Discutan con su pareja cómo pensaron</q></li>
       <li>1 minuto: discusión en pareja</li>
       <li>Comparta y registre las respuestas.</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -102,42 +105,43 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Estrategias de apoyo para estudiantes con dificultades -->
   <!--   
-  <paragraphs>
+  <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> 
+  </li> 
   -->
-
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <ul>
       <li><q>¿Qué valor está representado por el diagrama?</q> (120)</li>
       <li><q>¿Cómo armar grupos con las decenas puede ayudarnos a encontrar la cantidad total de cuadrados?</q> (Hay 3 grupos de 4 decenas, o sea 12 decenas. Hay 4 grupos de 30, o sea 12 decenas. Podríamos contar de diez en diez para encontrar el total. Sabemos que 12 decenas serían 120).</li>
       <li>Registre ecuaciones que reflejen formas de pensar de los estudiantes, como <m>3 \times 4 \times 10 = 12 \times 10</m> y <m>4 \times 30 = 12 \times 10</m>.</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Descripción del desarrollo de lenguaje matemático -->
   <!--   
-  <paragraphs>
+  <li>
     <title><custom ref="language-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs>
+  </li>
    -->
 
   <!-- Estrategias de acceso para estudiantes con discapacidades -->
   <!--   
-  <paragraphs>
+  <li>
     <title><custom ref="accesibility-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> 
+  </li> 
   -->
-
+</dl>
+</p>
 </postlude>
 
 </exploration>

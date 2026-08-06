@@ -57,28 +57,29 @@
   Introducción para el profesor                        
 =================================================  -->
 <introduction component="profesor">
-
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-leccion-titulo"/></title> 
     <p>6.EE.B.7</p>
-  </paragraphs>
+  </li>
 
   <!-- índice de la lección (automático) -->
-  <paragraphs>
+  <li>
     <title><custom ref="timeline-leccion-titulo"/></title>
     <list-of elements="subsubsection reading-questions" scope="subsection"/>
-  </paragraphs>
+  </li>
 
   <!-- Propósito de la lección -->
-  <!-- <paragraphs>
+  <!-- <li>
     <title><custom ref="purpose-leccion-titulo"/></title>
     <p>[
     @@@@@@@@@]</p>
-  </paragraphs> -->
+  </li> -->
 
   <!-- Materiales requeridos -->
-  <!-- <paragraphs>
+  <!-- <li>
     <title><custom ref="materials-leccion-titulo"/></title>
     [@@@@@@@@] -->
     <!-- <ul>
@@ -91,10 +92,10 @@
         <xi:include href="./act-SSSSSSSS-mat.ptx"/>
       </li>
     </ul>  -->
-  <!-- </paragraphs> -->
+  <!-- </li> -->
   
   <!-- Introducción de la lección (narrative) -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-leccion-titulo"/></title>
     <p>[@@@@@@@]</p>
     <p>
@@ -103,13 +104,15 @@
     <p>
       Students are solving equations in this lesson in a different way than they did in the previous lessons. They are reasoning about things one could “do” to hangers while keeping them balanced alongside an equation that represents a hanger, so they are thinking about “doing” things to each side of an equation, rather than simply thinking “what value would make this equation true.”
     </p>
-  </paragraphs>
+  </li>
   
   <!-- Preguntas de reflexión profesor -->
-  <!-- <paragraphs>
+  <!-- <li>
     <title><custom ref="reflection-quest-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> -->
+  </li> -->
+</dl>
+</p>
 </introduction>
 
 

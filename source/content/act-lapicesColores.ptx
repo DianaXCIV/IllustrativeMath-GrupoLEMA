@@ -34,8 +34,10 @@
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
 <prelude component="profesor">
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li>
@@ -43,35 +45,36 @@
         <xref ref="ccss-3-OA-A-2" text="custom">3.OA.A.2</xref>
       </li>
     </ul>
-  </paragraphs> 
+  </li> 
 
-  <paragraphs><title><custom ref="recommended-time-titulo"/></title>
+  <li><title><custom ref="recommended-time-titulo"/></title>
     <p>10 minutos</p>
-  </paragraphs>
-  <paragraphs><title><custom ref="narrative-actividad-titulo"/></title>
+  </li>
+  <li><title><custom ref="narrative-actividad-titulo"/></title>
     <p>El propósito de esta actividad es que los estudiantes relacionen una situación de división con un diagrama de grupos iguales. Los estudiantes deben ser capaces de explicar por qué la situación corresponde al diagrama A, que muestra 2 grupos de 6, y por qué no corresponde al diagrama B, que muestra 6 grupos de 2.</p>
 
     <p>Esta actividad utiliza MLR1: Más fuerte y cada vez más claro.</p>
 
     <p>Avances: lectura, escritura</p>
-  </paragraphs>
-  <!-- <paragraphs><title><custom ref="materials-actividad-titulo"/></title>
+  </li>
+  <!-- <li><title><custom ref="materials-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> -->
-  <paragraphs><title><custom ref="launch-titulo"/></title>
+  </li> -->
+  <li><title><custom ref="launch-titulo"/></title>
     <ul>
       <li>Grupos de 2</li>
       <li><q>Hoy vamos a examinar dibujos que representan situaciones de división. Tómense un minuto para leer esta situación.</q></li>
       <li>1 minuto: tiempo de trabajo individual</li>
     </ul>
-  </paragraphs>
-  <paragraphs><title><custom ref="instructions-teacher-actividad-titulo"/></title>
+  </li>
+  <li><title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <ul>
       <li><q>Individualmente, decidan cuál dibujo corresponde a esta situación y luego prepárense para explicar su razonamiento.</q></li>
       <li>2-3 minutos: tiempo de trabajo individual</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -80,11 +83,12 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
-  <!-- <paragraphs><title>Para los estudiantes con dificultades</title>
+<p>
+<dl>
+  <!-- <li><title>Para los estudiantes con dificultades</title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> -->
-  <paragraphs><title><custom ref="synthesis-actividad-titulo"/></title>
+  </li> -->
+  <li><title><custom ref="synthesis-actividad-titulo"/></title>
     <p>MLR1 Más fuerte y cada vez más claro</p>
     <ul>
       <li>
@@ -99,12 +103,14 @@
         <q>¿Cómo saben que el otro dibujo no corresponde a esta situación?</q> (El dibujo B son 6 grupos de 2 lápices de colores. Eso sería como si tuviera 6 cajas, no 2 cajas.)
       </li>
     </ul>
-  </paragraphs>
-  <!-- <paragraphs><title>Desarrollo de lenguaje matemático</title>
+  </li>
+  <!-- <li><title>Desarrollo de lenguaje matemático</title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> -->
-  <!-- <paragraphs><title>Acceso a estudiantes con discapacidades</title>
+  </li> -->
+  <!-- <li><title>Acceso a estudiantes con discapacidades</title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> -->
+  </li> -->
+</dl>
+</p>
 </postlude>
 </activity>

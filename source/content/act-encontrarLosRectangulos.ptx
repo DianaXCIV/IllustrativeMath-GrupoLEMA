@@ -46,10 +46,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li> 
@@ -58,26 +60,26 @@
         <xref ref="ccss-3-MD-C-7-d" text="custom">3.MD.C.7.d</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>20 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this activity is for students to find the area of a figure by decomposing it into two non-overlapping rectangles. The synthesis should emphasize different strategies and also encourage students to directly link expressions and the use of parentheses to the way they decomposed the figure. If students drew gardens in the shape of the image in the launch, display those drawings as well during the notice and wonder.</p>
     <p>Some students may partition diagonally to split the figure into what looks like 2 symmetrical parts, or cut the figure up into more than 2 parts. These are both acceptable ways of finding the area. Ask students who partition diagonally to find the area in the way they partitioned, but then encourage them to find a second way that has partitions on one of the grid lines. As students look through each others' work, they discuss how the representations are the same and different and can defend different points of view (MP3).</p>
     <p>When students notice that the smaller parts of the figure can be added to find the total area of the figure they are looking for and making use of structure (MP7).</p>
     <p>This activity uses MLR7 Compare and Connect. Advances: representing, conversing</p>
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -96,11 +98,11 @@
       </li>
       <li>1 minute: partner discussion</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -109,8 +111,9 @@
       </li>
       <li>5 minutes: independent work time</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -118,9 +121,10 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Estrategias de apoyo para estudiantes con dificultades -->
-  <paragraphs>
+  <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>If students add numbers that indicate they tried to find the area by adding the areas of rectangles that overlap, consider asking:</p>
@@ -132,11 +136,11 @@
         <q>¿Cómo influiría superponer los rectángulos en el número de cuadrados necesarios para cubrir la figura?</q>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>MLR7 Compare and Connect</p>
@@ -160,8 +164,9 @@
       </li>
       <li>Reinforce the meaning of parentheses in a similar way with other ways students decomposed the figure.</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </activity>

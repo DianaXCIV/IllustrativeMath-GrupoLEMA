@@ -8,21 +8,22 @@
 <title>
   Tarjetas para clasificar - Particiones
 </title>
-
-
-<paragraphs>
+<p>
+<dl>
+<li>
   <title>Muestra de páginas</title>
    <image source="blm/pdf-source/clasificacionDeTarjetasParticiones.png" width="30%">
     <shortdescription></shortdescription>
     </image>
   
-</paragraphs>
+</li>
 
-<paragraphs>
+<li>
   <title>Pdf para imprimir</title>
   <p>
     <url component="web" href="external/blm/pdf-source/clasificacionDeTarjetasParticiones.pdf">descargar</url>
   </p>
-</paragraphs>
-
+</li>
+</dl>
+</p>
 </subsection>

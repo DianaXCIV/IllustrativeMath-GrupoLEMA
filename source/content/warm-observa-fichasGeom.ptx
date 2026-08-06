@@ -44,10 +44,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li>
@@ -56,30 +58,30 @@
         <xref ref="ccss-K-MD-B-3" text="custom">K.MD.B.3</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>10 minutos</p>
-  </paragraphs>
+  </li>
 
   
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>El propósito de esta actividad es generar ideas que los estudiantes tienen sobre las fichas geométricas. Esto permite a los profesores ver el vocabulario que los estudiantes usan para describir las formas (MP6). No es necesario introducir el lenguaje geométrico formal en este momento, ya que esto ocurrirá en una unidad posterior.</p>
 
     <p>Se proporciona una imagen de fichas geométricas. Sin embargo, es preferible mostrar una colección de fichas geométricas reales. Los estudiantes también tienen algunas fichas geométricas para examinar de cerca.</p>
-  </paragraphs>
+  </li>
 
 
   <!-- Materiales requeridos de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-actividad-titulo"/></title>
     <xi:include href="./warm-observa-fichasGeom-mat.ptx"/> 
-  </paragraphs>
+  </li>
 
 
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <ul>
       <li>Grupos de 2</li>
@@ -87,10 +89,10 @@
       <li><q>¿Qué observan? Piensen en silencio y después compartan con un compañero lo que pensaron</q></li>
       <li>30 segundos: tiempo para pensar en silencio</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <ul>
       <li><q>Cuéntenle a su compañero qué observaron</q></li>
@@ -102,29 +104,31 @@
       <li>1 minuto: discusión en pareja</li>
       <li>Compartan y registren las respuestas.</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 <!-- ============================================================== 
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
 <!-- 
-  <paragraphs>
+  <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs>
+  </li>
  -->
 
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <p><q>Estas se llaman <term>fichas geométricas</term>. ¿Qué cosas creen que podrían hacer o construir con las fichas geométricas?</q></p>
-  </paragraphs>
+  </li>
 
 
-  <paragraphs>
+  <li>
     <title><custom ref="language-actividad-titulo"/></title>
     <p>Apoyos para la discusión de MLR8. Muestre y anime a los estudiantes a usar las siguientes estructuras de oraciones:
     </p>
@@ -132,14 +136,16 @@
       <li><p>"Observé que . . ."</p></li>
       <li><p>"Me pregunto si . . ."</p></li>
     </ul>
-  </paragraphs>
+  </li>
 
 <!-- 
-  <paragraphs>
+  <li>
     <title><custom ref="accesibility-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs>
+  </li>
  -->
+</dl>
+</p>
 </postlude>
 
 </exploration>

@@ -181,10 +181,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li> 
@@ -192,23 +194,23 @@
         <xref ref="ccss-3-NF-A-2-a" text="custom">3.NF.A.2.a</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>20 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this activity is for students to partition the interval from 0 to 1 into equal parts to locate and label unit fractions. Students see number lines that vary in length, from 1 unit to 4 units, which provides an opportunity for them to practice accurately partitioning the unit on the number line, rather than the entire number line (MP6). Some number lines show numbers greater than one which gives students the opportunity to think about fractions greater than one even though they are not explicitly addressed in this lesson.</p>
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -217,11 +219,11 @@
         <q>Ahora que hemos pensado en algunos errores comunes que se pueden cometer al partir rectas numéricas, van a tener la oportunidad de partir rectas numéricas para ubicar y marcar fracciones unitarias</q>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -238,8 +240,9 @@
       <li>3–5 minutes: partner discussion</li>
       <li>Monitor for students who disagree on how to partition one of the number lines.</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -247,9 +250,10 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Estrategias de apoyo para estudiantes con dificultades -->
-  <paragraphs>
+  <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>If students create the same number of tick marks as the denominator or partition the entire number line instead of the interval between 0 and 1, consider asking:</p>
@@ -261,11 +265,11 @@
         <q>¿Qué aprendimos en la última actividad sobre cómo partir rectas numéricas?</q>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -290,28 +294,29 @@
         <q>La ubicación de los números en la recta numérica no cambia si extendemos la recta numérica. El número <m>\frac{1}{6}</m> está ubicado entre 0 y 1, así la recta numérica llegue hasta 1 o llegue hasta otro número</q>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Descripción del desarrollo de lenguaje matemático -->
-  <paragraphs>
+  <li>
     <title><custom ref="language-actividad-titulo"/></title><p>[++++++++++++++++]</p>
     <p><em>MLR8 Discussion Supports.</em> During group work, invite students to take turns sharing their responses. Ask students to restate what they heard using precise mathematical language and their own words. Display the sentence frame: <q>Te escuché decir...</q> // <q>I heard you say....</q> Original speakers can agree or clarify for their partner.</p>
     <p>
       <em>Advances: Listening, Speaking</em>
     </p>
-  </paragraphs>
+  </li>
 
 
   <!-- Estrategias de acceso para estudiantes con discapacidades -->
-  <paragraphs>
+  <li>
     <title><custom ref="accesibility-actividad-titulo"/></title><p>[++++++++++++++++]</p>
     <p><em>Engagement: Provide Access by Recruiting Interest.</em> Leverage choice around perceived challenge. Invite students to select 6 out of 9 number lines to partition and label.</p>
     <p>
       <em>Supports accessibility for: Organization, Attention, Social-emotional skills</em>
     </p>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </activity>

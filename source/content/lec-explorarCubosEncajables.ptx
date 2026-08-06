@@ -36,9 +36,10 @@
   Introducción para el profesor                        
 =================================================  -->
 <introduction component="profesor">
-
+<p>
+<dl>
     <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-leccion-titulo"/></title> 
     <ul>
       <li>
@@ -49,22 +50,22 @@
         <xref ref="ccss-K-MD-B-3" text="custom">K.MD.B.3</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- índice de la lección (automático) -->
-  <paragraphs>
+  <li>
     <title><custom ref="timeline-leccion-titulo"/></title>
     <list-of elements="subsubsection reading-questions" scope="subsection"/>
-  </paragraphs>
+  </li>
 
   <!-- Propósito de la lección -->
-  <paragraphs>
+  <li>
     <title><custom ref="purpose-leccion-titulo"/></title>
     <p>El propósito de esta lección es que los estudiantes exploren los cubos encajables. Los profesores también tienen la oportunidad de recopilar datos de evaluación formativa sobre los conceptos y habilidades de conteo de los estudiantes. </p>
-  </paragraphs>
+  </li>
 
   <!-- Materiales requeridos -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-leccion-titulo"/></title>
     <ul>
       <li>
@@ -76,10 +77,10 @@
         <xi:include href="./act-conozcamos-cubosEncajables-explora-mat.ptx"/>
       </li>
     </ul> 
-  </paragraphs>
+  </li>
   
   <!-- Introducción de la lección (narrative) -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-leccion-titulo"/></title>
     <p>
       Los estudiantes utilizan los cubos encajables en actividades de matemáticas durante todo el año. Comparten sus pensamientos e ideas sobre los cubos encajables durante la rutina "Observa y pregúntate", y luego prueban sus ideas durante la exploración libre. Los estudiantes tienen la oportunidad de explorar los cubos encajables antes de que se les pida que los utilicen para representar situaciones matemáticas en lecciones posteriores. A medida que los estudiantes exploran los cubos encajables, es probable que construyan objetos. Mientras los supervisa, considere hacer preguntas como "¿Cuántos cubos encajables rojos tienes en tu objeto? ¿Cómo podrías averiguarlo? ¿De qué color son esos cubos encajables? ¿Cómo decidiste qué color usar? ¿Cuántos cubos encajables hay en la parte inferior de tu objeto?" Estas preguntas ayudan a conocer más sobre cada estudiante.
@@ -90,13 +91,15 @@
     <p>
       A lo largo de la sección, observa a los estudiantes en busca de los aspectos a tener en cuenta en el punto de control de la Unidad 1, Secciones A-D. Considere pedir a algunos estudiantes que cuenten uno a uno en cada lección a lo largo de la sección.
     </p>
-  </paragraphs>
+  </li>
   
   <!-- Preguntas de reflexión profesor -->
-  <paragraphs>
+  <li>
     <title><custom ref="reflection-quest-titulo"/></title>
     <p>¿Qué parte de la lección fue realmente buena hoy en términos de aprendizaje de los estudiantes? ¿Qué hice para que esa parte saliera bien?</p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </introduction>
 
 

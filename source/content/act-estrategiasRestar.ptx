@@ -32,10 +32,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li> 
@@ -43,33 +45,33 @@
         <xref ref="ccss-3-NBT-A-2" text="custom">3.NBT.A.2</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>25 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this activity is for students to subtract numbers within 1,000 using any strategy that makes sense to them to find the difference of two numbers within 1,000. The expressions in this activity give students a chance to use different strategies, such as subtracting hundreds from hundreds, tens from tens, and ones from ones, or adding up. Students may also use a variety of representations, which will be the focus of the activity synthesis. Students who choose to use base-ten blocks or number lines to represent their thinking use tools strategically (MP5).</p>
     <p>This activity uses <em>MLR7 Compare and Connect. Advances: Representing, Conversing</em></p>
-  </paragraphs>
+  </li>
 
 
   <!-- Materiales requeridos de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-actividad-titulo"/></title>
     <!-- si hay materiales, crear los archivos -mat.ptx (para materiales de la actividad) y -matCentros.ptx (para mencionar los otros centros que se usan y para los que se necesitan materiales) y poner los materiales ahí usando los archivos de template. Después hacer xinclude  de estos archivos en la lista de materiales de la lección.-->
     <xi:include href="./act-estrategiasRestar-mat.ptx"/>
     <!-- <xi:include href="./act-estrategiasRestar-matCentros.ptx"/>  -->
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -81,11 +83,11 @@
       <li>1 minute: quiet think time</li>
       <li>Share responses.</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -104,8 +106,9 @@
       <li>During the synthesis, students will create a visual display that shows how they found the value of the selected expression.</li>
       <li>Give each group tools for creating a visual display.</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -113,9 +116,10 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p><alert>MLR7 Compare and Connect</alert></p>
@@ -131,16 +135,17 @@
       <li>Display one example of 2–3 different representations side-by-side for all to see.</li>
       <li><p><q>¿Cuáles representaciones muestran la misma idea o nos ayudan a encontrar la diferencia de la misma forma?</q> (The number line and equations show the same idea of adding up. The base-ten blocks are different because they show a ten or a hundred decomposed into smaller units before some of the blocks are taken away.)</p></li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Estrategias de acceso para estudiantes con discapacidades -->
-  <paragraphs>
+  <li>
     <title><custom ref="accesibility-actividad-titulo"/></title>
     <p>[++++++++++++++++]</p>
     <p><em>Representation: Develop Language and Symbols. Synthesis:</em> Invite students to explain their thinking orally instead of through a visual display.</p>    
     <p><em>Supports accessibility for: Social-Emotional Functioning and Fine Motor Skills</em></p>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </activity>

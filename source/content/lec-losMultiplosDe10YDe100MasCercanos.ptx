@@ -37,9 +37,10 @@
   Introducción para el profesor                        
 =================================================  -->
 <introduction component="profesor">
-
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-leccion-titulo"/></title> 
     <ul>
       <li> 
@@ -55,23 +56,23 @@
         <xref ref="ccss-3-NBT-A-1" text="custom">3.NBT.A.1</xref>
       </li>
     </ul>
-    </paragraphs>
+    </li>
 
   <!-- índice de la lección (automático) -->
-  <paragraphs>
+  <li>
     <title><custom ref="timeline-leccion-titulo"/></title>
     <list-of elements="subsubsection reading-questions" scope="subsection"/>
-  </paragraphs>
+  </li>
 
   <!-- Propósito de la lección -->
-  <paragraphs>
+  <li>
     <title><custom ref="purpose-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this lesson is for students to reason about the position of numbers relative to their immediate multiples of 10 and 100, using number lines to do so.</p>
-  </paragraphs>
+  </li>
 
   <!-- Materiales requeridos -->
-  <!-- <paragraphs>
+  <!-- <li>
     <title><custom ref="materials-leccion-titulo"/></title>
     <ul>
       <li>
@@ -85,22 +86,24 @@
         <xi:include href="./act-losMultiplosMasCercanos-matCentros.ptx"/>
       </li>
     </ul>  
-  </paragraphs> -->
+  </li> -->
   
   <!-- Introducción de la lección (narrative) -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>In a previous lesson, students reasoned about the nearest multiple of 100 to a given number. In this lesson, students extend this work to include multiples of 10. The work here prepares students to round numbers to the nearest ten and hundred in upcoming lessons.</p>
     <p>Number lines are still a central representation early in the lesson. Later in the lesson, students begin to reason numerically and think about how they could find the nearest multiple of 10 or 100 if a number line is not provided. Students should be encouraged to consider alternative strategies and use what they know about place value, but can still draw a number line if it is needed. In the lesson synthesis, students learn that <term>rounding</term> is a formal way to say which number a given number is closer too, and that number is often a multiple of 10 or 100.</p>
-  </paragraphs>
+  </li>
   
   <!-- Preguntas de reflexión profesor -->
-  <paragraphs>
+  <li>
     <title><custom ref="reflection-quest-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>In this lesson students are encouraged to begin reasoning numerically about finding the nearest multiple of 10 or 100. What evidence did you see of such reasoning?</p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </introduction>
 
 

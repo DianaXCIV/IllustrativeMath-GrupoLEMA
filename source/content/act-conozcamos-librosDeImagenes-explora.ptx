@@ -20,10 +20,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li>
@@ -31,16 +33,16 @@
         <xref ref="ccss-K-CC-B-4" text="custom">K.CC.B.4</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>10 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>El propósito de esta actividad es que los estudiantes reconozcan y nombren cantidades en libros ilustrados. Si los estudiantes no conocen el libro, léalo en voz alta en el lanzamiento. Los estudiantes pueden observar y preguntarse muchas cosas sobre la página del libro después de escuchar la historia. Motive a los estudiantes a preguntar y registre sus observaciones a medida que los estudiantes dan sentido al contexto. Si los estudiantes no mencionan los objetos mostrados en la página, pregúntales <q>¿Qué cosas en la página te recuerdan a cosas que hemos estado haciendo en clase de matemáticas?</q> para animarlos a matematizar la situación. Esto prepara a los estudiantes a ver y analizar cantidades para que puedan usar las matemáticas para describir su mundo. Esta es la etapa 1 de <xref ref="centro-librosDeImagenes" text="title"/>. Los estudiantes continúan trabajando con libros de imágenes a lo largo de esta unidad en los centros.</p>
     <p>Ejemplos de libros que puede usar:</p>
@@ -59,17 +61,17 @@
     <p>
       En estos materiales, los libros que se leen a los estudiantes o que se utilizan en los centros se denominan <term>libros de imágenes</term>. El término <term>libros de imágenes</term> se refiere a libros con solo imágenes o libros con imágenes y palabras.
     </p>
-  </paragraphs>
+  </li>
 
 
   <!-- Materiales requeridos de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-actividad-titulo"/></title>
     <xi:include href="./act-conozcamos-librosDeImagenes-explora-mat.ptx"/>
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <ul>
       <li>Grupos de 2</li>
@@ -84,11 +86,11 @@
       <li>1 minuto: discusión en pareja</li>
       <li><q>Podemos usar nuestros dedos o decir números para mostrar cuántas cosas hay.</q></li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <ul>
       <li>De a cada grupo de estudiantes acceso a al menos un libro de imágenes.</li>
@@ -96,50 +98,52 @@
       <li>5 minutos: tiempo de trabajo en parejas</li>
       <li>Monitoreo: identifique a los estudiantes que reconocen grupos de 1 a 4 objetos sin contar.</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 <!-- ============================================================== 
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Estrategias de apoyo para estudiantes con dificultades -->
   <!--
-  <paragraphs>
+  <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs>
+  </li>
   -->
-
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <ul>
       <li><q>¿Qué grupos de cosas encontraron en los libros? ¿Cuántas cosas hay en cada grupo?</q></li>
       <li>Invite a los estudiantes que identificó previamente a compartir sus respuestas.</li>
       <li>A medida que los estudiantes comparten, muestre o escriba el número y diga <q>Hay <fillin/> en el grupo</q>.</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Descripción del desarrollo de lenguaje matemático -->
   <!--
-  <paragraphs>
+  <li>
     <title><custom ref="language-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs>
+  </li>
   -->
 
   <!-- Estrategias de acceso para estudiantes con discapacidades -->
-  <paragraphs>
+  <li>
     <title><custom ref="accesibility-actividad-titulo"/></title>
     <p>Representación: Acceso para la percepción.</p>
     <p>Síntesis: Utilice gestos para enfatizar la cantidad de elementos en un grupo. Por ejemplo, señale la imagen en el libro cuando los estudiantes compartan cuántas cosas encontraron en su libro.</p>
     <p>Apoya la accesibilidad para: Procesamiento visual-espacial, Procesamiento conceptual.</p>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </activity>

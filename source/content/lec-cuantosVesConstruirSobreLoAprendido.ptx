@@ -36,9 +36,10 @@
   Introducción para el profesor                        
 =================================================  -->
 <introduction component="profesor">
-
+<p>
+<dl>
     <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-leccion-titulo"/></title> 
     <ul>
       <li>
@@ -47,23 +48,23 @@
         <xref ref="ccss-K-CC-C-6" text="custom">K.CC.C.6</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- índice de la lección (automático) -->
-  <paragraphs>
+  <li>
     <title><custom ref="timeline-leccion-titulo"/></title>
     <list-of elements="subsubsection reading-questions" scope="subsection"/>
-  </paragraphs>
+  </li>
 
   <!-- Propósito de la lección -->
-  <paragraphs>
+  <li>
     <title><custom ref="purpose-leccion-titulo"/></title>
     <p>[+++++++++++++++++]</p>
     <p>The purpose of this lesson is for students to develop and practice one-to-one correspondence in the context of answering "are there enough" questions.</p>
-  </paragraphs>
+  </li>
 
   <!-- Materiales requeridos -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-leccion-titulo"/></title>
     <ul>
       <li>
@@ -75,23 +76,25 @@
         <xi:include href="./act-centros-escoger6-matCentros.ptx"/>
       </li>
     </ul> 
-  </paragraphs>
+  </li>
   
   <!-- Introducción de la lección (narrative) -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-leccion-titulo"/></title>
     <p>[+++++++++++++++++]</p>
     <p>While some students might count the number of objects and compare that number to the number of students, the focus of the activity is on matching one object to each person to see if there are enough.</p>
     <p>Each of the lessons in this section begins with a How Many Do You See routine to build on the subitizing work in a previous section. Students extend the Act It Out routine with a new story.</p>
     <p>Throughout the section, observe students for the look-fors on the Unit 1, Sections A-D Checkpoint.</p>
-  </paragraphs>
+  </li>
   
   <!-- Preguntas de reflexión profesor -->
-  <paragraphs>
+  <li>
     <title><custom ref="reflection-quest-titulo"/></title>
     <p>[+++++++++++++++++]</p>
     <p>Reflect on how you can reinforce the work done in today's lesson outside of math class. When can you ask students questions involving are there enough? How can you incorporate it into snack time, transitions, or when passing out materials?</p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </introduction>
 
 

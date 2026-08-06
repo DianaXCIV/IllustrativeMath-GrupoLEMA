@@ -34,9 +34,10 @@
   Introducción para el profesor                        
 =================================================  -->
 <introduction component="profesor">
-
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-leccion-titulo"/></title> 
     <ul>
       <li> 
@@ -58,23 +59,23 @@
         <!-- <xref ref="ccss-2-OA-C-4" text="custom">2.OA.C.4</xref> -->
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- índice de la lección (automático) -->
-  <paragraphs>
+  <li>
     <title><custom ref="timeline-leccion-titulo"/></title>
     <list-of elements="subsubsection reading-questions" scope="subsection"/>
-  </paragraphs>
+  </li>
 
   <!-- Propósito de la lección -->
-  <paragraphs>
+  <li>
     <title><custom ref="purpose-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this lesson is for students to represent an array situation using an equation with a symbol for the unknown number and solve.</p>
-  </paragraphs>
+  </li>
 
   <!-- Materiales requeridos -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-leccion-titulo"/></title>
     <p>[@@@@@@@@@@@@@@]</p>
     <!-- <ul>
@@ -89,22 +90,24 @@
         <xi:include href="./act-lasPalmerasDeTyler-matCentros.ptx"/>
       </li>
     </ul>  -->
-  </paragraphs>
+  </li>
   
   <!-- Introducción de la lección (narrative) -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>In previous lessons, students represented multiplication situations using arrays and multiplication expressions with an emphasis on equal groups. Equal groups continue to be emphasized in this lesson as students learn that finding the product in a multiplication equation gives the total number of objects in the related array.</p>
 <p>As students connect arrays to equations, they may write <m>3\times5=15 </m> or <m>5\times3=15 </m> to represent 3 rows of 5 chairs. This is fine as long as students can correctly describe where the <q>3 rows of 5 chairs</q> are in their array or equation. Keep collecting ideas that arise about commutativity.</p>
-  </paragraphs>
+  </li>
   
   <!-- Preguntas de reflexión profesor -->
-  <paragraphs>
+  <li>
     <title><custom ref="reflection-quest-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>Who has been sharing their ideas in class lately? Make a note of students whose ideas have not been shared and look for an opportunity for them to share their thinking in tomorrow’s lesson.</p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </introduction>
 
 

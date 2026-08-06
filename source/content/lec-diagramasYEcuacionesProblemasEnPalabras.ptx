@@ -35,9 +35,10 @@
   Introducción para el profesor                        
 =================================================  -->
 <introduction component="profesor">
-
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-leccion-titulo"/></title> 
     <ul>
       <li> 
@@ -49,23 +50,23 @@
         <xref ref="ccss-3-OA-D-8" text="custom">3.OA.D.8</xref>
       </li>
     </ul>
-    </paragraphs>
+    </li>
 
   <!-- índice de la lección (automático) -->
-  <paragraphs>
+  <li>
     <title><custom ref="timeline-leccion-titulo"/></title>
     <list-of elements="subsubsection reading-questions" scope="subsection"/>
-  </paragraphs>
+  </li>
 
   <!-- Propósito de la lección -->
-  <paragraphs>
+  <li>
     <title><custom ref="purpose-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this lesson is for students to relate diagrams and equations to two-step word problems.</p>
-  </paragraphs>
+  </li>
 
   <!-- Materiales requeridos -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-leccion-titulo"/></title>
     <ul>
       <li>
@@ -79,22 +80,24 @@
         <!--<xi:include href="./act-recorridoSalon-tieneSentidoMi-matCentros.ptx"/>-->
       </li>
     </ul>  
-  </paragraphs>
+  </li>
   
   <!-- Introducción de la lección (narrative) -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>In grade 2, students interpreted tape diagrams for one- and two-step problems involving addition and subtraction. Earlier this year, they did the same with one-step word problems involving multiplication. They also learned that a question mark, a blank line, or a box could be used to represent an unknown quantity in an equation.</p>
     <p>In this lesson, students connect tape diagrams and equations with a symbol standing for the unknown quantity to two-step word problems. The work of this lesson prepares students to write equations with a letter standing for the unknown quantity and solve two-step problems, using a diagram if it helps them.</p>
-  </paragraphs>
+  </li>
   
   <!-- Preguntas de reflexión profesor -->
-  <paragraphs>
+  <li>
     <title><custom ref="reflection-quest-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>Students previously used tape diagrams to represent and solve one-step addition, subtraction, and multiplication problems. How are they leveraging that knowledge in this lesson on two-step problems?</p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </introduction>
 
 

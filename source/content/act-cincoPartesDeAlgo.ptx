@@ -72,10 +72,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li> 
@@ -83,24 +85,24 @@
         <xref ref="ccss-3-NF-A-3-d" text="custom">3.NF.A.3.d</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>20 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this activity is for students to represent their thinking visually as they compare pairs of fractions with the same numerator. They also locate fractions with the same numerator on number lines and observe the relative locations of the points. Students see that fractions with larger denominator are smaller in size (or are closer to 0 on the number line). Their reasoning here reinforces the idea that the denominator of a fraction determines how many equal parts are in a whole, and that the more parts there are, the smaller each part is (MP7).</p>
     <p>To compare <m>\frac{5}{6}</m> and <m>\frac{5}{8}</m>, students are likely to draw one diagram or number line for sixths and a separate one for eighths. They may use a single diagram or number line, but find it more difficult to partition and represent both denominators.</p>
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -110,11 +112,11 @@
       </li>
       <li>2 minutes: independent work time</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -139,8 +141,9 @@
       </li>
       <li>5–7 minutes: independent or partner work time</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -148,17 +151,18 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Estrategias de apoyo para estudiantes con dificultades -->
-  <paragraphs>
+  <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>If students are not sure how to get started, consider asking: <q>¿Qué sabemos sobre estas fracciones?</q> and <q>¿Cómo podemos representar estas fracciones?</q></p>
-  </paragraphs>
+  </li>
 
 
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -171,8 +175,9 @@
         <q>¿Por qué la fracción con el denominador más pequeño, 2, es la fracción más grande del grupo?</q> (There are only 2 parts in 1 whole. With every other fraction the denominator is larger than 2 so there are more parts in the whole which makes the parts smaller.)
       </li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </activity>

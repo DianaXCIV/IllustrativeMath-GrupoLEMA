@@ -42,10 +42,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li> 
@@ -53,23 +55,23 @@
         <xref ref="ccss-3-MD-C-7-d" text="custom">3.MD.C.7.d</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>20 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this activity is for students to find the area of figures that are composed of rectangles but are not fully gridded with squares. Partially gridded figures help to prepare students to find the area of figures with only side length measurements. Students should be encouraged to find side lengths and multiply, rather than rely on counting, as the grids disappear. If students continue to draw in the squares, ask them if there is another way to find the area.</p>
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -91,11 +93,11 @@
       </li>
       <li>Share responses.</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -118,8 +120,9 @@
       <li>5 minutes: partner work time</li>
       <li>Monitor for strategies for finding the side lengths.</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -127,9 +130,10 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -140,19 +144,20 @@
         <q>¿Qué les ayuda a encontrar el área de figuras como estas, que no están completamente cubiertas con cuadrados?</q>  (Imagining where the squares would be so I can count them or find the side lengths. Finding the side lengths and multiplying to find the area of rectangles in the figure.)
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Estrategias de acceso para estudiantes con discapacidades -->
-  <paragraphs>
+  <li>
     <title><custom ref="accesibility-actividad-titulo"/></title>
     <p>
      [++++++++++++++++++++++] 
     </p>
     <p><em>Engagement: Develop Effort and Persistence:</em>  Differentiate the degree of difficulty or complexity. Some students may benefit from starting with a smaller figure, one with more accessible values.</p>
     <p><em>Supports accessibility for: Social-Emotional Functioning, Visual-Spatial Processing</em></p>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </activity>

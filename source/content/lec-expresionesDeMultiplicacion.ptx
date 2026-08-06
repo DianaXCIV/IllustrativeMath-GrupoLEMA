@@ -37,9 +37,10 @@
   Introducción para el profesor                        
 =================================================  -->
 <introduction component="profesor">
-
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-leccion-titulo"/></title> 
     <ul>
       <li> 
@@ -48,23 +49,23 @@
         <!-- <xref ref="ccss-2-OA-C-4" text="custom">2.OA.C.4</xref> -->
       </li>
     </ul>
-    </paragraphs>
+    </li>
 
   <!-- índice de la lección (automático) -->
-  <paragraphs>
+  <li>
     <title><custom ref="timeline-leccion-titulo"/></title>
     <list-of elements="subsubsection reading-questions" scope="subsection"/>
-  </paragraphs>
+  </li>
 
   <!-- Propósito de la lección -->
-  <paragraphs>
+  <li>
     <title><custom ref="purpose-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this lesson is for students to use multiplication expressions to represent equal groups.</p>
-  </paragraphs>
+  </li>
 
   <!-- Materiales requeridos -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-leccion-titulo"/></title>
     <p>[@@@@@@@@@@@@@@]</p>
     <!-- <ul>
@@ -79,23 +80,25 @@
         <xi:include href="./act-deExpresionesADibujosYADiagramas-matCentros.ptx"/>
       </li>
     </ul>  -->
-  </paragraphs>
+  </li>
   
   <!-- Introducción de la lección (narrative) -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>In previous lessons, students represented situations involving equal groups with drawings and tape diagrams. Students were also shown how to represent equal groups as an expression. In this lesson, students connect the structure of drawings, tape diagrams, and multiplication situations to the structure of multiplication expressions (MP7). Students create diagrams and drawings to represent multiplication expressions and ultimately write their own expressions to represent drawings, diagrams, and situations (MP2).</p>
 <p>When generating multiplication expressions, consider using the convention of the number of groups as the first factor and the size of the groups as the second factor. However, it is not necessary for students to write the factors in this order. It is important that students connect their expressions to the corresponding situations and representations. They should be able to correctly explain what each factor represents in their expressions. If students ask questions about the idea of commutativity, consider recording the questions publicly for future investigation.</p>
 <p>To allow time for students to focus on the meaning of multiplication, it is not an expectation that students find the product of each expression in this lesson. In subsequent lessons, students will work on strategies for finding the product. If students mention the product in today’s lesson, it is okay to note that, but try to maintain focus on the connections between the expression and the diagrams.</p>
-  </paragraphs>
+  </li>
   
   <!-- Preguntas de reflexión profesor -->
-  <paragraphs>
+  <li>
     <title><custom ref="reflection-quest-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>What did you say, do, or ask during the lesson synthesis that helped students be clear on the learning of the day? How did understanding the cool-down of the lesson before you started teaching today help you synthesize that learning?</p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </introduction>
 
 

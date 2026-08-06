@@ -69,42 +69,45 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>15 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>[@@@@@@@@@] Students solve more equations of the form <m>px = q</m> while interpreting the division as a fraction.</p>
-  </paragraphs>
+  </li>
 
 
   <!-- Materiales requeridos de la actividad -->
-  <!-- <paragraphs>
+  <!-- <li>
     <title><custom ref="materials-actividad-titulo"/></title>
     @@@@@ -->
     <!-- si hay materiales, crear el siguiente archivo -mat.ptx y ponerlos ahí (y agregar también el archivo en la lista de materiales de la lección)-->
     <!-- <xi:include href="./act-RRRRRR-SSSSSS-mat.ptx"/>  -->
-  <!-- </paragraphs> -->
+  <!-- </li> -->
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <p>[@@@@@@@@@] Arrange students in groups of 2. Give 5–10 minutes of quiet work time and time to share their responses with a partner, followed by a whole-class discussion.</p>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <!-- <paragraphs>
+  <!-- <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> -->
-
+  </li> -->
+</dl>
+</p>
 </prelude>
 
 
@@ -112,42 +115,44 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Estrategias de apoyo para estudiantes con dificultades -->
-  <paragraphs>
+  <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>[@@@@@@@@@] Monitor for students who want to turn <m>\frac{35}{11}</m> into a decimal, and reassure them that <m>\frac{35}{11}</m> is a number.</p>
-  </paragraphs>
+  </li>
 
 
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <p>[@@@@@@@@@] Define what <m>\frac{a}{b}</m> means when <m>a</m> and <m>b</m> are not whole numbers. Tell students, <q>In third grade, when you saw something like <m>\frac{2}{5}</m>, you learned that that meant ‘split up <m>1</m> into <m>5</m> equal pieces and take <m>2</m> of them.’ But that definition only makes sense for whole numbers; it doesn't make sense for something like <m>\frac{\num{2.1}}{\num{0.3}}</m> or <m>\frac{\frac{2}{5}}{\frac{1}{2}}</m>. From now on, when you see something like <m>\frac{2}{5}</m>, you'll know that that means the number <m>\frac{2}{5}</m> that has a spot on the number line, but it also means ‘<m>2</m> divided by <m>5</m>.’ The expression <m>\frac{\num{2.1}}{\num{0.3}}</m> means ‘the quotient of <m>\num{2.1}</m> and <m>\num{0.3}</m>,’ the expression <m>\frac{\frac{2}{5}}{\frac{1}{2}}</m> means ‘the quotient of two fifths and one half,’ and generally, the expression <m>\frac{a}{b}</m> means ‘the quotient of <m>a</m> and <m>b</m>’ or <m>a</m> ‘ divided by <m>b</m>.’</q></p>
-  </paragraphs>
+  </li>
 
 
   <!-- Descripción del desarrollo de lenguaje matemático -->
-  <paragraphs>
+  <li>
     <title><custom ref="language-actividad-titulo"/></title>
     <p>[@@@@@@@@@] Conversing, Representing, Writing: MLR2 Collect and Display. As share their responses with a partner, circulate and listen to their conversations. Collect and display any vocabulary or representations students use (e.g., reciprocal, dividing, multiplying) to describe how to solve each equation. Continue to update collected student language once students move on to the activity. Remind students to borrow language from the display as needed. This will help student to use academic mathematical language during paired and group discussions to connect fractions with division.</p>
 
     <p>
       Design Principle(s): Maximize meta-awareness; Support sense-making
     </p>
-  </paragraphs>
+  </li>
 
 
   <!-- Estrategias de acceso para estudiantes con discapacidades -->
-  <paragraphs>
+  <li>
     <title><custom ref="accesibility-actividad-titulo"/></title>
     <p>[@@@@@@@@@] Representation: Internalize Comprehension. Activate or supply background knowledge about division involving decimals and fractions. Allow students to use calculators to ensure inclusive participation in the activity.</p>
 
     <p>
       Supports accessibility for: Memory; Conceptual processing
     </p>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </activity>

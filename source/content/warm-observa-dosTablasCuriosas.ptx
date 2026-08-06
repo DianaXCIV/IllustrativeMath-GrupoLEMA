@@ -148,10 +148,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li> 
@@ -159,24 +161,24 @@
         <xref ref="ccss-3-OA-D-9" text="custom">3.OA.D.9</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>10 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->  
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this warm-up is to elicit observations about patterns in addition tables containing sums of two-digit addends that are multiples of 10. Each table is partially filled out to show certain behaviors of the sums and highlight some properties of operations. For example, the sums in the first table can illustrate the commutative property (<m>10 + 30</m> and <m>30 + 10</m> both give 40). The sums in the second table can help students to intuit the associative property (<m>50 + 10 = </m><m>(40 + 10) + 10 = 40 + (10 + 10) = 40 + 20</m>, though students are not expected to generate equations as shown here).</p>
     <p>While students may notice and wonder many things about the addition tables, focus the discussion on the patterns in the tables and possible explanations for them. When students make sense of patterns in sums and try to explain them in terms of the features of the addends and how they are added, they look for and make use of structure (MP7).</p>
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -187,10 +189,10 @@
       </li>
       <li>1 minute: quiet think time</li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -200,8 +202,9 @@
       <li>1 minute: partner discussion</li>
       <li>Share and record responses.</li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -209,9 +212,10 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -226,8 +230,9 @@
         <q>En la segunda tabla, ¿por qué las sumas desde la esquina izquierda de abajo hasta la esquina derecha de arriba son todas 60?</q>  (Each time, the first number being added goes up by 10 and the second number goes down by 10, so the sum stays the same.)
       </li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </exploration>

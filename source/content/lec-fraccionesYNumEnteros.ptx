@@ -36,9 +36,10 @@
   Introducción para el profesor                        
 =================================================  -->
 <introduction component="profesor">
-
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-leccion-titulo"/></title> 
     <ul>
       <li> 
@@ -48,23 +49,23 @@
         <xref ref="ccss-3-OA-C-7" text="custom">3.OA.C.7</xref>
       </li>
     </ul>
-    </paragraphs>
+    </li>
 
   <!-- índice de la lección (automático) -->
-  <paragraphs>
+  <li>
     <title><custom ref="timeline-leccion-titulo"/></title>
     <list-of elements="subsubsection reading-questions" scope="subsection"/>
-  </paragraphs>
+  </li>
 
   <!-- Propósito de la lección -->
-  <paragraphs>
+  <li>
     <title><custom ref="purpose-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this lesson is for students to recognize fractions that are equivalent to whole numbers and, given the location of a unit fraction on the number line, to locate whole numbers.</p>
-  </paragraphs>
+  </li>
 
   <!-- Materiales requeridos -->
-  <!-- <paragraphs>
+  <!-- <li>
     <title><custom ref="materials-leccion-titulo"/></title>
     <ul>
       <li>
@@ -78,21 +79,23 @@
         <xi:include href="./act-ubicarEl1EnLaRectaNumerica-matCentros.ptx"/>
       </li>
     </ul>  
-  </paragraphs>-->
+  </li>-->
   
   <!-- Introducción de la lección (narrative) -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>In previous lessons, students learned to partition number lines and located and labeled fractions on the number line. Students deepen their understanding of fractions as they consider which fractions are equivalent to whole numbers and relate that understanding to their knowledge of how many halves, thirds, and fourths, are in one whole. They leverage their understanding of how many halves, thirds, and fourths, are in one whole to locate whole numbers, such as 1 and 2, on the number line when given the location of a unit fraction.</p>
-  </paragraphs>
+  </li>
   
   <!-- Preguntas de reflexión profesor -->
-  <paragraphs>
+  <li>
     <title><custom ref="reflection-quest-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>Think about times when students were able to make connections to and build on the ideas of their peers during discussions today. What norms or routines allowed students to engage with other students’ ideas?</p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </introduction>
 
 

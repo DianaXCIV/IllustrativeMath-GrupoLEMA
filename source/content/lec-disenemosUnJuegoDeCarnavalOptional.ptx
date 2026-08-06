@@ -34,9 +34,10 @@
   Introducción para el profesor                        
 =================================================  -->
 <introduction component="profesor">
-
+<p>
+<dl>
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-leccion-titulo"/></title> 
     <ul>
       <li> 
@@ -58,23 +59,23 @@
         <!-- <xref ref="ccss-2-OA-C-4" text="custom">2.OA.C.4</xref> -->
       </li>
     </ul>
-    </paragraphs>
+    </li>
 
   <!-- índice de la lección (automático) -->
-  <paragraphs>
+  <li>
     <title><custom ref="timeline-leccion-titulo"/></title>
     <list-of elements="subsubsection reading-questions" scope="subsection"/>
-  </paragraphs>
+  </li>
 
   <!-- Propósito de la lección -->
-  <paragraphs>
+  <li>
     <title><custom ref="purpose-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this lesson is for students to apply their understanding of length measurement, time measurement, and fluency with four operations to design a carnival game.</p>
-  </paragraphs>
+  </li>
 
   <!-- Materiales requeridos -->
-  <paragraphs>
+  <li>
     <title><custom ref="materials-leccion-titulo"/></title>
     <p>[mmmmmmmmmm]</p>
     <!-- <ul>
@@ -89,24 +90,26 @@
         <xi:include href="./act-SSSSSS-matCentros.ptx"/>
       </li>
     </ul>  -->
-  </paragraphs>
+  </li>
   
   <!-- Introducción de la lección (narrative) -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>This lesson is optional because it does not address any new mathematical content standards. This lesson does provide students with an opportunity to apply precursor skills of mathematical modeling.</p>
 <p>In this lesson, students continue to work with the context of a fair. Students analyze games they might see at a carnival such as a penny toss or marble run and consider what makes a good game. They then create their own games with given materials and integrate mathematical ideas from this unit. Students play the game and consider ways to improve it.</p>
 <p>When students make choices about quantities and rules, analyze constraints in situations, and adjust their work to meet constraints, they model with mathematics (MP4).</p>
 <p>This lesson may take more than 60 minutes, as students may need additional time to design, set up, and play their games. Consider modifying the activities or expanding the lesson across 2 days to meet students’ needs or to give more time for revision.</p>
-  </paragraphs>
+  </li>
   
   <!-- Preguntas de reflexión profesor -->
-  <paragraphs>
+  <li>
     <title><custom ref="reflection-quest-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>Think about times when students were able to make connections to and build on the ideas of their peers during discussions today. What norms or routines allowed students to engage with other students’ ideas?</p>
-  </paragraphs>
+  </li>
+</dl>
+</p>
 </introduction>
 
 

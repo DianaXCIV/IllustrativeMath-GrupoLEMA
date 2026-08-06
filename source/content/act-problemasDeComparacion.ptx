@@ -73,10 +73,12 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Estándares CCSS asociados -->
-  <paragraphs>
+  <li>
     <title><custom ref="ccss-actividad-titulo"/></title> 
     <ul>
       <li> 
@@ -84,24 +86,24 @@
         <xref ref="ccss-3-NF-A-3-d" text="custom">3.NF.A.3.d</xref>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>15 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>The purpose of this activity is for students to compare two numbers in context, to explain or show their reasoning, and record the results of the comparisons with the symbols <m>\gt</m>, <m>=</m>, or <m>\lt</m> (MP2). The numbers may be fractions with the same numerator or the same denominator, or a fraction and a whole number.</p>
     <p>Students are likely to generate different comparison statements for the same situation. For example, they may write <m>\frac{5}{8} \gt \frac{3}{8}</m> or <m>\frac{3}{8}\lt\frac{5}{8}</m> to represent <m>\frac{5}{8}</m> being the greater fraction. During synthesis, discuss how both statements capture the comparison and are valid.</p>
-  </paragraphs>
+  </li>
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -110,11 +112,11 @@
         <q>Usemos lo que aprendimos acerca de cómo comparar fracciones y cómo reconocer fracciones equivalentes para resolver problemas sobre longitudes</q>
       </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -134,8 +136,9 @@
         </ul>
       </li>
     </ul>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </prelude>
 
 
@@ -143,9 +146,10 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <ul>
@@ -157,28 +161,29 @@
       <li>Discuss how to read each statement and ask students whether both accurately represent the comparison.</li>
       <li>Emphasize that we can write comparison statements in more than one way, but we need to check that the statements make sense given the numbers we write and the symbols we use. </li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Descripción del desarrollo de lenguaje matemático -->
-  <paragraphs>
+  <li>
     <title><custom ref="language-actividad-titulo"/></title><p>[++++++++++++++++]</p>
     <p><em>MLR8 Discussion Supports.</em> Synthesis: As students share the similarities and differences between the representations and comparison statements, use gestures to emphasize what is being described. For example, show with your fingers the partitions such as fourths or eighths that are the same in the representations that are being compared.</p>
     <p>
       <em>Advances: Listening, Representing</em>
     </p>
-  </paragraphs>
+  </li>
 
 
   <!-- Estrategias de acceso para estudiantes con discapacidades -->
-  <paragraphs>
+  <li>
     <title><custom ref="accesibility-actividad-titulo"/></title><p>[++++++++++++++++]</p>
     <p><em>Engagement: Provide Access by Recruiting Interest.</em> Synthesis: Optimize meaning and value. Invite students to share a connection between activity content and their own lives. Ask <q>¿Cómo puedo usar esto en mi propia vida?</q> // <q>How can I use this in my own life?</q></p>
     <p>
       <em>Supports accessibility for: Conceptual Processing</em>
     </p>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </activity>

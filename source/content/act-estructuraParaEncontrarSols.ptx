@@ -81,31 +81,33 @@
 <!-- ============================================================== 
    Notas profesor <prelude> (se pueden mostrar previo al enunciado)                      
 ===================================================================  -->
-<prelude component="profesor"> 
-
+<prelude component="profesor">
+<p>
+<dl>
+ 
   <!-- Tiempo recomendado -->
-  <paragraphs>
+  <li>
     <title><custom ref="recommended-time-titulo"/></title>
     <p>15 minutos</p>
-  </paragraphs>
+  </li>
 
   <!-- Introducción de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="narrative-actividad-titulo"/></title>
     <p>Después de describir situaciones con ecuaciones, los estudiantes ahora resuelven ecuaciones observando y reflexionando sobre su estructura, y determinando qué valor de un conjunto dado hace que la ecuación sea verdadera.</p>
-  </paragraphs>
+  </li>
 
 
   <!-- Materiales requeridos de la actividad -->
-  <!-- <paragraphs>
+  <!-- <li>
     <title><custom ref="materials-actividad-titulo"/></title>
     @@@@@ -->
     <!-- si hay materiales, crear el siguiente archivo -mat.ptx y ponerlos ahí (y agregar también el archivo en la lista de materiales de la lección)-->
     <!-- <xi:include href="../v00/graVV-uniXX-secYY-lecZZ-actRR-mat.ptx"/>  -->
-  <!-- </paragraphs> -->
+  <!-- </li> -->
 
   <!-- Launch -->
-  <paragraphs>
+  <li>
     <title><custom ref="launch-titulo"/></title>
     <p>
       Recuerde a los estudiantes que una letra que se usa para representar un valor desconocido se llama variable. Una ecuación con una variable puede ser verdadera o falsa. Un valor que puede reemplazar a la variable y hacer que la ecuación sea verdadera se llama <term>solución</term> de la ecuación. En esta tarea, los estudiantes buscarán soluciones a las ecuaciones, lo que significa que buscarán un valor que pueda reemplazar a la variable en una ecuación y que haga que esta sea verdadera. 
@@ -113,15 +115,16 @@
     <p>
       Organice a los estudiantes en parejas. Deles 10 minutos para trabajar en silencio y compartir sus respuestas con su compañero, seguido de una discusión con todo el grupo.
     </p>
-  </paragraphs>
+  </li>
 
 
   <!-- Instrucciones para el desarrollo de la actividad -->
-  <!-- <paragraphs>
+  <!-- <li>
     <title><custom ref="instructions-teacher-actividad-titulo"/></title>
     <p>[@@@@@@@@@]</p>
-  </paragraphs> -->
-
+  </li> -->
+</dl>
+</p>
 </prelude>
 
 
@@ -129,18 +132,19 @@
    Notas profesor <postlude> (se pueden mostrar después del enunciado)                      
 ===================================================================  -->
 <postlude component="profesor">
-
+<p>
+<dl>
   <!-- Estrategias de apoyo para estudiantes con dificultades -->
-  <paragraphs>
+  <li>
     <title><custom ref="support-actividad-titulo"/></title>
     <p>
       En lugar de resolver la ecuación, los estudiantes podrían seguir el símbolo de la operación y combinar los números de esa manera (por ejemplo, sumar <m>\num{12.6}</m> y <m>\num{4.1}</m> para obtener <m>\num{16.7}</m> en la ecuación <m>\num{12.6} = b + \num{4.1}</m>). Anime a los estudiantes a expresar las relaciones de la ecuación en palabras y a dibujar diagramas que describan esas afirmaciones. <m>\num{12.6} = b + \num{4.1}</m> se puede expresar como: "Cuando se suma un número a <m>\num{4.1}</m>, la suma es <m>\num{12.6}</m>". El diagrama de cinta entonces muestra las partes <m>\num{4.1}</m>, una cantidad desconocida y un total de <m>\num{12.6}</m>.
     </p>
-  </paragraphs>
+  </li>
 
 
   <!-- Síntesis de la actividad -->
-  <paragraphs>
+  <li>
     <title><custom ref="synthesis-actividad-titulo"/></title>
     <p>
       El objetivo de la discusión es asegurarse de que los estudiantes comprendan qué significa ser una solución de una ecuación. Para guiar la discusión, considere lo siguiente:  
@@ -151,18 +155,18 @@
       <li>Elija algunas ecuaciones y pida a los estudiantes que expliquen cómo saben que una solución es correcta.</li>
       <li>Destaque el uso correcto de los nuevos términos: <term>variable</term>, <term>solución</term> y <term>coeficiente</term>.</li>
     </ul>
-  </paragraphs>
+  </li>
 
 
   <!-- Descripción del desarrollo de lenguaje matemático -->
-  <paragraphs>
+  <li>
     <title><custom ref="language-actividad-titulo"/></title>
     <p>Conversar, representar y escribir: MLR 2 (recopilar y mostrar). Prepare a los estudiantes para la discusión pidiéndoles que primero compartan con un compañero sus respuestas a la pregunta: "¿Por qué tus soluciones son correctas?". Escuche, recopile y muestre el vocabulario( por ejemplo, <term>coeficiente</term>, <term>variable</term>, <term>verdadero</term>, <term>falso</term>, <term>solución</term>) e incluya cualquier diagrama que los estudiantes usen para representar cada ecuación. Durante el resto de la lección, continúe actualizando el vocabulario recopilado y recuerdw a los estudiantes que pueden tomar prestado lenguaje del cartel según lo necesiten. Esto ayudará a los estudiantes a utilizar lenguaje matemático durante sus discusiones en parejas y en grupo completo.</p>
-  </paragraphs>
+  </li>
 
 
   <!-- Estrategias de acceso para estudiantes con discapacidades -->
-  <paragraphs>
+  <li>
     <title><custom ref="accesibility-actividad-titulo"/></title>
     <p>
       Representación: Desarrollar Lenguaje y Símbolos. Cree una representación visual con términos y vocabulario importantes. Incluya los siguientes términos y manténgalo visible como referencia durante toda la unidad: <term>variable</term>, <term>solución</term>. Invite a los estudiantes a sugerir lenguaje o diagramas que puedan incluirse en el cartel para apoyar su comprensión de estos términos.  
@@ -171,8 +175,9 @@
     <p>
       Apoyo a la accesibilidad para: Memoria; Lenguaje.
     </p>
-  </paragraphs>
-
+  </li>
+</dl>
+</p>
 </postlude>
 
 </activity>
