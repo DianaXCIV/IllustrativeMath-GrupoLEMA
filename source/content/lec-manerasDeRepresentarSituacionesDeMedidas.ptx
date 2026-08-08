@@ -3,7 +3,7 @@
 
 <shorttitle>Lección 12 </shorttitle>
 <title>Lección 12 -<nbsp/></title>
-<title>[@@@@@@@@@]</title>
+<title>Maneras de representar situaciones de medidas</title>
 
 
 <!-- ============================================ 
@@ -12,7 +12,7 @@
 
 <!-- Frase resumen para estudiante. Originalmente [Student Facing Goals] -->
 <introduction component="est-goal"> 
-  <p>[@@@@@@@@@]</p>
+  <p>Démosle sentido y representemos situaciones de medidas en una feria.</p>
 </introduction>
 
 <!-- Objetivos para el estudiante. Originalmente [Student-Facing Targets] -->
@@ -25,7 +25,13 @@
 <!-- Objetivos que solo ve el profesor. Originalmente [Teacher Facing Goals] -->
 <objectives component="profesor">
   <ul>
-    <li>[@@@@@@@@@]</li>
+    <li><p>[++++++++++++++++]</p></li>
+    <li>
+      <p>Ask and answer questions about situations involving measurements.</p>
+    </li>
+    <li>
+      <p>Interpret representations of situations involving measurements.</p>
+    </li>
   </ul>
 </objectives>
 
@@ -41,21 +47,11 @@
     <ul>
       <li> 
         <custom ref="ccss-addressing"/>
-        [^^^^^^^^^^^]
-        <!-- <xref ref="ccss-2-MD" text="custom">2.MD</xref>,  -->
-        <!-- <xref ref="ccss-2-OA-C-4" text="custom">2.OA.C.4</xref> -->
-      </li>
-      <li>
-        <custom ref="ccss-buildingOn"/>
-        [^^^^^^^^^^^]
-        <!-- <xref ref="ccss-2-MD" text="custom">2.MD</xref>,  -->
-        <!-- <xref ref="ccss-2-OA-C-4" text="custom">2.OA.C.4</xref> -->
-      </li>
+        <xref ref="ccss-3-MD-A-2" text="custom">3.MD.A.2</xref>
+      </li>      
       <li>
         <custom ref="ccss-buildingTowards"/>
-        [^^^^^^^^^^^]
-        <!-- <xref ref="ccss-2-MD" text="custom">2.MD</xref>,  -->
-        <!-- <xref ref="ccss-2-OA-C-4" text="custom">2.OA.C.4</xref> -->
+        <xref ref="ccss-3-MD-A-2" text="custom">3.MD.A.2</xref>
       </li>
     </ul>
     </paragraphs>
@@ -96,7 +92,7 @@
     <title><custom ref="narrative-leccion-titulo"/></title>
     <p>[+++++++++++++++]</p>
     <p>In previous lessons, students estimated and measured weights and liquid volumes. They learned a variety of methods and representations to solve problems involving all four operations, and used representations that made sense to them.</p>
-<p>In this lesson, students make sense of tape diagrams (MP2), which better represent the continuous nature of measurement contexts. The context of a fair is used in this lesson and subsequent ones.</p>
+    <p>In this lesson, students make sense of tape diagrams (MP2), which better represent the continuous nature of measurement contexts. The context of a fair is used in this lesson and subsequent ones.</p>
   </paragraphs>
   
   <!-- Preguntas de reflexión profesor -->
@@ -168,7 +164,7 @@
 <subsubsection xml:id="lec-manerasDeRepresentarSituacionesDeMedidas-sintesis" component="profesor">
   <shorttitle><custom ref="synthesis-leccion-titulo"/></shorttitle>
   <title><custom ref="synthesis-leccion-titulo"/></title>
-  <title component="profesor"><nbsp/>([@@@@@@@@@] mins)</title>
+  <title component="profesor"><nbsp/>(10 mins)</title>
 
   <p>[+++++++++++++++]</p>
   <p><q>Hoy resolvimos problemas sobre peso y volumen líquido relacionados con calabazas gigantes. ¿Qué les ayuda a darle sentido a estos problemas?</q> (It helps to think about what is happening in the situation and relate the weights or liquid volumes to what I know, like how heavy 1 kilogram is or how much 1 liter is.)</p>
